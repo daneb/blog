@@ -31,6 +31,7 @@ github_username:  daneb
 theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
+destination: docs/
 
 # Exclude from processing.
 # The following items will not be processed, by default.

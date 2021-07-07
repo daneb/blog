@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://daneb.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://daneb.github.io/blog/" rel="alternate" type="text/html" /><updated>2021-07-07T07:43:07+02:00</updated><id>http://daneb.github.io/blog/feed.xml</id><title type="html">Dane Balia</title><subtitle>This is my personal site, an expression of my learning, wisdom gained, experience and opinion.</subtitle><entry><title type="html">Better sound: Fiio K3 and Beyerdynamic DT990</title><link href="http://daneb.github.io/blog/jekyll/update/2021/05/23/better-sound.html" rel="alternate" type="text/html" title="Better sound: Fiio K3 and Beyerdynamic DT990" /><published>2021-05-23T18:55:22+02:00</published><updated>2021-05-23T18:55:22+02:00</updated><id>http://daneb.github.io/blog/jekyll/update/2021/05/23/better-sound</id><content type="html" xml:base="http://daneb.github.io/blog/jekyll/update/2021/05/23/better-sound.html">&lt;p&gt;&lt;img src=&quot;/images/fiiok3.jpg&quot; alt=&quot;Fiio K3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As a software developer music has proven an essential aid. From keeping me awake during late night stints to a gentle
+ushering in the background when focus is called for. I have enjoyed streaming my music through the years and always
+believed that I was at the pinnacle of my desktop musical experience with my high-quality &lt;a href=&quot;https://www.cnet.com/reviews/sennheiser-hd-448-review/&quot;&gt;Sennheiser HD 440&lt;/a&gt;. 
+But most recently I was truly awakened to the fact that there was much more to pursue not by way of accessories but in audio quality. 
+I had been streaming music at 44kHz while out there was a world of Hi-Res audio and even Master (studio quality). 
+Let me explain.&lt;/p&gt;
+
+&lt;h2 id=&quot;audio-at-44khz&quot;&gt;Audio at 44kHz&lt;/h2&gt;
+&lt;p&gt;44kHz or 44,100Hz is a common sampling frequency for analog audio, dating back to the late 1970’s in recording digital
+audio on video cassettes. CDs in fact were made at 44.1kHz/16bit. &lt;a href=&quot;https://www.101computing.net/sampling-sound/&quot;&gt;Sampling&lt;/a&gt;
+or the sample rate is the number of samples in one second. A small sample rate or interval, results in a high sample rate 
+which results in better quality sound file but then also increases the size of that audio file. This sampling of the sound wave is then 
+converted into digestible binary data. So stated differently, 44,100Hz is basically 44,100 samples per second.&lt;/p&gt;
+
+&lt;p&gt;The second part to the sampling is the &lt;a href=&quot;https://www.izotope.com/en/learn/digital-audio-basics-sample-rate-and-bit-depth.html&quot;&gt;audio bit depth&lt;/a&gt; at which that sampling
+can take place. Given analog audio is a continuous wave, it has effectively infinite number of possible amplitude values. However to sample, 
+we would need to define a finite set of values for these amplitude values. These values are our audio bit depth.
+The more depth we have the less errors we are likely to have. A larger depth allows for more possible values at a set length (interval).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;16-bit: 65,536 values&lt;/li&gt;
+  &lt;li&gt;32-bit: 4,294,967,296 values&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/audio_bit_depth.png&quot; alt=&quot;Audio bit depth&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Stated differently, amplitude describes depth, and sample rate the length or interval.&lt;/p&gt;
+
+&lt;h2 id=&quot;audio-at-hi-res&quot;&gt;Audio at Hi-Res&lt;/h2&gt;
+&lt;p&gt;So why does this matter? Well depending on the sample rate and depth, you could be listening to music that is flat,
+	 less lively, perhaps even lacking depth. Most streaming services today are providing you music at a depth of 16-bit
+	 with an interval of 44.1kHZ. However there is a growing trend today towards Hi-res audio which is 24-bit/96kHz 
+	 or 24-bit/192kHz. This more closely replicates the sound quality of musicians and engineers at their studios.&lt;/p&gt;
+
+&lt;p&gt;Now is 16-bit/44.kHz terrible? Of course not. We all enjoy it. But if you looking at improving your existing experience
+and you are a lover of music then it might be something worth endeavouring towards.&lt;/p&gt;
+
+&lt;h2 id=&quot;requirements&quot;&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;But in order to listen to Hi-Res a few things will be required.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Firstly&lt;/strong&gt; you will need a streaming provider that supports Hi-Res or Master quality. &lt;strong&gt;Secondly&lt;/strong&gt;, you will need a digital
+to analogue converter - this is because those largely provided by your PC or laptop are not specialized and of
+poor quality (including Apple hardware). &lt;strong&gt;Thirdly&lt;/strong&gt; you will need a decent pair of head phones with sufficient
+impedance to deliver the quality stream to your ears. &lt;strong&gt;Lastly&lt;/strong&gt; you will need to instruct your operating system to your new 
+required sample rate.&lt;/p&gt;
+
+&lt;h2 id=&quot;my-setup&quot;&gt;My Setup&lt;/h2&gt;
+&lt;p&gt;I spent a significant amount of time and effort trying to put together a working system of streaming provider, hardware
+and software setup and so please feel free to leverage it or get better. The intent and drivers behind this setup
+		was for me spend as little money as possible and enter the space to prove the quality of Hi-Res.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Streaming Service: &lt;a href=&quot;https://tidal.com/&quot;&gt;Tidal&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;DAC + Pre-Amp: &lt;a href=&quot;https://www.amazon.com/FiiO-Headphone-Amplifier-Computer-Balanced/dp/B07KR3RF4H&quot;&gt;Fiio K3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Headphones: &lt;a href=&quot;https://www.amazon.com/gp/product/B0011UB9CQ/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&amp;amp;psc=1&quot;&gt;BeyerDynamic DT990 Pro&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;snags&quot;&gt;Snags&lt;/h2&gt;
+&lt;h3 id=&quot;no-usb-connector&quot;&gt;No USB connector&lt;/h3&gt;
+&lt;p&gt;The MacBook Pro I was using only supported 4 USB Type C. The Fiio K3 comes with USB 2.0 support and supporting cable. 
+There was a possibility for me to connect it to my USB powered hub but that would have compromised
+on the audio quality, and so I purchased a USB 2.0 cable (USBC male to USBC male 1.5 metre) for a direct connection
+to the laptop.&lt;/p&gt;
+
+&lt;p&gt;Be warned that all cables are not equal, and you are specifically looking for a Type-C cable that supports USB 2.0.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-configure-sample-rate-and-interval-on-macbook&quot;&gt;How to configure sample rate and interval on MacBook&lt;/h3&gt;
+&lt;p&gt;The beauty to the Fiio K3 is that there is a light on the volume dial that let’s you know when you 
+are sampling at Hi-Res or Master quality. And by default this does not happen at the OS level unless you instruct it.
+The trick is go into OS-X’s Audio Midi Setup and to forcibly set the Fiio &lt;em&gt;format&lt;/em&gt; as per below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/MidiSetup.png&quot; alt=&quot;Example&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;lastly&quot;&gt;Lastly…&lt;/h2&gt;
+&lt;p&gt;So is this worth it? Can you actually tell the difference? Yes and yes.
+I listen to classical musical and I am able to stop and take in the large forray of
+instruments as they are played. The sound is warm, crisp, compartmentalized to each
+instrument and just simply another level.&lt;/p&gt;
+
+&lt;p&gt;But then as a developer when I am working away furiously and in focus mode, my ability
+to distinguish between 44kHz and 384kHz is little to none.&lt;/p&gt;
+
+&lt;p&gt;Perhaps you not yet convinced, and rightly so, but the setup I’ve provided might just
+be cost-effective enough for you to give it a shot.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"></summary></entry></feed>
