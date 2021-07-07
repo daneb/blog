@@ -73,7 +73,7 @@ The beauty to the Fiio K3 is that there is a light on the volume dial that let's
 are sampling at Hi-Res or Master quality. And by default this does not happen at the OS level unless you instruct it.
 The trick is go into OS-X's Audio Midi Setup and to forcibly set the Fiio *format* as per below.
 
-![Example](/images/MidiSetup.png)
+![Example](images/MidiSetup.png)
 
 ## Lastly...
 So is this worth it? Can you actually tell the difference? Yes and yes.
