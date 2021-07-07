@@ -36,7 +36,7 @@ Stated differently, amplitude describes depth, and sample rate the length or int
 So why does this matter? Well depending on the sample rate and depth, you could be listening to music that is flat,
 	 less lively, perhaps even lacking depth. Most streaming services today are providing you music at a depth of 16-bit
 	 with an interval of 44.1kHZ. However there is a growing trend today towards Hi-res audio which is 24-bit/96kHz 
-	 or 24-bit/192kHz. This is more closely replicates the sound quality of musicians and engineers at their studios.
+	 or 24-bit/192kHz. This more closely replicates the sound quality of musicians and engineers at their studios.
 
 Now is 16-bit/44.kHz terrible? Of course not. We all enjoy it. But if you looking at improving your existing experience
 and you are a lover of music then it might be something worth endeavouring towards.
@@ -46,8 +46,8 @@ But in order to listen to Hi-Res a few things will be required.
 
 **Firstly** you will need a streaming provider that supports Hi-Res or Master quality. **Secondly**, you will need a digital
 to analogue converter - this is because those largely provided by your PC or laptop are not specialized and of
-poor quality (including Apple hardware). **Thirdly** you will need a decent pair of head phones when we sufficient
-Ohmz to deliver the quality stream to your ears. **Lastly** you will need to instruct your operating system to your new 
+poor quality (including Apple hardware). **Thirdly** you will need a decent pair of head phones with sufficient
+impedance to deliver the quality stream to your ears. **Lastly** you will need to instruct your operating system to your new 
 required sample rate.
 
 ## My Setup
@@ -61,41 +61,28 @@ and software setup and so please feel free to leverage it or get better. The int
 
 ## Snags
 ### No USB connector
-The MacBook Pro I was using only supported 4 USB Type C. The Fiio K3 comes with USB 2.0 support and connector. 
-In order to get the setup working I could have used my Type C powered USB hub but that would have compromised
-on the audio quality, and so I purchased a USB 2.0 supported USBC male to USBC male (1.5 metre) for a direct connection
+The MacBook Pro I was using only supported 4 USB Type C. The Fiio K3 comes with USB 2.0 support and supporting cable. 
+There was a possibility for me to connect it to my USB powered hub but that would have compromised
+on the audio quality, and so I purchased a USB 2.0 cable (USBC male to USBC male 1.5 metre) for a direct connection
 to the laptop.
 
-More advanced cables I purchased failed to power the Fiio and were incompatible.
+Be warned that all cables are not equal, and you are specifically looking for a Type-C cable that supports USB 2.0. 
 
 ### How to configure sample rate and interval on MacBook
-Also the beauty to the Fiio K3 is that there is a light on the volume dial that let's you know when you 
+The beauty to the Fiio K3 is that there is a light on the volume dial that let's you know when you 
 are sampling at Hi-Res or Master quality. And by default this does not happen at the OS level unless you instruct it.
-The trick is go into OS-X's Audio Midi Setup and for the Fiio forcibly set the Format (sample rate and interval).
+The trick is go into OS-X's Audio Midi Setup and to forcibly set the Fiio *format* as per below.
 
+![Example](/images/MidiSetup.png)
 
-## Conclusion
+## Lastly...
+So is this worth it? Can you actually tell the difference? Yes and yes.
+I listen to classical musical and I am able to stop and take in the large forray of
+instruments as they are played. The sound is warm, crisp, compartmentalized to each
+instrument and just simply another level. 
 
-Go ahead and edit it and re-build the site to see your changes^. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+But then as a developer when I am working away furiously and in focus mode, my ability
+to distinguish between 44kHz and 384kHz is little to none.
 
-Jekyll requires blog post files to be named according to the following format:
-
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs(jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].R
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Perhaps you not yet convinced, and rightly so, but the setup I've provided might just
+be cost-effective enough for you to give it a shot. 
