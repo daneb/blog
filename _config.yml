@@ -22,8 +22,9 @@ title: Dane Balia
 email: textusreceptus@tuta.io 
 description: >- # this means to ignore newlines until "baseurl:"
   This is my personal site, an expression of my learning, wisdom gained, experience and opinion.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://danebalia.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/danebalia.com" # the subpath of your site, e.g. /blog
+domain: danebalia.github.io
+url: "http://danebalia.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  daneb
 
 # Build settings
