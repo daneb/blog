@@ -4,7 +4,7 @@ title:  "Better sound: Fiio K3 and Beyerdynamic DT990"
 date:   2021-05-23 18:55:22 +0200
 categories: jekyll update
 ---
-![Fiio K3](/images/fiiok3.jpg)
+![Fiio K3](/blog/images/fiiok3.jpg)
 
 As a software developer music has proven an essential aid. From keeping me awake during late night stints to a gentle
 ushering in the background when focus is called for. I have enjoyed streaming my music through the years and always
@@ -28,7 +28,7 @@ The more depth we have the less errors we are likely to have. A larger depth all
 * 16-bit: 65,536 values
 * 32-bit: 4,294,967,296 values
 
-![Audio bit depth](/images/audio_bit_depth.png)
+![Audio bit depth](/blog/images/audio_bit_depth.png)
 
 Stated differently, amplitude describes depth, and sample rate the length or interval. 
 
@@ -73,7 +73,7 @@ The beauty to the Fiio K3 is that there is a light on the volume dial that let's
 are sampling at Hi-Res or Master quality. And by default this does not happen at the OS level unless you instruct it.
 The trick is go into OS-X's Audio Midi Setup and to forcibly set the Fiio *format* as per below.
 
-![Example](images/MidiSetup.png)
+![Example](/blog/images/MidiSetup.png)
 
 ## Lastly...
 So is this worth it? Can you actually tell the difference? Yes and yes.
