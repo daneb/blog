@@ -1,1 +1,1 @@
-Sitemap: https://daneb.github.io/blog/sitemap.xml
+Sitemap: https://danebalia.com/blog/sitemap.xml
