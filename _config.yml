@@ -22,9 +22,9 @@ title: Dane Balia
 email: textusreceptus@tuta.io 
 description: >- # this means to ignore newlines until "baseurl:"
   This is my personal site, an expression of my learning, wisdom gained, experience and opinion.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-domain: danebalia.com 
-url: "https://danebalia.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+domain: danebalia.com
+url: "https://www.danebalia.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  daneb
 
 # Build settings
@@ -32,6 +32,7 @@ theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 destination: docs/
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
