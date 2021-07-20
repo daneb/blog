@@ -2,7 +2,7 @@
 layout: single 
 title:  "Better sound: Fiio K3 and Beyerdynamic DT990"
 date:   2021-05-23 18:55:22 +0200
-categories: jekyll update
+categories: jekyll update hobbies
 ---
 ![Fiio K3](/images/fiiok3.jpg)
 
