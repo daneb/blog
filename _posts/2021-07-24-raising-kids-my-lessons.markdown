@@ -3,7 +3,7 @@ layout: single
 title:  "Raising Kids As A Dad"
 date:   2021-07-24 22:16:00 +0200
 categories: jekyll update christianity truth 
---
+---
 ![Raising Kids](/images/raisingkids.jpg)
 
 Being a dad is no easy task. Men today are shunned for being masculine, condemned for who they were fundamentally designed to be and asked to tone down truth in pursuit of tolerance. In fact, the identity of men are being dissolved as our current culture relentlessly pursues addressing historic societal failures. While the pendulum is swinging the one way at full tilt, men are left in a vaccuum, some unsure, some surrendered and some going with the swing. This is at least my opinion. As such I've been attempting to sharpen my focus even more on what my reponsibilities are as a man, firstly towards myself, then to my beloved wife and __especially__ my kids.
@@ -23,9 +23,9 @@ The second aspect of enjoying yout kids, is being present. If they are pirates b
 ## Responsibility to your kids
 
 My responsibility to my kids are vast. Having helped bring them into this world, it my responsibility to see to it that they are able to be effective contributors to our society, God and their family. Instead of trying to cling to very precise rules I opted for 3 general areas I try to focus my attention. Those areas are:
-1. mind
-2. body
-3. spirit
+1. **mind** 🧠 
+2. **body** 🧘‍♂️
+3. **spirit** 📖
 
 This is the fundamental makeup of every individual on the planet. So everyday I as a father try to feed these areas. As an example, in the morning at breakfast we all sit around the table and eat. It is here I read a portion of the Bible. I do this to provide (spirit)ual guidance, direction, morality and wisdom. After a short bible reading we engage in scenarios around it's events (mental) - what they would do, how they would they react and bring it back to current events (including controvercies). It stimulates some amazing conversations and challenging questions. And then after that we spend about 30-40 minutes exercising. Some days its what I think they need and other days it's exercise they would like to do (even if it's just playing ball).
 

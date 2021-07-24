@@ -10,4 +10,10 @@ var store = [{
         "tags": [],
         "url": "/jekyll/update/christianity/truth/2021/07/20/god-of-your-head.html",
         "teaser": null
+      },{
+        "title": "Raising Kids As A Dad",
+        "excerpt":"Being a dad is no easy task. Men today are shunned for being masculine, condemned for who they were fundamentally designed to be and asked to tone down truth in pursuit of tolerance. In fact, the identity of men are being dissolved as our current culture relentlessly pursues addressing historic...","categories": ["jekyll","update","christianity","truth"],
+        "tags": [],
+        "url": "/jekyll/update/christianity/truth/2021/07/24/raising-kids-my-lessons.html",
+        "teaser": null
       }]
