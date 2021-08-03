@@ -16,4 +16,10 @@ var store = [{
         "tags": [],
         "url": "/jekyll/update/christianity/truth/2021/07/24/raising-kids-my-lessons.html",
         "teaser": null
+      },{
+        "title": "2021 Reading List",
+        "excerpt":"Herewith a list of books that I have read so far in 2021. I am currently taking the Good Reads challenge. Jordan Peterson - Beyond Order Arthur Conan Doyle - A Study in Scarlett Arthur Conan Doyle - The Sign of Four Ravi Zacharias - The Logic of God ~...","categories": ["jekyll","update","hobbies"],
+        "tags": [],
+        "url": "/jekyll/update/hobbies/2021/08/03/2021-reading-list.html",
+        "teaser": null
       }]
