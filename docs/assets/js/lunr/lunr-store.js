@@ -22,4 +22,10 @@ var store = [{
         "tags": [],
         "url": "/jekyll/update/hobbies/2021/08/03/2021-reading-list.html",
         "teaser": null
+      },{
+        "title": "A Poem: Our adventure continues..",
+        "excerpt":"To my darling wife… Raging waters raging tide, Magic wonder water ride. Up and down the wild rapids flow, Never held back by the perennial snow. Rising up, rising high, Five Adventurers sailing nigh, Challenged by the waves of time, Never short of corny rhyme. Of the Adventurers to sail...","categories": ["jekyll","family","poetry"],
+        "tags": [],
+        "url": "/jekyll/family/poetry/2021/09/06/11th-anniversary.html",
+        "teaser": null
       }]
