@@ -9,34 +9,34 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>A Poem: Our adventure continues.. - Dane Balia</title>
-<meta name="description" content="To my darling wife…">
+<!-- begin _includes/seo.html --><title>C# Type System - Dane Balia</title>
+<meta name="description" content="">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Dane Balia">
-<meta property="og:title" content="A Poem: Our adventure continues..">
-<meta property="og:url" content="https://www.danebalia.com/jekyll/family/poetry/2021/09/06/11th-anniversary.html">
+<meta property="og:title" content="C# Type System">
+<meta property="og:url" content="https://www.danebalia.com/jekyll/update/programming/2021/09/21/csharp-type-system.html">
 
 
-  <meta property="og:description" content="To my darling wife…">
-
-
-
-
-
-
-
-  <meta property="article:published_time" content="2021-09-06T10:16:00+02:00">
+  <meta property="og:description" content="">
 
 
 
 
 
 
-<link rel="canonical" href="https://www.danebalia.com/jekyll/family/poetry/2021/09/06/11th-anniversary.html">
+
+  <meta property="article:published_time" content="2021-09-21T10:01:22+02:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://www.danebalia.com/jekyll/update/programming/2021/09/21/csharp-type-system.html">
 
 
 
@@ -134,15 +134,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="A Poem: Our adventure continues..">
-    <meta itemprop="description" content="To my darling wife…">
-    <meta itemprop="datePublished" content="2021-09-06T10:16:00+02:00">
+    <meta itemprop="headline" content="C# Type System">
+    <meta itemprop="description" content="">
+    <meta itemprop="datePublished" content="2021-09-21T10:01:22+02:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">A Poem: Our adventure continues..
+          <h1 id="page-title" class="page__title" itemprop="headline">C# Type System
 </h1>
           
 
@@ -152,42 +152,39 @@
 
       <section class="page__content" itemprop="text">
         
-        <p><strong>To my darling wife…</strong></p>
+        <p><img src="/images/csharp_type_system.png" alt="TypeSystem" /></p>
 
-<p>Raging waters raging tide,<br />
-Magic wonder water ride.<br />
-Up and down the wild rapids flow,<br />
-Never held back by the perennial snow.</p>
+<p><strong><em>Exploring the Terminology:</em></strong></p>
 
-<p>Rising up, rising high,<br />
-Five Adventurers sailing nigh,<br />
-Challenged by the waves of time,<br />
-Never short of corny rhyme.</p>
+<p><em>C# 1’s type system is static, explicit, and safe.</em></p>
 
-<p>Of the Adventurers to sail the day,<br />
-never hindered come what may,<br />
-Quick at hand, the eldest child,<br />
-engineering master, soft and mild.</p>
+<p><strong>Statically</strong> typed is where each variable is of a particular type, and that type is known at compile time. In other words, the compiler does type checking at compilation time.</p>
 
-<p>Zip, zany and bubbly bee,<br />
-baking, straining and fruitfully retaining.<br />
-Happy, pee-pee pelican,<br />
-tackles the shores with his magical red wheels of tin.</p>
+<p>In the test method <em>StaticTypeWontCompile()</em> you can see the string “Hello”. But because we gave it the type Object, the compiler sees its type as Object and not String. Hence the <em>.Length</em> method being unavailable. This test won’t run because the compiler will state <strong>object does not contain a definition for ‘Length’</strong>.</p>
 
-<p>Of we go the crazy bunch,<br />
-11 years of chocolate munch.<br />
-Hand in hand, off they sail,<br />
-The head a genius handsome male.</p>
+<noscript><pre>400: Invalid request</pre></noscript>
+<script src="https://gist.github.com/e0ed55842fdaa89527ace839d2abfe34.js"> </script>
 
-<p>By his side, a dashing dame,<br />
-Whose bum curves the wild winds tame,<br />
-Ever moulding, ever bold,<br />
-Always together with the tightest hold.</p>
+<p><strong>Explicitly Typed</strong> is where the type of every variables must be explicitly stated. Of course, explicit vs implicit types is only relevant in statically typed languages.</p>
 
-<p>Friends forever the heads they are,<br />
-Adventurers greatest we are by far.<br />
-Thankful to the Lord each day,<br />
-That Five Adventurers in beauty array.</p>
+<noscript><pre>400: Invalid request</pre></noscript>
+<script src="https://gist.github.com/85bd70dc0111f3663038e7e72eebe79b.js"> </script>
+
+<p><strong>Safe Type System</strong> is the characteristic of code that allows the developer to be certain that a value or object will exhibit certain properties so that he/she can use it in a specific way without fear of unexpected or undefined behavior.</p>
+
+<p>In the method <em>ThisIsSafe()</em> the compiler will clearly state that an <em>Operator ‘+’ cannot be applied to operands of type ‘int’ and ‘bool’</em>. This safety applies for the majority of C# up until we get to Collections, Inheritance, Overriding and Interfaces as witnessed in method <em>ThisIsUnsafe</em> which compiles perfectly.</p>
+
+<noscript><pre>400: Invalid request</pre></noscript>
+<script src="https://gist.github.com/c30ff2e9ad9c122ea12af3ba3532b159.js"> </script>
+
+<p><strong>Reference</strong></p>
+
+<ol>
+  <li><a href="https://csharpindepth.com/">C# In Depth - Jon Skeet</a></li>
+  <li><a href="https://stackoverflow.com/questions/859186/why-is-c-sharp-statically-typed">StackOverflow Why Is CSharp Statically Typed</a></li>
+  <li><a href="https://stackoverflow.com/questions/2437469/what-is-type-safe-in-net">StackOverflow What is Type Safey in .NET</a></li>
+  <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/">C#s Type System - Microsoft Docs</a></li>
+</ol>
 
         
       </section>
@@ -199,7 +196,7 @@ That Five Adventurers in beauty array.</p>
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-09-06T10:16:00+02:00">September 6, 2021</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-09-21T10:01:22+02:00">September 21, 2021</time></p>
 
 
       </footer>
@@ -209,11 +206,11 @@ That Five Adventurers in beauty array.</p>
       
   <nav class="pagination">
     
-      <a href="/jekyll/update/hobbies/2021/08/03/2021-reading-list.html" class="pagination--pager" title="2021 Reading List
+      <a href="/jekyll/family/poetry/2021/09/06/11th-anniversary.html" class="pagination--pager" title="A Poem: Our adventure continues..
 ">Previous</a>
     
     
-      <a href="/jekyll/update/programming/2021/09/21/csharp-type-system.html" class="pagination--pager" title="C# Type System
+      <a href="/jekyll/update/programming/2021/09/21/csharp-generics-intro.html" class="pagination--pager" title="C# Value and Reference Types
 ">Next</a>
     
   </nav>

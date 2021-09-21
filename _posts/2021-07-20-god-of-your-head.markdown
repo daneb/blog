@@ -1,11 +1,12 @@
 ---
-layout: single 
-title:  "God Of Your Head"
-date:   2021-07-20 18:55:22 +0200
-categories: jekyll update christianity truth 
+layout: single
+title: "God Of Your Head"
+date: 2021-07-20 18:55:22 +0200
+categories: jekyll update christianity truth
 ---
+
 ![Pottery](/images/pottery.jpg)
- 
+
 In each of our minds, well those who deem themselves religious or specifically Christian have a perception of who God is. This perception is formed over time as a reflection of their minds, perhaps nurtured from adolescence, life experiences and likely from the teaching of others. This perception and the process is no small thing.
 
 Consider a piece of clay, who or what molds it determines it's outcome. If that malleable clay is your perception of God, then the question that must be asked - how well is that perception formed? If our perception of God is poor, our actions will be equally. If our actions are poor, we are likely to make minimal impact and possibly do harm. And so it goes.
@@ -26,5 +27,4 @@ So with a myriad of sources, processes and experiences that feed into our unders
 
 You might say, but there are many bibles and many interpretations? Are there really? Yes there are many bibles, and yes there are hundreds if not thousands of opinions on what scripture means, but what have we done to approve and test their validity. Not all paths are equal, just like not all religions actually lead to God. The onus and responsibility of the reality of the god that is, is down to YOU.
 
-__There is a highly reliable source for formulating an understanding of God and it's the Bible.__
-
+**There is a highly reliable source for formulating an understanding of God and it's the Bible.**

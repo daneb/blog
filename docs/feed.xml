@@ -1,4 +1,148 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://www.danebalia.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.danebalia.com/" rel="alternate" type="text/html" /><updated>2021-09-06T11:19:14+02:00</updated><id>https://www.danebalia.com/feed.xml</id><title type="html">Dane Balia</title><subtitle>This is my personal site, an expression of my learning, wisdom gained, experience and opinion.</subtitle><entry><title type="html">A Poem: Our adventure continues..</title><link href="https://www.danebalia.com/jekyll/family/poetry/2021/09/06/11th-anniversary.html" rel="alternate" type="text/html" title="A Poem: Our adventure continues.." /><published>2021-09-06T10:16:00+02:00</published><updated>2021-09-06T10:16:00+02:00</updated><id>https://www.danebalia.com/jekyll/family/poetry/2021/09/06/11th-anniversary</id><content type="html" xml:base="https://www.danebalia.com/jekyll/family/poetry/2021/09/06/11th-anniversary.html">&lt;p&gt;&lt;strong&gt;To my darling wife…&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://www.danebalia.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.danebalia.com/" rel="alternate" type="text/html" /><updated>2021-09-21T10:26:37+02:00</updated><id>https://www.danebalia.com/feed.xml</id><title type="html">Dane Balia</title><subtitle>This is my personal site, an expression of my learning, wisdom gained, experience and opinion.</subtitle><entry><title type="html">Quick Tour Of Generics In C#</title><link href="https://www.danebalia.com/jekyll/update/programming/2021/09/21/csharp-value-and-ref.html" rel="alternate" type="text/html" title="Quick Tour Of Generics In C#" /><published>2021-09-21T10:25:22+02:00</published><updated>2021-09-21T10:25:22+02:00</updated><id>https://www.danebalia.com/jekyll/update/programming/2021/09/21/csharp-value-and-ref</id><content type="html" xml:base="https://www.danebalia.com/jekyll/update/programming/2021/09/21/csharp-value-and-ref.html">&lt;p&gt;Generics have been around since C# 2.0 and has become a tool we leverage so naturally now in C# we almost don’t even think about it. So let’s change that…&lt;/p&gt;
+
+&lt;h3 id=&quot;definitions&quot;&gt;Definitions&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Generics introduce to the .NET Framework the concept of type parameters, which make it possible to design classes and methods that defer the specification of one or more types until the class or method is declared and instantiated by client code&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Essentially generics allow you parameterize types and methods. Just as normal methods have &lt;em&gt;parameters&lt;/em&gt; to tell them what &lt;em&gt;values&lt;/em&gt; to use, generic types and methods have &lt;em&gt;type parameters&lt;/em&gt; to tell them what &lt;em&gt;types&lt;/em&gt; to use.&lt;/p&gt;
+
+&lt;h3 id=&quot;clarification&quot;&gt;Clarification&lt;/h3&gt;
+
+&lt;p&gt;Type parameters are placeholders for a type.&lt;/p&gt;
+
+&lt;p&gt;There are &lt;em&gt;constructed types&lt;/em&gt; and &lt;em&gt;generic types&lt;/em&gt;.
+A constructed type is when the type arguments are specified. For example,&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Dictionary&amp;lt;int, string&amp;gt;()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;A generic type is when the type arguments are not specified. For example,&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Dictionary&amp;lt;TKey, TValue&amp;gt;()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;As per the code snippet below, writing a method to swap two &lt;em&gt;Integer&lt;/em&gt; values is pretty rudimentary. But what if later we needed to do the very same but with &lt;em&gt;Strings&lt;/em&gt;. This would result in two methods, or perhaps overloads.&lt;/p&gt;
+
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/13124e5ec2369117aff8fc27a3a861e5.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;Generics to the rescue. We’ve isolated the type as a form of abstraction (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;T&lt;/code&gt;) to act as a placeholder for the type we intend to use.&lt;/p&gt;
+
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/9ab19f0a644a3e79525f932e4e34cd5f.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;When the method is actually called, that placeholder is replaced with the type of the values used.&lt;/p&gt;
+
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/f318890ecb9849ced43bccfe86744093.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;The value of Generics here is that it grants you &lt;em&gt;productivity&lt;/em&gt; improvements, &lt;em&gt;expressiveness&lt;/em&gt; and moves some safety concerns from &lt;em&gt;execution time to compile time&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Note the two ways in which the &lt;em&gt;method&lt;/em&gt; can be called. One with the type explicit, and the other implicit through &lt;em&gt;type inference&lt;/em&gt;. The compiler is inferring the &lt;em&gt;type parameters&lt;/em&gt; based on the method arguments you pass.&lt;/p&gt;
+
+&lt;p&gt;A &lt;em&gt;generic&lt;/em&gt; is simply a placeholder for a type.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><category term="programming" /><summary type="html">Generics have been around since C# 2.0 and has become a tool we leverage so naturally now in C# we almost don’t even think about it. So let’s change that…</summary></entry><entry><title type="html">C# Value and Reference Types</title><link href="https://www.danebalia.com/jekyll/update/programming/2021/09/21/csharp-generics-intro.html" rel="alternate" type="text/html" title="C# Value and Reference Types" /><published>2021-09-21T10:22:22+02:00</published><updated>2021-09-21T10:22:22+02:00</updated><id>https://www.danebalia.com/jekyll/update/programming/2021/09/21/csharp-generics-intro</id><content type="html" xml:base="https://www.danebalia.com/jekyll/update/programming/2021/09/21/csharp-generics-intro.html">&lt;p&gt;&lt;strong&gt;Value&lt;/strong&gt; and &lt;strong&gt;Reference&lt;/strong&gt; types are covered frequently all over the internet, in blog posts, technical articles and forums. Why? Because it’s easy to develop software for a long time without stopping to ‘smell the roses’. Or in this case, understand what they are and how they work. So here’s a note to self, or you.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A &lt;strong&gt;Value Type&lt;/strong&gt; is some object that is the information itself.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A &lt;strong&gt;Reference Type&lt;/strong&gt; is the details which points to an object containing the information. The details include things like type of object etc.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;an-analogy&quot;&gt;An Analogy:&lt;/h2&gt;
+
+&lt;p&gt;Let’s set the table with an analogy. Kim has just written a book. It’s an auto-biography. She would like to get feedback so she prints a copy at home and gives it to her husband Kanya. Later that day she stumbles onto a publicist, who is intrigued and asks to read it. She fires up her Macbook and shares the link to the original via Google Drive.&lt;/p&gt;
+
+&lt;p&gt;As time passes the publicist feeds back and is thoroughly impressed. She has highlighted a slew of spelling mistakes and a consideration for re-writing Chapter 4. Kim goes to work immediately and in a few days is done. Updating the original and requesting that the publicist review her changes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;So what’s this got to do with value and reference types?&lt;/strong&gt;
+Well, when Kim made Kanya a physical copy of the original. She provided him with an independent version of the truth. In fact after all her changes during her engagement with the publicist, Kanya’s copy has now become outdated and obsolete. He had a &lt;strong&gt;value type&lt;/strong&gt;. An independent copy of the source, that was detached and indifferent to modifications of the source.&lt;/p&gt;
+
+&lt;p&gt;The publicist on the other hand, well she had a Google Drive URL, a &lt;strong&gt;reference&lt;/strong&gt; to the original. In fact as Kim made changes the publicist could see those changes in real time. The &lt;strong&gt;reference&lt;/strong&gt; provided access to the original but was not the original.&lt;/p&gt;
+
+&lt;h2 id=&quot;some-examples&quot;&gt;Some Examples&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Array types are reference types, even if the element type is a value type (so int[] is still a reference type, even though &lt;strong&gt;int&lt;/strong&gt; is a value type)&lt;/li&gt;
+  &lt;li&gt;Enumerations are value types.&lt;/li&gt;
+  &lt;li&gt;Delegates are reference types.&lt;/li&gt;
+  &lt;li&gt;Interfaces are reference types, but they can be implemented as values.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;stack-vs-heap&quot;&gt;Stack vs Heap&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;References types live on the Heap.
+Value types lives where their declared.
+Local variables and method parameters live on the Stack.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A &lt;strong&gt;Stack&lt;/strong&gt; is a simple FIFO memory structure. When a method is invoked, the CLR bookmarks the top of the stack. The method then pushes data onto the stack as it executes. When the method completes the CLR just resets the stack to it’s previous bookmark.&lt;/p&gt;
+
+&lt;h3 id=&quot;stack-offers&quot;&gt;Stack offers:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;very fast access&lt;/li&gt;
+  &lt;li&gt;space is managed efficiently by CPU, memory will not be fragmented&lt;/li&gt;
+  &lt;li&gt;local variables only&lt;/li&gt;
+  &lt;li&gt;limit on memory size&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A &lt;strong&gt;Heap&lt;/strong&gt; is a random jumble of objects not managed by automatically for you. It is a free-floating region of memory (and is larger). In multi-threaded applications each thread will have its own stack. But all the different threads will share the heap.&lt;/p&gt;
+
+&lt;h3 id=&quot;heap-offers&quot;&gt;Heap Offers:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;variables can be accessed globally&lt;/li&gt;
+  &lt;li&gt;no limit on memory size&lt;/li&gt;
+  &lt;li&gt;(relatively) slower access&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It’s critical to note, that a value type lives where it’s declared, so if you have a class with an instance variable of float, a value type. It will live wherever the rest of the object is found and that is on the heap.&lt;/p&gt;
+
+&lt;p&gt;A last point, is that a string in C# is a reference type. Why? Because strings can be grow quite large in size and thus have to stored on the heap.&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vegibit.com/reference-types-and-value-types-in-c/&quot;&gt;Reference Types and Value Types in C - Vegitbit&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://csharpindepth.com/&quot;&gt;C# In Depth - Jon Skeet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.albahari.com/valuevsreftypes.aspx&quot;&gt;Values vs Reference Types - Joseph Albahari&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.programmerinterview.com/data-structures/difference-between-stack-and-heap/&quot;&gt;Difference between Stack and Heap&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><category term="programming" /><summary type="html">Value and Reference types are covered frequently all over the internet, in blog posts, technical articles and forums. Why? Because it’s easy to develop software for a long time without stopping to ‘smell the roses’. Or in this case, understand what they are and how they work. So here’s a note to self, or you.</summary></entry><entry><title type="html">C# Type System</title><link href="https://www.danebalia.com/jekyll/update/programming/2021/09/21/csharp-type-system.html" rel="alternate" type="text/html" title="C# Type System" /><published>2021-09-21T10:01:22+02:00</published><updated>2021-09-21T10:01:22+02:00</updated><id>https://www.danebalia.com/jekyll/update/programming/2021/09/21/csharp-type-system</id><content type="html" xml:base="https://www.danebalia.com/jekyll/update/programming/2021/09/21/csharp-type-system.html">&lt;p&gt;&lt;img src=&quot;/images/csharp_type_system.png&quot; alt=&quot;TypeSystem&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Exploring the Terminology:&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;C# 1’s type system is static, explicit, and safe.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Statically&lt;/strong&gt; typed is where each variable is of a particular type, and that type is known at compile time. In other words, the compiler does type checking at compilation time.&lt;/p&gt;
+
+&lt;p&gt;In the test method &lt;em&gt;StaticTypeWontCompile()&lt;/em&gt; you can see the string “Hello”. But because we gave it the type Object, the compiler sees its type as Object and not String. Hence the &lt;em&gt;.Length&lt;/em&gt; method being unavailable. This test won’t run because the compiler will state &lt;strong&gt;object does not contain a definition for ‘Length’&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/e0ed55842fdaa89527ace839d2abfe34.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;Explicitly Typed&lt;/strong&gt; is where the type of every variables must be explicitly stated. Of course, explicit vs implicit types is only relevant in statically typed languages.&lt;/p&gt;
+
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/85bd70dc0111f3663038e7e72eebe79b.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;Safe Type System&lt;/strong&gt; is the characteristic of code that allows the developer to be certain that a value or object will exhibit certain properties so that he/she can use it in a specific way without fear of unexpected or undefined behavior.&lt;/p&gt;
+
+&lt;p&gt;In the method &lt;em&gt;ThisIsSafe()&lt;/em&gt; the compiler will clearly state that an &lt;em&gt;Operator ‘+’ cannot be applied to operands of type ‘int’ and ‘bool’&lt;/em&gt;. This safety applies for the majority of C# up until we get to Collections, Inheritance, Overriding and Interfaces as witnessed in method &lt;em&gt;ThisIsUnsafe&lt;/em&gt; which compiles perfectly.&lt;/p&gt;
+
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/c30ff2e9ad9c122ea12af3ba3532b159.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://csharpindepth.com/&quot;&gt;C# In Depth - Jon Skeet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/859186/why-is-c-sharp-statically-typed&quot;&gt;StackOverflow Why Is CSharp Statically Typed&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/2437469/what-is-type-safe-in-net&quot;&gt;StackOverflow What is Type Safey in .NET&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/&quot;&gt;C#s Type System - Microsoft Docs&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><category term="programming" /><summary type="html"></summary></entry><entry><title type="html">A Poem: Our adventure continues..</title><link href="https://www.danebalia.com/jekyll/family/poetry/2021/09/06/11th-anniversary.html" rel="alternate" type="text/html" title="A Poem: Our adventure continues.." /><published>2021-09-06T10:16:00+02:00</published><updated>2021-09-06T10:16:00+02:00</updated><id>https://www.danebalia.com/jekyll/family/poetry/2021/09/06/11th-anniversary</id><content type="html" xml:base="https://www.danebalia.com/jekyll/family/poetry/2021/09/06/11th-anniversary.html">&lt;p&gt;&lt;strong&gt;To my darling wife…&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Raging waters raging tide,&lt;br /&gt;
 Magic wonder water ride.&lt;br /&gt;
@@ -61,16 +205,19 @@ That Five Adventurers in beauty array.&lt;/p&gt;</content><author><name></name><
 &lt;p&gt;The first lesson is simply - &lt;em&gt;enjoy your kids, all the time&lt;/em&gt;. This may seem rather simplistic but it implies that my kids are truly enjoyable and that I need to make a concerted effort to enjoy them. That doesn’t mean I find a slot of time in the day to enjoy their company, but rather at every interaction. Whether I’m stepping out of my home office to grab a coffee, or typing on my phone and they have something totally unimportant to say.&lt;/p&gt;
 
 &lt;h3 id=&quot;to-infinity-and-beyond&quot;&gt;To infinity and beyond&lt;/h3&gt;
-&lt;p&gt;I need to first look at them and see young eyes of wonder in a complex and challenging world. Eyes who are looking to me for security, for guidance, assurance and above all relationship. How we relate to them, is how they will relate to the world. There’s so much they still need to learn, to share, to gain confidence in and we need to appreciate that journey and   enjoy it with them. They are lost in a world that is Dad and Mum. They are lost in a world where there are more problems than answers and each day despite the complete intimidation of what they don’t know they arise with a smile and a challenge to conquer the day! They are on a journey, an adventure and we have the oppurtunity to tag along. They are indeed most enjoyable, as their living the lives we led and headed towards the lives we living.&lt;/p&gt;
+
+&lt;p&gt;I need to first look at them and see young eyes of wonder in a complex and challenging world. Eyes who are looking to me for security, for guidance, assurance and above all relationship. How we relate to them, is how they will relate to the world. There’s so much they still need to learn, to share, to gain confidence in and we need to appreciate that journey and  enjoy it with them. They are lost in a world that is Dad and Mum. They are lost in a world where there are more problems than answers and each day despite the complete intimidation of what they don’t know they arise with a smile and a challenge to conquer the day! They are on a journey, an adventure and we have the oppurtunity to tag along. They are indeed most enjoyable, as their living the lives we led and headed towards the lives we living.&lt;/p&gt;
 
 &lt;h3 id=&quot;being-present&quot;&gt;Being present&lt;/h3&gt;
+
 &lt;p&gt;The second aspect of enjoying yout kids, is being present. If they are pirates braving uncharted territory about to conquer the unknown filled with the enthusiasm that this is sure reality; who are we to upstage that with our cellphones in hand distracted by the latest FaceCrook Post or Bitter tweet. Who are we if their reality is distored by our own. I’m not saying be subservient to all their wants and needs but being present enough to stop and smell the roses. For whats on their minds however great or small; is worth acknowledging and more especially enjoying.&lt;/p&gt;
 
 &lt;h2 id=&quot;responsibility-to-your-kids&quot;&gt;Responsibility to your kids&lt;/h2&gt;
 
 &lt;p&gt;My responsibility to my kids are vast. Having helped bring them into this world, it my responsibility to see to it that they are able to be effective contributors to our society, God and their family. Instead of trying to cling to very precise rules I opted for 3 general areas I try to focus my attention. Those areas are:&lt;/p&gt;
+
 &lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;mind&lt;/strong&gt; 🧠 &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;mind&lt;/strong&gt; 🧠&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;body&lt;/strong&gt; 🧘‍♂️&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;spirit&lt;/strong&gt; 📖&lt;/li&gt;
 &lt;/ol&gt;
@@ -101,24 +248,25 @@ That Five Adventurers in beauty array.&lt;/p&gt;</content><author><name></name><
 
 &lt;p&gt;You might say, but there are many bibles and many interpretations? Are there really? Yes there are many bibles, and yes there are hundreds if not thousands of opinions on what scripture means, but what have we done to approve and test their validity. Not all paths are equal, just like not all religions actually lead to God. The onus and responsibility of the reality of the god that is, is down to YOU.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;There is a highly reliable source for formulating an understanding of God and it’s the Bible.&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><category term="christianity" /><category term="truth" /><summary type="html">In each of our minds, well those who deem themselves religious or specifically Christian have a perception of who God is. This perception is formed over time as a reflection of their minds, perhaps nurtured from adolescence, life experiences and likely from the teaching of others. This perception and the process is no small thing.</summary></entry><entry><title type="html">Better sound: Fiio K3 and Beyerdynamic DT990</title><link href="https://www.danebalia.com/jekyll/update/hobbies/2021/05/23/better-sound.html" rel="alternate" type="text/html" title="Better sound: Fiio K3 and Beyerdynamic DT990" /><published>2021-05-23T18:55:22+02:00</published><updated>2021-05-23T18:55:22+02:00</updated><id>https://www.danebalia.com/jekyll/update/hobbies/2021/05/23/better-sound</id><content type="html" xml:base="https://www.danebalia.com/jekyll/update/hobbies/2021/05/23/better-sound.html">&lt;p&gt;&lt;img src=&quot;/images/fiiok3.jpg&quot; alt=&quot;Fiio K3&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;There is a highly reliable source for formulating an understanding of God and it’s the Bible.&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><category term="christianity" /><category term="truth" /><summary type="html"></summary></entry><entry><title type="html">Better sound: Fiio K3 and Beyerdynamic DT990</title><link href="https://www.danebalia.com/jekyll/update/hobbies/2021/05/23/better-sound.html" rel="alternate" type="text/html" title="Better sound: Fiio K3 and Beyerdynamic DT990" /><published>2021-05-23T18:55:22+02:00</published><updated>2021-05-23T18:55:22+02:00</updated><id>https://www.danebalia.com/jekyll/update/hobbies/2021/05/23/better-sound</id><content type="html" xml:base="https://www.danebalia.com/jekyll/update/hobbies/2021/05/23/better-sound.html">&lt;p&gt;&lt;img src=&quot;/images/fiiok3.jpg&quot; alt=&quot;Fiio K3&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As a software developer music has proven an essential aid. From keeping me awake during late night stints to a gentle
 ushering in the background when focus is called for. I have enjoyed streaming my music through the years and always
-believed that I was at the pinnacle of my desktop musical experience with my high-quality &lt;a href=&quot;https://www.cnet.com/reviews/sennheiser-hd-448-review/&quot;&gt;Sennheiser HD 440&lt;/a&gt;. 
-But most recently I was truly awakened to the fact that there was much more to pursue not by way of accessories but in audio quality. 
-I had been streaming music at 44kHz while out there was a world of Hi-Res audio and even Master (studio quality). 
+believed that I was at the pinnacle of my desktop musical experience with my high-quality &lt;a href=&quot;https://www.cnet.com/reviews/sennheiser-hd-448-review/&quot;&gt;Sennheiser HD 440&lt;/a&gt;.
+But most recently I was truly awakened to the fact that there was much more to pursue not by way of accessories but in audio quality.
+I had been streaming music at 44kHz while out there was a world of Hi-Res audio and even Master (studio quality).
 Let me explain.&lt;/p&gt;
 
 &lt;h2 id=&quot;audio-at-44khz&quot;&gt;Audio at 44kHz&lt;/h2&gt;
+
 &lt;p&gt;44kHz or 44,100Hz is a common sampling frequency for analog audio, dating back to the late 1970’s in recording digital
 audio on video cassettes. CDs in fact were made at 44.1kHz/16bit. &lt;a href=&quot;https://www.101computing.net/sampling-sound/&quot;&gt;Sampling&lt;/a&gt;
-or the sample rate is the number of samples in one second. A small sample rate or interval, results in a high sample rate 
-which results in better quality sound file but then also increases the size of that audio file. This sampling of the sound wave is then 
+or the sample rate is the number of samples in one second. A small sample rate or interval, results in a high sample rate
+which results in better quality sound file but then also increases the size of that audio file. This sampling of the sound wave is then
 converted into digestible binary data. So stated differently, 44,100Hz is basically 44,100 samples per second.&lt;/p&gt;
 
 &lt;p&gt;The second part to the sampling is the &lt;a href=&quot;https://www.izotope.com/en/learn/digital-audio-basics-sample-rate-and-bit-depth.html&quot;&gt;audio bit depth&lt;/a&gt; at which that sampling
-can take place. Given analog audio is a continuous wave, it has effectively infinite number of possible amplitude values. However to sample, 
+can take place. Given analog audio is a continuous wave, it has effectively infinite number of possible amplitude values. However to sample,
 we would need to define a finite set of values for these amplitude values. These values are our audio bit depth.
 The more depth we have the less errors we are likely to have. A larger depth allows for more possible values at a set length (interval).&lt;/p&gt;
 
@@ -132,27 +280,30 @@ The more depth we have the less errors we are likely to have. A larger depth all
 &lt;p&gt;Stated differently, amplitude describes depth, and sample rate the length or interval.&lt;/p&gt;
 
 &lt;h2 id=&quot;audio-at-hi-res&quot;&gt;Audio at Hi-Res&lt;/h2&gt;
+
 &lt;p&gt;So why does this matter? Well depending on the sample rate and depth, you could be listening to music that is flat,
-	 less lively, perhaps even lacking depth. Most streaming services today are providing you music at a depth of 16-bit
-	 with an interval of 44.1kHZ. However there is a growing trend today towards Hi-res audio which is 24-bit/96kHz 
-	 or 24-bit/192kHz. This more closely replicates the sound quality of musicians and engineers at their studios.&lt;/p&gt;
+less lively, perhaps even lacking depth. Most streaming services today are providing you music at a depth of 16-bit
+with an interval of 44.1kHZ. However there is a growing trend today towards Hi-res audio which is 24-bit/96kHz
+or 24-bit/192kHz. This more closely replicates the sound quality of musicians and engineers at their studios.&lt;/p&gt;
 
 &lt;p&gt;Now is 16-bit/44.kHz terrible? Of course not. We all enjoy it. But if you looking at improving your existing experience
 and you are a lover of music then it might be something worth endeavouring towards.&lt;/p&gt;
 
 &lt;h2 id=&quot;requirements&quot;&gt;Requirements&lt;/h2&gt;
+
 &lt;p&gt;But in order to listen to Hi-Res a few things will be required.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Firstly&lt;/strong&gt; you will need a streaming provider that supports Hi-Res or Master quality. &lt;strong&gt;Secondly&lt;/strong&gt;, you will need a digital
 to analogue converter - this is because those largely provided by your PC or laptop are not specialized and of
 poor quality (including Apple hardware). &lt;strong&gt;Thirdly&lt;/strong&gt; you will need a decent pair of head phones with sufficient
-impedance to deliver the quality stream to your ears. &lt;strong&gt;Lastly&lt;/strong&gt; you will need to instruct your operating system to your new 
+impedance to deliver the quality stream to your ears. &lt;strong&gt;Lastly&lt;/strong&gt; you will need to instruct your operating system to your new
 required sample rate.&lt;/p&gt;
 
 &lt;h2 id=&quot;my-setup&quot;&gt;My Setup&lt;/h2&gt;
+
 &lt;p&gt;I spent a significant amount of time and effort trying to put together a working system of streaming provider, hardware
 and software setup and so please feel free to leverage it or get better. The intent and drivers behind this setup
-		was for me spend as little money as possible and enter the space to prove the quality of Hi-Res.&lt;/p&gt;
+was for me spend as little money as possible and enter the space to prove the quality of Hi-Res.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Streaming Service: &lt;a href=&quot;https://tidal.com/&quot;&gt;Tidal&lt;/a&gt;&lt;/li&gt;
@@ -161,8 +312,10 @@ and software setup and so please feel free to leverage it or get better. The int
 &lt;/ol&gt;
 
 &lt;h2 id=&quot;snags&quot;&gt;Snags&lt;/h2&gt;
+
 &lt;h3 id=&quot;no-usb-connector&quot;&gt;No USB connector&lt;/h3&gt;
-&lt;p&gt;The MacBook Pro I was using only supported 4 USB Type C. The Fiio K3 comes with USB 2.0 support and supporting cable. 
+
+&lt;p&gt;The MacBook Pro I was using only supported 4 USB Type C. The Fiio K3 comes with USB 2.0 support and supporting cable.
 There was a possibility for me to connect it to my USB powered hub but that would have compromised
 on the audio quality, and so I purchased a USB 2.0 cable (USBC male to USBC male 1.5 metre) for a direct connection
 to the laptop.&lt;/p&gt;
@@ -170,13 +323,15 @@ to the laptop.&lt;/p&gt;
 &lt;p&gt;Be warned that all cables are not equal, and you are specifically looking for a Type-C cable that supports USB 2.0.&lt;/p&gt;
 
 &lt;h3 id=&quot;how-to-configure-sample-rate-and-interval-on-macbook&quot;&gt;How to configure sample rate and interval on MacBook&lt;/h3&gt;
-&lt;p&gt;The beauty to the Fiio K3 is that there is a light on the volume dial that let’s you know when you 
+
+&lt;p&gt;The beauty to the Fiio K3 is that there is a light on the volume dial that let’s you know when you
 are sampling at Hi-Res or Master quality. And by default this does not happen at the OS level unless you instruct it.
 The trick is go into OS-X’s Audio Midi Setup and to forcibly set the Fiio &lt;em&gt;format&lt;/em&gt; as per below.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/MidiSetup.png&quot; alt=&quot;Example&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;lastly&quot;&gt;Lastly…&lt;/h2&gt;
+
 &lt;p&gt;So is this worth it? Can you actually tell the difference? Yes and yes.
 I listen to classical musical and I am able to stop and take in the large forray of
 instruments as they are played. The sound is warm, crisp, compartmentalized to each

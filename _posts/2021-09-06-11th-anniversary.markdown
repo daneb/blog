@@ -2,10 +2,10 @@
 layout: single
 title: "A Poem: Our adventure continues.."
 date: 2021-09-06 10:16:00 +0200
-categories: jekyll family poetry 
+categories: jekyll family poetry
 ---
 
-__To my darling wife...__
+**To my darling wife...**
 
 Raging waters raging tide,\
 Magic wonder water ride.\
@@ -41,9 +41,3 @@ Friends forever the heads they are,
 Adventurers greatest we are by far.  
 Thankful to the Lord each day,  
 That Five Adventurers in beauty array.
-
-
-
-
-
-

@@ -1,0 +1,275 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Quick Tour Of Generics In C# - Dane Balia</title>
+<meta name="description" content="Generics have been around since C# 2.0 and has become a tool we leverage so naturally now in C# we almost don’t even think about it. So let’s change that…">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Dane Balia">
+<meta property="og:title" content="Quick Tour Of Generics In C#">
+<meta property="og:url" content="https://www.danebalia.com/jekyll/update/programming/2021/09/21/csharp-value-and-ref.html">
+
+
+  <meta property="og:description" content="Generics have been around since C# 2.0 and has become a tool we leverage so naturally now in C# we almost don’t even think about it. So let’s change that…">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2021-09-21T10:25:22+02:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://www.danebalia.com/jekyll/update/programming/2021/09/21/csharp-value-and-ref.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "https://www.danebalia.com/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Dane Balia Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Dane Balia
+          
+        </a>
+        <ul class="visible-links"></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Quick Tour Of Generics In C#">
+    <meta itemprop="description" content="Generics have been around since C# 2.0 and has become a tool we leverage so naturally now in C# we almost don’t even think about it. So let’s change that…">
+    <meta itemprop="datePublished" content="2021-09-21T10:25:22+02:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Quick Tour Of Generics In C#
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>Generics have been around since C# 2.0 and has become a tool we leverage so naturally now in C# we almost don’t even think about it. So let’s change that…</p>
+
+<h3 id="definitions">Definitions</h3>
+
+<p><em>Generics introduce to the .NET Framework the concept of type parameters, which make it possible to design classes and methods that defer the specification of one or more types until the class or method is declared and instantiated by client code</em>.</p>
+
+<p>Essentially generics allow you parameterize types and methods. Just as normal methods have <em>parameters</em> to tell them what <em>values</em> to use, generic types and methods have <em>type parameters</em> to tell them what <em>types</em> to use.</p>
+
+<h3 id="clarification">Clarification</h3>
+
+<p>Type parameters are placeholders for a type.</p>
+
+<p>There are <em>constructed types</em> and <em>generic types</em>.
+A constructed type is when the type arguments are specified. For example,</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Dictionary&lt;int, string&gt;()
+</code></pre></div></div>
+
+<p>A generic type is when the type arguments are not specified. For example,</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Dictionary&lt;TKey, TValue&gt;()
+</code></pre></div></div>
+
+<p>As per the code snippet below, writing a method to swap two <em>Integer</em> values is pretty rudimentary. But what if later we needed to do the very same but with <em>Strings</em>. This would result in two methods, or perhaps overloads.</p>
+
+<noscript><pre>400: Invalid request</pre></noscript>
+<script src="https://gist.github.com/13124e5ec2369117aff8fc27a3a861e5.js"> </script>
+
+<p>Generics to the rescue. We’ve isolated the type as a form of abstraction (<code class="language-plaintext highlighter-rouge">T</code>) to act as a placeholder for the type we intend to use.</p>
+
+<noscript><pre>400: Invalid request</pre></noscript>
+<script src="https://gist.github.com/9ab19f0a644a3e79525f932e4e34cd5f.js"> </script>
+
+<p>When the method is actually called, that placeholder is replaced with the type of the values used.</p>
+
+<noscript><pre>400: Invalid request</pre></noscript>
+<script src="https://gist.github.com/f318890ecb9849ced43bccfe86744093.js"> </script>
+
+<p>The value of Generics here is that it grants you <em>productivity</em> improvements, <em>expressiveness</em> and moves some safety concerns from <em>execution time to compile time</em>.</p>
+
+<p>Note the two ways in which the <em>method</em> can be called. One with the type explicit, and the other implicit through <em>type inference</em>. The compiler is inferring the <em>type parameters</em> based on the method arguments you pass.</p>
+
+<p>A <em>generic</em> is simply a placeholder for a type.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-09-21T10:25:22+02:00">September 21, 2021</time></p>
+
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/jekyll/update/programming/2021/09/21/csharp-generics-intro.html" class="pagination--pager" title="C# Value and Reference Types
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 Dane Balia. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

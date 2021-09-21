@@ -28,4 +28,22 @@ var store = [{
         "tags": [],
         "url": "/jekyll/family/poetry/2021/09/06/11th-anniversary.html",
         "teaser": null
+      },{
+        "title": "C# Type System",
+        "excerpt":"Exploring the Terminology: C# 1’s type system is static, explicit, and safe. Statically typed is where each variable is of a particular type, and that type is known at compile time. In other words, the compiler does type checking at compilation time. In the test method StaticTypeWontCompile() you can see...","categories": ["jekyll","update","programming"],
+        "tags": [],
+        "url": "/jekyll/update/programming/2021/09/21/csharp-type-system.html",
+        "teaser": null
+      },{
+        "title": "C# Value and Reference Types",
+        "excerpt":"Value and Reference types are covered frequently all over the internet, in blog posts, technical articles and forums. Why? Because it’s easy to develop software for a long time without stopping to ‘smell the roses’. Or in this case, understand what they are and how they work. So here’s a...","categories": ["jekyll","update","programming"],
+        "tags": [],
+        "url": "/jekyll/update/programming/2021/09/21/csharp-generics-intro.html",
+        "teaser": null
+      },{
+        "title": "Quick Tour Of Generics In C#",
+        "excerpt":"Generics have been around since C# 2.0 and has become a tool we leverage so naturally now in C# we almost don’t even think about it. So let’s change that… Definitions Generics introduce to the .NET Framework the concept of type parameters, which make it possible to design classes and...","categories": ["jekyll","update","programming"],
+        "tags": [],
+        "url": "/jekyll/update/programming/2021/09/21/csharp-value-and-ref.html",
+        "teaser": null
       }]
