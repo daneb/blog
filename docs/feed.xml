@@ -1,4 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://www.danebalia.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.danebalia.com/" rel="alternate" type="text/html" /><updated>2021-09-21T10:46:26+02:00</updated><id>https://www.danebalia.com/feed.xml</id><title type="html">Dane Balia</title><subtitle>This is my personal site, an expression of my learning, wisdom gained, experience and opinion.</subtitle><entry><title type="html">Quick Tour Of Generics In C#</title><link href="https://www.danebalia.com/jekyll/update/programming/2021/09/21/csharp-value-and-ref.html" rel="alternate" type="text/html" title="Quick Tour Of Generics In C#" /><published>2021-09-21T10:25:22+02:00</published><updated>2021-09-21T10:25:22+02:00</updated><id>https://www.danebalia.com/jekyll/update/programming/2021/09/21/csharp-value-and-ref</id><content type="html" xml:base="https://www.danebalia.com/jekyll/update/programming/2021/09/21/csharp-value-and-ref.html">&lt;p&gt;Generics have been around since C# 2.0 and has become a tool we leverage so naturally now in C# we almost don’t even think about it. So let’s change that…&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://www.danebalia.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.danebalia.com/" rel="alternate" type="text/html" /><updated>2022-01-07T14:05:01+02:00</updated><id>https://www.danebalia.com/feed.xml</id><title type="html">Dane Balia</title><subtitle>This is my personal site, an expression of my learning, wisdom gained, experience and opinion.</subtitle><entry><title type="html">Discouragement</title><link href="https://www.danebalia.com/jekyll/poem/hope/discouragement/2022/01/07/discouragement.html" rel="alternate" type="text/html" title="Discouragement" /><published>2022-01-07T13:19:22+02:00</published><updated>2022-01-07T13:19:22+02:00</updated><id>https://www.danebalia.com/jekyll/poem/hope/discouragement/2022/01/07/discouragement</id><content type="html" xml:base="https://www.danebalia.com/jekyll/poem/hope/discouragement/2022/01/07/discouragement.html">&lt;p&gt;&lt;img src=&quot;/images/discouragement.jpg&quot; alt=&quot;Discouragement&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The road of life &lt;br /&gt;
+ah yes the road of life&lt;/p&gt;
+
+&lt;p&gt;At some turn along life, &lt;br /&gt;
+there THEY comes with their assault of strife &lt;br /&gt;
+with winds that rage and winds that blow, &lt;br /&gt;
+they beat, make meat of the courageous feat. &lt;br /&gt;
+To live is hard. Is it?&lt;/p&gt;
+
+&lt;p&gt;The weapons of these diabolical demons, &lt;br /&gt;
+are seldom understood or even from my hood. &lt;br /&gt;
+They beckon me come and surrender the fight. &lt;br /&gt;
+They beckon me come and surrender the night.&lt;/p&gt;
+
+&lt;p&gt;What of hopes and dreams and joy and streams, &lt;br /&gt;
+What of health and wealth, &lt;br /&gt;
+when it’s all abated. &lt;br /&gt;
+They come with his assault of strife, &lt;br /&gt;
+attacking and sucking me into the darkness.&lt;/p&gt;
+
+&lt;p&gt;I fight, I kick, I whip, I punch, &lt;br /&gt;
+I raise my hand, but I get pulled in a bunch. &lt;br /&gt;
+They are strong, far stronger than me, &lt;br /&gt;
+They deep in my mind causing calamity. &lt;br /&gt;
+Turn back turn back the light onto me, &lt;br /&gt;
+Turn back turn back its uncomfortable inadequacy.&lt;/p&gt;
+
+&lt;p&gt;FIGHT! FIGHT! I say. I say. &lt;br /&gt;
+But the warmth of day is gone &lt;br /&gt;
+All around me has diminished, chaos around. Chaos. &lt;br /&gt;
+Hope what of it, I know it intellectually. &lt;br /&gt;
+But she is hidden. Where I don’t know?&lt;/p&gt;
+
+&lt;p&gt;How did it get all so complex. &lt;br /&gt;
+How did THEY get so strong. &lt;br /&gt;
+ Who are THEY and why do me wrong. &lt;br /&gt;
+My legs are deep in the myrrh now, DEEP. &lt;br /&gt;
+Darkness is upon me, and I can’t intellectualize myself away&lt;/p&gt;
+
+&lt;p&gt;A crack from the heavens &lt;br /&gt;
+A fizzle? a ray? a sparkle? a way. &lt;br /&gt;
+Some spirit illuminates &lt;br /&gt;
+“My grace is sufficient for thee: for my strength is made perfect in weakness.”
+HUH.&lt;/p&gt;
+
+&lt;p&gt;What did it mean? &lt;br /&gt;
+I began to tussle with the words of the spirit, &lt;br /&gt;
+I wrestle, turn, twist and contort, &lt;br /&gt;
+hammering against 14 challengers a new, &lt;br /&gt;
+looking for answers for this light so few.&lt;/p&gt;
+
+&lt;p&gt;And little did I notice, &lt;br /&gt;
+that as I wrestled with the 14 challengers that day, &lt;br /&gt;
+my contention with THEY went away, &lt;br /&gt;
+darkness still loomed in the distance, &lt;br /&gt;
+but the battle was over, for now.&lt;/p&gt;
+
+&lt;p&gt;I recited the words of the spirit, &lt;br /&gt;
+and then it hit me like a ton of bricks succinctly, &lt;br /&gt;
+That it was never about MY OWN *strength** to overcome &lt;br /&gt;
+But I was already equipped with *grace sufficient* to step out the darkness &lt;br /&gt;
+Despite my inherent weakness.&lt;/p&gt;
+
+&lt;p&gt;They will be back soon, one day, &lt;br /&gt;
+and in my weakness to these words I shall cling.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="poem" /><category term="hope" /><category term="discouragement" /><summary type="html"></summary></entry><entry><title type="html">Quick Tour Of Generics In C#</title><link href="https://www.danebalia.com/jekyll/update/programming/2021/09/21/csharp-value-and-ref.html" rel="alternate" type="text/html" title="Quick Tour Of Generics In C#" /><published>2021-09-21T10:25:22+02:00</published><updated>2021-09-21T10:25:22+02:00</updated><id>https://www.danebalia.com/jekyll/update/programming/2021/09/21/csharp-value-and-ref</id><content type="html" xml:base="https://www.danebalia.com/jekyll/update/programming/2021/09/21/csharp-value-and-ref.html">&lt;p&gt;Generics have been around since C# 2.0 and has become a tool we leverage so naturally now in C# we almost don’t even think about it. So let’s change that…&lt;/p&gt;
 
 &lt;h3 id=&quot;definitions&quot;&gt;Definitions&lt;/h3&gt;
 

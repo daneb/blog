@@ -46,4 +46,10 @@ var store = [{
         "tags": [],
         "url": "/jekyll/update/programming/2021/09/21/csharp-value-and-ref.html",
         "teaser": null
+      },{
+        "title": "Discouragement",
+        "excerpt":"The road of life ah yes the road of life At some turn along life, there THEY comes with their assault of strife with winds that rage and winds that blow, they beat, make meat of the courageous feat. To live is hard. Is it? The weapons of these diabolical...","categories": ["jekyll","poem","hope","discouragement"],
+        "tags": [],
+        "url": "/jekyll/poem/hope/discouragement/2022/01/07/discouragement.html",
+        "teaser": null
       }]
