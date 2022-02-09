@@ -52,4 +52,10 @@ var store = [{
         "tags": [],
         "url": "/jekyll/poem/hope/discouragement/2022/01/07/discouragement.html",
         "teaser": null
+      },{
+        "title": "2022 Reading List",
+        "excerpt":"Read: Paul Tripp - Redeeming Money Arthur Conan Doyle - A Study in Scalett Planned: Robert Nystrom - Crafting Intepreters John Skeet - C# in Depth Tom Stuart - Understanding Computation Gerald Weinberg - Quality Software Management, Vol 1: Systems Thinking Donella Meadows - Thinking in Systems Brendan Burns -...","categories": ["jekyll","update","hobbies"],
+        "tags": [],
+        "url": "/jekyll/update/hobbies/2022/02/03/2022-reading-list.html",
+        "teaser": null
       }]

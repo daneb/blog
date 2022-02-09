@@ -1,0 +1,31 @@
+---
+layout: single
+title: "2022 Reading List"
+date: 2022-02-03 10:16:00 +0200
+categories: jekyll update hobbies
+---
+
+![2022 Reading List](/images/books.png)
+
+### Read:
+
+1. [Paul Tripp - Redeeming Money](https://www.paultripp.com/redeeming-money)
+2. [Arthur Conan Doyle - A Study in Scalett](https://www.goodreads.com/book/show/162823.The_Case_Book_of_Sherlock_Holmes)
+
+### Planned:
+
+1. [Robert Nystrom - Crafting Intepreters](http://craftinginterpreters.com/)
+2. [John Skeet - C# in Depth ](https://csharpindepth.com/)
+3. [Tom Stuart - Understanding Computation](https://www.goodreads.com/book/show/15842786-understanding-computation)
+4. [Gerald Weinberg - Quality Software Management, Vol 1: Systems Thinking](https://geraldmweinberg.com/Site/QSM_vol_1.html)
+5. [Donella Meadows - Thinking in Systems](https://www.amazon.com/Thinking-Systems-Donella-H-Meadows/dp/1603580557)
+6. [Brendan Burns - Designing Distributed Systems](https://www.amazon.com/dp/1491983647?tag=bbookshub-20&linkCode=ogi&th=1&psc=1)
+7. [James Clear - Atomic Habits](https://www.amazon.com/dp/0735211299/ref=s9_acsd_ri_bw_c2_x_2_t?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-10&pf_rd_r=K4AABKRFED653GK6369A&pf_rd_t=101&pf_rd_p=ec1034ac-997c-47fd-8075-3a3a4b4c3aa3&pf_rd_i=283155)
+8. [Clarence Larking - Dispensational Truth](https://www.larkinestate.com/books/dispensational-truth.html)
+9. [Daniel Kahneman - Thinking Fast and Slow](https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow)
+10. [Betsy Beyer - Site Reliability Engineering](https://sre.google/books/)
+11. [Adam Grant - Think Again](https://www.amazon.com/Think-Again-Power-Knowing-What/dp/1984878107)
+12. [Steven Pinker - Rationality: What It Is, Why It Seems Scarce, Why It Matter](https://bookshop.org/books/rationality-what-it-is-why-it-seems-scarce-why-it-matters/9780525561996)
+13. [David Bradford - Connect: Building Exceptional Relationships with Family, Friends, and Colleagues](https://www.amazon.com/Connect-Building-Exceptional-Relationships-Colleagues/dp/0593237099)
+
+

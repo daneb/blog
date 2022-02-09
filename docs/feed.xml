@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://www.danebalia.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.danebalia.com/" rel="alternate" type="text/html" /><updated>2022-01-07T14:05:01+02:00</updated><id>https://www.danebalia.com/feed.xml</id><title type="html">Dane Balia</title><subtitle>This is my personal site, an expression of my learning, wisdom gained, experience and opinion.</subtitle><entry><title type="html">Discouragement</title><link href="https://www.danebalia.com/jekyll/poem/hope/discouragement/2022/01/07/discouragement.html" rel="alternate" type="text/html" title="Discouragement" /><published>2022-01-07T13:19:22+02:00</published><updated>2022-01-07T13:19:22+02:00</updated><id>https://www.danebalia.com/jekyll/poem/hope/discouragement/2022/01/07/discouragement</id><content type="html" xml:base="https://www.danebalia.com/jekyll/poem/hope/discouragement/2022/01/07/discouragement.html">&lt;p&gt;&lt;img src=&quot;/images/discouragement.jpg&quot; alt=&quot;Discouragement&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://www.danebalia.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.danebalia.com/" rel="alternate" type="text/html" /><updated>2022-02-09T21:37:51+02:00</updated><id>https://www.danebalia.com/feed.xml</id><title type="html">Dane Balia</title><subtitle>This is my personal site, an expression of my learning, wisdom gained, experience and opinion.</subtitle><entry><title type="html">2022 Reading List</title><link href="https://www.danebalia.com/jekyll/update/hobbies/2022/02/03/2022-reading-list.html" rel="alternate" type="text/html" title="2022 Reading List" /><published>2022-02-03T10:16:00+02:00</published><updated>2022-02-03T10:16:00+02:00</updated><id>https://www.danebalia.com/jekyll/update/hobbies/2022/02/03/2022-reading-list</id><content type="html" xml:base="https://www.danebalia.com/jekyll/update/hobbies/2022/02/03/2022-reading-list.html">&lt;p&gt;&lt;img src=&quot;/images/books.png&quot; alt=&quot;2022 Reading List&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;read&quot;&gt;Read:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.paultripp.com/redeeming-money&quot;&gt;Paul Tripp - Redeeming Money&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/162823.The_Case_Book_of_Sherlock_Holmes&quot;&gt;Arthur Conan Doyle - A Study in Scalett&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;planned&quot;&gt;Planned:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://craftinginterpreters.com/&quot;&gt;Robert Nystrom - Crafting Intepreters&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://csharpindepth.com/&quot;&gt;John Skeet - C# in Depth &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/15842786-understanding-computation&quot;&gt;Tom Stuart - Understanding Computation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://geraldmweinberg.com/Site/QSM_vol_1.html&quot;&gt;Gerald Weinberg - Quality Software Management, Vol 1: Systems Thinking&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Thinking-Systems-Donella-H-Meadows/dp/1603580557&quot;&gt;Donella Meadows - Thinking in Systems&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/dp/1491983647?tag=bbookshub-20&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&quot;&gt;Brendan Burns - Designing Distributed Systems&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/dp/0735211299/ref=s9_acsd_ri_bw_c2_x_2_t?pf_rd_m=ATVPDKIKX0DER&amp;amp;pf_rd_s=merchandised-search-10&amp;amp;pf_rd_r=K4AABKRFED653GK6369A&amp;amp;pf_rd_t=101&amp;amp;pf_rd_p=ec1034ac-997c-47fd-8075-3a3a4b4c3aa3&amp;amp;pf_rd_i=283155&quot;&gt;James Clear - Atomic Habits&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.larkinestate.com/books/dispensational-truth.html&quot;&gt;Clarence Larking - Dispensational Truth&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow&quot;&gt;Daniel Kahneman - Thinking Fast and Slow&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sre.google/books/&quot;&gt;Betsy Beyer - Site Reliability Engineering&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Think-Again-Power-Knowing-What/dp/1984878107&quot;&gt;Adam Grant - Think Again&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bookshop.org/books/rationality-what-it-is-why-it-seems-scarce-why-it-matters/9780525561996&quot;&gt;Steven Pinker - Rationality: What It Is, Why It Seems Scarce, Why It Matter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Connect-Building-Exceptional-Relationships-Colleagues/dp/0593237099&quot;&gt;David Bradford - Connect: Building Exceptional Relationships with Family, Friends, and Colleagues&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><category term="hobbies" /><summary type="html"></summary></entry><entry><title type="html">Discouragement</title><link href="https://www.danebalia.com/jekyll/poem/hope/discouragement/2022/01/07/discouragement.html" rel="alternate" type="text/html" title="Discouragement" /><published>2022-01-07T13:19:22+02:00</published><updated>2022-01-07T13:19:22+02:00</updated><id>https://www.danebalia.com/jekyll/poem/hope/discouragement/2022/01/07/discouragement</id><content type="html" xml:base="https://www.danebalia.com/jekyll/poem/hope/discouragement/2022/01/07/discouragement.html">&lt;p&gt;&lt;img src=&quot;/images/discouragement.jpg&quot; alt=&quot;Discouragement&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The road of life &lt;br /&gt;
 ah yes the road of life&lt;/p&gt;
