@@ -5,7 +5,7 @@ date:   2022-04-18 19:28:43 +0200
 categories: jekyll hobbies
 ---
 
-![Emacs](/images/emacs.png)
+![Emacs](/images/doom.png)
 
 ### WSL2 woes
 

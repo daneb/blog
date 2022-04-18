@@ -11,6 +11,12 @@ categories: jekyll update hobbies
 
 1. [Paul Tripp - Redeeming Money](https://www.paultripp.com/redeeming-money)
 2. [Arthur Conan Doyle - A Study in Scalett](https://www.goodreads.com/book/show/162823.The_Case_Book_of_Sherlock_Holmes)
+3. [Noble Beginnings](https://www.goodreads.com/book/show/45722123-noble-beginnings)
+4. [Quiet: Power Of Introverts](https://www.goodreads.com/book/show/18006972-quiet)
+5. [The Thursday Murder Club](https://www.goodreads.com/book/show/46000520-the-thursday-murder-club)
+6. [The Alchemist](https://www.goodreads.com/book/show/25076674-the-alchemist)
+7. [Bill Sunday: The Man and His Message](https://www.goodreads.com/book/show/20174383-billy-sunday)
+8. [The Return of Sherlock Holmes](https://www.goodreads.com/book/show/194366.The_Return_of_Sherlock_Holmes)
 
 ### Planned:
 

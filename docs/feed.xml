@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://www.danebalia.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.danebalia.com/" rel="alternate" type="text/html" /><updated>2022-04-18T21:35:52+02:00</updated><id>https://www.danebalia.com/feed.xml</id><title type="html">Dane Balia</title><subtitle>This is my personal site, an expression of my learning, wisdom gained, experience and opinion.</subtitle><entry><title type="html">Emacs For The Win</title><link href="https://www.danebalia.com/jekyll/hobbies/2022/04/18/emacs-for-the-win.html" rel="alternate" type="text/html" title="Emacs For The Win" /><published>2022-04-18T19:28:43+02:00</published><updated>2022-04-18T19:28:43+02:00</updated><id>https://www.danebalia.com/jekyll/hobbies/2022/04/18/emacs-for-the-win</id><content type="html" xml:base="https://www.danebalia.com/jekyll/hobbies/2022/04/18/emacs-for-the-win.html">&lt;p&gt;&lt;img src=&quot;/images/emacs.png&quot; alt=&quot;Emacs&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://www.danebalia.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.danebalia.com/" rel="alternate" type="text/html" /><updated>2022-04-18T22:01:56+02:00</updated><id>https://www.danebalia.com/feed.xml</id><title type="html">Dane Balia</title><subtitle>This is my personal site, an expression of my learning, wisdom gained, experience and opinion.</subtitle><entry><title type="html">Emacs For The Win</title><link href="https://www.danebalia.com/jekyll/hobbies/2022/04/18/emacs-for-the-win.html" rel="alternate" type="text/html" title="Emacs For The Win" /><published>2022-04-18T19:28:43+02:00</published><updated>2022-04-18T19:28:43+02:00</updated><id>https://www.danebalia.com/jekyll/hobbies/2022/04/18/emacs-for-the-win</id><content type="html" xml:base="https://www.danebalia.com/jekyll/hobbies/2022/04/18/emacs-for-the-win.html">&lt;p&gt;&lt;img src=&quot;/images/doom.png&quot; alt=&quot;Emacs&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;wsl2-woes&quot;&gt;WSL2 woes&lt;/h3&gt;
 
@@ -71,6 +71,12 @@ make install prefix=/c/emacs/
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.paultripp.com/redeeming-money&quot;&gt;Paul Tripp - Redeeming Money&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/162823.The_Case_Book_of_Sherlock_Holmes&quot;&gt;Arthur Conan Doyle - A Study in Scalett&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/45722123-noble-beginnings&quot;&gt;Noble Beginnings&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/18006972-quiet&quot;&gt;Quiet: Power Of Introverts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/46000520-the-thursday-murder-club&quot;&gt;The Thursday Murder Club&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/25076674-the-alchemist&quot;&gt;The Alchemist&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/20174383-billy-sunday&quot;&gt;Bill Sunday: The Man and His Message&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/194366.The_Return_of_Sherlock_Holmes&quot;&gt;The Return of Sherlock Holmes&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;planned&quot;&gt;Planned:&lt;/h3&gt;
