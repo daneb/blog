@@ -58,4 +58,10 @@ var store = [{
         "tags": [],
         "url": "/jekyll/update/hobbies/2022/02/03/2022-reading-list.html",
         "teaser": null
+      },{
+        "title": "Emacs For The Win",
+        "excerpt":"WSL2 woes My IDE of choice for the past year has been Emacs, more specfically Doom Emacs. However in changing jobs I’ve found myself cornered on a Windows desktop. This has posed some challenges, specifically around having a fast and smooth development experience using Emacs. My get up and running...","categories": ["jekyll","hobbies"],
+        "tags": [],
+        "url": "/jekyll/hobbies/2022/04/18/emacs-for-the-win.html",
+        "teaser": null
       }]

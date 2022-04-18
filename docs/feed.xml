@@ -1,4 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://www.danebalia.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.danebalia.com/" rel="alternate" type="text/html" /><updated>2022-02-09T21:37:51+02:00</updated><id>https://www.danebalia.com/feed.xml</id><title type="html">Dane Balia</title><subtitle>This is my personal site, an expression of my learning, wisdom gained, experience and opinion.</subtitle><entry><title type="html">2022 Reading List</title><link href="https://www.danebalia.com/jekyll/update/hobbies/2022/02/03/2022-reading-list.html" rel="alternate" type="text/html" title="2022 Reading List" /><published>2022-02-03T10:16:00+02:00</published><updated>2022-02-03T10:16:00+02:00</updated><id>https://www.danebalia.com/jekyll/update/hobbies/2022/02/03/2022-reading-list</id><content type="html" xml:base="https://www.danebalia.com/jekyll/update/hobbies/2022/02/03/2022-reading-list.html">&lt;p&gt;&lt;img src=&quot;/images/books.png&quot; alt=&quot;2022 Reading List&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://www.danebalia.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.danebalia.com/" rel="alternate" type="text/html" /><updated>2022-04-18T21:35:52+02:00</updated><id>https://www.danebalia.com/feed.xml</id><title type="html">Dane Balia</title><subtitle>This is my personal site, an expression of my learning, wisdom gained, experience and opinion.</subtitle><entry><title type="html">Emacs For The Win</title><link href="https://www.danebalia.com/jekyll/hobbies/2022/04/18/emacs-for-the-win.html" rel="alternate" type="text/html" title="Emacs For The Win" /><published>2022-04-18T19:28:43+02:00</published><updated>2022-04-18T19:28:43+02:00</updated><id>https://www.danebalia.com/jekyll/hobbies/2022/04/18/emacs-for-the-win</id><content type="html" xml:base="https://www.danebalia.com/jekyll/hobbies/2022/04/18/emacs-for-the-win.html">&lt;p&gt;&lt;img src=&quot;/images/emacs.png&quot; alt=&quot;Emacs&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;wsl2-woes&quot;&gt;WSL2 woes&lt;/h3&gt;
+
+&lt;p&gt;My IDE of choice for the past year has been Emacs, more specfically &lt;a href=&quot;https://github.com/hlissner/doom-emacs&quot;&gt;Doom Emacs&lt;/a&gt;. However in changing jobs I’ve found myself cornered on a Windows desktop. This has posed some challenges, specifically around having a fast and smooth development experience using Emacs. My get up and running approach was to install Emacs vanilla with a pre-built &lt;a href=&quot;http://ftp.wayne.edu/gnu/emacs/windows/emacs-28/&quot;&gt;binary&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;But alas, this resulted in a 20+ second load time. So I chose the next best thing, WSL2. WSL2 on Windows 11 is an amazing option given that you can now leverage GTK. For instructions on doing this look no further then &lt;a href=&quot;https://emacsredux.com/blog/2021/12/19/using-emacs-on-windows-11-with-wsl2/&quot;&gt;Bozhidar Batsov&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I followed this process, compiled Emacs 29 with PGTK and even added the hack for copying from Windows to Emacs. But I was disappointed with an experience of instability, where Emacs would occassionally crash (without warning) and at times copying being sporadic or not working in certain screens. But the real killer was the networking from WSL2 to my Windows Host.&lt;/p&gt;
+
+&lt;p&gt;While everything worked largely, I run a VPN for work purposes. I solved that largely using &lt;a href=&quot;https://github.com/sakai135/wsl-vpnkit&quot;&gt;WSL VpnKit&lt;/a&gt;. This however broke at times. Thereafter further complications resulted from requiring OpenSSL certificates found in Windows that were not in WSL2. So between random crashes, sporadic network failures and configuration pains was a huge loss of time. And for that I ditched Emacs, and moved to VSCode.&lt;/p&gt;
+
+&lt;h3 id=&quot;emacs-joy&quot;&gt;Emacs joy&lt;/h3&gt;
+
+&lt;p&gt;But despite the smooth experience and easy configuration of VsCode, I just couldn’t push past the missing workflow, the keyboard shortcuts and the design. I will take my hat of to the amazing VsCode community is amazing, they have even taken some of the best things about Emacs and incorporated it, like &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=kahole.magit&quot;&gt;Magit&lt;/a&gt; and an almost &lt;a href=&quot;https://vscode-org-mode.github.io/vscode-org-mode/&quot;&gt;Org Roam&lt;/a&gt; or &lt;a href=&quot;https://hodgkins.io/vscode-second-brain&quot;&gt;Custom second brain&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So I scratched the itch and found that I could significantly improve performance using &lt;a href=&quot;https://www.msys2.org/&quot;&gt;MSYS2&lt;/a&gt;. While this is based of Cygwin, it first natively compiles and leverages off Cygwin secondarily.&lt;/p&gt;
+
+&lt;h3 id=&quot;steps&quot;&gt;Steps&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Install &lt;a href=&quot;https://www.msys2.org/&quot;&gt;MSYS2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Run “MSYS2 Msys”, and install some key compilation requirements:
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pacman -Sy --needed filesystem msys2-runtime bash libreadline libiconv libarchive libgpgme libcurl pacman ncurses libintl
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Run the following, and then close and re-open.
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pacman -Su
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Install the Emacs dependencies
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pacman -Su autoconf autogen automake automake-wrapper diffutils git guile libgc libguile libltdl libunistring  make mingw-w64-x86_64-binutils mingw-w64-x86_64-bzip2 mingw-w64-x86_64-cairo mingw-w64-x86_64-cloog mingw-w64-x86_64-crt-git mingw-w64-x86_64-dbus mingw-w64-x86_64-expat mingw-w64-x86_64-fontconfig mingw-w64-x86_64-freetype mingw-w64-x86_64-gcc mingw-w64-x86_64-gcc-libs mingw-w64-x86_64-gdk-pixbuf2 mingw-w64-x86_64-gettext mingw-w64-x86_64-giflib mingw-w64-x86_64-glib2 mingw-w64-x86_64-gmp mingw-w64-x86_64-gnutls mingw-w64-x86_64-harfbuzz mingw-w64-x86_64-headers-git mingw-w64-x86_64-imagemagick mingw-w64-x86_64-isl mingw-w64-x86_64-libcroco mingw-w64-x86_64-libffi mingw-w64-x86_64-libgccjit mingw-w64-x86_64-libiconv  mingw-w64-x86_64-libjpeg-turbo mingw-w64-x86_64-libpng mingw-w64-x86_64-librsvg mingw-w64-x86_64-libtiff mingw-w64-x86_64-libwinpthread-git mingw-w64-x86_64-libxml2 mingw-w64-x86_64-mpc mingw-w64-x86_64-mpfr mingw-w64-x86_64-pango mingw-w64-x86_64-pixman mingw-w64-x86_64-winpthreads mingw-w64-x86_64-xpm-nox mingw-w64-x86_64-lcms2 mingw-w64-x86_64-xz mingw-w64-x86_64-zlib tar wget
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Clone Emacs
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone http://git.savannah.gnu.org/r/emacs.git emacs-29
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Git Config requirement
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git config core.autocrlf false
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Setup
+cd in the source and run:
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  ./autogen.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Configure
+Configure the features and functionality you may require. With the last argument ‘prefix’, you can define the location for your installation.
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; ./configure     --host=x86_64-w64-mingw32     --target=x86_64-w64-mingw32     --build=x86_64-w64-mingw32     --with-native-compilation     --with-gnutls     --with-imagemagick     --with-jpeg     --with-json     --with-png     --with-rsvg     --with-tiff     --with-wide-int     --with-xft     --with-xml2     --with-xpm     'CFLAGS=-I/mingw64/include/noX'     prefix=/c/emacs/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Build and Install
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;make
+make install prefix=/c/emacs/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;success&quot;&gt;Success&lt;/h3&gt;
+&lt;p&gt;Here on out you should have a successful build. It is from here I then install Doom Emacs. A key step I initially missed was setting an environment variable for the mingw64 libraries and binaries as a Windows environment variable.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;C:\msys64\mingw64\bin
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;After Doom install, I use command prompt or Powershell to start Emacs&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;doom run
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="jekyll" /><category term="hobbies" /><summary type="html"></summary></entry><entry><title type="html">2022 Reading List</title><link href="https://www.danebalia.com/jekyll/update/hobbies/2022/02/03/2022-reading-list.html" rel="alternate" type="text/html" title="2022 Reading List" /><published>2022-02-03T10:16:00+02:00</published><updated>2022-02-03T10:16:00+02:00</updated><id>https://www.danebalia.com/jekyll/update/hobbies/2022/02/03/2022-reading-list</id><content type="html" xml:base="https://www.danebalia.com/jekyll/update/hobbies/2022/02/03/2022-reading-list.html">&lt;p&gt;&lt;img src=&quot;/images/books.png&quot; alt=&quot;2022 Reading List&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;read&quot;&gt;Read:&lt;/h3&gt;
 
@@ -341,97 +407,4 @@ That Five Adventurers in beauty array.&lt;/p&gt;</content><author><name></name><
 
 &lt;p&gt;You might say, but there are many bibles and many interpretations? Are there really? Yes there are many bibles, and yes there are hundreds if not thousands of opinions on what scripture means, but what have we done to approve and test their validity. Not all paths are equal, just like not all religions actually lead to God. The onus and responsibility of the reality of the god that is, is down to YOU.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;There is a highly reliable source for formulating an understanding of God and it’s the Bible.&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><category term="christianity" /><category term="truth" /><summary type="html"></summary></entry><entry><title type="html">Better sound: Fiio K3 and Beyerdynamic DT990</title><link href="https://www.danebalia.com/jekyll/update/hobbies/2021/05/23/better-sound.html" rel="alternate" type="text/html" title="Better sound: Fiio K3 and Beyerdynamic DT990" /><published>2021-05-23T18:55:22+02:00</published><updated>2021-05-23T18:55:22+02:00</updated><id>https://www.danebalia.com/jekyll/update/hobbies/2021/05/23/better-sound</id><content type="html" xml:base="https://www.danebalia.com/jekyll/update/hobbies/2021/05/23/better-sound.html">&lt;p&gt;&lt;img src=&quot;/images/fiiok3.jpg&quot; alt=&quot;Fiio K3&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;As a software developer music has proven an essential aid. From keeping me awake during late night stints to a gentle
-ushering in the background when focus is called for. I have enjoyed streaming my music through the years and always
-believed that I was at the pinnacle of my desktop musical experience with my high-quality &lt;a href=&quot;https://www.cnet.com/reviews/sennheiser-hd-448-review/&quot;&gt;Sennheiser HD 440&lt;/a&gt;.
-But most recently I was truly awakened to the fact that there was much more to pursue not by way of accessories but in audio quality.
-I had been streaming music at 44kHz while out there was a world of Hi-Res audio and even Master (studio quality).
-Let me explain.&lt;/p&gt;
-
-&lt;h2 id=&quot;audio-at-44khz&quot;&gt;Audio at 44kHz&lt;/h2&gt;
-
-&lt;p&gt;44kHz or 44,100Hz is a common sampling frequency for analog audio, dating back to the late 1970’s in recording digital
-audio on video cassettes. CDs in fact were made at 44.1kHz/16bit. &lt;a href=&quot;https://www.101computing.net/sampling-sound/&quot;&gt;Sampling&lt;/a&gt;
-or the sample rate is the number of samples in one second. A small sample rate or interval, results in a high sample rate
-which results in better quality sound file but then also increases the size of that audio file. This sampling of the sound wave is then
-converted into digestible binary data. So stated differently, 44,100Hz is basically 44,100 samples per second.&lt;/p&gt;
-
-&lt;p&gt;The second part to the sampling is the &lt;a href=&quot;https://www.izotope.com/en/learn/digital-audio-basics-sample-rate-and-bit-depth.html&quot;&gt;audio bit depth&lt;/a&gt; at which that sampling
-can take place. Given analog audio is a continuous wave, it has effectively infinite number of possible amplitude values. However to sample,
-we would need to define a finite set of values for these amplitude values. These values are our audio bit depth.
-The more depth we have the less errors we are likely to have. A larger depth allows for more possible values at a set length (interval).&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;16-bit: 65,536 values&lt;/li&gt;
-  &lt;li&gt;32-bit: 4,294,967,296 values&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/audio_bit_depth.png&quot; alt=&quot;Audio bit depth&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Stated differently, amplitude describes depth, and sample rate the length or interval.&lt;/p&gt;
-
-&lt;h2 id=&quot;audio-at-hi-res&quot;&gt;Audio at Hi-Res&lt;/h2&gt;
-
-&lt;p&gt;So why does this matter? Well depending on the sample rate and depth, you could be listening to music that is flat,
-less lively, perhaps even lacking depth. Most streaming services today are providing you music at a depth of 16-bit
-with an interval of 44.1kHZ. However there is a growing trend today towards Hi-res audio which is 24-bit/96kHz
-or 24-bit/192kHz. This more closely replicates the sound quality of musicians and engineers at their studios.&lt;/p&gt;
-
-&lt;p&gt;Now is 16-bit/44.kHz terrible? Of course not. We all enjoy it. But if you looking at improving your existing experience
-and you are a lover of music then it might be something worth endeavouring towards.&lt;/p&gt;
-
-&lt;h2 id=&quot;requirements&quot;&gt;Requirements&lt;/h2&gt;
-
-&lt;p&gt;But in order to listen to Hi-Res a few things will be required.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Firstly&lt;/strong&gt; you will need a streaming provider that supports Hi-Res or Master quality. &lt;strong&gt;Secondly&lt;/strong&gt;, you will need a digital
-to analogue converter - this is because those largely provided by your PC or laptop are not specialized and of
-poor quality (including Apple hardware). &lt;strong&gt;Thirdly&lt;/strong&gt; you will need a decent pair of head phones with sufficient
-impedance to deliver the quality stream to your ears. &lt;strong&gt;Lastly&lt;/strong&gt; you will need to instruct your operating system to your new
-required sample rate.&lt;/p&gt;
-
-&lt;h2 id=&quot;my-setup&quot;&gt;My Setup&lt;/h2&gt;
-
-&lt;p&gt;I spent a significant amount of time and effort trying to put together a working system of streaming provider, hardware
-and software setup and so please feel free to leverage it or get better. The intent and drivers behind this setup
-was for me spend as little money as possible and enter the space to prove the quality of Hi-Res.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Streaming Service: &lt;a href=&quot;https://tidal.com/&quot;&gt;Tidal&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;DAC + Pre-Amp: &lt;a href=&quot;https://www.amazon.com/FiiO-Headphone-Amplifier-Computer-Balanced/dp/B07KR3RF4H&quot;&gt;Fiio K3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Headphones: &lt;a href=&quot;https://www.amazon.com/gp/product/B0011UB9CQ/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&amp;amp;psc=1&quot;&gt;BeyerDynamic DT990 Pro&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;snags&quot;&gt;Snags&lt;/h2&gt;
-
-&lt;h3 id=&quot;no-usb-connector&quot;&gt;No USB connector&lt;/h3&gt;
-
-&lt;p&gt;The MacBook Pro I was using only supported 4 USB Type C. The Fiio K3 comes with USB 2.0 support and supporting cable.
-There was a possibility for me to connect it to my USB powered hub but that would have compromised
-on the audio quality, and so I purchased a USB 2.0 cable (USBC male to USBC male 1.5 metre) for a direct connection
-to the laptop.&lt;/p&gt;
-
-&lt;p&gt;Be warned that all cables are not equal, and you are specifically looking for a Type-C cable that supports USB 2.0.&lt;/p&gt;
-
-&lt;h3 id=&quot;how-to-configure-sample-rate-and-interval-on-macbook&quot;&gt;How to configure sample rate and interval on MacBook&lt;/h3&gt;
-
-&lt;p&gt;The beauty to the Fiio K3 is that there is a light on the volume dial that let’s you know when you
-are sampling at Hi-Res or Master quality. And by default this does not happen at the OS level unless you instruct it.
-The trick is go into OS-X’s Audio Midi Setup and to forcibly set the Fiio &lt;em&gt;format&lt;/em&gt; as per below.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/MidiSetup.png&quot; alt=&quot;Example&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;lastly&quot;&gt;Lastly…&lt;/h2&gt;
-
-&lt;p&gt;So is this worth it? Can you actually tell the difference? Yes and yes.
-I listen to classical musical and I am able to stop and take in the large forray of
-instruments as they are played. The sound is warm, crisp, compartmentalized to each
-instrument and just simply another level.&lt;/p&gt;
-
-&lt;p&gt;But then as a developer when I am working away furiously and in focus mode, my ability
-to distinguish between 44kHz and 384kHz is little to none.&lt;/p&gt;
-
-&lt;p&gt;Perhaps you not yet convinced, and rightly so, but the setup I’ve provided might just
-be cost-effective enough for you to give it a shot.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><category term="hobbies" /><summary type="html"></summary></entry></feed>
+&lt;p&gt;&lt;strong&gt;There is a highly reliable source for formulating an understanding of God and it’s the Bible.&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><category term="christianity" /><category term="truth" /><summary type="html"></summary></entry></feed>
