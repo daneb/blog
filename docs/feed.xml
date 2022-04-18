@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://www.danebalia.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.danebalia.com/" rel="alternate" type="text/html" /><updated>2022-04-18T22:01:56+02:00</updated><id>https://www.danebalia.com/feed.xml</id><title type="html">Dane Balia</title><subtitle>This is my personal site, an expression of my learning, wisdom gained, experience and opinion.</subtitle><entry><title type="html">Emacs For The Win</title><link href="https://www.danebalia.com/jekyll/hobbies/2022/04/18/emacs-for-the-win.html" rel="alternate" type="text/html" title="Emacs For The Win" /><published>2022-04-18T19:28:43+02:00</published><updated>2022-04-18T19:28:43+02:00</updated><id>https://www.danebalia.com/jekyll/hobbies/2022/04/18/emacs-for-the-win</id><content type="html" xml:base="https://www.danebalia.com/jekyll/hobbies/2022/04/18/emacs-for-the-win.html">&lt;p&gt;&lt;img src=&quot;/images/doom.png&quot; alt=&quot;Emacs&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://www.danebalia.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.danebalia.com/" rel="alternate" type="text/html" /><updated>2022-04-18T22:09:49+02:00</updated><id>https://www.danebalia.com/feed.xml</id><title type="html">Dane Balia</title><subtitle>This is my personal site, an expression of my learning, wisdom gained, experience and opinion.</subtitle><entry><title type="html">Emacs For The Win</title><link href="https://www.danebalia.com/jekyll/hobbies/2022/04/18/emacs-for-the-win.html" rel="alternate" type="text/html" title="Emacs For The Win" /><published>2022-04-18T19:28:43+02:00</published><updated>2022-04-18T19:28:43+02:00</updated><id>https://www.danebalia.com/jekyll/hobbies/2022/04/18/emacs-for-the-win</id><content type="html" xml:base="https://www.danebalia.com/jekyll/hobbies/2022/04/18/emacs-for-the-win.html">&lt;p&gt;&lt;img src=&quot;/images/doom.png&quot; alt=&quot;Emacs&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;wsl2-woes&quot;&gt;WSL2 woes&lt;/h3&gt;
 
@@ -12,7 +12,7 @@
 
 &lt;h3 id=&quot;emacs-joy&quot;&gt;Emacs joy&lt;/h3&gt;
 
-&lt;p&gt;But despite the smooth experience and easy configuration of VsCode, I just couldn’t push past the missing workflow, the keyboard shortcuts and the design. I will take my hat of to the amazing VsCode community is amazing, they have even taken some of the best things about Emacs and incorporated it, like &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=kahole.magit&quot;&gt;Magit&lt;/a&gt; and an almost &lt;a href=&quot;https://vscode-org-mode.github.io/vscode-org-mode/&quot;&gt;Org Roam&lt;/a&gt; or &lt;a href=&quot;https://hodgkins.io/vscode-second-brain&quot;&gt;Custom second brain&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;But despite the smooth experience and easy configuration of VsCode, I just couldn’t push past the missing workflow, the keyboard shortcuts and the design. I will take my hat of to the amazing VsCode community, they have even taken some of the best things about Emacs and incorporated it, like &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=kahole.magit&quot;&gt;Magit&lt;/a&gt; and an almost &lt;a href=&quot;https://vscode-org-mode.github.io/vscode-org-mode/&quot;&gt;Org Roam&lt;/a&gt; or &lt;a href=&quot;https://hodgkins.io/vscode-second-brain&quot;&gt;Custom second brain&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;So I scratched the itch and found that I could significantly improve performance using &lt;a href=&quot;https://www.msys2.org/&quot;&gt;MSYS2&lt;/a&gt;. While this is based of Cygwin, it first natively compiles and leverages off Cygwin secondarily.&lt;/p&gt;
 
@@ -41,8 +41,8 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;Setup
-cd in the source and run:
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  ./autogen.sh
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  cd emacs-29
+  ./autogen.sh
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;Configure

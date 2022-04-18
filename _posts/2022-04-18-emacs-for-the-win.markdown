@@ -19,7 +19,7 @@ While everything worked largely, I run a VPN for work purposes. I solved that la
 
 ### Emacs joy
 
-But despite the smooth experience and easy configuration of VsCode, I just couldn't push past the missing workflow, the keyboard shortcuts and the design. I will take my hat of to the amazing VsCode community is amazing, they have even taken some of the best things about Emacs and incorporated it, like [Magit](https://marketplace.visualstudio.com/items?itemName=kahole.magit) and an almost [Org Roam](https://vscode-org-mode.github.io/vscode-org-mode/) or [Custom second brain](https://hodgkins.io/vscode-second-brain).
+But despite the smooth experience and easy configuration of VsCode, I just couldn't push past the missing workflow, the keyboard shortcuts and the design. I will take my hat of to the amazing VsCode community, they have even taken some of the best things about Emacs and incorporated it, like [Magit](https://marketplace.visualstudio.com/items?itemName=kahole.magit) and an almost [Org Roam](https://vscode-org-mode.github.io/vscode-org-mode/) or [Custom second brain](https://hodgkins.io/vscode-second-brain).
 
 So I scratched the itch and found that I could significantly improve performance using [MSYS2](https://www.msys2.org/). While this is based of Cygwin, it first natively compiles and leverages off Cygwin secondarily. 
 
@@ -48,8 +48,8 @@ git clone http://git.savannah.gnu.org/r/emacs.git emacs-29
 git config core.autocrlf false
 ```
 1. Setup
-cd in the source and run:
 ```
+  cd emacs-29
   ./autogen.sh
 ```
 1. Configure
