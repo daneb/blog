@@ -7,8 +7,6 @@ categories: jekyll leadership
 
 ![Leadership](/images/serve.jpg)
 
-# Team Lead's User Manual
-
 ## What is this
 It's the *essence* of how I operate as a TL.  
 This is not a list of rules of how I operate, but the under-current of values and thinking that guides those operations.

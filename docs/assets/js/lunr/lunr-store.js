@@ -66,7 +66,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Team Leads Manual",
-        "excerpt":"Team Lead’s User Manual What is this It’s the essence of how I operate as a TL. This is not a list of rules of how I operate, but the under-current of values and thinking that guides those operations. I am human I am a passionate husband and father. My...","categories": ["jekyll","leadership"],
+        "excerpt":"What is this It’s the essence of how I operate as a TL. This is not a list of rules of how I operate, but the under-current of values and thinking that guides those operations. I am human I am a passionate husband and father. My family is a strong...","categories": ["jekyll","leadership"],
         "tags": [],
         "url": "/jekyll/leadership/2022/05/07/team-leads-manual.html",
         "teaser": null
