@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://www.danebalia.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.danebalia.com/" rel="alternate" type="text/html" /><updated>2022-05-08T00:20:25+02:00</updated><id>https://www.danebalia.com/feed.xml</id><title type="html">Dane Balia</title><subtitle>This is my personal site, an expression of my learning, wisdom gained, experience and opinion.</subtitle><entry><title type="html">Team Leads Manual</title><link href="https://www.danebalia.com/jekyll/leadership/2022/05/07/team-leads-manual.html" rel="alternate" type="text/html" title="Team Leads Manual" /><published>2022-05-07T23:54:43+02:00</published><updated>2022-05-07T23:54:43+02:00</updated><id>https://www.danebalia.com/jekyll/leadership/2022/05/07/team-leads-manual</id><content type="html" xml:base="https://www.danebalia.com/jekyll/leadership/2022/05/07/team-leads-manual.html">&lt;p&gt;&lt;img src=&quot;/images/serve.jpg&quot; alt=&quot;Leadership&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://www.danebalia.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.danebalia.com/" rel="alternate" type="text/html" /><updated>2022-05-08T00:43:02+02:00</updated><id>https://www.danebalia.com/feed.xml</id><title type="html">Dane Balia</title><subtitle>This is my personal site, an expression of my learning, wisdom gained, experience and opinion.</subtitle><entry><title type="html">Team Leads Manual</title><link href="https://www.danebalia.com/jekyll/leadership/2022/05/07/team-leads-manual.html" rel="alternate" type="text/html" title="Team Leads Manual" /><published>2022-05-07T23:54:43+02:00</published><updated>2022-05-07T23:54:43+02:00</updated><id>https://www.danebalia.com/jekyll/leadership/2022/05/07/team-leads-manual</id><content type="html" xml:base="https://www.danebalia.com/jekyll/leadership/2022/05/07/team-leads-manual.html">&lt;p&gt;&lt;img src=&quot;/images/serve.jpg&quot; alt=&quot;Leadership&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;what-is-this&quot;&gt;What is this&lt;/h2&gt;
 &lt;p&gt;It’s the &lt;em&gt;essence&lt;/em&gt; of how I operate as a TL.&lt;br /&gt;
@@ -149,7 +149,113 @@ make install prefix=/c/emacs/
 
 &lt;p&gt;After Doom install, I use command prompt or Powershell to start Emacs&lt;/p&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;doom run
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="jekyll" /><category term="hobbies" /><summary type="html"></summary></entry><entry><title type="html">2022 Reading List</title><link href="https://www.danebalia.com/jekyll/update/hobbies/2022/02/03/2022-reading-list.html" rel="alternate" type="text/html" title="2022 Reading List" /><published>2022-02-03T10:16:00+02:00</published><updated>2022-02-03T10:16:00+02:00</updated><id>https://www.danebalia.com/jekyll/update/hobbies/2022/02/03/2022-reading-list</id><content type="html" xml:base="https://www.danebalia.com/jekyll/update/hobbies/2022/02/03/2022-reading-list.html">&lt;p&gt;&lt;img src=&quot;/images/books.png&quot; alt=&quot;2022 Reading List&quot; /&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;installation-options-pros-and-cons&quot;&gt;Installation Options Pros and Cons&lt;/h3&gt;
+&lt;p&gt;&lt;a id=&quot;org4d72446&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;table border=&quot;2&quot; cellspacing=&quot;0&quot; cellpadding=&quot;6&quot; rules=&quot;groups&quot; frame=&quot;hsides&quot;&gt;
+
+
+&lt;colgroup&gt;
+&lt;col class=&quot;org-left&quot; /&gt;
+
+&lt;col class=&quot;org-left&quot; /&gt;
+
+&lt;col class=&quot;org-left&quot; /&gt;
+
+&lt;col class=&quot;org-left&quot; /&gt;
+
+&lt;col class=&quot;org-left&quot; /&gt;
+
+&lt;col class=&quot;org-left&quot; /&gt;
+
+&lt;col class=&quot;org-left&quot; /&gt;
+
+&lt;col class=&quot;org-left&quot; /&gt;
+
+&lt;col class=&quot;org-left&quot; /&gt;
+
+&lt;col class=&quot;org-left&quot; /&gt;
+
+&lt;col class=&quot;org-right&quot; /&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;Type of Install&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Peformant&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Native&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Image paste&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Broken dependencies&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Complex setup&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Networking issues&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Terminal&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Stability&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Host OS&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;Version&lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;Windows Binary&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Slow&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Y&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Y&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;N&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;N&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;N&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Eshell&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Very good&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Windows&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;28&lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;Msys2 Binary&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Very fast&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Y&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Y&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Y (no java, dotnet)&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Y&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;N&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Eshell&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Very good&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Msys2&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;28&lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;Msys2 Source&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Very fast&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Y&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Y&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Y (no java, dotnet)&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Y&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;N&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Eshell&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Good&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Msys2&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;29&lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;WSL2&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Fast&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;N&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;N&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;N&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Y&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Y&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;VTerm&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Good&lt;/td&gt;
+&lt;td class=&quot;org-left&quot;&gt;Linux&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;29&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="jekyll" /><category term="hobbies" /><summary type="html"></summary></entry><entry><title type="html">2022 Reading List</title><link href="https://www.danebalia.com/jekyll/update/hobbies/2022/02/03/2022-reading-list.html" rel="alternate" type="text/html" title="2022 Reading List" /><published>2022-02-03T10:16:00+02:00</published><updated>2022-02-03T10:16:00+02:00</updated><id>https://www.danebalia.com/jekyll/update/hobbies/2022/02/03/2022-reading-list</id><content type="html" xml:base="https://www.danebalia.com/jekyll/update/hobbies/2022/02/03/2022-reading-list.html">&lt;p&gt;&lt;img src=&quot;/images/books.png&quot; alt=&quot;2022 Reading List&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;read&quot;&gt;Read:&lt;/h3&gt;
 

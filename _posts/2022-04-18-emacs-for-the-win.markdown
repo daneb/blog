@@ -73,3 +73,110 @@ After Doom install, I use command prompt or Powershell to start Emacs
 ```
 doom run
 ```
+
+### Installation Options Pros and Cons
+<a id="org4d72446"></a>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Type of Install</td>
+<td class="org-left">Peformant</td>
+<td class="org-left">Native</td>
+<td class="org-left">Image paste</td>
+<td class="org-left">Broken dependencies</td>
+<td class="org-left">Complex setup</td>
+<td class="org-left">Networking issues</td>
+<td class="org-left">Terminal</td>
+<td class="org-left">Stability</td>
+<td class="org-left">Host OS</td>
+<td class="org-right">Version</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Windows Binary</td>
+<td class="org-left">Slow</td>
+<td class="org-left">Y</td>
+<td class="org-left">Y</td>
+<td class="org-left">N</td>
+<td class="org-left">N</td>
+<td class="org-left">N</td>
+<td class="org-left">Eshell</td>
+<td class="org-left">Very good</td>
+<td class="org-left">Windows</td>
+<td class="org-right">28</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Msys2 Binary</td>
+<td class="org-left">Very fast</td>
+<td class="org-left">Y</td>
+<td class="org-left">Y</td>
+<td class="org-left">Y (no java, dotnet)</td>
+<td class="org-left">Y</td>
+<td class="org-left">N</td>
+<td class="org-left">Eshell</td>
+<td class="org-left">Very good</td>
+<td class="org-left">Msys2</td>
+<td class="org-right">28</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Msys2 Source</td>
+<td class="org-left">Very fast</td>
+<td class="org-left">Y</td>
+<td class="org-left">Y</td>
+<td class="org-left">Y (no java, dotnet)</td>
+<td class="org-left">Y</td>
+<td class="org-left">N</td>
+<td class="org-left">Eshell</td>
+<td class="org-left">Good</td>
+<td class="org-left">Msys2</td>
+<td class="org-right">29</td>
+</tr>
+
+
+<tr>
+<td class="org-left">WSL2</td>
+<td class="org-left">Fast</td>
+<td class="org-left">N</td>
+<td class="org-left">N</td>
+<td class="org-left">N</td>
+<td class="org-left">Y</td>
+<td class="org-left">Y</td>
+<td class="org-left">VTerm</td>
+<td class="org-left">Good</td>
+<td class="org-left">Linux</td>
+<td class="org-right">29</td>
+</tr>
+</tbody>
+</table>
+
