@@ -15,7 +15,7 @@ This is not a list of rules of how I operate, but the under-current of values an
 I am a passionate husband and father. My family is a strong focus and my inspiration.
 I am an introvert, a creative, a change agent, potential seeker and a servant-leader.
 An avid reader and struggling gamer, yeah 3 kids ;)
-Truly enjoy [yoga!](https://www.youtube.com/user/yogawithadriene)
+Truly enjoy [yoga!](https://www.youtube.com/BeachYoga)
 
 **My approach to life is guided by 5 principals (5 BE's):**
 1. Be Simple - Large doors swing on small hinges (problems)
@@ -36,7 +36,7 @@ Truly enjoy [yoga!](https://www.youtube.com/user/yogawithadriene)
 4. If it doesn't work, lets build a plan, or just get rid of it.
 5. I aim to do whats right. But sometimes right is not effective. If not harmful, do whats effective.
 6. Everyone desires to give their best and is sincere in what they are trying to communicate. 
-7. "We don't click" can be an emotion based on the spiralling stories we have told ourselves. Seperate the facts from the stories.
+7. "We don't click" can be an emotion based on the spiraling stories we have told ourselves. Seperate the facts from the stories.
 8. I enjoy collaboration particularly with the multiplicity and diversity of minds.
 9. If you not getting to deep work, reach out, I will do my utmost to figure out how to unblock you.
 10. I am work in progress.
@@ -51,19 +51,19 @@ Truly enjoy [yoga!](https://www.youtube.com/user/yogawithadriene)
 * Trying to fit in results in insecurity
 * Your relationship you have with your team mates should be without condition.
 * The opposite of collaboration is COMPETITION.
-* Rather be HARD with people than SOFT. Hard mistakes like being UNFAIR leaves responsibility with the individual to change or innovate. SOFT mistakes are unknown and thus responsibility or ownership has not been passed.
-* Trust is when a team member does what the standard's define.
-* REAL Trust happens when a team member does what the standard's define and comes alongside others to aid and enable (a socceer team)
+* Rather be HARD with people than SOFT. Hard mistakes like being UNFAIR leaves responsibility with the individual to change or innovate. SOFT mistakes are unknown and thus responsibility or ownership has not transferred.
+* Trust is when a team member does what the standards define.
+* REAL Trust happens when a team member does what the standards define and comes alongside others to aid and enable (a soccer team)
 * You can't train will
-* Don't create a dependance on yourself to get things DONE. Hold people accountable. Treat them like adults.
-* Easy to care about top performers and give them special preferance. But that sets a president.
+* Don't create a dependence on yourself to get things DONE. Hold people accountable. Treat them like adults.
+* Easy to care about top performers and give them special preference. But that sets a precedent.
 
 ### Person
 * For people to be willing - you have to GIVE. Don't be a TAKER.
 * Surplus in an organization results from having more GIVE than TAKE.
-* If you desire to be liked (reputation and status), the POWER dynamic of the relationship then becomes that you hand over power to the person and then allow yourself to be manipulated.
+* If you desire to be liked (reputation and status), the POWER dynamic of the relationship then becomes that you hand over power to that individual opening up yourself to manipulation.
 * Be you, don't try to fit in. If you fit in you will never attain that expectation. Just be YOU.
-* VALUES are a set of things that are abtractions above one's own self-interest
+* VALUES are a set of things that are abstractions above one's own self-interest
 * A LEADER is a higher level of thought-through maturity and action
 * As a leader you must always WTG (watch the game)
 * CARE = TIME + ATTENTION
@@ -73,7 +73,7 @@ Truly enjoy [yoga!](https://www.youtube.com/user/yogawithadriene)
 
 ### Process
 * Don't use PIP to get rid of employee's. They are there to empower people.
-* PIP's need better marketing - they are a way to improve individuals, the relationship with their lead
+* PIPs need better marketing - they are a way to improve individuals, the relationship with their lead
 * To empower a team, you define STANDARDS and not BHAG (big audacious hairy goals). Goals can diminish and build a pattern of non-delivery. Failure becomes a HABIT. STANDARDS are the operating procedures, best practices etc.
 * STANDARDS are the bare minimum
 * DON'T PROMOTE. Only offer promotions.
