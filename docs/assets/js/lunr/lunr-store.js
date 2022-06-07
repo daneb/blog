@@ -54,7 +54,7 @@ var store = [{
         "teaser": null
       },{
         "title": "2022 Reading List",
-        "excerpt":"Read: Paul Tripp - Redeeming Money Arthur Conan Doyle - A Study in Scalett Noble Beginnings Quiet: Power Of Introverts The Thursday Murder Club The Alchemist Bill Sunday: The Man and His Message The Return of Sherlock Holmes Planned: Robert Nystrom - Crafting Intepreters John Skeet - C# in Depth...","categories": ["jekyll","update","hobbies"],
+        "excerpt":"Read: Paul Tripp - Redeeming Money Arthur Conan Doyle - A Study in Scalett Noble Beginnings Quiet: Power Of Introverts The Thursday Murder Club The Alchemist Bill Sunday: The Man and His Message Arthur Conan Doyle - The Return of Sherlock Holmes James Patterson - Step on a Crack Arthur...","categories": ["jekyll","update","hobbies"],
         "tags": [],
         "url": "/jekyll/update/hobbies/2022/02/03/2022-reading-list.html",
         "teaser": null
@@ -69,5 +69,11 @@ var store = [{
         "excerpt":"What is this It’s the essence of how I operate as a TL. This is not a list of rules of how I operate, but the under-current of values and thinking that guides those operations. I am human I am a passionate husband and father. My family is a strong...","categories": ["jekyll","leadership"],
         "tags": [],
         "url": "/jekyll/leadership/2022/05/07/team-leads-manual.html",
+        "teaser": null
+      },{
+        "title": "The Rich World Of IDEs",
+        "excerpt":"Welcome to the Rich World of IDE’s. But before we continue our journey we need to revisit the past, for only when we see the past can we truly understand our present and the beauty of tomorrow. As we commence our journey, we will look at the path that led...","categories": ["jekyll","presentation","hobbies"],
+        "tags": [],
+        "url": "/jekyll/presentation/hobbies/2022/06/06/the-rich-world-of-ides.html",
         "teaser": null
       }]

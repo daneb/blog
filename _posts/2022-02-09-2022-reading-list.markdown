@@ -16,7 +16,12 @@ categories: jekyll update hobbies
 5. [The Thursday Murder Club](https://www.goodreads.com/book/show/46000520-the-thursday-murder-club)
 6. [The Alchemist](https://www.goodreads.com/book/show/25076674-the-alchemist)
 7. [Bill Sunday: The Man and His Message](https://www.goodreads.com/book/show/20174383-billy-sunday)
-8. [The Return of Sherlock Holmes](https://www.goodreads.com/book/show/194366.The_Return_of_Sherlock_Holmes)
+8. [Arthur Conan Doyle - The Return of Sherlock Holmes](https://www.goodreads.com/book/show/194366.The_Return_of_Sherlock_Holmes)
+9. [James Patterson - Step on a Crack](https://www.goodreads.com/book/show/45169.Step_on_a_Crack)
+10. [Arthur Conan Doyle - The Case-book of Sherlock](https://www.goodreads.com/book/show/162823.The_Case_Book_of_Sherlock_Holmes)
+11. [Arthur Conan Doyle - The Hound of Baskervilles](https://www.goodreads.com/book/show/8921.The_Hound_of_the_Baskervilles)
+12. [David Bradford - Connect: Building Exceptional Relationships with Family, Friends and Collegues](https://www.goodreads.com/book/show/53720447-connect)
+13. [Peter Ruckan Soulwinning](https://www.goodreads.com/book/show/42382290-soulwinning)
 
 ### Planned:
 
@@ -32,6 +37,5 @@ categories: jekyll update hobbies
 10. [Betsy Beyer - Site Reliability Engineering](https://sre.google/books/)
 11. [Adam Grant - Think Again](https://www.amazon.com/Think-Again-Power-Knowing-What/dp/1984878107)
 12. [Steven Pinker - Rationality: What It Is, Why It Seems Scarce, Why It Matter](https://bookshop.org/books/rationality-what-it-is-why-it-seems-scarce-why-it-matters/9780525561996)
-13. [David Bradford - Connect: Building Exceptional Relationships with Family, Friends, and Colleagues](https://www.amazon.com/Connect-Building-Exceptional-Relationships-Colleagues/dp/0593237099)
 
 
