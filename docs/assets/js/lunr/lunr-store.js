@@ -54,7 +54,7 @@ var store = [{
         "teaser": null
       },{
         "title": "2022 Reading List",
-        "excerpt":"Read: Paul Tripp - Redeeming Money Arthur Conan Doyle - A Study in Scalett Noble Beginnings Quiet: Power Of Introverts The Thursday Murder Club The Alchemist Bill Sunday: The Man and His Message Arthur Conan Doyle - The Return of Sherlock Holmes James Patterson - Step on a Crack Arthur...","categories": ["jekyll","update","hobbies"],
+        "excerpt":"Read: Redeeming Money A Study in Scalett Noble Beginnings Quiet: Power Of Introverts The Thursday Murder Club The Alchemist Bill Sunday: The Man and His Message The Return of Sherlock Holmes Step on a Crack The Case-book of Sherlock The Hound of Baskervilles Connect: Building Exceptional Relationships with Family, Friends...","categories": ["jekyll","update","hobbies"],
         "tags": [],
         "url": "/jekyll/update/hobbies/2022/02/03/2022-reading-list.html",
         "teaser": null
