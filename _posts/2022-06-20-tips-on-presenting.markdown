@@ -17,7 +17,7 @@ You should remember the key points of your talk with unconscious competance. You
 
 ## Tip #3 Don't memorize
 
-Don't try memorize the exact words of your talk as word's forgotten will introduce more nerves. More nerves will mean senteneces forgotten and soon you will find yourself in a downward spiral. 
+Don't try memorize the exact words of your talk as word's forgotten will introduce more nerves. More nerves will mean sentences forgotten and soon you will find yourself in a downward spiral. 
 
 Instead, memorize key points needed to be communicated per slide. Then allow your mind to freely flow on how it chooses to communicate those points. This will keep the talk dynamic instead of scripted.
 

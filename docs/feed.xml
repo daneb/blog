@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://www.danebalia.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.danebalia.com/" rel="alternate" type="text/html" /><updated>2022-06-20T07:14:14+02:00</updated><id>https://www.danebalia.com/feed.xml</id><title type="html">Dane Balia</title><subtitle>This is my personal site, an expression of my learning, wisdom gained, experience and opinion.</subtitle><entry><title type="html">My Tips on Preparing for a Conference Talk</title><link href="https://www.danebalia.com/jekyll/presentation/hobbies/2022/06/19/tips-on-presenting.html" rel="alternate" type="text/html" title="My Tips on Preparing for a Conference Talk" /><published>2022-06-19T21:55:01+02:00</published><updated>2022-06-19T21:55:01+02:00</updated><id>https://www.danebalia.com/jekyll/presentation/hobbies/2022/06/19/tips-on-presenting</id><content type="html" xml:base="https://www.danebalia.com/jekyll/presentation/hobbies/2022/06/19/tips-on-presenting.html">&lt;h2 id=&quot;tip-1-find-a-mechanism-for-calming-your-nerves&quot;&gt;Tip #1 Find a mechanism for calming your nerves&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://www.danebalia.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.danebalia.com/" rel="alternate" type="text/html" /><updated>2022-06-20T07:19:51+02:00</updated><id>https://www.danebalia.com/feed.xml</id><title type="html">Dane Balia</title><subtitle>This is my personal site, an expression of my learning, wisdom gained, experience and opinion.</subtitle><entry><title type="html">My Tips on Preparing for a Conference Talk</title><link href="https://www.danebalia.com/jekyll/presentation/hobbies/2022/06/19/tips-on-presenting.html" rel="alternate" type="text/html" title="My Tips on Preparing for a Conference Talk" /><published>2022-06-19T21:55:01+02:00</published><updated>2022-06-19T21:55:01+02:00</updated><id>https://www.danebalia.com/jekyll/presentation/hobbies/2022/06/19/tips-on-presenting</id><content type="html" xml:base="https://www.danebalia.com/jekyll/presentation/hobbies/2022/06/19/tips-on-presenting.html">&lt;h2 id=&quot;tip-1-find-a-mechanism-for-calming-your-nerves&quot;&gt;Tip #1 Find a mechanism for calming your nerves&lt;/h2&gt;
 
 &lt;p&gt;Practice this so you can lean on it. It could be something as simple as breathing with mindfulness. For me, a deep breath in, 7 second breath out. You could also combine that with some mental cues or reminders, “stay calm and speak slowly, you got this”.&lt;/p&gt;
 
@@ -10,7 +10,7 @@
 
 &lt;h2 id=&quot;tip-3-dont-memorize&quot;&gt;Tip #3 Don’t memorize&lt;/h2&gt;
 
-&lt;p&gt;Don’t try memorize the exact words of your talk as word’s forgotten will introduce more nerves. More nerves will mean senteneces forgotten and soon you will find yourself in a downward spiral.&lt;/p&gt;
+&lt;p&gt;Don’t try memorize the exact words of your talk as word’s forgotten will introduce more nerves. More nerves will mean sentences forgotten and soon you will find yourself in a downward spiral.&lt;/p&gt;
 
 &lt;p&gt;Instead, memorize key points needed to be communicated per slide. Then allow your mind to freely flow on how it chooses to communicate those points. This will keep the talk dynamic instead of scripted.&lt;/p&gt;
 
@@ -581,15 +581,18 @@ A constructed type is when the type arguments are specified. For example,&lt;/p&
 
 &lt;p&gt;As per the code snippet below, writing a method to swap two &lt;em&gt;Integer&lt;/em&gt; values is pretty rudimentary. But what if later we needed to do the very same but with &lt;em&gt;Strings&lt;/em&gt;. This would result in two methods, or perhaps overloads.&lt;/p&gt;
 
-&lt;p&gt;true&lt;script src=&quot;https://gist.github.com/13124e5ec2369117aff8fc27a3a861e5.js&quot;&gt; &lt;/script&gt;&lt;/p&gt;
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/13124e5ec2369117aff8fc27a3a861e5.js&quot;&gt; &lt;/script&gt;
 
 &lt;p&gt;Generics to the rescue. We’ve isolated the type as a form of abstraction (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;T&lt;/code&gt;) to act as a placeholder for the type we intend to use.&lt;/p&gt;
 
-&lt;p&gt;true&lt;script src=&quot;https://gist.github.com/9ab19f0a644a3e79525f932e4e34cd5f.js&quot;&gt; &lt;/script&gt;&lt;/p&gt;
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/9ab19f0a644a3e79525f932e4e34cd5f.js&quot;&gt; &lt;/script&gt;
 
 &lt;p&gt;When the method is actually called, that placeholder is replaced with the type of the values used.&lt;/p&gt;
 
-&lt;p&gt;true&lt;script src=&quot;https://gist.github.com/f318890ecb9849ced43bccfe86744093.js&quot;&gt; &lt;/script&gt;&lt;/p&gt;
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/f318890ecb9849ced43bccfe86744093.js&quot;&gt; &lt;/script&gt;
 
 &lt;p&gt;The value of Generics here is that it grants you &lt;em&gt;productivity&lt;/em&gt; improvements, &lt;em&gt;expressiveness&lt;/em&gt; and moves some safety concerns from &lt;em&gt;execution time to compile time&lt;/em&gt;.&lt;/p&gt;
 
@@ -675,17 +678,20 @@ Local variables and method parameters live on the Stack.&lt;/p&gt;
 
 &lt;p&gt;In the test method &lt;em&gt;StaticTypeWontCompile()&lt;/em&gt; you can see the string “Hello”. But because we gave it the type Object, the compiler sees its type as Object and not String. Hence the &lt;em&gt;.Length&lt;/em&gt; method being unavailable. This test won’t run because the compiler will state &lt;strong&gt;object does not contain a definition for ‘Length’&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;true&lt;script src=&quot;https://gist.github.com/e0ed55842fdaa89527ace839d2abfe34.js&quot;&gt; &lt;/script&gt;&lt;/p&gt;
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/e0ed55842fdaa89527ace839d2abfe34.js&quot;&gt; &lt;/script&gt;
 
 &lt;p&gt;&lt;strong&gt;Explicitly Typed&lt;/strong&gt; is where the type of every variables must be explicitly stated. Of course, explicit vs implicit types is only relevant in statically typed languages.&lt;/p&gt;
 
-&lt;p&gt;true&lt;script src=&quot;https://gist.github.com/85bd70dc0111f3663038e7e72eebe79b.js&quot;&gt; &lt;/script&gt;&lt;/p&gt;
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/85bd70dc0111f3663038e7e72eebe79b.js&quot;&gt; &lt;/script&gt;
 
 &lt;p&gt;&lt;strong&gt;Safe Type System&lt;/strong&gt; is the characteristic of code that allows the developer to be certain that a value or object will exhibit certain properties so that he/she can use it in a specific way without fear of unexpected or undefined behavior.&lt;/p&gt;
 
 &lt;p&gt;In the method &lt;em&gt;ThisIsSafe()&lt;/em&gt; the compiler will clearly state that an &lt;em&gt;Operator ‘+’ cannot be applied to operands of type ‘int’ and ‘bool’&lt;/em&gt;. This safety applies for the majority of C# up until we get to Collections, Inheritance, Overriding and Interfaces as witnessed in method &lt;em&gt;ThisIsUnsafe&lt;/em&gt; which compiles perfectly.&lt;/p&gt;
 
-&lt;p&gt;true&lt;script src=&quot;https://gist.github.com/c30ff2e9ad9c122ea12af3ba3532b159.js&quot;&gt; &lt;/script&gt;&lt;/p&gt;
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/c30ff2e9ad9c122ea12af3ba3532b159.js&quot;&gt; &lt;/script&gt;
 
 &lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
 
