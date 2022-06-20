@@ -76,4 +76,10 @@ var store = [{
         "tags": [],
         "url": "/jekyll/presentation/hobbies/2022/06/06/the-rich-world-of-ides.html",
         "teaser": null
+      },{
+        "title": "My Tips on Preparing for a Conference Talk",
+        "excerpt":"Tip #1 Find a mechanism for calming your nerves Practice this so you can lean on it. It could be something as simple as breathing with mindfulness. For me, a deep breath in, 7 second breath out. You could also combine that with some mental cues or reminders, “stay calm...","categories": ["jekyll","presentation","hobbies"],
+        "tags": [],
+        "url": "/jekyll/presentation/hobbies/2022/06/19/tips-on-presenting.html",
+        "teaser": null
       }]
