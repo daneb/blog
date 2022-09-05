@@ -82,4 +82,10 @@ var store = [{
         "tags": [],
         "url": "/jekyll/presentation/hobbies/2022/06/19/tips-on-presenting.html",
         "teaser": null
+      },{
+        "title": "Refocusing One-on-Ones",
+        "excerpt":"Low-level mechanics: Apply active listening - redirect from listening to the thoughts inside your own head to that of your team mate. Examples: Paraphrasing Building trust Non-verbal cues such as nodding, eye contact, leaning forward Open-ended questions Asking specific question to see clarification Asking open-ended questions Record and track -...","categories": ["jekyll","leadership","management"],
+        "tags": [],
+        "url": "/jekyll/leadership/management/2022/09/05/refocusing-one-on-ones.html",
+        "teaser": null
       }]
