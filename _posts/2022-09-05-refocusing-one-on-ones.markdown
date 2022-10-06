@@ -1,87 +1,26 @@
 ---
 layout: single
-title: "Refocusing One-on-Ones"
-date: 2022-09--5 07:22:22 +0200
+title: "The Pursuit of the Right Culture"
+date: 2022-10-06 23:59:22 +0200
 categories: jekyll leadership management
 ---
 
-![Leadership](/images/head-shot.jpg)
+I've been in the game for a while, not too long but for a while. My pursuit through the years has been and still remains an organization with the ideal culture.
 
-## Low-level mechanics:
+By some of today's standards, a good culture can almost be aligned with buzz words or things; awesome bling hardware, beer and pizza Fridays, team building, bonuses, reward points, remote work, trips to an island once a year to celebrate, we use agile or the latest tech. These however are side-effects of a either a defined, undefined or inherited cultures that may be good or bad.
 
-1. **Apply active listening** - redirect from listening to the thoughts inside your own head to that of your team mate.  Examples:
-	1. Paraphrasing
-	2. Building trust
-	3. Non-verbal cues such as nodding, eye contact, leaning forward
-	4. Open-ended questions
-	5. Asking specific question to see clarification
-	6. Asking open-ended questions
-2. **Record and track** - listen, make notes and track
-	1. Trello - I like to have a shared board where we can track items, highlight concerns and record wins
-	2. On the fly - in daily interactions when there's a win, concern or something to follow up on, add it to the board
-3. **Introspection and no deflection** 
-	1. Ask the hard questions to get your team member to think about their actions, behaviour and growth. Often times, engineers optimize for delivery rather than introspection.
-	2. Don't hold back on hard conversations or truth. Deal with things early and deal with them well.
-4. **Their time not yours** 
-	1. Show up on time
-	2. Allow them to cancel and not you. But if there's nothing to talk about, cancel.
-	3. Let them speak, not you
-	4. Avoid status updates.
-5. Have a **clear agenda** focused on:
-	1. Results
-	2. Career growth
-	3. Feedback
-6. **Make it actionable**. Take outcomes, conversations and discussions into actions.
-7. Listen or probe for **tension, friction or personal concerns** in their lives.
-	1. This creates a lens by which they operate
-	2. Perhaps even making ill-informed decisions
-	3. Or just having a different perspective for which impacts their motivation and drive
-8. **Don't solve their problems**
-	1. You are not a clinical psychologist
-	2. Be very mindful about the advice you give
-	3. Collaborate to action, clarify to enable
+**Culture** by definition is a set of shared attitudes, values, goals, and practices that characterizes an institution or organization.
 
-## Tools to encourage interaction:
+An organization is the sum of their intentional attitudes, values, goals and practices. If you want a great organization, with a great culture, than the equation you are trying to solve for is (or thereabout):
 
-1. **ABC - The foundation of growth**
-	- You can use this diagram to generate conversation
-	- Let the team member lead by completing the information
-	- Revisit after analysis, time and reflection
-	- Track
-	- Build an action plan 
-    ![ABC](/images/one-on-one.png)
-2. **Introspective questions**
-	1.  What’s on your mind this week?
-	2.  How happy were you this past week?
-	3.  How productive were you this past week?
-	4.  What feedback do you have for me?
-3. **Team-related questions**
-	1. What do you think of the teams morale?
-	2. How is your relationship with X?
-	3. Where do you think we could improve in our delivery? 
-	4. How did you deal with a specific situation in which you were criticized by a senior?
-4. **Performance-related questions**
-	1. What are some achievements you're proud of since our last meeting?
-	2. What tasks have you found especially engaging or stimulating?
-	3. What do you think stands in the way of your progress?
-	4. What difficulties have you been facing recently?
-	5. What tasks do you find least engaging? 
-	6. What kinds of projects are you interested in working on?
-5. Apply the **Blake Mouton Model** as a leader
-	1. Impoverished manager - low regard for creating systems, low regard for results
-	2. Produce-or-Perish Management - high regard for results, and team secondary to productivity
-	3. Middle-of-the-road Management - tries to balance results and team motivation. Through continual compromise this will fail to inspire high performance
-	4. Team Management - most effective management style. Passionate about his work and does the best for his/her people.
-    ![BlakeMouton](/images/blake-mouton.png)
-4. Apply the **Path-Goal Theory**
-	1. Helping them identify and achieve their goals.
-	2. Clearing away obstacles, thereby improving performance. 
-	3. Offering appropriate rewards along the way.
-    4. Align path and goals with organizations principles and values.
+> my attitude + values + goals = the companies attitude + values + goals
 
-## References:
-1. [Effective One-on-Ones](https://getlighthouse.com/blog/effective-one-on-one-meeting-tips/)
-2. [Active Listening](https://www.thebalancecareers.com/active-listening-skills-with-examples-2059684)
-3. [Radical Candor: One-on-Ones](https://www.radicalcandor.com/effective-one-on-ones/)
-4. [Mindtools](https://www.mindtools.com/pages/article/great-one-on-one.htm)
-5. [Get LightHouse: One-on-ones](https://getlighthouse.com/blog/effective-1-on-1-meetings/)
+At various phases of our career, immaturity through to maturity - organization cultures will look different, some more attractive and some less, and that's largely because the reference point is you and your maturity. Your attitude, your values and your goals when well aligned with that of the organizations will find root in effective and satisfying work, or at the very least tell you, that you need to grow.
+
+## The Culture Test
+
+Personally when I am surveying a company it doesn't stop at the interview, it doesn't stop when I sign the dotted line of my appointment, it's during my first few months of hire. I like to intentionally push the boundaries of it's leaders with care and kindness but very explicit intent. How do they think? How do they behave? I watch them. I study them. I listen to them. Does it align with the values espoused during the interview? Does it align with my own?
+
+One of the best reflections of leadership is NOT seen in the light, but is only reflected in the darkest of times, when it is tested. That's the heart right. That's the litmus test. It doesn't matter how amazing your team is, it's the heads of the organization that define the ambience and the playing field. DO YOUR BEST WORK!
+
+> Culture is a way of coping with the world by defining it in detail.

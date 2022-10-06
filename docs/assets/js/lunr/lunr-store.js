@@ -86,6 +86,12 @@ var store = [{
         "title": "Refocusing One-on-Ones",
         "excerpt":"Low-level mechanics: Apply active listening - redirect from listening to the thoughts inside your own head to that of your team mate. Examples: Paraphrasing Building trust Non-verbal cues such as nodding, eye contact, leaning forward Open-ended questions Asking specific question to see clarification Asking open-ended questions Record and track -...","categories": ["jekyll","leadership","management"],
         "tags": [],
-        "url": "/jekyll/leadership/management/2022/09/05/refocusing-one-on-ones.html",
+        "url": "/jekyll/leadership/management/2022/09/05/refocusing-one-on-ones-copy.html",
+        "teaser": null
+      },{
+        "title": "The Pursuit of the Right Culture",
+        "excerpt":"I’ve been in the game for a while, not too long but for a while. My pursuit through the years has been and still remains an organization with the ideal culture. By some of today’s standards, a good culture can almost be aligned with buzz words or things; awesome bling...","categories": ["jekyll","leadership","management"],
+        "tags": [],
+        "url": "/jekyll/leadership/management/2022/10/06/refocusing-one-on-ones.html",
         "teaser": null
       }]
