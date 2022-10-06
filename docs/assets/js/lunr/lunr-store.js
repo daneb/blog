@@ -92,6 +92,6 @@ var store = [{
         "title": "The Pursuit of the Right Culture",
         "excerpt":"I’ve been in the game for a while, not too long but for a while. My pursuit through the years has been and still remains an organization with the ideal culture. By some of today’s standards, a good culture can almost be aligned with buzz words or things; awesome bling...","categories": ["jekyll","leadership","management"],
         "tags": [],
-        "url": "/jekyll/leadership/management/2022/10/06/refocusing-one-on-ones.html",
+        "url": "/jekyll/leadership/management/2022/10/06/culture.html",
         "teaser": null
       }]
