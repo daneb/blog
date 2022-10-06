@@ -2,7 +2,7 @@
 layout: single
 title: "Refocusing One-on-Ones"
 date: 2022-09--5 07:22:22 +0200
-categories: jekyll leadership management
+categories: leadership management
 ---
 
 ![Leadership](/images/head-shot.jpg)
@@ -19,10 +19,10 @@ categories: jekyll leadership management
 2. **Record and track** - listen, make notes and track
 	1. Trello - I like to have a shared board where we can track items, highlight concerns and record wins
 	2. On the fly - in daily interactions when there's a win, concern or something to follow up on, add it to the board
-3. **Introspection and no deflection** 
+3. **Introspection and no deflection**
 	1. Ask the hard questions to get your team member to think about their actions, behaviour and growth. Often times, engineers optimize for delivery rather than introspection.
 	2. Don't hold back on hard conversations or truth. Deal with things early and deal with them well.
-4. **Their time not yours** 
+4. **Their time not yours**
 	1. Show up on time
 	2. Allow them to cancel and not you. But if there's nothing to talk about, cancel.
 	3. Let them speak, not you
@@ -48,7 +48,7 @@ categories: jekyll leadership management
 	- Let the team member lead by completing the information
 	- Revisit after analysis, time and reflection
 	- Track
-	- Build an action plan 
+	- Build an action plan
     ![ABC](/images/one-on-one.png)
 2. **Introspective questions**
 	1.  What’s on your mind this week?
@@ -58,14 +58,14 @@ categories: jekyll leadership management
 3. **Team-related questions**
 	1. What do you think of the teams morale?
 	2. How is your relationship with X?
-	3. Where do you think we could improve in our delivery? 
+	3. Where do you think we could improve in our delivery?
 	4. How did you deal with a specific situation in which you were criticized by a senior?
 4. **Performance-related questions**
 	1. What are some achievements you're proud of since our last meeting?
 	2. What tasks have you found especially engaging or stimulating?
 	3. What do you think stands in the way of your progress?
 	4. What difficulties have you been facing recently?
-	5. What tasks do you find least engaging? 
+	5. What tasks do you find least engaging?
 	6. What kinds of projects are you interested in working on?
 5. Apply the **Blake Mouton Model** as a leader
 	1. Impoverished manager - low regard for creating systems, low regard for results
@@ -75,7 +75,7 @@ categories: jekyll leadership management
     ![BlakeMouton](/images/blake-mouton.png)
 4. Apply the **Path-Goal Theory**
 	1. Helping them identify and achieve their goals.
-	2. Clearing away obstacles, thereby improving performance. 
+	2. Clearing away obstacles, thereby improving performance.
 	3. Offering appropriate rewards along the way.
     4. Align path and goals with organizations principles and values.
 
