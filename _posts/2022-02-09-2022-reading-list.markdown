@@ -1,8 +1,8 @@
- ---
+---
 layout: single
 title: "2022 Reading List"
 date: 2022-02-03 10:16:00 +0200
-categories: jekyll update hobbies
+categories: hobbies
 ---
 
 ![2022 Reading List](/images/books.png)
