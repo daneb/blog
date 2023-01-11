@@ -1,5 +1,5 @@
 var store = [{
-        "title": "Better sound: Fiio K3 and Beyerdynamic DT990",
+        "title": "Better sound - Fiio K3 and Beyerdynamic DT990",
         "excerpt":"As a software developer music has proven an essential aid. From keeping me awake during late night stints to a gentle ushering in the background when focus is called for. I have enjoyed streaming my music through the years and always believed that I was at the pinnacle of my...","categories": ["jekyll","update","hobbies"],
         "tags": [],
         "url": "/jekyll/update/hobbies/2021/05/23/better-sound.html",
@@ -54,9 +54,9 @@ var store = [{
         "teaser": null
       },{
         "title": "2022 Reading List",
-        "excerpt":"Read: Redeeming Money A Study in Scalett Noble Beginnings Quiet: Power Of Introverts The Thursday Murder Club The Alchemist Bill Sunday: The Man and His Message The Return of Sherlock Holmes Step on a Crack The Case-book of Sherlock The Hound of Baskervilles Connect: Building Exceptional Relationships with Family, Friends...","categories": ["jekyll","update","hobbies"],
+        "excerpt":"layout: single title: “2022 Reading List” date: 2022-02-03 10:16:00 +0200 categories: jekyll update hobbies — Completed: Redeeming Money A Study in Scalett Noble Beginnings Quiet: Power Of Introverts The Thursday Murder Club The Alchemist Bill Sunday: The Man and His Message The Return of Sherlock Holmes Step on a Crack...","categories": [],
         "tags": [],
-        "url": "/jekyll/update/hobbies/2022/02/03/2022-reading-list.html",
+        "url": "/2022/02/09/2022-reading-list.html",
         "teaser": null
       },{
         "title": "Emacs For The Win",
@@ -93,5 +93,11 @@ var store = [{
         "excerpt":"I’ve been in the game for a while, not too long but for a while. My pursuit through the years has been and still remains an organization with the ideal culture. By some of today’s standards, a good culture can almost be aligned with buzz words or things; awesome bling...","categories": ["jekyll","leadership","management"],
         "tags": [],
         "url": "/jekyll/leadership/management/2022/10/06/culture.html",
+        "teaser": null
+      },{
+        "title": "2023 Reading List",
+        "excerpt":"Planned: Robert Nystrom - Crafting Intepreters Tom Stuart - Understanding Computation Gerald Weinberg - Quality Software Management, Vol 1: Systems Thinking Donella Meadows - Thinking in Systems Brendan Burns - Designing Distributed Systems James Clear - Atomic Habits Clarence Larking - Dispensational Truth Daniel Kahneman - Thinking Fast and Slow...","categories": ["hobbies"],
+        "tags": [],
+        "url": "/hobbies/2023/01/08/reading-list.html",
         "teaser": null
       }]
