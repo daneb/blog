@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://www.danebalia.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.danebalia.com/" rel="alternate" type="text/html" /><updated>2023-01-11T06:58:45+02:00</updated><id>https://www.danebalia.com/feed.xml</id><title type="html">Dane Balia</title><subtitle>This is my personal site, an expression of my learning, wisdom gained, experience and opinion.</subtitle><entry><title type="html">2023 Reading List</title><link href="https://www.danebalia.com/hobbies/2023/01/08/reading-list.html" rel="alternate" type="text/html" title="2023 Reading List" /><published>2023-01-08T10:16:00+02:00</published><updated>2023-01-08T10:16:00+02:00</updated><id>https://www.danebalia.com/hobbies/2023/01/08/reading-list</id><content type="html" xml:base="https://www.danebalia.com/hobbies/2023/01/08/reading-list.html"><![CDATA[<p><img src="/images/books.png" alt="2023 Reading List" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://www.danebalia.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.danebalia.com/" rel="alternate" type="text/html" /><updated>2023-01-11T07:29:23+02:00</updated><id>https://www.danebalia.com/feed.xml</id><title type="html">Dane Balia</title><subtitle>This is my personal site, an expression of my learning, wisdom gained, experience and opinion.</subtitle><entry><title type="html">2023 Reading List</title><link href="https://www.danebalia.com/hobbies/2023/01/08/reading-list.html" rel="alternate" type="text/html" title="2023 Reading List" /><published>2023-01-08T10:16:00+02:00</published><updated>2023-01-08T10:16:00+02:00</updated><id>https://www.danebalia.com/hobbies/2023/01/08/reading-list</id><content type="html" xml:base="https://www.danebalia.com/hobbies/2023/01/08/reading-list.html"><![CDATA[<p><img src="/images/books.png" alt="2023 Reading List" /></p>
 
 <h2 id="planned">Planned:</h2>
 
@@ -624,14 +624,7 @@ make install prefix=/c/emacs/
 <td class="org-right">29</td>
 </tr>
 </tbody>
-</table>]]></content><author><name></name></author><category term="jekyll" /><category term="hobbies" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">2022 Reading List</title><link href="https://www.danebalia.com/2022/02/09/2022-reading-list.html" rel="alternate" type="text/html" title="2022 Reading List" /><published>2022-02-09T00:00:00+02:00</published><updated>2022-02-09T00:00:00+02:00</updated><id>https://www.danebalia.com/2022/02/09/2022-reading-list</id><content type="html" xml:base="https://www.danebalia.com/2022/02/09/2022-reading-list.html"><![CDATA[<hr />
-<p>layout: single
-title: “2022 Reading List”
-date: 2022-02-03 10:16:00 +0200
-categories: jekyll update hobbies
-—</p>
-
-<p><img src="/images/books.png" alt="2022 Reading List" /></p>
+</table>]]></content><author><name></name></author><category term="jekyll" /><category term="hobbies" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">2022 Reading List</title><link href="https://www.danebalia.com/hobbies/2022/02/03/2022-reading-list.html" rel="alternate" type="text/html" title="2022 Reading List" /><published>2022-02-03T10:16:00+02:00</published><updated>2022-02-03T10:16:00+02:00</updated><id>https://www.danebalia.com/hobbies/2022/02/03/2022-reading-list</id><content type="html" xml:base="https://www.danebalia.com/hobbies/2022/02/03/2022-reading-list.html"><![CDATA[<p><img src="/images/books.png" alt="2022 Reading List" /></p>
 
 <h3 id="completed">Completed:</h3>
 
@@ -657,7 +650,7 @@ categories: jekyll update hobbies
   <li><a href="https://csharpindepth.com/">John Skeet - C# in Depth </a></li>
   <li><a href="https://www.goodreads.com/book/show/73881.Maximized_Manhood">Edwin Louis Cole - Maximizing Manhood</a></li>
   <li><a href="https://www.goodreads.com/book/show/40102.Blink">Malcolm Gladwell - Blink</a></li>
-</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[layout: single title: “2022 Reading List” date: 2022-02-03 10:16:00 +0200 categories: jekyll update hobbies —]]></summary></entry><entry><title type="html">Discouragement</title><link href="https://www.danebalia.com/jekyll/poem/hope/discouragement/2022/01/07/discouragement.html" rel="alternate" type="text/html" title="Discouragement" /><published>2022-01-07T13:19:22+02:00</published><updated>2022-01-07T13:19:22+02:00</updated><id>https://www.danebalia.com/jekyll/poem/hope/discouragement/2022/01/07/discouragement</id><content type="html" xml:base="https://www.danebalia.com/jekyll/poem/hope/discouragement/2022/01/07/discouragement.html"><![CDATA[<p><img src="/images/discouragement.jpg" alt="Discouragement" /></p>
+</ol>]]></content><author><name></name></author><category term="hobbies" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Discouragement</title><link href="https://www.danebalia.com/jekyll/poem/hope/discouragement/2022/01/07/discouragement.html" rel="alternate" type="text/html" title="Discouragement" /><published>2022-01-07T13:19:22+02:00</published><updated>2022-01-07T13:19:22+02:00</updated><id>https://www.danebalia.com/jekyll/poem/hope/discouragement/2022/01/07/discouragement</id><content type="html" xml:base="https://www.danebalia.com/jekyll/poem/hope/discouragement/2022/01/07/discouragement.html"><![CDATA[<p><img src="/images/discouragement.jpg" alt="Discouragement" /></p>
 
 <p>The road of life <br />
 ah yes the road of life</p>

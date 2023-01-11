@@ -54,9 +54,9 @@ var store = [{
         "teaser": null
       },{
         "title": "2022 Reading List",
-        "excerpt":"layout: single title: “2022 Reading List” date: 2022-02-03 10:16:00 +0200 categories: jekyll update hobbies — Completed: Redeeming Money A Study in Scalett Noble Beginnings Quiet: Power Of Introverts The Thursday Murder Club The Alchemist Bill Sunday: The Man and His Message The Return of Sherlock Holmes Step on a Crack...","categories": [],
+        "excerpt":"Completed: Redeeming Money A Study in Scalett Noble Beginnings Quiet: Power Of Introverts The Thursday Murder Club The Alchemist Bill Sunday: The Man and His Message The Return of Sherlock Holmes Step on a Crack The Case-book of Sherlock The Hound of Baskervilles Connect: Building Exceptional Relationships with Family, Friends...","categories": ["hobbies"],
         "tags": [],
-        "url": "/2022/02/09/2022-reading-list.html",
+        "url": "/hobbies/2022/02/03/2022-reading-list.html",
         "teaser": null
       },{
         "title": "Emacs For The Win",
