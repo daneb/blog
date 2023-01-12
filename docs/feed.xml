@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://www.danebalia.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.danebalia.com/" rel="alternate" type="text/html" /><updated>2023-01-11T07:29:23+02:00</updated><id>https://www.danebalia.com/feed.xml</id><title type="html">Dane Balia</title><subtitle>This is my personal site, an expression of my learning, wisdom gained, experience and opinion.</subtitle><entry><title type="html">2023 Reading List</title><link href="https://www.danebalia.com/hobbies/2023/01/08/reading-list.html" rel="alternate" type="text/html" title="2023 Reading List" /><published>2023-01-08T10:16:00+02:00</published><updated>2023-01-08T10:16:00+02:00</updated><id>https://www.danebalia.com/hobbies/2023/01/08/reading-list</id><content type="html" xml:base="https://www.danebalia.com/hobbies/2023/01/08/reading-list.html"><![CDATA[<p><img src="/images/books.png" alt="2023 Reading List" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://www.danebalia.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.danebalia.com/" rel="alternate" type="text/html" /><updated>2023-01-12T08:08:23+02:00</updated><id>https://www.danebalia.com/feed.xml</id><title type="html">Dane Balia</title><subtitle>This is my personal site, an expression of my learning, wisdom gained, experience and opinion.</subtitle><entry><title type="html">What I learned this week</title><link href="https://www.danebalia.com/growth/2023/01/11/what-i-learned.html" rel="alternate" type="text/html" title="What I learned this week" /><published>2023-01-11T07:10:00+02:00</published><updated>2023-01-11T07:10:00+02:00</updated><id>https://www.danebalia.com/growth/2023/01/11/what-i-learned</id><content type="html" xml:base="https://www.danebalia.com/growth/2023/01/11/what-i-learned.html"><![CDATA[<h3 id="quotes">Quotes:</h3>
+
+<h4 id="tiny-thought">Tiny Thought</h4>
+<blockquote>
+  <p>If you wait until you’re motivated, you’ve already lost.
+Surgeons don’t always feel like doing surgery. Teachers don’t always feel like teaching. Parents don’t always feel like cooking. Firemen don’t always feel like rushing into a burning building.
+If you let motivation dictate your actions, inertia conspires to keep you in place.</p>
+</blockquote>
+
+<blockquote>
+  <p>Action creates progress. Progress creates momentum. Momentum creates motivation.</p>
+</blockquote>
+
+<h3 id="cap-theorem">CAP Theorem</h3>
+<p>Your two choices: you have to choose between consistency or availability. You cannot have both.
+This assumes 100% availability but you could have degrees of consistency along with availability (or vice versa).</p>
+
+<h3 id="listforeach-is-not-foreach-c">List.ForEach is not foreach (C#)</h3>
+<p>List.foreach will create isolated clojures that run Actions independently without side-affects.
+foreach is synchronous and mutates.
+<a href="https://learn.microsoft.com/en-us/archive/blogs/ericlippert/foreach-vs-foreach">Eric Lippert</a></p>
+
+<h3 id="redis-use-cases-blogbytebytegocom">Redis Use Cases (blog.bytebytego.com)</h3>
+
+<p><img src="/images/redis.jpg" alt="Use cases" /></p>]]></content><author><name></name></author><category term="growth" /><summary type="html"><![CDATA[Quotes:]]></summary></entry><entry><title type="html">2023 Reading List</title><link href="https://www.danebalia.com/hobbies/2023/01/08/reading-list.html" rel="alternate" type="text/html" title="2023 Reading List" /><published>2023-01-08T10:16:00+02:00</published><updated>2023-01-08T10:16:00+02:00</updated><id>https://www.danebalia.com/hobbies/2023/01/08/reading-list</id><content type="html" xml:base="https://www.danebalia.com/hobbies/2023/01/08/reading-list.html"><![CDATA[<p><img src="/images/books.png" alt="2023 Reading List" /></p>
 
 <h2 id="planned">Planned:</h2>
 
@@ -716,46 +740,4 @@ But I was already equipped with *grace sufficient* to step out the darkness <br 
 Despite my inherent weakness.</p>
 
 <p>They will be back soon, one day, <br />
-and in my weakness to these words I shall cling.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="poem" /><category term="hope" /><category term="discouragement" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Quick Tour Of Generics In C#</title><link href="https://www.danebalia.com/jekyll/update/programming/2021/09/21/csharp-value-and-ref.html" rel="alternate" type="text/html" title="Quick Tour Of Generics In C#" /><published>2021-09-21T10:25:22+02:00</published><updated>2021-09-21T10:25:22+02:00</updated><id>https://www.danebalia.com/jekyll/update/programming/2021/09/21/csharp-value-and-ref</id><content type="html" xml:base="https://www.danebalia.com/jekyll/update/programming/2021/09/21/csharp-value-and-ref.html"><![CDATA[<p>Generics have been around since C# 2.0 and has become a tool we leverage so naturally now in C# we almost don’t even think about it. So let’s change that…</p>
-
-<h3 id="definitions">Definitions</h3>
-
-<p><em>Generics introduce to the .NET Framework the concept of type parameters, which make it possible to design classes and methods that defer the specification of one or more types until the class or method is declared and instantiated by client code</em>.</p>
-
-<p>Essentially generics allow you parameterize types and methods. Just as normal methods have <em>parameters</em> to tell them what <em>values</em> to use, generic types and methods have <em>type parameters</em> to tell them what <em>types</em> to use.</p>
-
-<h3 id="clarification">Clarification</h3>
-
-<p>Type parameters are placeholders for a type.</p>
-
-<p>There are <em>constructed types</em> and <em>generic types</em>.
-A constructed type is when the type arguments are specified. For example,</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Dictionary&lt;int, string&gt;()
-</code></pre></div></div>
-
-<p>A generic type is when the type arguments are not specified. For example,</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Dictionary&lt;TKey, TValue&gt;()
-</code></pre></div></div>
-
-<p>As per the code snippet below, writing a method to swap two <em>Integer</em> values is pretty rudimentary. But what if later we needed to do the very same but with <em>Strings</em>. This would result in two methods, or perhaps overloads.</p>
-
-<noscript><pre>400: Invalid request</pre></noscript>
-<script src="https://gist.github.com/13124e5ec2369117aff8fc27a3a861e5.js"> </script>
-
-<p>Generics to the rescue. We’ve isolated the type as a form of abstraction (<code class="language-plaintext highlighter-rouge">T</code>) to act as a placeholder for the type we intend to use.</p>
-
-<noscript><pre>400: Invalid request</pre></noscript>
-<script src="https://gist.github.com/9ab19f0a644a3e79525f932e4e34cd5f.js"> </script>
-
-<p>When the method is actually called, that placeholder is replaced with the type of the values used.</p>
-
-<noscript><pre>400: Invalid request</pre></noscript>
-<script src="https://gist.github.com/f318890ecb9849ced43bccfe86744093.js"> </script>
-
-<p>The value of Generics here is that it grants you <em>productivity</em> improvements, <em>expressiveness</em> and moves some safety concerns from <em>execution time to compile time</em>.</p>
-
-<p>Note the two ways in which the <em>method</em> can be called. One with the type explicit, and the other implicit through <em>type inference</em>. The compiler is inferring the <em>type parameters</em> based on the method arguments you pass.</p>
-
-<p>A <em>generic</em> is simply a placeholder for a type.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><category term="programming" /><summary type="html"><![CDATA[Generics have been around since C# 2.0 and has become a tool we leverage so naturally now in C# we almost don’t even think about it. So let’s change that…]]></summary></entry></feed>
+and in my weakness to these words I shall cling.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="poem" /><category term="hope" /><category term="discouragement" /><summary type="html"><![CDATA[]]></summary></entry></feed>

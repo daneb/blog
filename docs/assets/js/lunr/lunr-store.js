@@ -100,4 +100,10 @@ var store = [{
         "tags": [],
         "url": "/hobbies/2023/01/08/reading-list.html",
         "teaser": null
+      },{
+        "title": "What I learned this week",
+        "excerpt":"Quotes: Tiny Thought If you wait until you’re motivated, you’ve already lost. Surgeons don’t always feel like doing surgery. Teachers don’t always feel like teaching. Parents don’t always feel like cooking. Firemen don’t always feel like rushing into a burning building. If you let motivation dictate your actions, inertia conspires...","categories": ["growth"],
+        "tags": [],
+        "url": "/growth/2023/01/11/what-i-learned.html",
+        "teaser": null
       }]
