@@ -27,4 +27,21 @@ foreach is synchronous and mutates.
 
 ![Use cases](/images/redis.jpg)
 
+### Playwright
+- For Playwright tests in .NET, there is no need to use Playwright directly. But you can use Playwright.NUnit to implement and use Page.
+
+### Adding a User to SQL Server (some crucial steps) to connect from Docker with
+1. Ensure you checkout SQL Configuration Manager - Is it running via TCP as a protocol?
+1. Don't forget to enable TCP listening on the IP you require
+1. User gets added to Sql Server
+1. User then get's given permission in database with Securables (schemas)
+
+### Team Lead Tid-bit:
+> Never forget to keep your eye on the big picture when leading a team. It's easy when fighting fires and trust is low to get stuck in the trenches.
+> In the trenches, strategy is missed and often times that leads to a disconnect in what business needs and what is visible to business.
+
+### Measuring team performance:
+* When it comes to measuring a teams performance and reporting back to business, don't build your own metrics.
+* Often times the metrics that drives a team internally are not the same metrics that provide business the value they need.
+* How to start measuring a team for yourself? Start by figuring out how you would measure yourself.
 

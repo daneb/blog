@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://www.danebalia.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.danebalia.com/" rel="alternate" type="text/html" /><updated>2023-01-12T08:08:23+02:00</updated><id>https://www.danebalia.com/feed.xml</id><title type="html">Dane Balia</title><subtitle>This is my personal site, an expression of my learning, wisdom gained, experience and opinion.</subtitle><entry><title type="html">What I learned this week</title><link href="https://www.danebalia.com/growth/2023/01/11/what-i-learned.html" rel="alternate" type="text/html" title="What I learned this week" /><published>2023-01-11T07:10:00+02:00</published><updated>2023-01-11T07:10:00+02:00</updated><id>https://www.danebalia.com/growth/2023/01/11/what-i-learned</id><content type="html" xml:base="https://www.danebalia.com/growth/2023/01/11/what-i-learned.html"><![CDATA[<h3 id="quotes">Quotes:</h3>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://www.danebalia.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.danebalia.com/" rel="alternate" type="text/html" /><updated>2023-01-14T20:29:45+02:00</updated><id>https://www.danebalia.com/feed.xml</id><title type="html">Dane Balia</title><subtitle>This is my personal site, an expression of my learning, wisdom gained, experience and opinion.</subtitle><entry><title type="html">What I learned this week</title><link href="https://www.danebalia.com/growth/2023/01/11/what-i-learned.html" rel="alternate" type="text/html" title="What I learned this week" /><published>2023-01-11T07:10:00+02:00</published><updated>2023-01-11T07:10:00+02:00</updated><id>https://www.danebalia.com/growth/2023/01/11/what-i-learned</id><content type="html" xml:base="https://www.danebalia.com/growth/2023/01/11/what-i-learned.html"><![CDATA[<h3 id="quotes">Quotes:</h3>
 
 <h4 id="tiny-thought">Tiny Thought</h4>
 <blockquote>
@@ -22,7 +22,33 @@ foreach is synchronous and mutates.
 
 <h3 id="redis-use-cases-blogbytebytegocom">Redis Use Cases (blog.bytebytego.com)</h3>
 
-<p><img src="/images/redis.jpg" alt="Use cases" /></p>]]></content><author><name></name></author><category term="growth" /><summary type="html"><![CDATA[Quotes:]]></summary></entry><entry><title type="html">2023 Reading List</title><link href="https://www.danebalia.com/hobbies/2023/01/08/reading-list.html" rel="alternate" type="text/html" title="2023 Reading List" /><published>2023-01-08T10:16:00+02:00</published><updated>2023-01-08T10:16:00+02:00</updated><id>https://www.danebalia.com/hobbies/2023/01/08/reading-list</id><content type="html" xml:base="https://www.danebalia.com/hobbies/2023/01/08/reading-list.html"><![CDATA[<p><img src="/images/books.png" alt="2023 Reading List" /></p>
+<p><img src="/images/redis.jpg" alt="Use cases" /></p>
+
+<h3 id="playwright">Playwright</h3>
+<ul>
+  <li>For Playwright tests in .NET, there is no need to use Playwright directly. But you can use Playwright.NUnit to implement and use Page.</li>
+</ul>
+
+<h3 id="adding-a-user-to-sql-server-some-crucial-steps-to-connect-from-docker-with">Adding a User to SQL Server (some crucial steps) to connect from Docker with</h3>
+<ol>
+  <li>Ensure you checkout SQL Configuration Manager - Is it running via TCP as a protocol?</li>
+  <li>Don’t forget to enable TCP listening on the IP you require</li>
+  <li>User gets added to Sql Server</li>
+  <li>User then get’s given permission in database with Securables (schemas)</li>
+</ol>
+
+<h3 id="team-lead-tid-bit">Team Lead Tid-bit:</h3>
+<blockquote>
+  <p>Never forget to keep your eye on the big picture when leading a team. It’s easy when fighting fires and trust is low to get stuck in the trenches.
+In the trenches, strategy is missed and often times that leads to a disconnect in what business needs and what is visible to business.</p>
+</blockquote>
+
+<h3 id="measuring-team-performance">Measuring team performance:</h3>
+<ul>
+  <li>When it comes to measuring a teams performance and reporting back to business, don’t build your own metrics.</li>
+  <li>Often times the metrics that drives a team internally are not the same metrics that provide business the value they need.</li>
+  <li>How to start measuring a team for yourself? Start by figuring out how you would measure yourself.</li>
+</ul>]]></content><author><name></name></author><category term="growth" /><summary type="html"><![CDATA[Quotes:]]></summary></entry><entry><title type="html">2023 Reading List</title><link href="https://www.danebalia.com/hobbies/2023/01/08/reading-list.html" rel="alternate" type="text/html" title="2023 Reading List" /><published>2023-01-08T10:16:00+02:00</published><updated>2023-01-08T10:16:00+02:00</updated><id>https://www.danebalia.com/hobbies/2023/01/08/reading-list</id><content type="html" xml:base="https://www.danebalia.com/hobbies/2023/01/08/reading-list.html"><![CDATA[<p><img src="/images/books.png" alt="2023 Reading List" /></p>
 
 <h2 id="planned">Planned:</h2>
 
