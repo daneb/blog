@@ -27,5 +27,8 @@ categories: hobbies
 
 ## Read:
 
+1. [Relentless](https://www.amazon.co.uk/Relentless-Unstoppable-Tim-S-Grover/dp/1476714207)
+2. [Thinking Fast and Slow](https://www.amazon.co.uk/Thinking-Fast-Slow-Daniel-Kahneman/dp/0141033576/ref=sr_1_1?keywords=thinking+fast+and+slow+by+daniel+kahneman&qid=1679229120&s=books&sprefix=thinking+f%2Cstripbooks%2C255&sr=1-1)
+3. [Blink](https://www.gladwellbooks.com/titles/malcolm-gladwell/blink/9780316172325/)
 
 
