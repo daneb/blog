@@ -106,6 +106,8 @@ DEPENDENCIES
   jekyll (~> 4.3.2)
   jekyll-feed (~> 0.17)
   jekyll-gist (~> 1.5)
+  jekyll-include-cache (~> 0.2)
+  jekyll-sitemap (~> 1.4)
   minima (~> 2.5.1)
   minimal-mistakes-jekyll
   tzinfo (~> 1.2)
