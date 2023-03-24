@@ -8,5 +8,5 @@ excerpt: "Sample videos taken from Faith Fellowship"
 
 
 ## True Victory
-{% include video id="FN5HtXMD1i4&t" provider="youtube" %}
+{% include video id="FN5HtXMD1i4" provider="youtube" %}
 
