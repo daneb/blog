@@ -69,6 +69,23 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
+include: ["_pages"]
+  
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+  poetry:
+    output: true
+    permalink: /:collection/:path/
+  sermons:
+    output: true
+    permalink: /:collection/:path/
+  software:
+    output: true
+    permalink: /:collection/:path/
+  
 # Defaults
 defaults:
   # _posts
@@ -79,6 +96,54 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: false
       share: true
       related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"
+  # poetry
+  - scope:
+      path: ""
+      type: poetry
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # sermons
+  - scope:
+      path: ""
+      type: sermons
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # software 
+  - scope:
+      path: ""
+      type: software 
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+
+

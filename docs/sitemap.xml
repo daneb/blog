@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://www.danebalia.com/poetry/girl/</loc>
+<lastmod>2023-03-24T23:57:36+02:00</lastmod>
+</url>
+<url>
 <loc>https://www.danebalia.com/jekyll/update/hobbies/2021/05/23/better-sound.html</loc>
 <lastmod>2021-05-23T18:55:22+02:00</lastmod>
 </url>
@@ -73,6 +77,31 @@
 <lastmod>2023-01-11T07:10:00+02:00</lastmod>
 </url>
 <url>
+<loc>https://www.danebalia.com/hobby/2023/03/23/building-a-home-firewall.html</loc>
+<lastmod>2023-03-23T15:10:00+02:00</lastmod>
+</url>
+<url>
+<loc>https://www.danebalia.com/sermons/video/</loc>
+<lastmod>2023-03-24T23:57:36+02:00</lastmod>
+</url>
+<url>
+<loc>https://www.danebalia.com/software/principles/</loc>
+<lastmod>2023-03-24T23:57:36+02:00</lastmod>
+</url>
+<url>
+<loc>https://www.danebalia.com/software/values/</loc>
+<lastmod>2023-03-24T23:57:36+02:00</lastmod>
+</url>
+<url>
 <loc>https://www.danebalia.com/</loc>
+</url>
+<url>
+<loc>https://www.danebalia.com/poetry/</loc>
+</url>
+<url>
+<loc>https://www.danebalia.com/sermons/</loc>
+</url>
+<url>
+<loc>https://www.danebalia.com/software/</loc>
 </url>
 </urlset>

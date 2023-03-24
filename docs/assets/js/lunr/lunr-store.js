@@ -1,4 +1,10 @@
 var store = [{
+        "title": "A Girl Worth Fighting For",
+        "excerpt":"Often times I sit and wonder, at how truly blessed I am, It’s not just the wealth, job, house or car, Nor just the LORD and His saving power, But it’s in LORD and His love, In giving me YOU, this gift from above. You are too me a “girl”...","categories": [],
+        "tags": [],
+        "url": "/poetry/girl/",
+        "teaser": null
+      },{
         "title": "Better sound - Fiio K3 and Beyerdynamic DT990",
         "excerpt":"As a software developer music has proven an essential aid. From keeping me awake during late night stints to a gentle ushering in the background when focus is called for. I have enjoyed streaming my music through the years and always believed that I was at the pinnacle of my...","categories": ["jekyll","update","hobbies"],
         "tags": [],
@@ -105,5 +111,29 @@ var store = [{
         "excerpt":"Quotes: Tiny Thought If you wait until you’re motivated, you’ve already lost. Surgeons don’t always feel like doing surgery. Teachers don’t always feel like teaching. Parents don’t always feel like cooking. Firemen don’t always feel like rushing into a burning building. If you let motivation dictate your actions, inertia conspires...","categories": ["growth"],
         "tags": [],
         "url": "/growth/2023/01/11/what-i-learned.html",
+        "teaser": null
+      },{
+        "title": "Building a Home Firewall",
+        "excerpt":"The Problem For about 3 years I’ve been running a D-Link DIR-825, a fibre and wireless router provided by my ISP. And here to begins my woe. I’ve been struggling with it’s maintenance and software patching, it’s long aged and become a dinosaur with no more firmware upgrades. With the...","categories": ["hobby"],
+        "tags": [],
+        "url": "/hobby/2023/03/23/building-a-home-firewall.html",
+        "teaser": null
+      },{
+        "title": "Video Sermons",
+        "excerpt":"Behold the Man               True Victory               ","categories": [],
+        "tags": [],
+        "url": "/sermons/video/",
+        "teaser": null
+      },{
+        "title": "Principles",
+        "excerpt":"   “A principle is a natural law like gravity. If you drop something, gravity controls. If I don’t tell you the truth, you won’t trust me; that’s a natural law.”    ","categories": [],
+        "tags": [],
+        "url": "/software/principles/",
+        "teaser": null
+      },{
+        "title": "Values that underpin",
+        "excerpt":" ","categories": [],
+        "tags": [],
+        "url": "/software/values/",
         "teaser": null
       }]
