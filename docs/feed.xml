@@ -1,4 +1,159 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://www.danebalia.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.danebalia.com/" rel="alternate" type="text/html" /><updated>2023-03-19T21:02:57+02:00</updated><id>https://www.danebalia.com/feed.xml</id><title type="html">Dane Balia</title><subtitle>This is my personal site, an expression of my learning, wisdom gained, experience and opinion.</subtitle><entry><title type="html">What I learned this week</title><link href="https://www.danebalia.com/growth/2023/01/11/what-i-learned.html" rel="alternate" type="text/html" title="What I learned this week" /><published>2023-01-11T07:10:00+02:00</published><updated>2023-01-11T07:10:00+02:00</updated><id>https://www.danebalia.com/growth/2023/01/11/what-i-learned</id><content type="html" xml:base="https://www.danebalia.com/growth/2023/01/11/what-i-learned.html"><![CDATA[<h3 id="quotes">Quotes:</h3>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://www.danebalia.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.danebalia.com/" rel="alternate" type="text/html" /><updated>2023-03-24T23:57:36+02:00</updated><id>https://www.danebalia.com/feed.xml</id><title type="html">Dane Balia</title><subtitle>This is my personal site, an expression of my learning, wisdom gained, experience and opinion.</subtitle><entry><title type="html">Building a Home Firewall</title><link href="https://www.danebalia.com/hobby/2023/03/23/building-a-home-firewall.html" rel="alternate" type="text/html" title="Building a Home Firewall" /><published>2023-03-23T15:10:00+02:00</published><updated>2023-03-23T15:10:00+02:00</updated><id>https://www.danebalia.com/hobby/2023/03/23/building-a-home-firewall</id><content type="html" xml:base="https://www.danebalia.com/hobby/2023/03/23/building-a-home-firewall.html"><![CDATA[<h2 id="the-problem">The Problem</h2>
+<p>For about 3 years I’ve been running a D-Link DIR-825, a fibre and wireless router provided by my ISP. And here to begins my woe. 
+I’ve been struggling with it’s maintenance and software patching, it’s long aged and become a dinosaur with no more firmware upgrades.
+With the increasing attacks worldwide on networks, I wanted deeper insight to the hardware and software used to defend and connect my home network.</p>
+
+<p>So I decided to poke around my router, and discovered that publicly visible to the world, and not by my configuration, was an SSH service.
+It was running with admin privilege and with the default password set by D-Link themselves (which I guessed by the way).</p>
+
+<p>Correlation is not necessarily causation of course, but the abstraction has paid a price.</p>
+
+<p><img src="/images/DIR-825.png" alt="Router" /></p>
+
+<h2 id="the-solution">The Solution</h2>
+<p>My first step to correcting the problem was to try identify a physical firewall that I could purchase. 
+I live in South Africa so choice is limited, but I wanted something entirely cost effective, ability to deep dive into network traffic and
+something not made in China. That was the D-Link and it’s support was horrible. Sadly, the closest thing was R5000 and it didn’t seem practical
+with the current economic climate.</p>
+
+<p>That sparked an old idea, why not try a Raspberry PI 4. I attempted this before using Ubuntu server but ran into challenges with the wifi speed when it was used a Wireless hotspot.
+But I was on holiday now and well, why not. I had a two-fold plan,</p>
+
+<h3 id="plan-no-1">Plan No. 1</h3>
+<ul>
+  <li>Retain the D-Link for speedy wifi access, but sufficiently limit it’s capability.</li>
+  <li>Use the Pi4 as the gateway and firewall with Raspbian 64</li>
+  <li>Get basic masquerading working for everything on the D-Link - basically all wifi connected devices routing through the firewall to the internet.</li>
+</ul>
+
+<h3 id="plan-no-2">Plan No. 2</h3>
+<ul>
+  <li>Once that proved itself, I would replace Raspbian with something more enterprise - IpFire.</li>
+  <li>Ensure the networking between the two devices and my home computers internet access functions correctly</li>
+  <li>Try get rid of the D-Link and use the Pi4 as a Wireless Hotspot as well and gauge its performance</li>
+</ul>
+
+<h3 id="my-current-configuration">My Current Configuration</h3>
+<ol>
+  <li>Fibre CPE that provides access through Ethernet</li>
+  <li>Fibre Service Provide: Coolideas</li>
+  <li>D-Link DIR 825 with the WAN port connected to the CPE and Wifi Hotspot</li>
+  <li>Raspberry Pi4
+    <ul>
+      <li>8GB Internal memory</li>
+      <li>32 GB SSD</li>
+      <li>USB Broadcom NIC</li>
+      <li>Internal WLAN NIC</li>
+      <li>Internal Ethernet NIC</li>
+    </ul>
+  </li>
+</ol>
+
+<p><img src="/images/Pi4.jpg" alt="Pi4" /></p>
+
+<h3 id="my-target-configuration">My Target Configuration</h3>
+<ol>
+  <li>No more D-Link router (unless providing access to guests)</li>
+  <li>Raspberry Pi4 running <a href="http://ipfire.org">IpFire</a></li>
+  <li>Fibre CPE direct into Pi4 for Internet Access (RED)</li>
+  <li>Second USB NIC connected to D-Link router for guest access (GREEN)</li>
+  <li>Pi4 as a wireless hotspot (BLUE)</li>
+</ol>
+
+<h2 id="the-result">The Result</h2>
+<p>Well success of course. But perhaps let me talk through some of the challenges.</p>
+
+<h2 id="challenges-in-plan-no-1">Challenges in Plan No. 1</h2>
+<blockquote>
+  <p>Should I use the WAN port to connect the Pi4 and D-Link?</p>
+  <ul>
+    <li>This is firstly not supported as the expectation that both the WAN IP is not the same as the WLAN.</li>
+    <li>I used a standard port.</li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>Do I have to do any port forwarding or masquerading on the D-Link and should the two devices share a subnet?</p>
+  <ul>
+    <li>No, there was no configuration needed on the D-Link.</li>
+    <li>Yes, I used the USB NIC of the Pi4 (GREEN Zone) I used to link up to the D-Link</li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>How should I configure the Pi4 Raspbian OS?</p>
+  <ul>
+    <li>I plugged the Cat 6 from the Fibre CPE into it the internal Pi4 Nic allowing DHCP to configure the internet IP address through the provider.</li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>Did you masquerade?</p>
+  <ul>
+    <li>Yes, I added a simple rule to masquerade the GREEN zone (link between two devices)
+      <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># sudo iptables -t nat -A POSTROUTING -o eth1 -j MASQUERADE
+</code></pre></div>      </div>
+    </li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>Why did I not stop here?</p>
+  <ul>
+    <li>It was insecure. I would need to spend a significant amount of time setting the firewall rules and debugging.</li>
+    <li>Not to mention, installating a ton of software to caliberate network statistics.</li>
+  </ul>
+</blockquote>
+
+<h2 id="challenges-in-plan-no-2">Challenges in Plan No. 2</h2>
+<p>Now that we have a proof of concept, let’s move onto IpFire.</p>
+
+<blockquote>
+  <p>Any tips for initial setup of Image onto SD-Card?</p>
+  <ul>
+    <li>In writing the IpFire image to your SD-card ensure to disable the serial cable requirement so you can set it up easily with HDMI and USB keyboard - you need to edit the uENV.txt file
+on the flashed SD Card:
+      <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SERIAL-CONSOLE=ON To SERIAL-CONSOLE=OFF
+</code></pre></div>      </div>
+    </li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>How did you define the zones?</p>
+  <ul>
+    <li>I used RED for the Internet access (internal nic of Pi4)</li>
+    <li>GREEN for all traffic from the D-Link router (USB nic to D-Link)</li>
+    <li>BLUE for wireless traffic using the Pi4 itself</li>
+    <li>Be advised for access from GREEN to RED I used the transparent proxy included with IpFire</li>
+  </ul>
+</blockquote>
+
+<h3 id="it-works">It works</h3>
+
+<p><img src="/images/ipfire.png" alt="IpFire" /></p>
+
+<p>It’s been an amazing experience thus far, by no means an enterprise grade user interface or corporate backing for sexy bells and whistles.
+But it’s a Toyota Corolla that does the job and well.</p>
+
+<p>Supported features I am getting a ton of value around is:</p>
+<ol>
+  <li>Hardware graphing performance (memory, cpu, load)</li>
+  <li>Firewall logs by country, port and IP</li>
+  <li>Tcpdump on console for troubleshooting and viewing low-level packets</li>
+  <li>Built-in proxy</li>
+  <li>Easy support for multiple networks</li>
+  <li>Wireless Hotspot easy configuration</li>
+  <li>Proxy reports and logs</li>
+  <li>Intrusion detection (multi-provider support)</li>
+  <li>IP Address black lists</li>
+  <li>Pakfire enables safe package installation and in-built plugin support</li>
+  <li>DNS resolution and configuration</li>
+</ol>
+
+<h2 id="tip">Tip</h2>
+<p>It may be worthwhile when you are done to review this helpful guide around best practices from <a href="https://blog.ipfire.org/post/firewall-configuration-recommendations-for-ipfire-users">IpFire Blog</a>
+A helpful tutorial that may <a href="https://www.hendgrow.com/ugs/HowTo-install-IPFire-on-a-Raspberry-Pi.pdf">guide</a> your journey.</p>]]></content><author><name></name></author><category term="hobby" /><summary type="html"><![CDATA[The Problem For about 3 years I’ve been running a D-Link DIR-825, a fibre and wireless router provided by my ISP. And here to begins my woe. I’ve been struggling with it’s maintenance and software patching, it’s long aged and become a dinosaur with no more firmware upgrades. With the increasing attacks worldwide on networks, I wanted deeper insight to the hardware and software used to defend and connect my home network.]]></summary></entry><entry><title type="html">What I learned this week</title><link href="https://www.danebalia.com/growth/2023/01/11/what-i-learned.html" rel="alternate" type="text/html" title="What I learned this week" /><published>2023-01-11T07:10:00+02:00</published><updated>2023-01-11T07:10:00+02:00</updated><id>https://www.danebalia.com/growth/2023/01/11/what-i-learned</id><content type="html" xml:base="https://www.danebalia.com/growth/2023/01/11/what-i-learned.html"><![CDATA[<h3 id="quotes">Quotes:</h3>
 
 <h4 id="tiny-thought">Tiny Thought</h4>
 <blockquote>
@@ -706,70 +861,4 @@ make install prefix=/c/emacs/
   <li><a href="https://csharpindepth.com/">John Skeet - C# in Depth </a></li>
   <li><a href="https://www.goodreads.com/book/show/73881.Maximized_Manhood">Edwin Louis Cole - Maximizing Manhood</a></li>
   <li><a href="https://www.goodreads.com/book/show/40102.Blink">Malcolm Gladwell - Blink</a></li>
-</ol>]]></content><author><name></name></author><category term="hobbies" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Discouragement</title><link href="https://www.danebalia.com/jekyll/poem/hope/discouragement/2022/01/07/discouragement.html" rel="alternate" type="text/html" title="Discouragement" /><published>2022-01-07T13:19:22+02:00</published><updated>2022-01-07T13:19:22+02:00</updated><id>https://www.danebalia.com/jekyll/poem/hope/discouragement/2022/01/07/discouragement</id><content type="html" xml:base="https://www.danebalia.com/jekyll/poem/hope/discouragement/2022/01/07/discouragement.html"><![CDATA[<p><img src="/images/discouragement.jpg" alt="Discouragement" /></p>
-
-<p>The road of life <br />
-ah yes the road of life</p>
-
-<p>At some turn along life, <br />
-there THEY comes with their assault of strife <br />
-with winds that rage and winds that blow, <br />
-they beat, make meat of the courageous feat. <br />
-To live is hard. Is it?</p>
-
-<p>The weapons of these diabolical demons, <br />
-are seldom understood or even from my hood. <br />
-They beckon me come and surrender the fight. <br />
-They beckon me come and surrender the night.</p>
-
-<p>What of hopes and dreams and joy and streams, <br />
-What of health and wealth, <br />
-when it’s all abated. <br />
-They come with his assault of strife, <br />
-attacking and sucking me into the darkness.</p>
-
-<p>I fight, I kick, I whip, I punch, <br />
-I raise my hand, but I get pulled in a bunch. <br />
-They are strong, far stronger than me, <br />
-They deep in my mind causing calamity. <br />
-Turn back turn back the light onto me, <br />
-Turn back turn back its uncomfortable inadequacy.</p>
-
-<p>FIGHT! FIGHT! I say. I say. <br />
-But the warmth of day is gone <br />
-All around me has diminished, chaos around. Chaos. <br />
-Hope what of it, I know it intellectually. <br />
-But she is hidden. Where I don’t know?</p>
-
-<p>How did it get all so complex. <br />
-How did THEY get so strong. <br />
- Who are THEY and why do me wrong. <br />
-My legs are deep in the myrrh now, DEEP. <br />
-Darkness is upon me, and I can’t intellectualize myself away</p>
-
-<p>A crack from the heavens <br />
-A fizzle? a ray? a sparkle? a way. <br />
-Some spirit illuminates <br />
-“My grace is sufficient for thee: for my strength is made perfect in weakness.”
-HUH.</p>
-
-<p>What did it mean? <br />
-I began to tussle with the words of the spirit, <br />
-I wrestle, turn, twist and contort, <br />
-hammering against 14 challengers a new, <br />
-looking for answers for this light so few.</p>
-
-<p>And little did I notice, <br />
-that as I wrestled with the 14 challengers that day, <br />
-my contention with THEY went away, <br />
-darkness still loomed in the distance, <br />
-but the battle was over, for now.</p>
-
-<p>I recited the words of the spirit, <br />
-and then it hit me like a ton of bricks succinctly, <br />
-That it was never about MY OWN *strength** to overcome <br />
-But I was already equipped with *grace sufficient* to step out the darkness <br />
-Despite my inherent weakness.</p>
-
-<p>They will be back soon, one day, <br />
-and in my weakness to these words I shall cling.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="poem" /><category term="hope" /><category term="discouragement" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+</ol>]]></content><author><name></name></author><category term="hobbies" /><summary type="html"><![CDATA[]]></summary></entry></feed>
