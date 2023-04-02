@@ -29,7 +29,7 @@
 
 
 
-  <meta property="article:published_time" content="2023-04-02T15:09:01+02:00">
+  <meta property="article:published_time" content="2023-04-02T16:35:00+02:00">
 
 
 
@@ -116,11 +116,11 @@
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="/">Home</a>
             </li><li class="masthead__menu-item">
-              <a href="/poetry/">Poetry</a>
-            </li><li class="masthead__menu-item">
               <a href="/sermons/">Sermons</a>
             </li><li class="masthead__menu-item">
               <a href="/software/">Software</a>
+            </li><li class="masthead__menu-item">
+              <a href="/poetry/">Poetry</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -230,7 +230,7 @@
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Principles">
     <meta itemprop="description" content="Objective truths that enable effective and efficient delivery">
-    <meta itemprop="datePublished" content="2023-04-02T15:09:01+02:00">
+    <meta itemprop="datePublished" content="2023-04-02T16:35:00+02:00">
     
 
     <div class="page__inner-wrap">
@@ -250,6 +250,173 @@
   <p>“A principle is a natural law like gravity. If you drop something, gravity controls. If I don’t tell you the truth, you won’t trust me; that’s a natural law.”</p>
 </blockquote>
 
+<h1 id="being-a-developer">Being A Developer</h1>
+
+<h2 id="problem-solving">Problem Solving</h2>
+<ol>
+  <li>Reason through First Principles
+    <blockquote>
+      <p>The normal way we conduct our lives is we reason by analogy. [When reasoning by analogy] we are doing this because it’s like something else that was done or it is like what other people are doing — slight iterations on a theme.
+First principles is kind of a physics way of looking at the world. You boil things down to the most fundamental truths and say, “What are we sure is true?” … and then reason up from there.</p>
+    </blockquote>
+  </li>
+</ol>
+
+<h2 id="bias">Bias</h2>
+<ol>
+  <li>Survivorship bias - the tendency to ignore absent information and only ever plan for the best.</li>
+  <li>Endowment bias - the attribution of greater regard for that which already own, independent of actual value.</li>
+  <li>Hyperbolic discounting - immediate rewards don’t always offer the greatest benefits, but you are still most likely to select them.</li>
+  <li>Clustering illusion - how we interpret groups of events can affect our ability to predict future probabilities</li>
+  <li>Confirmation bias - our process of gathering information to form our opinions is not as impartial as we may believe</li>
+  <li>Availability heuristic - the bias towards recent, easily remembered information when assessing importance and relevance in new situations</li>
+  <li>Stereotyping - while it may be associated with discrimination against minorities, stereotyping does have an innocent cognitive function.</li>
+  <li>Gambler’s fallacy - an opposite effect to clustering illusion, this bias also results in faulty expectations.</li>
+  <li>Risk compensation - does perceived safety yield increased complacency? This question has significant implications for hazard management.</li>
+  <li>Anchoring bias - even business-savy people can fall foul to this bias towards initial information. the common human tendency to rely too heavily, or “anchor,” on one trait or piece of information when making decisions.</li>
+</ol>
+
+<h2 id="clean-code">Clean code</h2>
+<ol>
+  <li>Functions/Class names are inversly proportional to the scope ({}). Tests have very long names.</li>
+  <li>Variable names are directly proportional to their scope.</li>
+  <li>Names should reveal intent. Avoid disinformation.</li>
+  <li>Classes names should be nouns. Avoid noise words - Data, Info, Manager.</li>
+  <li>Methods should be verbs.</li>
+  <li>It’s rude to introduce a reader to high-level concepts and low-level concepts at the start of a function.</li>
+  <li>Functions should be small (4-20 lines). A line in a function should only be one-level of abstraction away from the name.</li>
+  <li>Functions should just do one thing. Aim for more functions then multiple lines with one layer of abstraction from name.</li>
+</ol>
+
+<h2 id="tests">Tests</h2>
+<ol>
+  <li>Don’t test functions directly. Tests will break when code breaks. This is why we don’t test private functions.</li>
+</ol>
+
+<h2 id="dev-quotes">Dev Quotes</h2>
+<ol>
+  <li>“Cheap, Fast, and Good: Pick Two”? <em>related to CAP theorem</em></li>
+</ol>
+
+<h2 id="principals-to-guide-development">Principals to guide development:</h2>
+<ol>
+  <li><a href="https://stackoverflow.com/questions/14000762/what-does-low-in-coupling-and-high-in-cohesion-mean">High Cohesion, Loose Coupling</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Law_of_Demeter">Law of Demeter</a> - there should be at least one layer of indirection when working with a resource</li>
+  <li><a href="https://en.wikipedia.org/wiki/Robustness_principle">Postels Law</a></li>
+  <li><a href="https://benramsey.com/articles/escape-output/">Filter Inputs, Sanitize Output</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Single_responsibility_principle">Single Responsibility</a></li>
+  <li><a href="https://martinfowler.com/bliki/OpportunisticRefactoring.html">The Last Boy Scout Rule</a></li>
+  <li><a href="https://martinfowler.com/bliki/Yagni.html">YAGNI</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRY</a>. This is predominantly about DRYing into business domains not drying across.</li>
+  <li>Inch Wide Mile Deep - integrate early, extend functionality later</li>
+  <li><a href="https://www.thoughtworks.com/insights/blog/applying-conways-law-improve-your-software-development">Conway’s Law</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Fail-fast">Fail Fast</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle">Open/Closed Principle</a></li>
+  <li><a href="https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/">Ego-less programming</a></li>
+  <li><a href="http://wiki.c2.com/?MakeItWorkMakeItRightMakeItFast">Make it work, make it right, make it fast</a> <em>CRAWL, WALK, RUN</em></li>
+  <li>The best code you can write, is not writing any at all</li>
+  <li>The best developer is the one who has had sufficient sleep (7+ hours).</li>
+  <li>Ensure consistency of implementation across code base</li>
+  <li>Make it work, make it right, make it fast CRAWL, WALK, RUN</li>
+  <li>The aim of agile is not to make the team go faster but to generate data to make improved decisions.</li>
+  <li>Comments usually mean you need to spend time cleaning the code. *regex</li>
+</ol>
+
+<h2 id="anti-patterns">Anti-Patterns</h2>
+<p><em>cut n paste from <a href="https://www.bipinpaulbedi.com/2019/software-anti-patterns">Bipin Paul Bedi</a></em></p>
+<h3 id="organisational-anti-patterns">Organisational anti-patterns</h3>
+<ul>
+  <li>Analysis paralysis - Devoting disproportionate effort to the analysis phase of the project.</li>
+  <li>Cash cow - A profitable legacy product that often leads to complacency about new product.</li>
+  <li>Design by committee - The result of having many contributors to a design - but no unifying vision.</li>
+  <li>Moral hazard - Insulating a decision-maker from the consequences of his or her decision.</li>
+  <li>Stovepipe or Silos - A structure that supports mostly up-down flow of data but inhibits cross organisational communication.</li>
+  <li>Vendor lock-in - Making a system extensively dependent on an external supplied component.
+    <h3 id="design-anti-patterns">Design anti-patterns</h3>
+  </li>
+  <li>Abstraction inversion - Not exposing implemented functionality required by user, so that they reimplement it using higher level functions.</li>
+  <li>Ambiguous viewpoint - Presenting a model (OOAD) without specifying its viewpoint.</li>
+  <li>Big ball of mud - A system with no recognisable structure.</li>
+  <li>Database as IPC - Using DB as message queue for inter-process communication where a more lightweight mechanism would be suitable.</li>
+  <li>Gold plating - Continuing to work on a project well past the point at which extra effort is not adding value.</li>
+  <li>Inner - platform effect - A software so customisable as to become poor replica of software development platform.</li>
+  <li>Input kludge - Failing to specify and implement handling of possibly invalid inputs.</li>
+  <li>Interface bloat - making an interface so powerful that it is extremely difficult to implement.</li>
+  <li>Magic push button - Coding implementation logic directly within interface code, without using abstraction.</li>
+  <li>Race hazard - Failing to see consequences of different orders of events.</li>
+  <li>Stovepipe system - A barely maintainable assemblage of ill-related components.
+    <h3 id="ood-anti-patterns">OOD anti-patterns</h3>
+  </li>
+  <li>Anaemic domain model - Use of domain model without business knowledge.</li>
+  <li>Base bean - Inheriting functionality from utility class rather than delegating to it.</li>
+  <li>Call super - Requiring subclasses to call a superclass’s overridden method.</li>
+  <li>Circle ellipse problem - Sub typing variable-types on the bases of value-subtypes.</li>
+  <li>Circular dependency - Introducing unnecessary direct or indirect mutual dependencies between objects.</li>
+  <li>Constant interface - using interface to define constants.</li>
+  <li>God object - Concentrating too many functionalities in a single part of design.</li>
+  <li>Object cesspool - Reusing objects whose state does not confirm to the contract of reuse.</li>
+  <li>Object orgy - Failing to properly encapsulate objects permitting unrestricted access to their internals.</li>
+  <li>Poltergeists - Objects whose sole purpose is to pass information to another object.</li>
+  <li>Sequential coupling - A class that requires its method to be called in a particular order.</li>
+  <li>Yo-yo problem - A structure that is hard to understand due to excessive fragmentation.</li>
+  <li>Dependency hell - Problem with versions of required product.</li>
+  <li>DLL hell - Inadequate management of dynamic linked libraries.
+    <h3 id="programming-anti-patterns">Programming anti-patterns</h3>
+  </li>
+  <li>Accidental complexity - Introducing unnecessary complexity into a solution.</li>
+  <li>Action at distance - Unexpected interaction between widely separated parts of system.</li>
+  <li>Blind faith - Lack of checking of correctness of a bug fix or result of a subroutine.</li>
+  <li>Boat anchor - Retaining a part of a system that is no longer has any use.</li>
+  <li>Busy spin - Consuming CPU while waiting for something to happen, usually by repeated checking rather than message passing.</li>
+  <li>Caching failure - Forgetting to reset an error flag when an error has been corrected.</li>
+  <li>Cargo cult programming - Using patterns and methods without understanding why.</li>
+  <li>Coding by exception - Adding a new code to handle each special case as it is recognised.</li>
+  <li>Error hiding - Catching an error message before it can be shown to the user, either showing nothing or showing a meaningless message.</li>
+  <li>Hard code - Embedding assumption about environment of a system in its implementation.</li>
+  <li>Lava flow - Retaining undesirable code because removing it is too expensive or has unpredictable consequences.</li>
+  <li>Loop switch sequence - Encoding a set of sequential steps using a switch within a loop.</li>
+  <li>Magic numbers - Including unexplained numbers in algorithm.</li>
+  <li>Magic strings - Including literal strings in code, for comparison, as event types etc.</li>
+  <li>Soft code - Storing business logic in configuration files rather than source code.</li>
+  <li>Spaghetti code - Programs whose structure is barely comprehensible.
+    <h3 id="methodological-anti-patterns">Methodological anti-patterns</h3>
+  </li>
+  <li>Copy-paste programming. Copying (modifying) and pasting existing code rather than implementing generic solution.</li>
+  <li>Golden hammering - Assuming that a favourite solution is universally applicable.</li>
+  <li>Improbability factor - Assuming that it is improbably that a known error will occur.</li>
+  <li>NHI syndrome - The tendency towards reinventing the wheel, assuming it does not exist here before.</li>
+  <li>Premature optimisation - Coding early on for a perceived efficiency, sacrificing good design, maintainability, and sometimes even real world * efficiency.</li>
+  <li>Programming by permutation - Trying to approach a solution by successively modifying the code to see if it works.</li>
+  <li>Reinventing the wheel - Failing to adopt an existing, adequate solution.</li>
+  <li>Reinventing the square wheel - Failing to adopt an existing solution and instead adopting a custom solution which performs much worse than an * existing one.</li>
+  <li>Silver bullet - Assuming that a favourite technical solution can solve a larger process or problem.</li>
+  <li>Tester driven development - Projects in which new requirements are specified in bug reports.</li>
+</ul>
+
+<h2 id="ddd">DDD</h2>
+<p>Domain-driven design</p>
+
+<h2 id="algorithms">Algorithms</h2>
+<h3 id="expression-trees">Expression Trees</h3>
+<blockquote>
+  <p>Expression trees represent code in a tree-like data structure, where each node is an expression, for example, a method call or a binary operation such as x &lt; y</p>
+</blockquote>
+
+<blockquote>
+  <p>An expression tree provides a method of translating executable code into data. This can be very valuable if you want to modify or transform code before executing it.</p>
+</blockquote>
+
+<blockquote>
+  <p>Expression trees were created in order to make the task of converting code such as a query expression into a string that can be passed to some other process and executed there. It is that simple. There is no great mystery here, no magic wand that needs to be waved. One simply takes code, converts it into data, and then analyzes the data to find the constituent parts that will be translated into a string that can be passed to another process.</p>
+</blockquote>
+
+<p>Their an abstraction to allow other processes to understand and transform the instructions for execution elsewhere.</p>
+
+<p>References:</p>
+<ol>
+  <li><a href="https://docs.microsoft.com/en-us/archive/blogs/charlie/expression-tree-basics">Simple overview</a></li>
+</ol>
+
 
         
       </section>
@@ -261,7 +428,7 @@
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2023-04-02T15:09:01+02:00">April 2, 2023</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2023-04-02T16:35:00+02:00">April 2, 2023</time></p>
 
 
       </footer>
@@ -280,7 +447,8 @@
       
   <nav class="pagination">
     
-      <a href="#" class="pagination--pager disabled">Previous</a>
+      <a href="/software/leadership/" class="pagination--pager" title="How I lead
+">Previous</a>
     
     
       <a href="/software/values/" class="pagination--pager" title="Values that underpin

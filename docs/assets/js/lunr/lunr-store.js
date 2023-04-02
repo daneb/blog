@@ -119,20 +119,44 @@ var store = [{
         "url": "/hobby/2023/03/23/building-a-home-firewall.html",
         "teaser": null
       },{
+        "title": "Is Christianity Real?",
+        "excerpt":"Getting Revived – Dead Works to Fruit PROBLEM: I’m cold, how do I ignite the coals? Christ is not real. Introduction: This is the last day friend’s - all around us are Christians who are self-deceived or being deceived because the reality of Christ is missing. Yes we live in...","categories": [],
+        "tags": [],
+        "url": "/sermons/christianity-real/",
+        "teaser": null
+      },{
+        "title": "Lessons from Christ's tears on the Cross",
+        "excerpt":"Lessons From The Tears Of Jesus Christ: Introduction: Liqourice All Sorts How many times did Jesus Christ cry in the Bible? Or how many times is it recorded that He Cried? From the weeping, the tears of our Lord, the man of sorrow’s we will gather some lessons. I. Jesus...","categories": [],
+        "tags": [],
+        "url": "/sermons/lesson-from-tears/",
+        "teaser": null
+      },{
+        "title": "2nd Peter Outline",
+        "excerpt":"3 Chapters 3 Words - Glory, Knowledge of God, Remembrance Bible - called Key of Knowledge (Luke 11:52).They exalt the book, but not the Saviour behind the book. Or they exalt the Saviour and no the Book. This is our manual for life, an owners manual. 66 AD * 6...","categories": [],
+        "tags": [],
+        "url": "/sermons/second-peter/",
+        "teaser": null
+      },{
         "title": "Video Sermons",
         "excerpt":"Behold the Man               True Victory               ","categories": [],
         "tags": [],
         "url": "/sermons/video/",
         "teaser": null
       },{
+        "title": "How I lead",
+        "excerpt":"Rules of managing Manager’s user manual for team 1. Rules of Managing Only by pride cometh contention - Proverbs 13:10 * Lead by example but don't absolve responsibility. * Delegate. * Record all interactions, document and distribute. * Changes to processes need solid agreement. * Collaborate instead of dictate, but...","categories": [],
+        "tags": [],
+        "url": "/software/leadership/",
+        "teaser": null
+      },{
         "title": "Principles",
-        "excerpt":"   “A principle is a natural law like gravity. If you drop something, gravity controls. If I don’t tell you the truth, you won’t trust me; that’s a natural law.”    ","categories": [],
+        "excerpt":"“A principle is a natural law like gravity. If you drop something, gravity controls. If I don’t tell you the truth, you won’t trust me; that’s a natural law.” Being A Developer Problem Solving Reason through First Principles The normal way we conduct our lives is we reason by analogy....","categories": [],
         "tags": [],
         "url": "/software/principles/",
         "teaser": null
       },{
         "title": "Values that underpin",
-        "excerpt":" ","categories": [],
+        "excerpt":"My approach to life is guided by 5 principals (5 BE’s): Be Simple - Large doors swing on small hinges (problems) Be Confident - Know you can. Trust you can. Practice so you can (attitude) Be Focused - Limit the scope to whats manageable and what produces the most immediate...","categories": [],
         "tags": [],
         "url": "/software/values/",
         "teaser": null

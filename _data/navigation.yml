@@ -1,9 +1,10 @@
 main:  
   - title: "Home"
     url: /
-  - title: "Poetry"
-    url: /poetry/
   - title: "Sermons"
     url: /sermons/
   - title: "Software"
     url: /software/
+  - title: "Poetry"
+    url: /poetry/
+
