@@ -252,7 +252,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          4 minute read
+          5 minute read
         
       </span>
     
@@ -276,23 +276,50 @@ It was running with admin privilege and with the default password set by D-Link 
 
 <p><img src="/images/DIR-825.png" alt="Router" /></p>
 
-<h2 id="the-solution">The Solution</h2>
+<h3 id="but-first-interesting-hack">But first, interesting hack</h3>
+<p>If you want your router to shutdown daily at a set time. Instead of using cron, you can use the scheduler built into the shutdown command.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># This will shutdown daily at 22:00</span>
+<span class="nb">echo</span> <span class="s2">"shutdown -h 22:00"</span> <span class="o">&gt;&gt;</span> /etc/sysconfig/rc.local
+</code></pre></div></div>
+<p>The beauty of this is that you can interrupt the shutdown with:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>shutdown <span class="nt">-c</span>
+</code></pre></div></div>
+<p>And to confirm if the command has fired on startup</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ps -ef | grep shutdown
+</code></pre></div></div>
+
+<h2 id="back-to-the-home-firewall-setup">Back to the Home Firewall setup</h2>
 <p>My first step to correcting the problem was to try identify a physical firewall that I could purchase. 
 I live in South Africa so choice is limited, but I wanted something entirely cost effective, ability to deep dive into network traffic and
-something not made in China. That was the D-Link and it’s support was horrible. Sadly, the closest thing was R5000 and it didn’t seem practical
+something not made in China. That was the D-Link and it’s support was horrible. Sadly, the closest thing was R5000 (Ubiquity) and it didn’t seem practical
 with the current economic climate.</p>
 
 <p>That sparked an old idea, why not try a Raspberry PI 4. I attempted this before using Ubuntu server but ran into challenges with the wifi speed when it was used a Wireless hotspot.
-But I was on holiday now and well, why not. I had a two-fold plan,</p>
+But I was on holiday now and well, why not. I had a incremental 2 phase plan.</p>
 
-<h3 id="plan-no-1">Plan No. 1</h3>
+<h2 id="what-where-some-alternatives-to-ipfire">What where some alternatives to IpFire?</h2>
+<ol>
+  <li>I could have stuck with the DLink and overwritten it with <a href="https://openwrt.org">OpenWrt</a>. But sadly it wasn’t supported.</li>
+  <li>As mentioned the <a href="https://scoop.co.za/products/wireless-networking/ubiquiti-unifi/">Unify</a> was R4800.</li>
+  <li>Just use vanilla Linux (Ubuntu etc). This is covered below in the Q&amp;A.</li>
+</ol>
+
+<h2 id="why-this-may-be-valuable-to-do">Why this may be valuable to do?</h2>
+<ol>
+  <li>Fine grained control of your network</li>
+  <li>More transparency around what is coming in and out</li>
+  <li>Increase learning in network design and security</li>
+  <li>You don’t trust your existing device (it’s out of firmware upgrades or really old)</li>
+</ol>
+
+<h3 id="phase-1---proof-of-concept">Phase 1 - Proof of Concept</h3>
 <ul>
   <li>Retain the D-Link for speedy wifi access, but sufficiently limit it’s capability.</li>
   <li>Use the Pi4 as the gateway and firewall with Raspbian 64</li>
   <li>Get basic masquerading working for everything on the D-Link - basically all wifi connected devices routing through the firewall to the internet.</li>
 </ul>
 
-<h3 id="plan-no-2">Plan No. 2</h3>
+<h3 id="phase-2---implement-with-ipfire">Phase 2 - Implement with IpFire</h3>
 <ul>
   <li>Once that proved itself, I would replace Raspbian with something more enterprise - IpFire.</li>
   <li>Ensure the networking between the two devices and my home computers internet access functions correctly</li>
@@ -301,8 +328,8 @@ But I was on holiday now and well, why not. I had a two-fold plan,</p>
 
 <h3 id="my-current-configuration">My Current Configuration</h3>
 <ol>
-  <li>Fibre CPE that provides access through Ethernet</li>
-  <li>Fibre Service Provide: Coolideas</li>
+  <li>Fibre CPE that provides access through Ethernet cable</li>
+  <li>Fibre Service Provider: Coolideas</li>
   <li>D-Link DIR 825 with the WAN port connected to the CPE and Wifi Hotspot</li>
   <li>Raspberry Pi4
     <ul>
@@ -321,79 +348,69 @@ But I was on holiday now and well, why not. I had a two-fold plan,</p>
 <ol>
   <li>No more D-Link router (unless providing access to guests)</li>
   <li>Raspberry Pi4 running <a href="http://ipfire.org">IpFire</a></li>
-  <li>Fibre CPE direct into Pi4 for Internet Access (RED)</li>
-  <li>Second USB NIC connected to D-Link router for guest access (GREEN)</li>
-  <li>Pi4 as a wireless hotspot (BLUE)</li>
+  <li>Fibre CPE direct into Pi4 for Internet Access (<span style="color: red">RED</span>)</li>
+  <li>Second USB NIC connected to D-Link router for guest access (<span style="color: green">GREEN</span>)</li>
+  <li>Pi4 as a wireless hotspot (<span style="color: blue">BLUE</span>)</li>
 </ol>
 
 <h2 id="the-result">The Result</h2>
 <p>Well success of course. But perhaps let me talk through some of the challenges.</p>
 
-<h2 id="challenges-in-plan-no-1">Challenges in Plan No. 1</h2>
-<blockquote>
-  <p>Should I use the WAN port to connect the Pi4 and D-Link?</p>
-  <ul>
-    <li>This is firstly not supported as the expectation that both the WAN IP is not the same as the WLAN.</li>
-    <li>I used a standard port.</li>
-  </ul>
-</blockquote>
+<h2 id="challenges-in-phase-1">Challenges in Phase 1</h2>
 
-<blockquote>
-  <p>Do I have to do any port forwarding or masquerading on the D-Link and should the two devices share a subnet?</p>
-  <ul>
-    <li>No, there was no configuration needed on the D-Link.</li>
-    <li>Yes, I used the USB NIC of the Pi4 (GREEN Zone) I used to link up to the D-Link</li>
-  </ul>
-</blockquote>
+<h4 id="should-i-use-the-wan-port-to-connect-the-pi4-and-d-link">Should I use the WAN port to connect the Pi4 and D-Link?</h4>
+<ul>
+  <li>This is firstly not supported as the expectation that both the WAN IP is not the same as the WLAN.</li>
+  <li>I used a standard port.</li>
+</ul>
 
-<blockquote>
-  <p>How should I configure the Pi4 Raspbian OS?</p>
-  <ul>
-    <li>I plugged the Cat 6 from the Fibre CPE into it the internal Pi4 Nic allowing DHCP to configure the internet IP address through the provider.</li>
-  </ul>
-</blockquote>
+<h4 id="do-i-have-to-do-any-port-forwarding-or-masquerading-on-the-d-link-and-should-the-two-devices-share-a-subnet">Do I have to do any port forwarding or masquerading on the D-Link and should the two devices share a subnet?</h4>
+<ul>
+  <li>No, there was no configuration needed on the D-Link.</li>
+  <li>Yes, I used the USB NIC of the Pi4 (GREEN Zone) I used to link up to the D-Link</li>
+</ul>
 
-<blockquote>
-  <p>Did you masquerade?</p>
-  <ul>
-    <li>Yes, I added a simple rule to masquerade the GREEN zone (link between two devices)
-      <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># sudo iptables -t nat -A POSTROUTING -o eth1 -j MASQUERADE
-</code></pre></div>      </div>
-    </li>
-  </ul>
-</blockquote>
+<h4 id="how-should-i-configure-the-pi4-raspbian-os">How should I configure the Pi4 Raspbian OS?</h4>
+<ul>
+  <li>I plugged the Cat 6 from the Fibre CPE into it the internal Pi4 Nic allowing DHCP to configure the internet IP address through the provider.</li>
+</ul>
 
-<blockquote>
-  <p>Why did I not stop here?</p>
-  <ul>
-    <li>It was insecure. I would need to spend a significant amount of time setting the firewall rules and debugging.</li>
-    <li>Not to mention, installating a ton of software to caliberate network statistics.</li>
-  </ul>
-</blockquote>
+<h4 id="did-you-masquerade">Did you masquerade?</h4>
+<ul>
+  <li>Yes, I added a simple rule to masquerade the GREEN zone (link between two devices)
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># sudo iptables -t nat -A POSTROUTING -o eth1 -j MASQUERADE
+</code></pre></div>    </div>
+  </li>
+</ul>
 
-<h2 id="challenges-in-plan-no-2">Challenges in Plan No. 2</h2>
+<h4 id="why-did-i-not-stop-here">Why did I not stop here?</h4>
+<ul>
+  <li>It was insecure. I would need to spend a significant amount of time setting the firewall rules and debugging.</li>
+  <li>Not to mention, installation a ton of software to calibrate network statistics.</li>
+</ul>
+
+<h2 id="challenges-in-phase-2">Challenges in Phase 2</h2>
 <p>Now that we have a proof of concept, let’s move onto IpFire.</p>
 
-<blockquote>
-  <p>Any tips for initial setup of Image onto SD-Card?</p>
-  <ul>
-    <li>In writing the IpFire image to your SD-card ensure to disable the serial cable requirement so you can set it up easily with HDMI and USB keyboard - you need to edit the uENV.txt file
+<h4 id="any-tips-for-initial-setup-of-image-onto-sd-card">Any tips for initial setup of Image onto SD-Card?</h4>
+<ul>
+  <li>In writing the IpFire image to your SD-card ensure to disable the serial cable requirement so you can set it up easily with HDMI and USB keyboard - you need to edit the uENV.txt file
 on the flashed SD Card:
-      <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SERIAL-CONSOLE=ON To SERIAL-CONSOLE=OFF
-</code></pre></div>      </div>
-    </li>
-  </ul>
-</blockquote>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># From
+SERIAL-CONSOLE=ON 
+# To
+SERIAL-CONSOLE=OFF
+</code></pre></div>    </div>
+  </li>
+</ul>
 
-<blockquote>
-  <p>How did you define the zones?</p>
-  <ul>
-    <li>I used RED for the Internet access (internal nic of Pi4)</li>
-    <li>GREEN for all traffic from the D-Link router (USB nic to D-Link)</li>
-    <li>BLUE for wireless traffic using the Pi4 itself</li>
-    <li>Be advised for access from GREEN to RED I used the transparent proxy included with IpFire</li>
-  </ul>
-</blockquote>
+<h4 id="how-did-you-define-the-zones">How did you define the zones?</h4>
+<ul>
+  <li>I used <span style="color: red">RED</span> for the Internet access (internal nic of Pi4)</li>
+  <li><span style="color: green">GREEN</span> for all traffic from the D-Link router (USB nic to D-Link)</li>
+  <li><span style="color: blue">BLUE</span> for wireless traffic using the Pi4 itself</li>
+  <li>Be advised for access from GREEN to RED I used the transparent proxy included with IpFire</li>
+</ul>
 
 <h3 id="it-works">It works</h3>
 
@@ -402,7 +419,7 @@ on the flashed SD Card:
 <p>It’s been an amazing experience thus far, by no means an enterprise grade user interface or corporate backing for sexy bells and whistles.
 But it’s a Toyota Corolla that does the job and well.</p>
 
-<p>Supported features I am getting a ton of value around is:</p>
+<h4 id="supported-features-i-am-getting-a-ton-of-value-around-is">Supported features I am getting a ton of value around is:</h4>
 <ol>
   <li>Hardware graphing performance (memory, cpu, load)</li>
   <li>Firewall logs by country, port and IP</li>
