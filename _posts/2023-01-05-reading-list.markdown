@@ -30,5 +30,9 @@ categories: hobbies
 1. [Relentless](https://www.amazon.co.uk/Relentless-Unstoppable-Tim-S-Grover/dp/1476714207)
 2. [Thinking Fast and Slow](https://www.amazon.co.uk/Thinking-Fast-Slow-Daniel-Kahneman/dp/0141033576/ref=sr_1_1?keywords=thinking+fast+and+slow+by+daniel+kahneman&qid=1679229120&s=books&sprefix=thinking+f%2Cstripbooks%2C255&sr=1-1)
 3. [Blink](https://www.gladwellbooks.com/titles/malcolm-gladwell/blink/9780316172325/)
+4. [Peace Child - Don Richardson](https://www.amazon.com/Peace-Child-Unforgettable-Primitive-Treachery/dp/0830737847)
+5. [The Magician's Nephew - C.S.Lewis](https://www.amazon.com/Magicians-Nephew-C-S-Lewis/dp/0064405052/ref=sr_1_1?keywords=the+magician%27s+nephew&qid=1681327854&s=books&sprefix=the+magician%27s+ne%2Cstripbooks-intl-ship%2C346&sr=1-1)
+6. [Mobile Solar Power Made Easy - William Prowse](https://www.amazon.com/Mobile-Solar-Power-Made-yourself/dp/1546567119/ref=sr_1_10?crid=1EXTPF818YF33&keywords=diy+solar+power+for+beginners+book&qid=1681327911&s=books&sprefix=diy+solar+power+for+beginners+bo%2Cstripbooks-intl-ship%2C327&sr=1-10)
+
 
 
