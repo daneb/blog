@@ -131,6 +131,12 @@ var store = [{
         "url": "/sermons/lesson-from-tears/",
         "teaser": null
       },{
+        "title": "1 John 1: A Sure Salvation",
+        "excerpt":"Warmup questions: How many books of the Bible did John write? What was John’s relationship to Jesus? What did God call John to be? Deuteronomy Survey (J.B Philips) The generation which experienced redemption from Egypt was now dead. Joshua, Caleb and Moses alone remained But Moses would soon die Moses...","categories": [],
+        "tags": [],
+        "url": "/sermons/one-john-1/",
+        "teaser": null
+      },{
         "title": "2nd Peter Outline",
         "excerpt":"3 Chapters 3 Words - Glory, Knowledge of God, Remembrance Bible - called Key of Knowledge (Luke 11:52).They exalt the book, but not the Saviour behind the book. Or they exalt the Saviour and no the Book. This is our manual for life, an owners manual. 66 AD * 6...","categories": [],
         "tags": [],
