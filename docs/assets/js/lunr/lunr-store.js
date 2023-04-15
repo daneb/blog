@@ -137,6 +137,12 @@ var store = [{
         "url": "/sermons/one-john-1/",
         "teaser": null
       },{
+        "title": "Paul's 3 Fold Plan",
+        "excerpt":"Introduction Good morning, from here on out we will be seeing a change if most don’t already know that the preaching will focus it’s efforts from a specific book and that of Romans. Romans as most might know is a pre-eminent pit-stop in the Bible and is filled and brimming...","categories": [],
+        "tags": [],
+        "url": "/sermons/romans-one/",
+        "teaser": null
+      },{
         "title": "2nd Peter Outline",
         "excerpt":"3 Chapters 3 Words - Glory, Knowledge of God, Remembrance Bible - called Key of Knowledge (Luke 11:52).They exalt the book, but not the Saviour behind the book. Or they exalt the Saviour and no the Book. This is our manual for life, an owners manual. 66 AD * 6...","categories": [],
         "tags": [],
