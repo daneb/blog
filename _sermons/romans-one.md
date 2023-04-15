@@ -22,7 +22,7 @@ this portion we see Paul emphasizing three key to unlocking this book, the doctr
 and the christian life, and it's:
 
 1. The call of God (3 times 'called') - your identity
-2. The call of Faith (6 times 'faith') - the foundation to a relationship with God
+2. The call of Faith (6 times 'faith') - the building block to godly relationships
 3. The call of the Gospel (4 times 'gospel') - the power of God and work of men
 
 # Body
@@ -82,7 +82,7 @@ and the christian life, and it's:
   - > If you are going to be a slave, make Christ your master, not men.
   - > Your identity, and who you are is God defined, not man confined. 
 
-## II. Faith's calling - the building block to a relationship with Jesus Christ
+## II. Faith's calling - the building block to godly relationships
 ### a) A known faith (vs. 8) - 
   1. Definition of Faith
   - The Century Dictionary > The assent of the mind to the truth of a proposition or statement for which there is not complete evidence; belief in general. 
@@ -181,7 +181,7 @@ and the christian life, and it's:
 # Conclusion (vs. 17)
 In closing friends, we have looked at the 3 foundational pieces to any Christian's life,
 a) The call of Christ, that is their identity in Christ as saints
-b) The call of Faith, the foundation to a relationship with God and others
+b) The call of Faith, the building block to godly relationships
 c) The call of Gospel, the effectual working of God in and through us
 
 God is calling friend, God is calling you. In the week to come, will you answer!!!
