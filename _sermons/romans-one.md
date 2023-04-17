@@ -1,5 +1,5 @@
 ---
-title: "Paul's 3 Fold Plan"
+title: "Called by Faith unto the Gospel"
 excerpt: "Sermon outline"
 ---
 

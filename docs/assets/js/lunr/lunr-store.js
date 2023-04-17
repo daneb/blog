@@ -119,6 +119,12 @@ var store = [{
         "url": "/hobby/2023/03/23/building-a-home-firewall.html",
         "teaser": null
       },{
+        "title": "Learning Angular",
+        "excerpt":"Main building blocks Data and Rendering Module - groups related code together, feature modules, shared modules, lazy loads Component - small unit of code serves a specific purpose, renders to DOM, independant UI functionality, can render other components Directives - add functionality to an existing HTML or components, modify or...","categories": ["software"],
+        "tags": [],
+        "url": "/software/2023/04/16/learning-angular.html",
+        "teaser": null
+      },{
         "title": "Is Christianity Real?",
         "excerpt":"Getting Revived – Dead Works to Fruit PROBLEM: I’m cold, how do I ignite the coals? Christ is not real. Introduction: This is the last day friend’s - all around us are Christians who are self-deceived or being deceived because the reality of Christ is missing. Yes we live in...","categories": [],
         "tags": [],
@@ -137,7 +143,7 @@ var store = [{
         "url": "/sermons/one-john-1/",
         "teaser": null
       },{
-        "title": "Paul's 3 Fold Plan",
+        "title": "Called by Faith unto the Gospel",
         "excerpt":"Introduction Good morning, from here on out we will be seeing a change if most don’t already know that the preaching will focus it’s efforts from a specific book and that of Romans. Romans as most might know is a pre-eminent pit-stop in the Bible and is filled and brimming...","categories": [],
         "tags": [],
         "url": "/sermons/romans-one/",
