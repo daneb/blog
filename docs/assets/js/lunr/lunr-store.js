@@ -125,6 +125,12 @@ var store = [{
         "url": "/sermons/christianity-real/",
         "teaser": null
       },{
+        "title": "How to structure a Bible study",
+        "excerpt":"Identify a theme (that aligns with the esssence of the verses) Introduce the theme Walk-through each verse and break it down Bring in examples from your own life Share stories and cross-reference similar verses Emphasize your theme General tips Don’t bite off more than you can chew Engage the audience...","categories": [],
+        "tags": [],
+        "url": "/sermons/how-to-structure-bible-study/",
+        "teaser": null
+      },{
         "title": "Lessons from Christ's tears on the Cross",
         "excerpt":"Lessons From The Tears Of Jesus Christ: Introduction: Liqourice All Sorts How many times did Jesus Christ cry in the Bible? Or how many times is it recorded that He Cried? From the weeping, the tears of our Lord, the man of sorrow’s we will gather some lessons. I. Jesus...","categories": [],
         "tags": [],
@@ -135,6 +141,12 @@ var store = [{
         "excerpt":"Warmup questions: How many books of the Bible did John write? What was John’s relationship to Jesus? What did God call John to be? Deuteronomy Survey (J.B Philips) The generation which experienced redemption from Egypt was now dead. Joshua, Caleb and Moses alone remained But Moses would soon die Moses...","categories": [],
         "tags": [],
         "url": "/sermons/one-john-1/",
+        "teaser": null
+      },{
+        "title": "1 John 2: A Sure Salvation",
+        "excerpt":"Study Group Ice Breakers If you could have two wishes, what would you wish for? (and you can’t wish for more wishes) Survey of the Bible: Joshua Refresher Can anyone remember what the book of Deuteronomy was about? Moses set about 10 sermons at the start to prepare them Moses...","categories": [],
+        "tags": [],
+        "url": "/sermons/one-john-2/",
         "teaser": null
       },{
         "title": "Paul's 3 Fold Plan",
