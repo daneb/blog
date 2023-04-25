@@ -16,5 +16,6 @@ excerpt: "The concepts and abstractions that steer my thinking"
 3. Psychological Safety - the effectiveness of our thinking relates to how we treat one another
 4. Extreme Ownership - if the team fails it's my fault. I own the communication both up and down the chains.
 5. Innovation - if a team is not innovating they are stagnating
+6. Fast Decision Making - spike and stabilize
 
 
