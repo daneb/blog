@@ -3,25 +3,25 @@ title: "1 John 2: A Sure Salvation"
 excerpt: "Bible Study"
 ---
 
-# Study Group Ice Breakers
+## Study Group Ice Breakers
 
 If you could have two wishes, what would you wish for?
 (and you can't wish for more wishes)
 
-# Survey of the Bible: Joshua
+## Survey of the Bible: Joshua
 
-# Refresher
+## Refresher
 * Can anyone remember what the book of Deuteronomy was about?
  - Moses set about 10 sermons at the start to prepare them
  - Moses ends with his final words to them
 * What are the 5 books of the Bible Moses wrote? 
 
-## Outline of Joshua (J.B Phillips)
+### Outline of Joshua (J.B Phillips)
 1. Claiming the Land (1-5)
 2. Conquering the Land (6-11)
 3. Colonizing the land (12-24)
 
-## Summary
+### Summary
 * "Moses the servant is dead"
 * Israel camped on the Easter side of the river Jordan
 * Canaan awaits them with it's giants and walled cities
@@ -39,30 +39,30 @@ If you could have two wishes, what would you wish for?
   - Northern: attack at the waters of Merom 
 * Land of Israel was divided lot
  
-# Refresh
+## Refresh
 
 * 1 John is an epistle written by John.
 * How many books of the Bible has John written?
 * Keyword: Know (30 times)
 * Practical application: Confidence in your salvation, but also to prove your salvation (Phil 2:12)
 
-# Verse by Verse 2:1-6
+## Verse by Verse 2:1-6
 
-## Theme: Knowing God
+### Theme: Knowing God
 
 Webster 1828 define's "know" as is:
 > To perceive with certainty; to understand clearly; to have a clear and certain perception of truth, fact, or any thing that actually exists.
 
 Question for you today will be, how well do you know God?
 
-### Verse 1
+#### Verse 1
 * "My little children" - he was with Christ. If there is anyone who the credentials for this labelling it's him. He has been with
 Christ, walked with him, talked with him, touched him in person. He has learned from the master. And now with that confidence,
 and assurance, he is going to give us wisdom and assurance.
 * I am glad the verse has the second sentence "And if any man sin.." 
 * What does some of your bibles say, does it use the word advocate?
 
-### Verse 2
+#### Verse 2
 * What is propitiation? 
 > The act of appeasing wrath and conciliating the favor of an offended person; the act of making propitious.
 * What word does some of your bible's use?
@@ -71,7 +71,7 @@ and assurance, he is going to give us wisdom and assurance.
 * This is important, because it speaks to the responsibility that comes with being a Christian - others.
 * Did Jesus die for the sins of the whole world and if so, does it mean everyone is going to heaven?
 
-### Verse 3
+#### Verse 3
 * Don't you just love the double "know"
 * Coming back to the definition of "know" - to understand clearly
 * Why is it so important to understand God clearly?
@@ -86,7 +86,7 @@ counter reaction to their advice and wastes their life.
 * Not only are we required to know God, but also have a fair and good reflection of ourselves.
 * Why is this important?
 
-### Verse 4
+#### Verse 4
 
 
 

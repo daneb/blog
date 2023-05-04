@@ -1,4 +1,10 @@
 var store = [{
+        "title": "Discouragement",
+        "excerpt":"The road of life ah yes the road of life At some turn along life, there THEY comes with their assault of strife with winds that rage and winds that blow, they beat, make meat of the courageous feat. To live is hard. Is it? The weapons of these diabolical...","categories": [],
+        "tags": [],
+        "url": "/poetry/discouragement/",
+        "teaser": null
+      },{
         "title": "A Girl Worth Fighting For",
         "excerpt":"Often times I sit and wonder, at how truly blessed I am, It’s not just the wealth, job, house or car, Nor just the LORD and His saving power, But it’s in LORD and His love, In giving me YOU, this gift from above. You are too me a “girl”...","categories": [],
         "tags": [],
@@ -119,14 +125,26 @@ var store = [{
         "url": "/hobby/2023/03/23/building-a-home-firewall.html",
         "teaser": null
       },{
+        "title": "Building a home solar system",
+        "excerpt":"Building blocks Purchase kit Breaking down the problem Learning electricity Drawing a schematic Other review the schematic Purchase components needed and tools Start the work References Eletrical Diagram software Review Solar Store Pre-Wired DB Board Sahita Electrical Installation SANS 10142 The rules for electrical distribution boards Complete Guide to Wiring...","categories": ["hobby"],
+        "tags": [],
+        "url": "/hobby/2023/04/28/journey-to-solar.html",
+        "teaser": null
+      },{
         "title": "Is Christianity Real?",
         "excerpt":"Getting Revived – Dead Works to Fruit PROBLEM: I’m cold, how do I ignite the coals? Christ is not real. Introduction: This is the last day friend’s - all around us are Christians who are self-deceived or being deceived because the reality of Christ is missing. Yes we live in...","categories": [],
         "tags": [],
         "url": "/sermons/christianity-real/",
         "teaser": null
       },{
+        "title": "A Study on Commandments",
+        "excerpt":"Part 1 Ice-breaker If you could witness one event in history what would it be? And why? Why ‘commandment?’ And hereby we do know that we know him, if we keep his commandments. 1 John 2:3 We left of last week at this verse, but there was some good discussion...","categories": [],
+        "tags": [],
+        "url": "/sermons/commandments/",
+        "teaser": null
+      },{
         "title": "How to structure a Bible study",
-        "excerpt":"Identify a theme (that aligns with the esssence of the verses) Introduce the theme Walk-through each verse and break it down Bring in examples from your own life Share stories and cross-reference similar verses Emphasize your theme General tips Don’t bite off more than you can chew Engage the audience...","categories": [],
+        "excerpt":"Start with an ice-breaker to warm up discussions Identify a theme (that aligns with the esssence of the verses) Introduce the theme Walk-through each verse and break it down Bring in examples from your own life Share stories and cross-reference similar verses Also, look for questions. Active listen to when...","categories": [],
         "tags": [],
         "url": "/sermons/how-to-structure-bible-study/",
         "teaser": null

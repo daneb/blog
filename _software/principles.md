@@ -63,6 +63,7 @@ First principles is kind of a physics way of looking at the world. You boil thin
 19. The aim of agile is not to make the team go faster but to generate data to make improved decisions.
 20. Comments usually mean you need to spend time cleaning the code. *regex
 21. [Goodhart's Law](https://thehustle.co/Goodharts-Law/)
+22. Correlation is not causation. 
 
 ## Anti-Patterns 
 *cut n paste from [Bipin Paul Bedi](https://www.bipinpaulbedi.com/2019/software-anti-patterns)*
