@@ -85,6 +85,9 @@ collections:
   software:
     output: true
     permalink: /:collection/:path/
+  video:
+    output: true
+    permalink: /:collection/:path/
   
 # Defaults
 defaults:
@@ -145,5 +148,15 @@ defaults:
       author_profile: true
       share: true
       comment: true
+  # videos
+  - scope:
+      path: ""
+      type: video
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: false
+
 
 

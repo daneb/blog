@@ -179,12 +179,6 @@ var store = [{
         "url": "/sermons/second-peter/",
         "teaser": null
       },{
-        "title": "Video Sermons",
-        "excerpt":"Behold the Man               True Victory               ","categories": [],
-        "tags": [],
-        "url": "/sermons/video/",
-        "teaser": null
-      },{
         "title": "How I lead",
         "excerpt":"Rules of managing Manager’s user manual for team 1. Rules of Managing Only by pride cometh contention - Proverbs 13:10 * Lead by example but don't absolve responsibility. * Delegate. * Record all interactions, document and distribute. * Changes to processes need solid agreement. * Collaborate instead of dictate, but...","categories": [],
         "tags": [],
@@ -201,5 +195,11 @@ var store = [{
         "excerpt":"My approach to life is guided by 5 principals (5 BE’s): Be Simple - Large doors swing on small hinges (problems) Be Confident - Know you can. Trust you can. Practice so you can (attitude) Be Focused - Limit the scope to whats manageable and what produces the most immediate...","categories": [],
         "tags": [],
         "url": "/software/values/",
+        "teaser": null
+      },{
+        "title": "Sermons",
+        "excerpt":"Behold the Man               True Victory               ","categories": [],
+        "tags": [],
+        "url": "/video/christian/",
         "teaser": null
       }]

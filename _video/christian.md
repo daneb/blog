@@ -1,5 +1,5 @@
 ---
-title: "Video Sermons"
+title: "Sermons"
 excerpt: "Sample videos taken from Faith Fellowship"
 ---
 

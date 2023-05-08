@@ -7,4 +7,6 @@ main:
     url: /software/
   - title: "Poetry"
     url: /poetry/
+  - title: "Videos"
+    url: /video/
 
