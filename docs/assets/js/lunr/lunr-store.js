@@ -125,12 +125,6 @@ var store = [{
         "url": "/hobby/2023/03/23/building-a-home-firewall.html",
         "teaser": null
       },{
-        "title": "Building a home solar system",
-        "excerpt":"Building blocks Purchase kit Breaking down the problem Learning electricity Drawing a schematic Other review the schematic Purchase components needed and tools Start the work References Eletrical Diagram software Review Solar Store Pre-Wired DB Board Sahita Electrical Installation SANS 10142 The rules for electrical distribution boards Complete Guide to Wiring...","categories": ["hobby"],
-        "tags": [],
-        "url": "/hobby/2023/04/28/journey-to-solar.html",
-        "teaser": null
-      },{
         "title": "Is Christianity Real?",
         "excerpt":"Getting Revived – Dead Works to Fruit PROBLEM: I’m cold, how do I ignite the coals? Christ is not real. Introduction: This is the last day friend’s - all around us are Christians who are self-deceived or being deceived because the reality of Christ is missing. Yes we live in...","categories": [],
         "tags": [],

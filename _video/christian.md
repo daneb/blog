@@ -1,6 +1,6 @@
 ---
 title: "Sermons"
-excerpt: "Sample videos taken from Faith Fellowship"
+excerpt: "Messages preach @ Faith Fellowship"
 ---
 
 ## Behold the Man
