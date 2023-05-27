@@ -222,17 +222,19 @@ we see in testimonies of brothers and sisters who take this pulpit? Of those clo
 ## Conclusion
 I want to leave you with three thoughts,
 1. We are justified
-I have only touched a part of the many more blessings found in Chapter 5, I've only touched on a few.
-But we have them, because we are justified by Him. Justified, that means we have been lawfully declared righteous through faith.
-2. Don't carry the burden of past sins
-Brothers and sisters we are righteous. We are God's children. 
-Our sin yesterday, our sin today and every future sin is under the blood. Jesus has atoned for it. 
-Don't carry the burden of past sins.
+- I have only touched a part of the many more blessings found in Chapter 5, I've only touched on a few.
+- But we have them, because we are justified by Him. Justified, that means we have been lawfully declared righteous through faith.
+1. Don't carry the burden of past sins
+- Brothers and sisters we are righteous. We are God's children. 
+- Our sin yesterday, our sin today and every future sin is under the blood. Jesus has atoned for it. 
+- Don't carry the burden of past sins.
+
 > 2Cor 5:17  Therefore if any man be in Christ, he is a new creature: old things are passed away; behold, all things are become new.
-3. Fall in love with Jesus, don't obssess about your battle with sin
-If you are struggling with sin this morning, be mindful about being too focused on your battle with sin, fall in love with Jesus. 
-It's easy to be remorseful, to want to correct actions, but they actions around purity will never hold fast, till Jesus Christ's love for you is the motivator.
-Pursue Him, Trust Him, Love Him and when those tribulations come, stand fast, stand fast! For at the end of tribulations is hope,
+
+1. Make Christ Jesus your focus, not your battle with sin
+- If you are struggling with sin this morning, be mindful about being too focused on your battle with sin, fall in love with Jesus. 
+- It's easy to be remorseful, to want to correct actions, but they actions around purity will never hold fast, till Jesus Christ's love for you is the motivator.
+- Pursue Him, Trust Him, Love Him and when those tribulations come, stand fast, stand fast! For at the end of tribulations is hope,
 and to that end is a deeper experience of love from Him.
 
 ## Notes
