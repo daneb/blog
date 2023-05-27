@@ -135,16 +135,7 @@ no tears in our eyes - but to rejoice when we behold Him who is altogether lovel
 - Wow, this is a tough one, how's this a blessing?
 
 ##### 2.4.2 An Example of Suffering 
-- I was speaking to a friend. He is highly inteliigent, known for his rational thought process and his ability to think clearly and effectively. 
-- As we spoke, he uncovered challenges in his life he was facing. His wife had completed her masters, done her intership, written exams, 
-finished top of her class only to be denied registration to officially practice because she was from Zim. 
-- Secondly, on top of that, he only living parent had just developed a brain tumor. And he was the only bread winner and weight on 
-his shoulders to help bring her out left him helpless. My heart sank as I empathized with him. But what made my heart even more moved, 
-was that he came to the conclusion from Victor Frankles books 'Man Search for meaning' that the meaning of life was "to embrace your suffering",
-to own it. 
-- He struggled with this, because he just couldn't understand, how one person could exerience such extreme pain (like a child being abused), 
-vs someone who got to live life to the full, to have kids, to move through life almost unhindered. And he stated he didn't understand this gap, 
-this variance - why did some have to suffer while others didn't. 
+Speaking to a friend, and his recent struggle with the suffering of some and not others.
 
 ##### 2.4.3 The History of Trials 
 ###### (i) The Challenge of understanding trials (Heb 11:32-40)
