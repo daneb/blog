@@ -202,4 +202,10 @@ var store = [{
         "tags": [],
         "url": "/video/christian/",
         "teaser": null
+      },{
+        "title": "Tech Talks",
+        "excerpt":"The 360 degree Developer               ","categories": [],
+        "tags": [],
+        "url": "/video/tech/",
+        "teaser": null
       }]
