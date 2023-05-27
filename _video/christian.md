@@ -1,6 +1,6 @@
 ---
 title: "Sermons"
-excerpt: "Messages preach @ Faith Fellowship"
+excerpt: "Messages preached at Faith Fellowship"
 ---
 
 ## Behold the Man
