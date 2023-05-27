@@ -29,7 +29,7 @@ reason in court why a defendant did what he is called to answer.
 - We will see our standing before God 
 - Just the beauty of the mechanism, the means, the HOW - Jesus Christ justified us to make us righteous
 
-> Read (v1-11)
+> Read (v12-21)
 
 ### Let us pray
 
@@ -144,13 +144,17 @@ Sometimes that clearer than other times, sometimes we are left be-wildered. Do I
 or why my mother died when I was at 11? Why this suffering, while others kids grow up with warm loving parents. 
 - The answer, I don't know God's ways. But I do know, He's prepared us for it. But scripture does tell us more.
 - Let's turn to 
-> READ Hebrews 11:32-40.
-vs. 40 - how amazing is this brothers and sisters, these great and mighty witnesses, accomplished so much and endured so much 
+> READ Hebrews 11:32-40
+
+- (verse 40) how amazing is this brothers and sisters, these great and mighty witnesses, accomplished so much and endured so much 
 (torture, lions, death, pain), and now I recognized by God in this book the Bible. But they were only the frame of the puzzle, 
 and we the completion of it. We were given so much more, then them, because would have Jesus. And together we are linked.
+
 ###### (ii) Encouragement in Trial
 - Let's move on, to
+
 > READ Hebrews 12. (Heb 12:1-2).
+
 - Here we can see Paul encouraging us, to lay aside every weight, 
 - We can glory, see the wonder in tribulation because God has set an expectation, has given us warning, given us heavenly blessings, 
 an example of men and women who have suffered, but also the general value of suffering. This is far more, then the rest of the world has.
@@ -160,14 +164,20 @@ an example of men and women who have suffered, but also the general value of suf
 ###### (a) Patience (vs. 3)
 - As we read vs. 3-5, we see the benefit of the tribulations (severe persecution) we face, that severe persecution brings forth patience.
 - Patience is something we all familiar with, as parent's with kids, we used to teachings lessons on it. 
+
 > Dad, Mum are we there yet?
 > Dad, I'm hungry?
+
 - But patience is more then just waiting for something.
 - The modern dictionary defines patience, 
+
 > the ability to wait, or to continue doing something despite difficulties
+
 - But the 1828 Webster's dictionary, from a Biblical perspective, defines patience as:
+
 > The suffering of afflictions, pain, toil, calamity, provocation or other evil, with a calm, unruffled temper;
 endurance without murmuring or fretfulness.
+
 - Tribulation's in our lives teaches us this patience.
 - But isn't this the general principle of life? 
 - Whether atheletes training for a competition (Eric Lindell)
@@ -175,12 +185,15 @@ endurance without murmuring or fretfulness.
 - Whether it be a child being born, the mother bears the burden of 9 months of carry, and culminates in momentary suffering to bring forth her child
 - This is the natural reality of life and living. And something we all need refreshing on.
 - May the Lord continue to open our eyes, and work patience in us, unto His Glory
+
 > Rom 15:4  For whatsoever things were written aforetime were written for our learning, that we through patience and comfort of the scriptures might have hope.
 
 ##### (ii) Experience (vs. 4)
 - When we are patient, it brings forth experience. 
+
 > Experience is defined as series of trials or experiments; active effort or attempt to do or prove something
 > It is the knowledge gained from trials.
+
 - Effective Christians are Christians with experience. They are able to navigate difficulties others wouldn't, have a confidence that others lack,
 and courage when courage lacks
 - The knowledge these Christian's gain, is four-fold,
@@ -191,8 +204,10 @@ and courage when courage lacks
 
 ##### (iii) Hope
 - And why is this knowledge gained from these trials (experience) valuable, because it gives us hope.
+
 > Rom 8:24  For we are saved by hope: but hope that is seen is not hope: for what a man seeth, why doth he yet hope for?
 > Rom 8:25  But if we hope for that we see not, then do we with patience wait for it.
+
 - Hope is defined as:
 > desire of some good, accompanied with at least a slight expectation of obtaining it, or a belief that it is obtainable.
 - The more tribulations we endure patiently, will produce experience, and the more experiences we have (knowledge gained in Christ),
