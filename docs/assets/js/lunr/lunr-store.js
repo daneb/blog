@@ -161,6 +161,12 @@ var store = [{
         "url": "/sermons/one-john-2/",
         "teaser": null
       },{
+        "title": "The Blessings of the Justified",
+        "excerpt":"Read (v1-11) The WHAT Cover the Blessings of our Justification What justification is? Now justified has 39 references in scriptures. Justification by definition, is act of justifying, showing to be just or conformable to the law. In law, showing of a sufficient reason in court why a defendant did what...","categories": [],
+        "tags": [],
+        "url": "/sermons/romans-five/",
+        "teaser": null
+      },{
         "title": "Paul's 3 Fold Plan",
         "excerpt":"Introduction Good morning, from here on out we will be seeing a change if most don’t already know that the preaching will focus it’s efforts from a specific book and that of Romans. Romans as most might know is a pre-eminent pit-stop in the Bible and is filled and brimming...","categories": [],
         "tags": [],
