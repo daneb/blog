@@ -162,7 +162,7 @@ var store = [{
         "teaser": null
       },{
         "title": "The Blessings of the Justified",
-        "excerpt":"Read (v1-11) The WHAT Cover the Blessings of our Justification What justification is? Now justified has 39 references in scriptures. Justification by definition, is act of justifying, showing to be just or conformable to the law. In law, showing of a sufficient reason in court why a defendant did what...","categories": [],
+        "excerpt":"Read (v1-11) The Change From Sinners To Justified The Blessings of Justification We see a move from a focus on sin, to righteousness. We see a move from Jews, Gentiles all under judgement, to a new group of people, the justified. The portion we read now, covers the many blessings...","categories": [],
         "tags": [],
         "url": "/sermons/romans-five/",
         "teaser": null
