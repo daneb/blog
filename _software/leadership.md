@@ -47,33 +47,25 @@ This is not a list of rules of how I operate, but the under-current of values an
 
 1. I aim to set clear expectations and be direct about it's accountability. When I fail to do so adequately, please feedback.
 I have a natural and genuine care for those who I am responsible for.
-
 2. I eagerly welcome feedback with facts, examples and/or specifics. Vice versa.
-
 3. If it doesn't work, lets build a plan, or just get rid of it.
 I aim to do whats right. But sometimes right is not effective. If not harmful, do whats effective.
-
 4. Everyone desires to give their best and is sincere in what they are trying to communicate.
-
 5. "We don't click" can be an emotion based on the spiralling stories we have told ourselves. Seperate the facts from the stories.
-
 6. I enjoy collaboration particularly with the multiplicity and diversity of minds.
-
 7. If you not getting to deep work, reach out, I will do my utmost to figure out how to unblock you.
 I am work in progress.
-
 8. Critical thinking is not hard and imperfect. However it is not winning, it's weighing. Critical thinking needs to criticize something..
-
 
 ### Areas I'm working to improve...
 
-Switching too quickly from problem definition to problem resolution.
-Effecting change at a less rapid rate (at times).
-Understand that some people struggle with candour in both accepting and giving it.
-When criticism to me is given to apply silence to the process so the person being courageous can have confidence to do it again.
-People take time to think and to make a point / question / statement. Don't just dismiss what their saying. Carefully and succinctly deal with it despite how insignificant it may appear to me.
-Don't just talk, do. And when others beat you to it, praise and rejoice with them.
-Not all ideas worth pursuing, are worth pursuing well.
+* Switching too quickly from problem definition to problem resolution.
+* Effecting change at a less rapid rate (at times).
+* Understand that some people struggle with candour in both accepting and giving it.
+* When criticism to me is given to apply silence to the process so the person being courageous can have confidence to do it again.
+* People take time to think and to make a point / question / statement. Don't just dismiss what their saying. Carefully and succinctly deal with it despite how insignificant it may appear to me.
+* Don't just talk, do. And when others beat you to it, praise and rejoice with them.
+* Not all ideas worth pursuing, are worth pursuing well.
 
 ### Ideas
 Ideas sometimes need education to live and thrive.

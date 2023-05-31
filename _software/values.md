@@ -10,7 +10,7 @@ excerpt: "The concepts and abstractions that steer my thinking"
 * Be True - True To Self. True To Others. Seek truth in every situation as it's the only effective way to diagnose reality (character)
 * Be Consistent - Habits done consistently produce effectivity (actions)
 
-## Four core values
+## Six core values
 1. Radical Candour - caring for others requires candid communication.
 2. Mutual Purpose - manage the stories we tell ourselves about others. In conflict seek to understand your purpose and that of the other person.
 3. Psychological Safety - the effectiveness of our thinking relates to how we treat one another
