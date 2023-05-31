@@ -53,9 +53,14 @@ How can we test our theories?
 > Command: To direct, to send, to bid; to order
 > Commandment: A command, an order given by an authority
 
-## But what's the Bibles definition
+### Websters
 "commandment" - mentioned 168 times (majority speaks to the importance of keeping them)
 
+## Why is John inconsistent here? 
+In verse 7 he says no new commandments. But now he says in verse 8 he says a new commandment.
+What is the old commandment and what is the new?
+
+## But what's the Bibles definition
 1. Gen 26:5 - distinguishing differences
   * The terms law, commandment, and statute are sometimes used interchangeably,
   but they can also have distinct meanings. The general consensus is that the term "law" encompasses all of God's instructions to His people,
@@ -72,6 +77,10 @@ How can we test our theories?
 1. 2 John 1:5-6 - We reflect our love for God in keeping His commandments. That's the test right. Easy to believe and be saved (so to speak).
 Easy to say I love Jesus. Easy to standup and give testimony of Jesus. Easy to stand and preach. Hard to live when the rubber meets the road.
 
+## The New
+Is the old commandment, refreshed, revived in Jesus Christ (John 13:34)
+
+1. Why was it revived?
 
 ## what did we learn?
 * We can have confidence in deciphering truth on our own

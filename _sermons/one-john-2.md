@@ -179,8 +179,63 @@ Talk to, listen to, follow and love.
 
 This is what seperate Christianity, we are not a dead religion, we are not a set of commandments, we are loved, and have someone to love.
 
+## Session Three
 
+## Survey: 1 Samuel (From J Phillips)
 
+### Israel in sin
+> Gen 49:10  The sceptre shall not depart from Judah, nor a lawgiver from between his feet, until Shiloh come; and unto him shall the gathering of the people be.
+This was the great sin of Israel, anticipating the purpose of God and insisting on their own King, instead of waiting for God's king.
+
+1. Who are the 4 main actors of 1 Samuel?
+- Eli
+- Samuel
+- Saul
+- David
+1. Who was Samuel?
+- Samuel is called, "last of judges, first of prophets."
+- He stood apart from Kings and Priests, and exercised authority over them both.
+- Eli was an old feeble priest at the time and not a great priest (1:12-17)
+- At this time, Israel was immoral, lost their way, neglected the tabernacle.
+- Elkanah was a godly man. His favorite wife Hannah, was a woman of great piety.
+- Through prevailing prayer, she overcame her barrenness and was given a child, Samuel.
+- The amazing power and faith of this woman (1 Sam 1:28) as she gives Samuel to Eli (lends him to the Lord)
+1. What are some events you can remember from the book?
+- Hannah prays for child while being barren
+- Young age, Samuel heard the Lords voice
+- Threw Samuel, the Phillistines began to infer that their reign over Israel wouldn't last
+- He was might for God, and led Israel with divine authority
+1. Who was Saul?
+- Israel's first king.
+- Born from tribe of Benjamin (smallest tribe)
+- Big physically, but ignorant to God's will, impulsive, insane jealousy
+- But he showed early promise
+- He had wise and godly counsel from Samuel
+- He had strong victories initially over Israel's foes
+- His two failure (1 Samuel 13:5-15, 1 Samuel 15:1-23)
+- He was insanely jealous over David when he found out he would be replaced by him
+- On nine occassions he tried to murder David
+1. Who was Saul's son?
+- Jonathan
+- the love of Jonathan and David is one great story in 1 Samuel
+1. What instrument could David play?
+- The harp
+1. Who was David and what can you tell me about him?
+- God's chosen King for Israel
+- Generous, brave, compassionate, thoughtful, born leader of men
+- From David, came the Kings
+- Lord Jesus is tracked back to David
+- David was a shepherd boy
+- He defeated Goliath
+- He had many experiences as an outlaw taught him how to command men
+- He had a noble band "might men" (caves and hideouts in Judae)
+
+## 1 John 2:7
+
+### A New Commandment
+1. How would you define a commandments?
+1. Perhaps today we can explore the nature of commandments and how words in scripture have so much power and their own nature?
+Refer to [commandments](/sermons/commandments)
 
 
 
