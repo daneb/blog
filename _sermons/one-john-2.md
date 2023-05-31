@@ -234,6 +234,10 @@ This was the great sin of Israel, anticipating the purpose of God and insisting 
 
 ### A New Commandment
 1. How would you define a commandments?
+1. It's important to explore meaning of words. It can take on new dimensions and help explain tension you may feel in the passage
+or a set of verses.
+1. Again the true definition of a word is not in a dictionary, but as the bible defines it. It's very rarely different to a dictionary,
+but when it does it can help illuminate the word.
 1. Perhaps today we can explore the nature of commandments and how words in scripture have so much power and their own nature?
 Refer to [commandments](/sermons/commandments)
 

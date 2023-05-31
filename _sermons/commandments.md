@@ -69,7 +69,7 @@ What is the old commandment and what is the new?
 1. 2 Kings 17:19 - they made their own commandments
 1. Psalm 119:98 - Psalm longest and also about God's word. Commandments linked to God's word.
 1. Ecclesiastes 12:13 - the summary of it all
-1. Matthew 22:40 - The two main commandments or NT commandments (of course Christ had not died but he was preparing them)
+1. Matthew 22:36-40 - The two main commandments or NT commandments (of course Christ had not died but he was preparing them)
 1. Mark 12:29-31 - The two commandments of which all other instructions hang 
 1. Acts 1:2 - specific instructions or commandments for the Apostles
 1. 1 Cor 7:19 - Don't get caught up in the things that make good commandments or have that appearance. Rightly divide!
