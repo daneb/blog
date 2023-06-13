@@ -161,6 +161,12 @@ var store = [{
         "url": "/sermons/one-john-2/",
         "teaser": null
       },{
+        "title": "I'm saved, but ...",
+        "excerpt":"Introduction: The Problem: We’re saved but the challenges abound The Body 1. But what about the Law 2. But what about my struggle with Sin and the Flesh 3. But what about Suffering 4. But what about climate change 5. But what about the future? 6. But how then do...","categories": [],
+        "tags": [],
+        "url": "/sermons/romans-eight/",
+        "teaser": null
+      },{
         "title": "The Blessings of the Justified",
         "excerpt":"Read (v1-11) The Change From Sinners To Justified The Blessings of Justification We see a move from a focus on sin, to righteousness. We see a move from Jews, Gentiles all under judgement, to a new group of people, the justified. The portion we read now, covers the many blessings...","categories": [],
         "tags": [],
