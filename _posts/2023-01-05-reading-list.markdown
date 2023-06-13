@@ -34,6 +34,7 @@ categories: hobbies
 5. [The Magician's Nephew - C.S.Lewis](https://www.amazon.com/Magicians-Nephew-C-S-Lewis/dp/0064405052/ref=sr_1_1?keywords=the+magician%27s+nephew&qid=1681327854&s=books&sprefix=the+magician%27s+ne%2Cstripbooks-intl-ship%2C346&sr=1-1)
 6. [Mobile Solar Power Made Easy - William Prowse](https://www.amazon.com/Mobile-Solar-Power-Made-yourself/dp/1546567119/ref=sr_1_10?crid=1EXTPF818YF33&keywords=diy+solar+power+for+beginners+book&qid=1681327911&s=books&sprefix=diy+solar+power+for+beginners+bo%2Cstripbooks-intl-ship%2C327&sr=1-10)
 7. [Elon Musk - Ashlee Vance](https://en.wikipedia.org/wiki/Elon_Musk:_Tesla,_SpaceX,_and_the_Quest_for_a_Fantastic_Future)
+8. [Calling Bullshit](https://www.penguinrandomhouse.com/books/563882/calling-bullshit-by-carl-t-bergstrom-and-jevin-d-west/)
 
 
 
