@@ -37,6 +37,9 @@ First principles is kind of a physics way of looking at the world. You boil thin
 ## Tests
 1. Don't test functions directly. Tests will break when code breaks. This is why we don't test private functions.
 
+## Project efficiency
+1. [Estimations an artistic view](https://davestewart.co.uk/blog/the-work-is-never-just-the-work/)
+
 ## Dev Quotes
 1. "Cheap, Fast, and Good: Pick Two"? *related to CAP theorem*
 

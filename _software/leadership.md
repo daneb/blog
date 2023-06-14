@@ -16,6 +16,9 @@ excerpt: "My style"
 	* Collaborate instead of dictate, but dictate when collaboration can't reach resolution.
 	* Conflict is a natural part of business and it's healthy. Particularly where the individuals come from different backgrounds. This allows the shaping of problems and solutions in different ways. It's important to recognize that and to share your views (that are different) in a cordial manner. Contention is usually a sign of your ego kicking in.
 	* In setting a new course or direction, it is often times not enough to just point and say go. It requires education, inspiration and motivation of those who are being asked to follow.
+	* Understand the impact of the decisions you make, or the directions you pull your team. Be mindful of the current state. Keep momentum.
+	* Try maintain the team at 85% capacity - higher productivity (HBR cross-ref)
+	* Decide quickly, experiment.
 
 ## 2. Manager's User Manual
 
