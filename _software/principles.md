@@ -65,6 +65,9 @@ First principles is kind of a physics way of looking at the world. You boil thin
 21. [Goodhart's Law](https://thehustle.co/Goodharts-Law/)
 22. Correlation is not causation. 
 
+## Principals to guide management:
+1. [Not maximize, but optimize to 85%](https://hbr.org/2023/06/to-build-a-top-performing-team-ask-for-85-effort)
+
 ## Anti-Patterns 
 *cut n paste from [Bipin Paul Bedi](https://www.bipinpaulbedi.com/2019/software-anti-patterns)*
 ### Organisational anti-patterns

@@ -53,6 +53,10 @@ I am work in progress.
 * Don't just talk, do. And when others beat you to it, praise and rejoice with them.
 * Not all ideas worth pursuing, are worth pursuing well.
 
+### One-on-ones
+* Focus on 85% - “How am I making your work more stressful than it needs to be?”
+* Maintain a Trello Board of the conversation (focus on areas of growth, relationship and impact):w
+
 ### Ideas
 Ideas sometimes need education to live and thrive.
 

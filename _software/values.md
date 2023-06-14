@@ -19,3 +19,4 @@ excerpt: "The concepts and abstractions that steer my thinking"
 6. Fast Decision Making - spike and stabilize
 
 
+
