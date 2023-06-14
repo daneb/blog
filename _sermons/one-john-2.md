@@ -241,6 +241,75 @@ but when it does it can help illuminate the word.
 1. Perhaps today we can explore the nature of commandments and how words in scripture have so much power and their own nature?
 Refer to [commandments](/sermons/commandments)
 
+# Session 3
+
+## Riddles
+1. What has a face but cannot smile, moves but has no legs, and tells but does not speak? (A clock)
+1. What has keys but can't open locks, and space but no room? (A keyboard)
+1. I am tall when I'm young and short when I'm old. What am I? (A candle)
+
+## Ice breaker
+1. If you could be or meet someone from scripture, who would it?
+
+## 2 Samuel 
+
+1. The Patient Years (1-4)
+ A. The Lament of Saul
+ B. The House of Saul
+2. The Prosperous Years (2-4)
+ A. David's Coronation
+ B. David's Convictions
+ C. David's Covenant
+ D. David's Conquest
+ E. David's Critics
+ F. David's Crime
+3. The Perilous Years (13-24)
+
+### Key Events
+1. When he died David crowned.
+1. Ish-bosheth led a rebellion (Saul's son) and Abner murdered
+1. David was a wise and generous king
+1. His leadership and miltary prowess gained him support and loyalty from various tribes and regions.
+1. He captures the stronghold of Jerusalem and makes it the capitol city (Jebusites)
+1. He began the foundations of building the temple which we know will live throughout Jewish National life for some time.
+1. He appointed court recorders and scribes so that national records could be systematically kept.
+> What was David's great sin? (interestingly it was at the height of his power)
+ - What was the husband's name - Uriah the Hittite
+ - Worst part - was one of his most faithful officers and one of his mighty men
+ - Who revealed his sin? Nathan
+1. David wept and came to repentance.
+>  Who was David's favourite son?
+1. From then, David ran into trouble with his family (Absalom his favourite son, led a rebellion)
+ - temporarily successful as it drove him from his throne
+> Who did David leave the kingdom too?
+1. Story teaches us - that God is no respecter of persons
+
+## 1 John 2:8-12
+
+### Verse 8
+1. What do we remember from last time - what is this new commandment? (old commandment refreshed)
+1. What is this darkness that is now past? Glorious gospel and salvation, the dispensation of law is past.
+1. What is the dispensation we in called?
+1. Where did people in the Old Testament go when they died? 
+1. What is the true light?
+
+### Verse 9
+1. Who is your brother in this context?
+1. We will pick up on this again in verse 11
+
+### Verse 10
+1. Here we see the repetition of 1 John. 1 John could be summed up in a large paragraph.
+1. John is trying to impress vital truths.
+1. When you love God and your neighbour, your clear you way so you can navigate life effectively.
+
+### Verse 11
+1. Darkness blinds, and causes you to stumble. When you hold grudges, despise, turn your eyes from Christ to others, you enter into darkness
+1. Darkness also masks sin (you can't see it, bias; but also other's can't see what you are doing)
+
+### Verse 12
+1. John reminds us that we have victory over sin.
+1. Not for our sake, but for Christ's. Our sin is removed because of Christ.
+1. God loves us, He does, but our merit, the reason we were grafted in, was because of Christ.
 
 
 
