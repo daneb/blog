@@ -162,7 +162,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Walking in the Spirit",
-        "excerpt":"Introduction: In Jewish times, Israel would listen in large groups, as scripture was read. We got a pretty lengthy portion of scripture this, but perhaps I can get 3 men to read scripture, v1-10, v11-20, v21-30. I will read the rest of the chapter. The Problem: Last week we looked...","categories": [],
+        "excerpt":"Introduction: Read Romans 8:1-30 The Problem: Last week we looked at the struggle with law and how we are free from it. But let’s review our journey thus far from the point of view of an unsaved man. He starts off reading Romans 1 and learning about the author and...","categories": [],
         "tags": [],
         "url": "/sermons/romans-eight/",
         "teaser": null
