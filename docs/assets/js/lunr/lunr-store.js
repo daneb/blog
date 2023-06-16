@@ -161,8 +161,8 @@ var store = [{
         "url": "/sermons/one-john-2/",
         "teaser": null
       },{
-        "title": "I'm saved, but ...",
-        "excerpt":"Introduction: The Problem: We’re saved but the challenges abound The Body 1. But what about the Law 2. But what about my struggle with Sin and the Flesh 3. But what about Suffering 4. But what about climate change 5. But what about the future? 6. But how then do...","categories": [],
+        "title": "Walking in the Spirit",
+        "excerpt":"Introduction: In Jewish times, Israel would listen in large groups, as scripture was read. We got a pretty lengthy portion of scripture this, but perhaps I can get 3 men to read scripture, v1-10, v11-20, v21-30. I will read the rest of the chapter. The Problem: Last week we looked...","categories": [],
         "tags": [],
         "url": "/sermons/romans-eight/",
         "teaser": null
