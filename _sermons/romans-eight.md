@@ -32,8 +32,8 @@ The word "for" is generally used to indicate a reason or an explanation, it intr
 If you scan the passage you will notice there 14 verses that start with the word "for". Following the grouping of the "fors",
 I see 3 main divisions that will make up this portion.
 
-1. The Inward Workings of the Spirit (vs. 2-16)
-1. The Outward Workings of the Spirit (vs. 17-27) 
+1. The Inward Workings of the Spirit (vs. 2-7)
+1. The Outward Workings of the Spirit (vs. 8-16) 
 1. The Forward Workings of the Spirit (vs. 28-39)
 
 ### Let us pray
@@ -67,6 +67,7 @@ I see 3 main divisions that will make up this portion.
 - If there is any people that can take advantage of the law and abuse it, it's us. 
 - But how beautiful, amazing and wonderful it is, when Christians, who are free from the law, choose to abide in the law
 and fulfil it for Christ. 
+- AS opposed to the O.T Israel, who were commanded to keep the law.
 - Is this not a demonstration of how right the law is, how effectual it can be.
 - Was it not also said of Christ,
 > Mat 5:17  Think not that I am come to destroy the law, or the prophets: I am not come to destroy, but to fulfil.
@@ -76,6 +77,7 @@ and fulfil it for Christ.
 ### 2. The Outward Working of the Spirit
 #### 2.1. The Flesh defeated (vs.8-13)
 > Rom 8:11  But if the Spirit of him that raised up Jesus from the dead dwell in you, he that raised up Christ from the dead shall also quicken your mortal bodies by his Spirit that dwelleth in you.
+
 - The same Spirit that raised up Jesus from the dead, is in you.
 - Isn't that such a beautiful picture, how the Spirit that had the power to raise up Christ from the dead, has been given unto
 us by God, not just temporarily, but permanently. Imagine the power the Spirit had to raise up the physical body of Spirit,
@@ -157,7 +159,7 @@ something like an ant to our God, but then I remebered the verse.
 what we can't, when we broken, when words fail us, and we're overcome.
 - What a blessing it is to walk in the Spirit!
 
-#### 3.2 The Security of the Spirit
+#### 3.2 The Future working of the Spirit
 ##### (a) A certain future (vs. 28-30)
 - Perhaps now our discerning reader, pushes forward, "Ok Paul, you told me about my victory of my past sin, the courage, hope and strength I have for the present, but what of my future?"
 - To which Paul responds in verse 28,
@@ -168,7 +170,7 @@ what we can't, when we broken, when words fail us, and we're overcome.
 - For many years of my Christian walk, I was confused about Job. Why did God slay Job? Why did he sent so much calamity and disaster?
 - If we recall, it was Satan who did the destroying and it was Satan's choice to do so.
 - God could have stopped Him yes, but is not the Book such a reflection of trials and what true disaster looks like.
-- Does not bring a change of perspective to sometimes our own lives.
+- Does it not bring a change of perspective to sometimes our own lives.
 - Does it not reminder us that often times the challenges we face are spiritual battles between satan and God and not just about us.
 - Is Job perhaps not one of the great books of scripture that forms part of our scripture, and has spurned a religion now 2000+ years later? 
 - That one incident, happened to one man and his family, but how much more powerful has it spoken into the lives of missionaries, pastors, saints
@@ -176,7 +178,7 @@ through their darkest times these 2000 years, how many of millions.
 - Perhaps another thing worth considering is the verse in Eccl 9:11
 >Ecc 9:11  I returned, and saw under the sun, that the race is not to the swift, nor the battle to the strong, neither yet bread to the wise, nor yet riches to men of understanding, nor yet favour to men of skill; but time and chance happeneth to them all.
 - Sometimes when you kick your toe on the door, the nail bends and bleeds, it's not about a spiritual battle.
-- It's actually just living in a corrupt world, where millions and billions of lives relate and inter-twine.
+- It's actually just living in a corrupt world, where millions and billions of lives relate and inter-twine, and sometimes things just go wrong.
 - Paul's answer, all things work together for good.
 
 ## The Conclusion: Call To Action
