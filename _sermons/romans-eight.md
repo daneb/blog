@@ -166,6 +166,26 @@ So in regards to this life, when you walk in the Spirit,
 - there is hope for tomorrow, in Jesus return, and a new heaven and a new earth
 - and lastly, if you ever confused or broken, the Spirit that indwells will pray to God on your behalf.
 
+## The Conclusion: Call To Action
+After all that the reader, now saved and ask the ultimate question, yes sin is defeated, yes I have a new walk in the Spirit,
+yes I have a new identity, yes I have hope, yes the Holy Spirit will intercede on my behalf, but Paul, if I get these wrong,
+if I mess up my walk, and sometimes choose the broad way, will God still love me? Will my father still care? What of our relqationship?
+What of his love?
+
+Paul responds with something that can only be considered one of the greatest and most beautiful literary pieces,
+> READ v31-39
+
+
+### Extra
+#### What does it mean when "For" is used at start of a sentence?
+1. Reason or explanation: When "for" is used to indicate a reason or explanation, it introduces the purpose or cause behind an action or situation. For example:
+ - "For that reason, I cannot attend the meeting."
+ - "For your own safety, please wear a helmet."
+2. Connecting ideas: "For" can also be used to connect ideas and provide additional information or support for a previous statement. In this case, it functions as a coordinating conjunction. For example:
+ - "I enjoy hiking, for it allows me to connect with nature."
+ - "She studied diligently, for she wanted to excel in her exams."
+
+### Left-out
 #### 3.2 The Future working of the Spirit
 ##### (a) A certain future (vs. 28-30)
 - Perhaps now our discerning reader, pushes forward, "Ok Paul, you told me about my victory of my past sin, the courage, hope and strength I have for the present, but what of my future?"
@@ -188,22 +208,4 @@ through their darkest times these 2000 years, how many of millions.
 - It's actually just living in a corrupt world, where millions and billions of lives relate and inter-twine, and sometimes things just go wrong.
 - Paul's answer, all things work together for good.
 
-## The Conclusion: Call To Action
-After all that the reader, now saved and ask the ultimate question, yes sin is defeated, yes I have a new walk in the Spirit,
-yes I have a new identity, yes I have hope, yes the Holy Spirit will intercede on my behalf, but Paul, if I get these wrong,
-if I mess up my walk, and sometimes choose the broad way, will God still love me? Will my father still care? What of our relqationship?
-What of his love?
-
-Paul responds with something that can only be considered one of the greatest and most beautiful literary pieces,
-> READ v31-39
-
-
-### Extra
-#### What does it mean when "For" is used at start of a sentence?
-1. Reason or explanation: When "for" is used to indicate a reason or explanation, it introduces the purpose or cause behind an action or situation. For example:
- - "For that reason, I cannot attend the meeting."
- - "For your own safety, please wear a helmet."
-2. Connecting ideas: "For" can also be used to connect ideas and provide additional information or support for a previous statement. In this case, it functions as a coordinating conjunction. For example:
- - "I enjoy hiking, for it allows me to connect with nature."
- - "She studied diligently, for she wanted to excel in her exams."
 
