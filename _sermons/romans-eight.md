@@ -98,13 +98,13 @@ far more powerful then just brain mechanics, our's is supernatural, and ours is 
 > "Ok Paul, so you say I've been given the Spirit of God, but what's the catch?"
 > "Wait let me guess, my will is no longer my own and what now indwells me dictates my actions?"
 > "Wait Paul, is this just another form of bondage like the one I had before?"
+- If the governments of the world could place something inside our brains, I'm sure it would be to the intents to control us.
 - And here is what Paul answers:
 > Rom 8:15  For ye have not received the spirit of bondage again to fear; but ye have received the Spirit of adoption, whereby we cry, Abba, Father.
 - This is simply beautiful. If every verse in Romans 8 isn't. 
 - Note, we have not received a spirit of bondage or slavery. In the KJV and NASB it mentions again.
 - That means, we are not regressing here or going backwards. We are receiving something greater.
 - We have received adoption. 
-- If the governments of the world could place something inside our brains, I'm sure it would be to the intents to control us.
 - But God, has given us the Spirit not to enslave us, but rather to adoption.
 - It's not means of tyrannical control, but something far more, a beautiful adoption, the mark and identification that you
 are now a child of God. Adopted into His family, and marked as His own.
@@ -140,7 +140,7 @@ something like an ant to our God, but then I remebered the verse.
 - Friends, if you think Climate Change is a threat, what does it matter if we have a beautiful world, but a corrupt immoral society.
 - The problem with Climate Change is not our use of resources, but sin.
 
-##### (b) The Hope we have (vs. 23)
+##### (c) The Hope we have (vs. 23)
 - Paul pushes on, yes the world and creation is experiencing suffering, and us, but that is to be expected.
 - But far more then expected, there is too come at the end of the ages, a new heaven and a new earth that will be created.
 - And us, who are suffering in the present, will receive new bodies.
@@ -151,13 +151,20 @@ something like an ant to our God, but then I remebered the verse.
 - But his fear is not my fear, God's laid out His plan and it's in this book.
 - We are saved by hope!
 
-##### (c) The Intercession (vs. 26)
+##### (d) The Intercession (vs. 26)
 - Perhaps now our reader goes, "Paul, I feel so overwhelmed, what do I pray for, what do I speak to God about?"
 - Well God's got that too for those in the Spirit.
 > Rom 8:26  Likewise the Spirit also helpeth our infirmities: for we know not what we should pray for as we ought: but the Spirit itself maketh intercession for us with groanings which cannot be uttered.
 - Not only does Christ intercess on your behalf, but the Holy Spirit intercesses on our behalf with God, to share with Him,
 what we can't, when we broken, when words fail us, and we're overcome.
 - What a blessing it is to walk in the Spirit!
+
+###### Summary
+So in regards to this life, when you walk in the Spirit,
+- you can overcome tribulation 
+- you don't have to fear death or the destruction of the earth
+- there is hope for tomorrow, in Jesus return, and a new heaven and a new earth
+- and lastly, if you ever confused or broken, the Spirit that indwells will pray to God on your behalf.
 
 #### 3.2 The Future working of the Spirit
 ##### (a) A certain future (vs. 28-30)
