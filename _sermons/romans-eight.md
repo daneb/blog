@@ -6,10 +6,16 @@ excerpt: "Sermon outline"
 ## Introduction:
 Read Romans 8:1-30
 
+### Let us pray
+- Lord help us to see what you would want to see
+- Move my heart and mind, bind my lips, and open hearts
+- Let your word work, and move
+
 ## The Problem:
-Last week we looked at the struggle with law and how we are free from it.
-But let's review our journey thus far from the point of view of an unsaved man.
-1. He starts off reading Romans 1 and learning about the author and the unrighteousness of man (Chapter 1)
+This morning, I would like us to walk a road, a road with a newly saved Christian.
+He has a few questions, and Paul is going to attempt to answer them through Chapter 8.
+His journey began:
+1. In Romans 1 where he learns about the author and the unrighteousness of man (Chapter 1)
 2. He then reads of God's judgement to come (Chapter 2)
 3. He then reads that all are under sin, for all have sinned and come short of the glory of God. He is a sinner. (Chapter 3)
 4. In Chapter 4, he seems Abraham was saved by faith, and how faith is redeeming and he needs to believe.
@@ -36,33 +42,33 @@ I see 3 main divisions that will make up this portion.
 1. The Outward Workings of the Spirit (vs. 8-16) 
 1. The Forward Workings of the Spirit (vs. 28-39)
 
-### Let us pray
-- Lord help us to see what you would want to see
-- Move my heart and mind, bind my lips, and open hearts
-- Let your word work, and move
-
 ### 1. The Inward Workings of the Spirit
-#### 1.1 Sin and death defeated (vs.2-4)
+#### 1.1 Sin and death defeated (vs.2-4) (rule, system, grace)
 - In verse 2-4 we see sin and death defeated.
 > Rom 8:2 For the law of the Spirit of life in Christ Jesus hath made me free from the law of sin and death.
 - Law in this context, can be replaced by the word 'rule', as in rules of a game.
 - But this is not a game, this is far more serious if you lose. Here we see the rule of the Spirit of life in Christ.
 - All systems are governed by rules, and the Christian life is no different. 
-- The beauty to being saved is we have a new rules, that sets us free from rules of what went before it.
-- It doesn't leave us without rules, just gives us another set of a different nature.
+- But there's a new way, walking in the Spirit, and it has been replaced the old.
+- In fact, we are no longer bound to the old way.
+- We have escaped it's bondage.
+- It doesn't leave us without rules, just gives us another set of a different nature (where grace operates).
 
-#### 1.2 Is the law dead?
-- But perhaps the next question our newly saved Christian asks, but is the law now dead?
+#### 1.2 Is the law dead? (dead, responsibility, freely obediant)
+- But perhaps the next question our newly saved Christian asks, 
+> But is the law now dead?
 - There are no supporting scriptures that state the law is dead, in fact, we are dead to the law.
 > Gal 2:19  For I through the law am dead to the law, that I might live unto God.
 - We are dead to the law, it doesn't bind us to sacrifices - but we are free from it's judgement and from it's punishment.
 > Rom 7:8 For without the law sin was dead.
 - Not only is the law not dead, it is the mechanism by which we identify sin.
 - The Law stands and will continue to stand as God's Holy standard for perfection - matching only to Him.
-- But while we may be dead to the law, we are not removed from it, in fact we have a responsibility to it.
+- But while we may be dead to the law, we are not removed from it, in fact we have a *responsibility* to it.
 > Rom 8:4  That the righteousness of the law might be fulfilled in us, who walk not after the flesh, but after the Spirit.
 - in verse 4, Paul is telling us that the law is not fulfilled alone, it needs grace. It needs those who are saved and walking in the Spirit.
 - How so you may ask? 
+- In the OT dispensation, Israel were commanded to obey the law. 
+- In the NT dispensation of grace, we have been freed from that law.
 - Isn't this the beauty and irony of it all, we are saved, our destination secure, we are bound for heaven.
 - If there is any people that can take advantage of the law and abuse it, it's us. 
 - But how beautiful, amazing and wonderful it is, when Christians, who are free from the law, choose to abide in the law
@@ -74,8 +80,8 @@ and fulfil it for Christ.
 - When we walk in the Spirit, the righteous of the law is fulfilled in us.
 - Praise God!
 
-### 2. The Outward Working of the Spirit
-#### 2.1. The Flesh defeated (vs.8-13)
+### 2. The Outward Working of the Spirit 
+#### 2.1. The Flesh defeated (vs.8-13) (powerful spirit, made alive, no contract)
 > Rom 8:11  But if the Spirit of him that raised up Jesus from the dead dwell in you, he that raised up Christ from the dead shall also quicken your mortal bodies by his Spirit that dwelleth in you.
 
 - The same Spirit that raised up Jesus from the dead, is in you.
@@ -92,9 +98,9 @@ far more powerful then just brain mechanics, our's is supernatural, and ours is 
 - There is no pending contract. No outstanding payment for historic sin.
 - We are no more it's debtors. We are free.
 
-#### 2.2  The New Identity (vs. 14-16)
+#### 2.2  The New Identity (vs. 14-16) (catch, control, adoption, identity, frustrating humand)
 - Yes God gave us a Spirit that now indwells us and gives us bodies life and freedom from the demands of the flesh.
-- One would almost think, if we were skeptical:
+- So our newly saved Christian, now with skepticism, poses a question?
 > "Ok Paul, so you say I've been given the Spirit of God, but what's the catch?"
 > "Wait let me guess, my will is no longer my own and what now indwells me dictates my actions?"
 > "Wait Paul, is this just another form of bondage like the one I had before?"
@@ -109,16 +115,19 @@ far more powerful then just brain mechanics, our's is supernatural, and ours is 
 - It's not means of tyrannical control, but something far more, a beautiful adoption, the mark and identification that you
 are now a child of God. Adopted into His family, and marked as His own.
 - We have a new identity, we God's child.
+- Not only are we adopted, but while the Spirit may speak to us, to guide us to truth, ultimately we still have a choice to make.
+- Is this not a wonder of our God, despite his frustration with humans, from the fall of Adam and Eve, Tower of Babel, Israel and repeat failures of man,
+this new way where the Spirit indwells, is not one of control, but a gentle steering, a guide, almost steering you to the way of God. 
 - Amen!!!
 
 ### 3. The Forward Working of the Spirit
-#### 3.1 Help in life to come (vs. 17-27)
+#### 3.1 Help in life to come (vs. 17-27) (how do I cope with this life)
 - Perhaps then our newly saved reader, turns yet again to Paul and says, 
 > "Ok, so I'm dead to the law, I have a new identity in Christ. But this life is challenging, in fact Paul, this life is hard
 and sometimes downright unfair. What do I do?"
 - I believe Paul provides answers to 4 categories of challenge.
 
-##### (a) Tribulations (vs. 18)
+##### (a) Tribulations (vs. 18) (care in the provision of trials, not worthy to even compare)
 - The first of which is trials and tribulation. Isn't it amazing how our God doesn't just expect us to endure trials.
 - He isn't a tyrant and commands us to endure, but heeds our frailties and weaknesses, and amidst all these deep truths,
 doctrine and clarification of salvation, He deals with the hardness that comes and provides tools with which to overcome.
@@ -128,33 +137,43 @@ distress, tumult and torture, does not even add to a weight, is not even worthy 
 - We have no idea, and we can't even correlate the two things.
 - I thought to myself when preparing, perhaps I can create an analogy, some comparison to highlight how unworthy a comparison it is,
 something like an ant to our God, but then I remebered the verse. 
+- He doesn't just say you can't compare it, but emphasizes that it's not even worthy, worthwhile, comparing.
 - Our trials, the sufferings of this present time, are not even worth comparing, or bothering to compare.
 - They are dwarfed by all that shalt be revealed!!!
 
-##### (b) Climate Change (vs. 22) 
-- Perhaps he turns, but what of the world? There are earthquakes, weather changing, more and more temperature imbalances.
-- What now, are we doomed?
+##### (b) Climate Change (vs. 22) (weather changes, doomed anyway, second law, problem is sin)
+> But Paul, what of the world? There are earthquakes, weather changing, more and more temperature imbalances.
+> What now, are we doomed?
+
 - If we read verse 19-22, we see way back in AD 55-57 we see all of creation groaning (earth, animals).
+
+> Rom 8:21  Because the creature itself also shall be delivered from the bondage of corruption into the glorious liberty of the children of God.
 > Rom 8:22  For we know that the whole creation groaneth and travaileth in pain together until now.
+
 - Second Law of Thermodynamics, that all things tend to chaos.
 - Friends, if you think Climate Change is a threat, what does it matter if we have a beautiful world, but a corrupt immoral society.
 - The problem with Climate Change is not our use of resources, but sin.
 
-##### (c) The Hope we have (vs. 23)
+##### (c) The Hope we have (vs. 23) (expected, new heaven & earth, elon, fear)
 - Paul pushes on, yes the world and creation is experiencing suffering, and us, but that is to be expected.
 - But far more then expected, there is too come at the end of the ages, a new heaven and a new earth that will be created.
 - And us, who are suffering in the present, will receive new bodies.
 - This is our hope in the midst of trials.
+
 > Rom 8:23  And not only they, but ourselves also, which have the firstfruits of the Spirit, even we ourselves groan within ourselves, waiting for the adoption, to wit, the redemption of our body.
+
 > Rom 8:24  For we are saved by hope:
+
 - Elon pushes to build rockets to take us to another planet, and praise be to God for his boldness.
 - But his fear is not my fear, God's laid out His plan and it's in this book.
-- We are saved by hope!
+- We are saved by hope! (Jesus is coming back soon)
 
 ##### (d) The Intercession (vs. 26)
-- Perhaps now our reader goes, "Paul, I feel so overwhelmed, what do I pray for, what do I speak to God about?"
+- Perhaps now our reader goes, 
+> "Paul, I feel so overwhelmed, what do I pray for, what do I speak to God about?"
 - Well God's got that too for those in the Spirit.
 > Rom 8:26  Likewise the Spirit also helpeth our infirmities: for we know not what we should pray for as we ought: but the Spirit itself maketh intercession for us with groanings which cannot be uttered.
+
 - Not only does Christ intercess on your behalf, but the Holy Spirit intercesses on our behalf with God, to share with Him,
 what we can't, when we broken, when words fail us, and we're overcome.
 - What a blessing it is to walk in the Spirit!
@@ -167,12 +186,13 @@ So in regards to this life, when you walk in the Spirit,
 - and lastly, if you ever confused or broken, the Spirit that indwells will pray to God on your behalf.
 
 ## The Conclusion: Call To Action
-After all that the reader, now saved and ask the ultimate question, yes sin is defeated, yes I have a new walk in the Spirit,
-yes I have a new identity, yes I have hope, yes the Holy Spirit will intercede on my behalf, but Paul, if I get these wrong,
-if I mess up my walk, and sometimes choose the broad way, will God still love me? Will my father still care? What of our relqationship?
-What of his love?
+After all that the reader, now saved and ask the ultimate question, 
+> "Yes sin is defeated, yes I have a new walk in the Spirit, yes I have a new identity, yes I have hope, yes the Holy Spirit will intercede on my behalf, but Paul, if I get these wrong,
+> if I mess up my walk, and sometimes choose the broad way, will God still love me? Will my father still care? What of our relqationship?
+> What of his love?""
 
 Paul responds with something that can only be considered one of the greatest and most beautiful literary pieces,
+but **this time He asks a question.**
 > READ v31-39
 
 

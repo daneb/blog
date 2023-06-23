@@ -311,6 +311,90 @@ Refer to [commandments](/sermons/commandments)
 1. Not for our sake, but for Christ's. Our sin is removed because of Christ.
 1. God loves us, He does, but our merit, the reason we were grafted in, was because of Christ.
 
+# Session 4
+
+## Ice breakers
+1. What is one of your favourite verses?
+1. Do you have a favourite Bible song?
+1. What is one of the most interesting places you have visited, or best place to visit and why?
+1. What is your favourite hymn?
+1. Tell us about your week? Any highlights, what you been up to?
+
+## 1&2 Kings
+~ Directly from J.B Phillips
+
+- 120 years the twelve tribes were united and were ruled from a single throne
+- With the death of Solomon the 12 tribes broke away from the throne of David to setup an independant kingdom of the north.
+- The kingdom known as Israel, was eventually ruled by Samaria for which all the kings were bad
+- The tribe of Benjamin remained true to Judah and throne of David.
+- Combined these two tribes formed the Southern Kingdom, who were true to Judah and the throne of David
+- Some of Judah's kings were good
+- Many of the ministries of the prophets were seen in this period
+
+### Outline
+1. The years of strength - The United Kindgom (1 Kings - 1 Kings-12:19)
+2. The years of struggle - The Divided Kingdom (1 Kings 12:20- 2 Kings 17:41)
+3. The years of storm - The Surviving Kingdom (2 Kings 18)
+
+### Solomon
+> What can you tell me about Solomon? Great good, good king?
+- Solomon rose to mighty heights but also plumetted to depths
+- God appeared to him twice after his succession on the throne
+> What super natural gift was Solomon given by God? (wisdom)
+> What was his greatest achievement? (it was building the temple in Jerusalem)
+- His fame reached the 4 corners
+- In order to strengthen his position he did many political marriages (had many wives)
+- These alliances were dangerous as these women brought their heathen religions along with them
+- In his old age, he turned from God to serve idols from those religions
+
+### The Northern Kingdom
+1. Jeroboam - first king of Northern Kingdom
+- Rebellious and severed all  religion connections with Jerusalem
+- Afraid that the pilgrimages would undermine his authority, he innovated
+- Setup a golden cald at Bethel and Dan 
+1. Ahab - the most wicked of Israel's kings 
+- Jeroboam led Israel into perverted worship of Jehovah
+> Who was Ahab's wife?
+- Ahab and his wife, Jezebel, established worship of Baal?
+> What prophet was on the scene in this time line? Elijah
+- Jezebel persecuted the people of God and plagued the prophet
+- Both Ahab and Jezebel had violent deaths
+1. Jehu - Jehu had great zeal for God, and terminated all of Ahab's family and put a temporary end to Baal worship
+- He was an ungodly man though, and did not depart of the sins of Jeroboam
+1. Jeroboam II - was able to fight off the Syrian oppressors and restore Israel to former political greatness
+- His reign, had widespread immorality and injustice
+- Assyria a new nation appeared on the scene. 
+
+Next week and powers of the time.
+
+### 1 John 2:13-16
+
+1. vs. 13
+- can someone read and another break-down the verse for us?
+- fathers here represent those mature in their walk with the Lord 
+- from the beginning, could be from the first promulgation (public sharing of gospel) in Judea
+- known Jesus Christ who has been there from the beginning
+- young men, those young in the faith and with their zeal and passion are warring against their own desires and of the world
+- little children - newly saved
+1. vs. 14
+- we see the repetition again, but that doesn't mean we should ignore it.
+- but we should heed the message communicated to us. 
+- He is emphasizing how precise he has been in his communication, to speak to each group of believers
+- Here he is encouraging the young in faith that they are strong, but the Word may abide in you
+- They have overcome the wicked one already in their faith
+
+#### Changing things up (vs. 15-17)
+1. Let's read these verses together
+1. If you could give these verses a title or sum them up what would that be?
+1. What are some ways we love the world?
+1. What is the three-tiers of sin?
+1. Can you give me an example of "lust of the flesh"?
+1. Can you give me an example of "lust of the eyes"?
+1. Can you give me an example of "pride of life"?
+
+1. Interesting to see all these 3 areas of lust, are of the world, and will fade away with the world
+1. They are not eternal
+1. Doing God's will, is beyond this will, because God is not of this world.
 
 
 
