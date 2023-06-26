@@ -149,6 +149,12 @@ var store = [{
         "url": "/sermons/lesson-from-tears/",
         "teaser": null
       },{
+        "title": "My system for sermons",
+        "excerpt":"Structuring the message Let the power of the “words” of God, steer the message and what needs to be said Keep it short. You are using other’s time. Treat it with respect. Try aim for a 3 point outline (1 -&gt; 1.1, 1.2, 2-&gt; 2.1, 2.2, 2.3 etc) At the...","categories": [],
+        "tags": [],
+        "url": "/sermons/my-system-for-sermons/",
+        "teaser": null
+      },{
         "title": "1 John 1: A Sure Salvation",
         "excerpt":"Warmup questions: How many books of the Bible did John write? What was John’s relationship to Jesus? What did God call John to be? Deuteronomy Survey (J.B Philips) The generation which experienced redemption from Egypt was now dead. Joshua, Caleb and Moses alone remained But Moses would soon die Moses...","categories": [],
         "tags": [],
@@ -161,8 +167,8 @@ var store = [{
         "url": "/sermons/one-john-2/",
         "teaser": null
       },{
-        "title": "I'm saved, but ...",
-        "excerpt":"Introduction: The Problem: We’re saved but the challenges abound The Body 1. But what about the Law 2. But what about my struggle with Sin and the Flesh 3. But what about Suffering 4. But what about climate change 5. But what about the future? 6. But how then do...","categories": [],
+        "title": "Walking in the Spirit",
+        "excerpt":"Introduction: Read Romans 8:1-30 Let us pray Lord help us to see what you would want to see Move my heart and mind, bind my lips, and open hearts Let your word work, and move The Problem: This morning, I would like us to walk a road, a road with...","categories": [],
         "tags": [],
         "url": "/sermons/romans-eight/",
         "teaser": null

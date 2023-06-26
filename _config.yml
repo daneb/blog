@@ -115,7 +115,7 @@ defaults:
       type: docs
     values:
       layout: single
-      read_time: false
+      read_time: true
       author_profile: false
       share: false
       comments: false
@@ -138,6 +138,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
+      read_time: true
       comment: true
   # software 
   - scope:
@@ -146,6 +147,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      read_time: true
       share: true
       comment: true
   # videos
