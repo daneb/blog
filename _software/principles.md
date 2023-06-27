@@ -70,6 +70,10 @@ First principles is kind of a physics way of looking at the world. You boil thin
 
 ## Principals to guide management:
 1. [Not maximize, but optimize to 85%](https://hbr.org/2023/06/to-build-a-top-performing-team-ask-for-85-effort)
+1. [Helicopter Management](https://charity.wtf/2023/06/19/helicopter-management/)
+
+## Engineering Thinking:
+1. [Platform Engineering](https://chadxz.dev/platform/)
 
 ## Anti-Patterns 
 *cut n paste from [Bipin Paul Bedi](https://www.bipinpaulbedi.com/2019/software-anti-patterns)*
