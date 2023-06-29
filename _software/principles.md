@@ -72,6 +72,9 @@ First principles is kind of a physics way of looking at the world. You boil thin
 1. [Not maximize, but optimize to 85%](https://hbr.org/2023/06/to-build-a-top-performing-team-ask-for-85-effort)
 1. [Helicopter Management](https://charity.wtf/2023/06/19/helicopter-management/)
 
+## Product Management
+1. [OKRs vs KPIs](https://dpereira.substack.com/p/the-difference-between-okrs-and-kpis?utm_source=profile&utm_medium=reader2)
+
 ## Engineering Thinking:
 1. [Platform Engineering](https://chadxz.dev/platform/)
 

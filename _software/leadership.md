@@ -10,8 +10,9 @@ excerpt: "My style"
 > Only by pride cometh contention - Proverbs 13:10
 
 	* Lead by example but don't absolve responsibility.
+	* Hold people accountable, and ensure there are consequences.
 	* Delegate.
-	* Record all interactions, document and distribute.
+	* Record key interactions, document and distribute.
 	* Changes to processes need solid agreement.
 	* Collaborate instead of dictate, but dictate when collaboration can't reach resolution.
 	* Conflict is a natural part of business and it's healthy. Particularly where the individuals come from different backgrounds. This allows the shaping of problems and solutions in different ways. It's important to recognize that and to share your views (that are different) in a cordial manner. Contention is usually a sign of your ego kicking in.
