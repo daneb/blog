@@ -11,7 +11,6 @@ excerpt: "My style"
 
 	* Lead by example but don't absolve responsibility.
 	* Hold people accountable, and ensure there are consequences.
-	* Delegate.
 	* Record key interactions, document and distribute.
 	* Changes to processes need solid agreement.
 	* Collaborate instead of dictate, but dictate when collaboration can't reach resolution.
@@ -19,7 +18,7 @@ excerpt: "My style"
 	* In setting a new course or direction, it is often times not enough to just point and say go. It requires education, inspiration and motivation of those who are being asked to follow.
 	* Understand the impact of the decisions you make, or the directions you pull your team. Be mindful of the current state. Keep momentum.
 	* Try maintain the team at 85% capacity - higher productivity (HBR cross-ref)
-	* Decide quickly, experiment.
+	* Decide quickly, experiment and fail. If your (failure rate)[https://hbr.org/2017/11/how-coca-cola-netflix-and-amazon-learn-from-failure?utm_medium=social&utm_campaign=hbr&utm_source=facebook&tpcc=orgsocial_edit] is low, you are likely not risking enough.
 
 ## 2. Manager's User Manual
 
