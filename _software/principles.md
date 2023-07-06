@@ -68,6 +68,21 @@ First principles is kind of a physics way of looking at the world. You boil thin
 21. [Goodhart's Law](https://thehustle.co/Goodharts-Law/)
 22. Correlation is not causation. 
 
+## Algorithms
+### Expression Trees
+> Expression trees represent code in a tree-like data structure, where each node is an expression, for example, a method call or a binary operation such as x < y
+
+> An expression tree provides a method of translating executable code into data. This can be very valuable if you want to modify or transform code before executing it. 
+
+>Expression trees were created in order to make the task of converting code such as a query expression into a string that can be passed to some other process and executed there. It is that simple. There is no great mystery here, no magic wand that needs to be waved. One simply takes code, converts it into data, and then analyzes the data to find the constituent parts that will be translated into a string that can be passed to another process.
+
+Their an abstraction to allow other processes to understand and transform the instructions for execution elsewhere.
+
+References:
+1. [Simple overview](https://docs.microsoft.com/en-us/archive/blogs/charlie/expression-tree-basics)
+
+
+# Management
 ## Principals to guide management:
 1. [Not maximize, but optimize to 85%](https://hbr.org/2023/06/to-build-a-top-performing-team-ask-for-85-effort)
 1. [Helicopter Management](https://charity.wtf/2023/06/19/helicopter-management/)
@@ -80,6 +95,7 @@ First principles is kind of a physics way of looking at the world. You boil thin
 
 ## Anti-Patterns 
 *cut n paste from [Bipin Paul Bedi](https://www.bipinpaulbedi.com/2019/software-anti-patterns)*
+
 ### Organisational anti-patterns
 * Analysis paralysis - Devoting disproportionate effort to the analysis phase of the project.
 * Cash cow - A profitable legacy product that often leads to complacency about new product.
@@ -87,6 +103,7 @@ First principles is kind of a physics way of looking at the world. You boil thin
 * Moral hazard - Insulating a decision-maker from the consequences of his or her decision.
 * Stovepipe or Silos - A structure that supports mostly up-down flow of data but inhibits cross organisational communication.
 * Vendor lock-in - Making a system extensively dependent on an external supplied component.
+
 ### Design anti-patterns
 * Abstraction inversion - Not exposing implemented functionality required by user, so that they reimplement it using higher level functions.
 * Ambiguous viewpoint - Presenting a model (OOAD) without specifying its viewpoint.
@@ -99,6 +116,7 @@ First principles is kind of a physics way of looking at the world. You boil thin
 * Magic push button - Coding implementation logic directly within interface code, without using abstraction.
 * Race hazard - Failing to see consequences of different orders of events.
 * Stovepipe system - A barely maintainable assemblage of ill-related components.
+
 ### OOD anti-patterns
 * Anaemic domain model - Use of domain model without business knowledge.
 * Base bean - Inheriting functionality from utility class rather than delegating to it.
@@ -114,6 +132,7 @@ First principles is kind of a physics way of looking at the world. You boil thin
 * Yo-yo problem - A structure that is hard to understand due to excessive fragmentation.
 * Dependency hell - Problem with versions of required product.
 * DLL hell - Inadequate management of dynamic linked libraries.
+
 ### Programming anti-patterns
 * Accidental complexity - Introducing unnecessary complexity into a solution.
 * Action at distance - Unexpected interaction between widely separated parts of system.
@@ -131,6 +150,7 @@ First principles is kind of a physics way of looking at the world. You boil thin
 * Magic strings - Including literal strings in code, for comparison, as event types etc.
 * Soft code - Storing business logic in configuration files rather than source code.
 * Spaghetti code - Programs whose structure is barely comprehensible.
+
 ### Methodological anti-patterns
 * Copy-paste programming. Copying (modifying) and pasting existing code rather than implementing generic solution.
 * Golden hammering - Assuming that a favourite solution is universally applicable.
@@ -146,18 +166,14 @@ First principles is kind of a physics way of looking at the world. You boil thin
 ## DDD
 Domain-driven design 
 
-
-## Algorithms
-### Expression Trees
-> Expression trees represent code in a tree-like data structure, where each node is an expression, for example, a method call or a binary operation such as x < y
-
-> An expression tree provides a method of translating executable code into data. This can be very valuable if you want to modify or transform code before executing it. 
-
->Expression trees were created in order to make the task of converting code such as a query expression into a string that can be passed to some other process and executed there. It is that simple. There is no great mystery here, no magic wand that needs to be waved. One simply takes code, converts it into data, and then analyzes the data to find the constituent parts that will be translated into a string that can be passed to another process.
-
-Their an abstraction to allow other processes to understand and transform the instructions for execution elsewhere.
-
-References:
-1. [Simple overview](https://docs.microsoft.com/en-us/archive/blogs/charlie/expression-tree-basics)
+## Tools
+### Validating Handovers
+1. Produce a documentation repository
+2. Slowly transition responsibility for meeting, scrum ceremonies and client engagement
+3. Knowledge transfer checklist
+4. Knowledge transfer meetings
+5. Testing by team (through queries and clarity in feature delivery)
+6. Periodic Progress Reports
+7. A visual map post-handover to effectively communicate to business the process
 
 
