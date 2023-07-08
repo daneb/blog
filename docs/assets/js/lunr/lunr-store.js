@@ -125,6 +125,12 @@ var store = [{
         "url": "/hobby/2023/03/23/building-a-home-firewall.html",
         "teaser": null
       },{
+        "title": "The Less Talked about area of Success",
+        "excerpt":"One of the lesser-discussed facets of a successful career is the health and joy of one’s marriage. Though it is undeniably a personal and private matter, can we not consider it as a fundamental ingredient, or at the very least a significant factor, in cultivating an effective mindset to deliver...","categories": ["lifeskills"],
+        "tags": [],
+        "url": "/lifeskills/2023/05/08/the-mechanics-of-a-joyful-marriage.html",
+        "teaser": null
+      },{
         "title": "Is Christianity Real?",
         "excerpt":"Getting Revived – Dead Works to Fruit PROBLEM: I’m cold, how do I ignite the coals? Christ is not real. Introduction: This is the last day friend’s - all around us are Christians who are self-deceived or being deceived because the reality of Christ is missing. Yes we live in...","categories": [],
         "tags": [],

@@ -7,54 +7,31 @@ categories: lifeskills
 
 ![Marriage](/images/marriage.png)
 
-One of the lesser talked about areas of a successful career, is that of a healthy and joyful marriage.
-It's admittedly personal and private but is it not a key ingrediant or at the very least a factor for an effective mindset to produce your best work.
-Provided you have chosen someone special in your life, tumult at home doesn't make for efficacy in the workplace. 
-Challenges at home, challenges at work, challenges in your socio-economic context is a recipe for high stress.
-One only need consider the impact of buying a house has on the productivity of an employee during that process. 
-I've seen it with myself, but also team members who I have led. It usually leads to mental distractions, slower delivery and interruption. 
-Home much more so, when you and the person closest to you, is in heated conflict.
+One of the lesser-discussed facets of a successful career is the health and joy of one's marriage. Though it is undeniably a personal and private matter, can we not consider it as a fundamental ingredient, or at the very least a significant factor, in cultivating an effective mindset to deliver our best work? 
 
-I'm no expert, but should we not at least have the conversation and grow together. I've been in industry for 20+ years, and for the majority of that I've been married.
-Since I've been married, I've been very intentional about ensuring my home and marriage are successfuWe are happily married this year for 13 years and it's been the best thing ever.
-Because when the world turns into choas, it's great to turn over at night and find sanctity in a warm loving embrace. Someone who loves you despite it all.
-Not only that, but in your spouse you will find your best critic for improvement - the person that can see into the deepest areas of your soul, has insight into all your behaviours
-and is able to safely communicate it.
+Assuming you have a special someone in your life, turmoil at home doesn't lend itself to efficiency at work. Struggles at home, at work, or within your socio-economic context can amalgamate into a high-stress cocktail. Consider, for instance, the impact buying a house can have on an employee's productivity during the process. I've witnessed this in myself and in team members I've guided. It often results in mental distractions, slower delivery, and interruptions. The impact is even more profound when you and your closest companion are embroiled in heated conflict.
 
-To open up the conversation, I wanted to share some high-level mechanics that's enabled us.
+While I'm no expert, I believe we should at least initiate the conversation and grow together. I've been in the industry for over 20 years, and for most of that time, I've been married. Ever since tying the knot, I've been intentional about ensuring the success of my home and marriage. We're joyously celebrating 13 years of matrimony this year, and it's been the best journey of my life.
 
-1. Your spouse must be your best friend
-- Friends and family take second place to my wife
-- In terms of prioritization, she is always critical and urgent :)
+When chaos descends on the world, it's comforting to find solace in the warm, loving embrace of your partner at night. This is someone who loves you unconditionally. Moreover, in your spouse, you often discover your most effective critic for self-improvement. They possess deep insights into your behavior and are able to communicate them effectively.
 
-1. Your spouse must come before your kids
-- The love of a child is unique, granted - but it never breaks the knot and first priority of a husband and wife.
-- The foundation upholds the structure.
+To stimulate this conversation, I'd like to share some high-level strategies that have been instrumental for us:
 
-1. You must cleave to your spouse
-- I don't take or need breaks from my wife
-- I push myself towards her, and her to me
-- We are partners, in each other we find courage, strength and love
+1. **Your spouse must be your best friend.** Friends and family are essential, but they take second place to my wife. She is always a top priority.
 
-1. You must be on the same mission
-- Our goals in life are aligned, both for our kids, our family and our careers
-- Largely we defined and articulated this prior to being married, in the initial steps of court-ship
-- Before marriage, figure and decide the HARD things first
+2. **Your spouse must come before your kids.** The unique love of a child is a given, but it doesn't supersede the bond and priority of a husband and wife. This bond forms the foundation of our family structure.
 
-1. Don't let work be an excuse
-- It's easy to allow work to become the priority to not be present in the relationship. Too easy in fact.
-- Be mindful of this
+3. **Cleave to your spouse.** I don't require breaks from my wife. Instead, I seek her out, inviting her closer to me. We are partners, finding courage, strength, and love in each other.
 
-1. Make the time
-- Be present when your spouse speaks
-- Engage them not only on your own concerns and frustrations, but ask them theres
-- Be inquisitive about their ever evolving interests
+4. **Align on your mission.** Our life goals, including those for our kids, family, and careers, are in harmony. Much of this was defined and articulated before we got married, during our courtship. It's crucial to address the difficult topics first.
 
-These are some guiding principals, mileage will certainly vary. 
-Please do share whats worked for you, or even what's not worked. Please share.
+5. **Don't use work as an excuse.** It's all too easy to let work become a priority at the expense of being present in your relationship. Stay mindful of this.
 
-At the very least you forget everything you read in this article tomorrow, take away this one thing:
-Be intentional about your relationship to the person you have dedicated to walking life's road with.
+6. **Make the time.** Be present when your spouse speaks. Engage them not only on your concerns and frustrations, but ask about theirs. Show curiosity about their evolving interests.
 
-Marriage is a beautiful thing, and can be as beautiful as you make it.
+These are some of the guiding principles we adhere to, although individual experiences will naturally vary. 
+
+Even if you forget everything else from this article by tomorrow, I urge you to remember this: Be intentional in nurturing your relationship with the person with whom you've chosen to walk life's path.
+
+Marriage is a beautiful journey, and its beauty is largely a function of what you invest into it.
 
