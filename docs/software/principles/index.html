@@ -29,7 +29,7 @@
 
 
 
-  <meta property="article:published_time" content="2023-06-23T06:14:42+02:00">
+  <meta property="article:published_time" content="2023-07-08T07:21:48+02:00">
 
 
 
@@ -232,7 +232,7 @@
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Principles">
     <meta itemprop="description" content="Objective truths that enable effective and efficient delivery">
-    <meta itemprop="datePublished" content="2023-06-23T06:14:42+02:00">
+    <meta itemprop="datePublished" content="2023-07-08T07:21:48+02:00">
     
 
     <div class="page__inner-wrap">
@@ -313,6 +313,11 @@ First principles is kind of a physics way of looking at the world. You boil thin
   <li>Don’t test functions directly. Tests will break when code breaks. This is why we don’t test private functions.</li>
 </ol>
 
+<h2 id="project-efficiency">Project efficiency</h2>
+<ol>
+  <li><a href="https://davestewart.co.uk/blog/the-work-is-never-just-the-work/">Estimations an artistic view</a></li>
+</ol>
+
 <h2 id="dev-quotes">Dev Quotes</h2>
 <ol>
   <li>“Cheap, Fast, and Good: Pick Two”? <em>related to CAP theorem</em></li>
@@ -344,85 +349,6 @@ First principles is kind of a physics way of looking at the world. You boil thin
   <li>Correlation is not causation.</li>
 </ol>
 
-<h2 id="principals-to-guide-management">Principals to guide management:</h2>
-<ol>
-  <li><a href="https://hbr.org/2023/06/to-build-a-top-performing-team-ask-for-85-effort">Not maximize, but optimize to 85%</a></li>
-</ol>
-
-<h2 id="anti-patterns">Anti-Patterns</h2>
-<p><em>cut n paste from <a href="https://www.bipinpaulbedi.com/2019/software-anti-patterns">Bipin Paul Bedi</a></em></p>
-<h3 id="organisational-anti-patterns">Organisational anti-patterns</h3>
-<ul>
-  <li>Analysis paralysis - Devoting disproportionate effort to the analysis phase of the project.</li>
-  <li>Cash cow - A profitable legacy product that often leads to complacency about new product.</li>
-  <li>Design by committee - The result of having many contributors to a design - but no unifying vision.</li>
-  <li>Moral hazard - Insulating a decision-maker from the consequences of his or her decision.</li>
-  <li>Stovepipe or Silos - A structure that supports mostly up-down flow of data but inhibits cross organisational communication.</li>
-  <li>Vendor lock-in - Making a system extensively dependent on an external supplied component.
-    <h3 id="design-anti-patterns">Design anti-patterns</h3>
-  </li>
-  <li>Abstraction inversion - Not exposing implemented functionality required by user, so that they reimplement it using higher level functions.</li>
-  <li>Ambiguous viewpoint - Presenting a model (OOAD) without specifying its viewpoint.</li>
-  <li>Big ball of mud - A system with no recognisable structure.</li>
-  <li>Database as IPC - Using DB as message queue for inter-process communication where a more lightweight mechanism would be suitable.</li>
-  <li>Gold plating - Continuing to work on a project well past the point at which extra effort is not adding value.</li>
-  <li>Inner - platform effect - A software so customisable as to become poor replica of software development platform.</li>
-  <li>Input kludge - Failing to specify and implement handling of possibly invalid inputs.</li>
-  <li>Interface bloat - making an interface so powerful that it is extremely difficult to implement.</li>
-  <li>Magic push button - Coding implementation logic directly within interface code, without using abstraction.</li>
-  <li>Race hazard - Failing to see consequences of different orders of events.</li>
-  <li>Stovepipe system - A barely maintainable assemblage of ill-related components.
-    <h3 id="ood-anti-patterns">OOD anti-patterns</h3>
-  </li>
-  <li>Anaemic domain model - Use of domain model without business knowledge.</li>
-  <li>Base bean - Inheriting functionality from utility class rather than delegating to it.</li>
-  <li>Call super - Requiring subclasses to call a superclass’s overridden method.</li>
-  <li>Circle ellipse problem - Sub typing variable-types on the bases of value-subtypes.</li>
-  <li>Circular dependency - Introducing unnecessary direct or indirect mutual dependencies between objects.</li>
-  <li>Constant interface - using interface to define constants.</li>
-  <li>God object - Concentrating too many functionalities in a single part of design.</li>
-  <li>Object cesspool - Reusing objects whose state does not confirm to the contract of reuse.</li>
-  <li>Object orgy - Failing to properly encapsulate objects permitting unrestricted access to their internals.</li>
-  <li>Poltergeists - Objects whose sole purpose is to pass information to another object.</li>
-  <li>Sequential coupling - A class that requires its method to be called in a particular order.</li>
-  <li>Yo-yo problem - A structure that is hard to understand due to excessive fragmentation.</li>
-  <li>Dependency hell - Problem with versions of required product.</li>
-  <li>DLL hell - Inadequate management of dynamic linked libraries.
-    <h3 id="programming-anti-patterns">Programming anti-patterns</h3>
-  </li>
-  <li>Accidental complexity - Introducing unnecessary complexity into a solution.</li>
-  <li>Action at distance - Unexpected interaction between widely separated parts of system.</li>
-  <li>Blind faith - Lack of checking of correctness of a bug fix or result of a subroutine.</li>
-  <li>Boat anchor - Retaining a part of a system that is no longer has any use.</li>
-  <li>Busy spin - Consuming CPU while waiting for something to happen, usually by repeated checking rather than message passing.</li>
-  <li>Caching failure - Forgetting to reset an error flag when an error has been corrected.</li>
-  <li>Cargo cult programming - Using patterns and methods without understanding why.</li>
-  <li>Coding by exception - Adding a new code to handle each special case as it is recognised.</li>
-  <li>Error hiding - Catching an error message before it can be shown to the user, either showing nothing or showing a meaningless message.</li>
-  <li>Hard code - Embedding assumption about environment of a system in its implementation.</li>
-  <li>Lava flow - Retaining undesirable code because removing it is too expensive or has unpredictable consequences.</li>
-  <li>Loop switch sequence - Encoding a set of sequential steps using a switch within a loop.</li>
-  <li>Magic numbers - Including unexplained numbers in algorithm.</li>
-  <li>Magic strings - Including literal strings in code, for comparison, as event types etc.</li>
-  <li>Soft code - Storing business logic in configuration files rather than source code.</li>
-  <li>Spaghetti code - Programs whose structure is barely comprehensible.
-    <h3 id="methodological-anti-patterns">Methodological anti-patterns</h3>
-  </li>
-  <li>Copy-paste programming. Copying (modifying) and pasting existing code rather than implementing generic solution.</li>
-  <li>Golden hammering - Assuming that a favourite solution is universally applicable.</li>
-  <li>Improbability factor - Assuming that it is improbably that a known error will occur.</li>
-  <li>NHI syndrome - The tendency towards reinventing the wheel, assuming it does not exist here before.</li>
-  <li>Premature optimisation - Coding early on for a perceived efficiency, sacrificing good design, maintainability, and sometimes even real world * efficiency.</li>
-  <li>Programming by permutation - Trying to approach a solution by successively modifying the code to see if it works.</li>
-  <li>Reinventing the wheel - Failing to adopt an existing, adequate solution.</li>
-  <li>Reinventing the square wheel - Failing to adopt an existing solution and instead adopting a custom solution which performs much worse than an * existing one.</li>
-  <li>Silver bullet - Assuming that a favourite technical solution can solve a larger process or problem.</li>
-  <li>Tester driven development - Projects in which new requirements are specified in bug reports.</li>
-</ul>
-
-<h2 id="ddd">DDD</h2>
-<p>Domain-driven design</p>
-
 <h2 id="algorithms">Algorithms</h2>
 <h3 id="expression-trees">Expression Trees</h3>
 <blockquote>
@@ -444,6 +370,118 @@ First principles is kind of a physics way of looking at the world. You boil thin
   <li><a href="https://docs.microsoft.com/en-us/archive/blogs/charlie/expression-tree-basics">Simple overview</a></li>
 </ol>
 
+<h1 id="management">Management</h1>
+<h2 id="principals-to-guide-management">Principals to guide management:</h2>
+<ol>
+  <li><a href="https://hbr.org/2023/06/to-build-a-top-performing-team-ask-for-85-effort">Not maximize, but optimize to 85%</a></li>
+  <li><a href="https://charity.wtf/2023/06/19/helicopter-management/">Helicopter Management</a></li>
+</ol>
+
+<h2 id="product-management">Product Management</h2>
+<ol>
+  <li><a href="https://dpereira.substack.com/p/the-difference-between-okrs-and-kpis?utm_source=profile&amp;utm_medium=reader2">OKRs vs KPIs</a></li>
+</ol>
+
+<h2 id="engineering-thinking">Engineering Thinking:</h2>
+<ol>
+  <li><a href="https://chadxz.dev/platform/">Platform Engineering</a></li>
+</ol>
+
+<h2 id="anti-patterns">Anti-Patterns</h2>
+<p><em>cut n paste from <a href="https://www.bipinpaulbedi.com/2019/software-anti-patterns">Bipin Paul Bedi</a></em></p>
+
+<h3 id="organisational-anti-patterns">Organisational anti-patterns</h3>
+<ul>
+  <li>Analysis paralysis - Devoting disproportionate effort to the analysis phase of the project.</li>
+  <li>Cash cow - A profitable legacy product that often leads to complacency about new product.</li>
+  <li>Design by committee - The result of having many contributors to a design - but no unifying vision.</li>
+  <li>Moral hazard - Insulating a decision-maker from the consequences of his or her decision.</li>
+  <li>Stovepipe or Silos - A structure that supports mostly up-down flow of data but inhibits cross organisational communication.</li>
+  <li>Vendor lock-in - Making a system extensively dependent on an external supplied component.</li>
+</ul>
+
+<h3 id="design-anti-patterns">Design anti-patterns</h3>
+<ul>
+  <li>Abstraction inversion - Not exposing implemented functionality required by user, so that they reimplement it using higher level functions.</li>
+  <li>Ambiguous viewpoint - Presenting a model (OOAD) without specifying its viewpoint.</li>
+  <li>Big ball of mud - A system with no recognisable structure.</li>
+  <li>Database as IPC - Using DB as message queue for inter-process communication where a more lightweight mechanism would be suitable.</li>
+  <li>Gold plating - Continuing to work on a project well past the point at which extra effort is not adding value.</li>
+  <li>Inner - platform effect - A software so customisable as to become poor replica of software development platform.</li>
+  <li>Input kludge - Failing to specify and implement handling of possibly invalid inputs.</li>
+  <li>Interface bloat - making an interface so powerful that it is extremely difficult to implement.</li>
+  <li>Magic push button - Coding implementation logic directly within interface code, without using abstraction.</li>
+  <li>Race hazard - Failing to see consequences of different orders of events.</li>
+  <li>Stovepipe system - A barely maintainable assemblage of ill-related components.</li>
+</ul>
+
+<h3 id="ood-anti-patterns">OOD anti-patterns</h3>
+<ul>
+  <li>Anaemic domain model - Use of domain model without business knowledge.</li>
+  <li>Base bean - Inheriting functionality from utility class rather than delegating to it.</li>
+  <li>Call super - Requiring subclasses to call a superclass’s overridden method.</li>
+  <li>Circle ellipse problem - Sub typing variable-types on the bases of value-subtypes.</li>
+  <li>Circular dependency - Introducing unnecessary direct or indirect mutual dependencies between objects.</li>
+  <li>Constant interface - using interface to define constants.</li>
+  <li>God object - Concentrating too many functionalities in a single part of design.</li>
+  <li>Object cesspool - Reusing objects whose state does not confirm to the contract of reuse.</li>
+  <li>Object orgy - Failing to properly encapsulate objects permitting unrestricted access to their internals.</li>
+  <li>Poltergeists - Objects whose sole purpose is to pass information to another object.</li>
+  <li>Sequential coupling - A class that requires its method to be called in a particular order.</li>
+  <li>Yo-yo problem - A structure that is hard to understand due to excessive fragmentation.</li>
+  <li>Dependency hell - Problem with versions of required product.</li>
+  <li>DLL hell - Inadequate management of dynamic linked libraries.</li>
+</ul>
+
+<h3 id="programming-anti-patterns">Programming anti-patterns</h3>
+<ul>
+  <li>Accidental complexity - Introducing unnecessary complexity into a solution.</li>
+  <li>Action at distance - Unexpected interaction between widely separated parts of system.</li>
+  <li>Blind faith - Lack of checking of correctness of a bug fix or result of a subroutine.</li>
+  <li>Boat anchor - Retaining a part of a system that is no longer has any use.</li>
+  <li>Busy spin - Consuming CPU while waiting for something to happen, usually by repeated checking rather than message passing.</li>
+  <li>Caching failure - Forgetting to reset an error flag when an error has been corrected.</li>
+  <li>Cargo cult programming - Using patterns and methods without understanding why.</li>
+  <li>Coding by exception - Adding a new code to handle each special case as it is recognised.</li>
+  <li>Error hiding - Catching an error message before it can be shown to the user, either showing nothing or showing a meaningless message.</li>
+  <li>Hard code - Embedding assumption about environment of a system in its implementation.</li>
+  <li>Lava flow - Retaining undesirable code because removing it is too expensive or has unpredictable consequences.</li>
+  <li>Loop switch sequence - Encoding a set of sequential steps using a switch within a loop.</li>
+  <li>Magic numbers - Including unexplained numbers in algorithm.</li>
+  <li>Magic strings - Including literal strings in code, for comparison, as event types etc.</li>
+  <li>Soft code - Storing business logic in configuration files rather than source code.</li>
+  <li>Spaghetti code - Programs whose structure is barely comprehensible.</li>
+</ul>
+
+<h3 id="methodological-anti-patterns">Methodological anti-patterns</h3>
+<ul>
+  <li>Copy-paste programming. Copying (modifying) and pasting existing code rather than implementing generic solution.</li>
+  <li>Golden hammering - Assuming that a favourite solution is universally applicable.</li>
+  <li>Improbability factor - Assuming that it is improbably that a known error will occur.</li>
+  <li>NHI syndrome - The tendency towards reinventing the wheel, assuming it does not exist here before.</li>
+  <li>Premature optimisation - Coding early on for a perceived efficiency, sacrificing good design, maintainability, and sometimes even real world * efficiency.</li>
+  <li>Programming by permutation - Trying to approach a solution by successively modifying the code to see if it works.</li>
+  <li>Reinventing the wheel - Failing to adopt an existing, adequate solution.</li>
+  <li>Reinventing the square wheel - Failing to adopt an existing solution and instead adopting a custom solution which performs much worse than an * existing one.</li>
+  <li>Silver bullet - Assuming that a favourite technical solution can solve a larger process or problem.</li>
+  <li>Tester driven development - Projects in which new requirements are specified in bug reports.</li>
+</ul>
+
+<h2 id="ddd">DDD</h2>
+<p>Domain-driven design</p>
+
+<h2 id="tools">Tools</h2>
+<h3 id="validating-handovers">Validating Handovers</h3>
+<ol>
+  <li>Produce a documentation repository</li>
+  <li>Slowly transition responsibility for meeting, scrum ceremonies and client engagement</li>
+  <li>Knowledge transfer checklist</li>
+  <li>Knowledge transfer meetings</li>
+  <li>Testing by team (through queries and clarity in feature delivery)</li>
+  <li>Periodic Progress Reports</li>
+  <li>A visual map post-handover to effectively communicate to business the process</li>
+</ol>
+
 
         
       </section>
@@ -455,7 +493,7 @@ First principles is kind of a physics way of looking at the world. You boil thin
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2023-06-23T06:14:42+02:00">June 23, 2023</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2023-07-08T07:21:48+02:00">July 8, 2023</time></p>
 
 
       </footer>

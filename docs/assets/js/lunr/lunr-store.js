@@ -110,7 +110,7 @@ var store = [{
         "title": "2023 Reading List",
         "excerpt":"Planned: Robert Nystrom - Crafting Intepreters Tom Stuart - Understanding Computation Gerald Weinberg - Quality Software Management, Vol 1: Systems Thinking Donella Meadows - Thinking in Systems Brendan Burns - Designing Distributed Systems James Clear - Atomic Habits Clarence Larking - Dispensational Truth Daniel Kahneman - Thinking Fast and Slow...","categories": ["hobbies"],
         "tags": [],
-        "url": "/hobbies/2023/01/08/reading-list.html",
+        "url": "/hobbies/2023/01/08/2023-reading-list.html",
         "teaser": null
       },{
         "title": "What I learned this week",
@@ -192,7 +192,7 @@ var store = [{
         "teaser": null
       },{
         "title": "How I lead",
-        "excerpt":"Rules of managing Manager’s user manual for team 1. Rules of Managing Only by pride cometh contention - Proverbs 13:10 * Lead by example but don't absolve responsibility. * Delegate. * Record all interactions, document and distribute. * Changes to processes need solid agreement. * Collaborate instead of dictate, but...","categories": [],
+        "excerpt":"Rules of managing Manager’s user manual for team 1. Rules of Managing Only by pride cometh contention - Proverbs 13:10 * Lead by example but don't absolve responsibility. * Hold people accountable, and ensure there are consequences. * Record key interactions, document and distribute. * Changes to processes need solid...","categories": [],
         "tags": [],
         "url": "/software/leadership/",
         "teaser": null

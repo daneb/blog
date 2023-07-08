@@ -323,7 +323,7 @@ Refer to [commandments](/sermons/commandments)
 ## 1&2 Kings
 ~ Directly from J.B Phillips
 
-- 120 years the twelve tribes were united and were ruled from a single throne
+- 120 years the twelve tribes werep united and were ruled from a single throne
 - With the death of Solomon the 12 tribes broke away from the throne of David to setup an independant kingdom of the north.
 - The kingdom known as Israel, was eventually ruled by Samaria for which all the kings were bad
 - The tribe of Benjamin remained true to Judah and throne of David.
