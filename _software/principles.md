@@ -176,4 +176,11 @@ Domain-driven design
 6. Periodic Progress Reports
 7. A visual map post-handover to effectively communicate to business the process
 
+## Thinking Skills
+
+### Tools for Thinking
+If you ever feel overwhelmed by a situation or problem, and want to generate more insight into the problem or even visualize it, I recommend - https://untools.co/.
+
+Types of problems or situations are categorized so you can find the right mental model to edge you forward. Give it a shot and if you've got alternatives or resources that have worked for you, please share
+
 
