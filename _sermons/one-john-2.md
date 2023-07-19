@@ -323,8 +323,8 @@ Refer to [commandments](/sermons/commandments)
 ## 1&2 Kings
 ~ Directly from J.B Phillips
 
-- 120 years the twelve tribes werep united and were ruled from a single throne
-- With the death of Solomon the 12 tribes broke away from the throne of David to setup an independant kingdom of the north.
+- 120 years the twelve tribes were united and were ruled from a single throne
+- With the death of Solomon the 12 tribes broke away from the throne of David to setup an independent kingdom of the north.
 - The kingdom known as Israel, was eventually ruled by Samaria for which all the kings were bad
 - The tribe of Benjamin remained true to Judah and throne of David.
 - Combined these two tribes formed the Southern Kingdom, who were true to Judah and the throne of David
@@ -366,6 +366,48 @@ Refer to [commandments](/sermons/commandments)
 - Assyria a new nation appeared on the scene. 
 
 Next week and powers of the time.
+
+
+# Session 4
+
+## Icebreakers
+1. If you could choose, would you want to live on the Moon or Mars?
+2. If you were the king/queen of the world, what would be the first rule you make?
+3. If you had a pet alien, what would you name it?
+4. If you could have any animal's ability, what would you choose?
+
+## 1 & 2 Chronicles
+- Not a repetition of Kings
+- Kings gives us viewpoint from Prophets
+- Chronicles gives us viewpoint from the Priests
+- According to Hebrew Canon, they are at the end of the Old Testament
+- Written after captivity of Babel
+- Prior they were at a land of Promise, now everything was dust and desolate
+- The throne of David was gone, but the lineage was still there (from Adam to Zedekiah)
+- The writer reminds us that all Israel troubles stemmed from their apostasy
+- It ends with the decree of Cyrus (the rebuilding of the temple)
+- It relays the history of 21 kings and their reign (kings of Israel mentioned occassionally)
+- In the OT, Israel came into conflict with 4 world powers: Egypt, Assyria, Babylon and Persia
+
+### Overview
+1. The Chronology of Judah's King (1 Chronicles 1-9)
+   1. The Royal Line (Adam to Noah ... David to Zedekiah)
+   2. The Related Lines (Japheth to Ham, Jesse and Caleb)
+2. The Chronicles of Judah's King (1 Chronicles 10-2 Chronicles 36)
+   1. Throne of David
+   2. Template of Solomon
+   3. Testimony of History
+
+### Differences between Kings and Chronicles
+| Kings | Chronicles |
+|--------------------------|------------------------------|
+| Written before captivity | Written after captivity      |
+| Prophets viewpoints      | Priests                      |    
+| Human perspective        | Divine                        |
+| First shows man ruling   | Shows God overuling           |
+| Embraces history of Northern Kingdom | Ignores Northern Kingdom |
+| Written by someone distracted | Written by someone contemplative |
+|---------------------------|--------------------------------------|
 
 ### 1 John 2:13-16
 

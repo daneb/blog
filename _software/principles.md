@@ -67,6 +67,7 @@ First principles is kind of a physics way of looking at the world. You boil thin
 20. Comments usually mean you need to spend time cleaning the code. *regex
 21. [Goodhart's Law](https://thehustle.co/Goodharts-Law/)
 22. Correlation is not causation. 
+23. [Why I hate frameworks](https://factoryfactoryfactory.net)
 
 ## Algorithms
 ### Expression Trees
