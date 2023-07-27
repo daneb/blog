@@ -143,6 +143,12 @@ var store = [{
         "url": "/sermons/commandments/",
         "teaser": null
       },{
+        "title": "God is in charge",
+        "excerpt":"Theme God is still in control, take heart Stop slumbering, time is now - the governments should move us to act Main This morning I am going to do a magic trick. Yip, let’s call it the charismatic in me. With two word’s I will likely cause a stir of...","categories": [],
+        "tags": [],
+        "url": "/sermons/governments/",
+        "teaser": null
+      },{
         "title": "How to structure a Bible study",
         "excerpt":"Start with an ice-breaker to warm up discussions Identify a theme (that aligns with the esssence of the verses) Introduce the theme Walk-through each verse and break it down Bring in examples from your own life Share stories and cross-reference similar verses Also, look for questions. Active listen to when...","categories": [],
         "tags": [],
