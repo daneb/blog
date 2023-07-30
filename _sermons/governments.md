@@ -50,7 +50,7 @@ As we consider God's view on governments this morning and not my own, we will lo
 
 * These words are strong and sobering because they fly in the face of an unworthy government. But Paul at the time of this writing was faced with similar challenges. The Roman government at the time was headed up Emperor Nero. He ruled from 54AD to 68AD. He started of as Emperor at a young age, and initially showed promise but his reign ultimately descended into a tyrannical and morally corrupt period. He was infamous for his lavish spending, extravagant lifestyle and self-indulgence. Yet Paul with less comforts and security we have today, facing a similar or worse government, calls us and the church at Rome to be subject to the government.
 
-##### 1.2 A stern warning
+##### 1.2 A harsh consequence
 
 * But not only is there a command, but like a law, this command comes with punishment or consequence.
 * Paul reminds us, that whoever resists the power, the word resist meaning:
