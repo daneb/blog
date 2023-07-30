@@ -12,6 +12,9 @@ excerpt: "Sermon outline"
 This morning I am going to do a magic trick. Yip, let's call it the charismatic in me. With two word's I will likely cause a stir of emotion and take you on an emotional roller coaster ride. Are you ready? Here goes.
 That two words are 'our government'.
 
+Or perhaps these single words,
+Guptas, Eskom, Zuma, Land, Tax, Zondo, Unemployment, Phala Phala and I can go on.
+
 I don't know about you but there's a-lot I can say there and largely if you had to get me
 going on the wrong day things could get pretty heated and sometimes down right discouraging.
 How does one organization of humans continue to loot and squander not hundreds, not thousands but millions to billions
@@ -27,7 +30,7 @@ tooth. To rebel against the system and tear it all down.
 Perhaps you don't share my level of frustration, but perhaps, just perhaps some. It is with these thoughts, these emotions we come to this portion of scripture, Romans 13, not for our own views, our own perspectives, criticisms
 and wisdom, but rather to hear God speak, to hear Him tell us what our thoughts should be.
 
-### Lets turn to the Lord in prayer
+### Pray for the government in general
 
 ## Body
 
