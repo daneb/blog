@@ -76,7 +76,7 @@ As we consider God's view on governments this morning and not my own, we will lo
 * It goes on to cover in verse 6 (read verse 6), that we are to render or give government all their dues, their taxes, penalties, fines and bills.
 * Verse 7 pushes further to remind us, to respect their customs, to do right in fear of their laws and to honor their titles and designations.
 
-#### 2. Far more obedient unto God (vs. 9-10)
+#### 2. Scope of obedience (vs. 9-10)
 
 #### 2.1 What are the parameters?
 
@@ -91,7 +91,7 @@ As we consider God's view on governments this morning and not my own, we will lo
 * But perhaps you thinking, well I can dictate what's from God and what's not. Well again there is three factors we have to circumnavigate or bypass:
   1. An un-seared conscience
   2. Scripture - God gives us commands in the N.T and also makes clear His will
-  3. Love one another - we get an overarching principal at the end of verse 9, "Thou shalt love thy neighbour as thyself". Said differently, read verse 10.
+  3. Love one another - we get an overarching principal at the end of verse 9, "Thou shalt love thy neighbor as thyself". Said differently, read verse 10.
 
 * God is amazing is He not, to equip us to navigate this life!
 
@@ -110,7 +110,7 @@ As we consider God's view on governments this morning and not my own, we will lo
 ##### 2.1 Doing but cold
 
 * On this theme of Being Vigilant, Paul's calls us out again, in verse 13, to say "Walk honestly". Isn't this an amazing set of words place side by side. Because it's easy to appear to walk the walk of a Christian, but how hard is it to be that Christian who walks honestly. Are you that Christian today friend? Do you have the form of Christian but not the function?
-* Are you perhaps seated here today asleep? In slumber? Perhaps you here, week in, week out, dedicated in all manner of doing, of walking, but on the inside you have grown cold, cold to God, cold because of the injustices of life, cold because of the government and our situation in South Africa. Rather friends we should rise up, and seize the oppurtunity to share Christ!
+* Are you perhaps seated here today asleep? In slumber? Perhaps you here, week in, week out, dedicated in all manner of doing, of walking, but on the inside you have grown cold, cold to God, cold because of the injustices of life, cold because of the government and our situation in South Africa. Rather friends we should rise up, and seize the opportunity to share Christ!
 
 ##### 2.2 Put on the Lord
 
