@@ -109,8 +109,8 @@ As we consider God's view on governments this morning and not my own, we will lo
 
 ##### 2.1 Doing but cold
 
-* On this theme of Being Vigilant, Paul's calls us out again, in verse 13, to say "Walk honestly". Isn't this an amazing set of words place side by side. Because it's easy to appear to walk the walk of a Christian, but how hard is it to be that Christian who walks honestly. Are you that Christian today friend?
-* Are you perhaps seated here today asleep? In slumber? Perhaps you here, week in, week out, dedicated in all manner of doing, of walking, but on the inside you not honest, you cold, cold to God, cold to the so-called injustices of life, of your life and it's situation.
+* On this theme of Being Vigilant, Paul's calls us out again, in verse 13, to say "Walk honestly". Isn't this an amazing set of words place side by side. Because it's easy to appear to walk the walk of a Christian, but how hard is it to be that Christian who walks honestly. Are you that Christian today friend? Do you have the form of Christian but not the function?
+* Are you perhaps seated here today asleep? In slumber? Perhaps you here, week in, week out, dedicated in all manner of doing, of walking, but on the inside you have grown cold, cold to God, cold because of the injustices of life, cold because of the government and our situation in South Africa. Rather friends we should rise up, and seize the oppurtunity to share Christ!
 
 ##### 2.2 Put on the Lord
 
