@@ -65,7 +65,7 @@ As we consider God's view on governments this morning and not my own, we will lo
 * In verse 3-4 we see the kindness of God, in these verses Paul takes the time to highlight God's reasoning. Governments are instituted to the affect of God. For all their corruption and inconsistencies, within them are good people. Sadly, also within them are device people faced with power and large sums of money who are morally corrupt, unsaved and self-serving.
 * But generally the government functions across the world to fight evil and create order. We may not necessarily agree with the rights views or the lefts views or we may be in the middle. But whatever our leaning, governments are generally protectors of their people through through the application of law and it's enforcement.
 * Without governments, we are left with lawlessness. From a central body of laws, and in absence of government would leave us with individuals or clusters of people with their own laws.
-* God goes as far to say that they are the minister of God, to thee for God. Think about the comparison Paul is making here. He is a minister of the gospel to the church of Rome, and he is using that very same comparison to say that the government is a minister too, like he is, unto God, but for your own good.
+* God goes as far to say that they are the *minister of God*, to thee for God. Think about the comparison Paul is making here. He is a minister of the gospel to the church of Rome, and he is using that very same comparison to say that the government is a minister too, like he is, unto God, but for your own good.
 
 ### II. Be Obedient (vs. 5-10)
 
