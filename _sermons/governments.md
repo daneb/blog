@@ -97,7 +97,7 @@ As we consider God's view on governments this morning and not my own, we will lo
 
 ### III. Be Vigilant (vs. 11-14)
 
-#### 1. Stop sleeping (vs. 11-12)
+#### 1. Stop sleeping - Don't mirror (vs. 11-12)
 
 * We come to our final section of our 3 B's, and that's Be Vigilant.
 * It's tremendously interesting how Paul introduces almost 2 contrasting or very varied thoughts in this one chapter. We get a slew of forces, causing us to renew our minds on how we think about governments particularly our own. But then moves on in verse 11 to call us out of slumber.
