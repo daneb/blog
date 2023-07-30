@@ -101,8 +101,8 @@ As we consider God's view on governments this morning and not my own, we will lo
 
 * We come to our final section of our 3 B's, and that's Be Vigilant.
 * It's tremendously interesting how Paul introduces almost 2 contrasting or very varied thoughts in this one chapter. We get a slew of forces, causing us to renew our minds on how we think about governments particularly our own. But then moves on in verse 11 to call us out of slumber.
-* And perhaps he does this to remind us, that despite our government, that does not negate our obedience, nor is it an excuse for us to mirror the government behavior or evil. In verse 11, Paul reminds us that from the day we believed, time has progressed us closer to the Lord's return. Yes to the closer and the eschatological events, but also to our judgement as believers (not to damnation). But to the extent of what in our lives, despite situation, despite circumstance, despite government, have we acted and conducted ourselves like believers unto the glory of His name.
-* "It is high time to awake out of sleep" - now brother and sister, now this time, is your opportunity to rise out of slumber and honor him with your life and not make excuses about your government!
+* And perhaps he does this to remind us, that despite our government, that does not negate our obedience, nor is it an excuse for us to mirror the government behavior or evil. In verse 11, Paul reminds us that from the day we believed, time has progressed us closer to the Lord's return. Yes to the closer and the (salvation) eschatological events, but also to our judgement as believers (not to damnation). But to the extent of what in our lives, despite situation, despite circumstance, despite government, have we acted and conducted ourselves like believers unto the glory of His name.
+* "It is high time to awake out of sleep" - now brother and sister, now this time, is your opportunity to rise out of slumber and honor him with your life and not be paralyzed about your government!
 * "The night is far spent, day is at hand" - time has gone on, time is fleeting, the Lord is coming, are you ready?
 
 #### 2. Walk honestly (vs. 13-14)
