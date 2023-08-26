@@ -204,7 +204,7 @@ var store = [{
         "teaser": null
       },{
         "title": "How I lead",
-        "excerpt":"Rules of managing Manager’s user manual for team 1. Rules of Managing Only by pride cometh contention - Proverbs 13:10 * Lead by example but don't absolve responsibility. * Hold people accountable, and ensure there are consequences. * Record key interactions, document and distribute. * Changes to processes need solid...","categories": [],
+        "excerpt":"Rules of managing Manager’s user manual for team 1. Rules of Managing Only by pride cometh contention - Proverbs 13:10 Lead by example but don’t absolve responsibility. Hold people accountable, and ensure there are consequences. Record key interactions, document and distribute. Changes to processes need solid agreement. Collaborate instead of...","categories": [],
         "tags": [],
         "url": "/software/leadership/",
         "teaser": null
@@ -213,6 +213,12 @@ var store = [{
         "excerpt":"“A principle is a natural law like gravity. If you drop something, gravity controls. If I don’t tell you the truth, you won’t trust me; that’s a natural law.” Being A Developer Problem Solving Reason through First Principles The normal way we conduct our lives is we reason by analogy....","categories": [],
         "tags": [],
         "url": "/software/principles/",
+        "teaser": null
+      },{
+        "title": "Skills Improvement",
+        "excerpt":"First Impressions      Stanford First Impressions   Networking      Small Group   ","categories": [],
+        "tags": [],
+        "url": "/software/skills/",
         "teaser": null
       },{
         "title": "Values that underpin",
