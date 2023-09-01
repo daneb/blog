@@ -102,6 +102,7 @@ References:
 1. [Not maximize, but optimize to 85%](https://hbr.org/2023/06/to-build-a-top-performing-team-ask-for-85-effort)
 1. [Helicopter Management](https://charity.wtf/2023/06/19/helicopter-management/)
 2. [Attention is all a manager needs](https://philcalcado.com/2023/07/21/attention_is_all_a_manager_needs.html)
+3. [Energy as a mechanism for overwork](https://hbr.org/2007/10/manage-your-energy-not-your-time?tpcc=orgsocial_edit&utm_campaign=hbr&utm_medium=social&utm_source=linkedin)
 
 ## Product Management
 
@@ -110,6 +111,11 @@ References:
 ## Engineering Thinking
 
 1. [Platform Engineering](https://chadxz.dev/platform/)
+
+## Documentation
+
+1. [Architecture Data Artifacts](https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/templates/decision-record-template-by-michael-nygard/index.md)
+2. [4 Document Model](https://documentation.divio.com/)
 
 ## Anti-Patterns
 
