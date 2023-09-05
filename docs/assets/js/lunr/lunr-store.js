@@ -155,6 +155,12 @@ var store = [{
         "url": "/sermons/how-to-structure-bible-study/",
         "teaser": null
       },{
+        "title": "Beloved, Contend and Beware",
+        "excerpt":"Beloved, Contend and Beware   Introduction   1. Beloved (vs. 3)   1.1 Greatly loved   I. Definition: Beloved   II. Sincerity of writing   2. Contend (3b)   2.1 Definition: Contend   2.2 Earnestly contend   3. Beware (vs. 4)   3.1 Crept in unaware (4a)   3.2 Deny the Lord (4b)  ","categories": [],
+        "tags": [],
+        "url": "/sermons/jude3-4/",
+        "teaser": null
+      },{
         "title": "Lessons from Christ's tears on the Cross",
         "excerpt":"Lessons From The Tears Of Jesus Christ: Introduction: Liqourice All Sorts How many times did Jesus Christ cry in the Bible? Or how many times is it recorded that He Cried? From the weeping, the tears of our Lord, the man of sorrow’s we will gather some lessons. I. Jesus...","categories": [],
         "tags": [],

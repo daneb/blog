@@ -117,6 +117,10 @@ References:
 1. [Architecture Data Artifacts](https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/templates/decision-record-template-by-michael-nygard/index.md)
 2. [4 Document Model](https://documentation.divio.com/)
 
+## Productivity
+
+1. [Kent Beck McKinsey feedback](https://tidyfirst.substack.com/p/measuring-developer-productivity)
+
 ## Anti-Patterns
 
 *cut n paste from [Bipin Paul Bedi](https://www.bipinpaulbedi.com/2019/software-anti-patterns)*
