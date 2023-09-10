@@ -70,6 +70,8 @@ exclude:
   - vendor/ruby/
 
 include: ["_pages"]
+
+keep_files: ['CNAME']
   
 # Collections
 collections:

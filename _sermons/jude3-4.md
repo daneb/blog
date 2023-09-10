@@ -182,14 +182,16 @@ Let's turn to the Lord in prayer.
 
 * And while we think of that, it almost feels externalized. Like a new person that joins, or some individual other than you sitting here.
 * But there too lies the danger. I've seen good men go bad. It maybe for some time. It maybe for a long time. Saved men.
-* I've seen good men, Pastors split churches. I've seen Pastors fight over churches. I've seen godly men convince me of their own pet peeves or ideologues.
+* I've seen good men do bad things. Pastors split churches. I've seen Pastors fight over churches. I've seen godly men convince me of their own pet peeves or ideologues.
 * Jude doesn't say whether these men were saved or not. Most commentaries will say there were unsaved by deduction.
 * But my point here, is don't get caught up looking out and trying to identify the wolf in sheep's clothing, when there's potential for you and I to be just that.
 * We need to not only watch out for the wolf amidst, but the wolf within.
+* We have a responsibility to each other, to stay in the Word, stay at the feed of the Lord Jesus - to protect this body and to build up and not tear-down our church.
+* Not the building, but the individuals members that make up Faith Fellowship
 
 ## Conclusion
 
-* Beloved, be-warned.
+* In summary, Beloved, Content and Beware.
 * Guard your heart, be diligent, but also look for that which is needful.
 * Contend earnestly for the faith that has been repeatedly delivered to you
 * And lastly, be weary for false teachers, men who are wolves but let us also be steeped enough in Christ and His Word so that never becomes us
