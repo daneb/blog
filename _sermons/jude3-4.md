@@ -198,7 +198,10 @@ This is the the thrust of what we will be seeing in the book of Jude, Jude warni
 
 ## Conclusion
 
-* In summary, Beloved, Content and Beware.
+* In summary,
+
+> Beloved, Contend and Beware.
+
 * Guard your heart, be diligent, but also look for that which is needful.
 * Contend earnestly for the faith that has been repeatedly delivered to you
-* And lastly, be weary for false teachers, men who are wolves but let us also be steeped enough in Christ and His Word so that never becomes us
+* And lastly, be weary for false teachers, men who are wolves but let us also be steeped enough in Christ and His Word and allowing that to outflow into action, so we don't end up the wolf who destroys the flock
