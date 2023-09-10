@@ -20,7 +20,7 @@ And let's turn to Matthew 26, and read with from verse 46-50.
 > What is common theme between these two narratives?
 > Deception and betrayal.
 
-This is the the thrust of what we will be seeing in the book of Jude, Jude warning us, waking us up from sleep, calling out, being a watchmen and shouting from the lookout tower, the enemy is coming, the enemy is coming. In the time of AD 60-80AD, this was the message, and this message echoes on today, in this church, in your life, in your workplace.
+This is the the thrust of what we will be seeing in the book of Jude, Jude warning us, waking us up from sleep, calling out, being a watchmen and shouting from the lookout tower, the enemy is upon us, the enemy is upon us. In the time of AD 60-80AD, this was the message, and this message echoes on today, in this church, in your life, in your workplace.
 
 Let's turn to the Lord in prayer.
 
