@@ -188,7 +188,8 @@ This is the the thrust of what we will be seeing in the book of Jude, Jude warni
 
 * And while we think of that, it almost feels externalized. Like a new person that joins, or some individual other than you sitting here.
 * But there too lies the danger. I've seen good men go bad. It maybe for some time. It maybe for a long time. Saved men.
-* I've seen good men do bad things. Pastors split churches. I've seen Pastors fight over churches. I've seen godly men convince me of their own pet peeves or ideologues.
+* I've seen good men do bad things. Perhaps in your experience you have too.
+* Pastors that split churches. I've seen Pastors fight over churches. I've seen godly men convince me of their own pet peeves or ideologues. We've seen men split churches over ungodly doctrine.
 * Jude doesn't say whether these men were saved or not. Most commentaries will say there were unsaved by deduction.
 * But my point here, is don't get caught up looking out and trying to identify the wolf in sheep's clothing, when there's potential for you and I to be just that.
 * We need to not only watch out for the wolf amidst, but the wolf within.
