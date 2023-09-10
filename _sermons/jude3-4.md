@@ -129,6 +129,7 @@ This is the the thrust of what we will be seeing in the book of Jude, Jude warni
 
 #### iv. Application: We must shine forth the light
 
+* Friends, brethren, we have a responsibility to bear the light of Christ to a darkened world.
 * May the Lord enable us to earnestly contend, the days grow dark, but in darkness, just a little light shines bright.
 * We have the light, light us shine it forth earnestly!
 
