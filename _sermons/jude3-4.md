@@ -11,7 +11,10 @@ excerpt: "Sermon Outline"
 * Both brothers each wrote a general epistle and neither used their authority in being Jesus Christ's brothers.
 * Jude is very closely linked and can be read alongside 2 Peter, particularly 2 Peter 2.
 
-Before we dive into verse 3 and 4 for today, let's set the table.
+Before we dive into verse 3 and 4 for today, I would like to read 2 portions of scripture. 
+
+> And afterwards I am going to ask for your insight into whats some common themes between the two.
+
 Please turn your Bibles to Joshua 9:1-9, 15. Keep your hand on that portion if you will.
 And let's turn to Matthew 26, and read with from verse 46-50.
 
