@@ -28,9 +28,9 @@ Let's turn to the Lord in prayer.
 
 ### 1.1 Beloved
 
-* Before Jude gets into the thick of things, he states one of his motivations, and it's loved.
-* Not at the start of verse 3, he begins with the word _beloved_, that is, greatly loved.
-* It's easy to criticize, but when love meets criticism it becomes critical to pay attention. The person in question has taken the time to consider you, to consider your life, it's course and apply their mind to equipping you for the future. This is what Jude is doing.
+* Before Jude gets into the thick of things, he states one of his motivations, and it's love.
+* Note at the start of verse 3, he begins with the word _beloved_, that is, greatly loved.
+* It's one thing to receive a warning from someone, but when that warning has a foundation in love it becomes critical to pay attention. The person in question has taken the time to consider you, to consider your life, it's course and apply their mind to equipping you for the future. This is what Jude is doing.
 
 ### 1.2 Diligence vs Needful
 
@@ -136,7 +136,7 @@ Let's turn to the Lord in prayer.
 #### i. Nature of men
 
 * Note in the verse, certain men crept in unaware.
-* This men were ungodly, that is, _"wicked, neglecting the fear and worship of God".
+* These men were ungodly, that is, _"wicked, neglecting the fear and worship of God"._
 * They abused the grace of God into lust. Given the liberty the Christian has in Christ, unlike the rules / law imparted to Israel, these men started to lead others astray with sexual desires.
 * Lasciviousness
 
@@ -184,7 +184,8 @@ Let's turn to the Lord in prayer.
 * But there too lies the danger. I've seen good men go bad. It maybe for some time. It maybe for a long time. Saved men.
 * I've seen good men, Pastors split churches. I've seen Pastors fight over churches. I've seen godly men convince me of their own pet peeves or ideologues.
 * Jude doesn't say whether these men were saved or not. Most commentaries will say there were unsaved by deduction.
-* But my point here, is don't get caught up looking out and trying to identify the wolf in sheep's clothing, when there's potential for you to be just that.
+* But my point here, is don't get caught up looking out and trying to identify the wolf in sheep's clothing, when there's potential for you and I to be just that.
+* We need to not only watch out for the wolf amidst, but the wolf within.
 
 ## Conclusion
 
