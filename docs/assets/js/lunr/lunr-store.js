@@ -108,7 +108,7 @@ var store = [{
         "teaser": null
       },{
         "title": "2023 Reading List",
-        "excerpt":"Planned: Robert Nystrom - Crafting Intepreters Tom Stuart - Understanding Computation Gerald Weinberg - Quality Software Management, Vol 1: Systems Thinking Donella Meadows - Thinking in Systems Brendan Burns - Designing Distributed Systems James Clear - Atomic Habits Clarence Larking - Dispensational Truth Daniel Kahneman - Thinking Fast and Slow...","categories": ["hobbies"],
+        "excerpt":"Planned: Robert Nystrom - Crafting Intepreters Tom Stuart - Understanding Computation Gerald Weinberg - Quality Software Management, Vol 1: Systems Thinking Donella Meadows - Thinking in Systems Brendan Burns - Designing Distributed Systems Clarence Larking - Dispensational Truth Betsy Beyer - Site Reliability Engineering Adam Grant - Think Again Steven...","categories": ["hobbies"],
         "tags": [],
         "url": "/hobbies/2023/01/08/2023-reading-list.html",
         "teaser": null
