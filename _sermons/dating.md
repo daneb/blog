@@ -1,4 +1,9 @@
-## Dating
+---
+title: "Dating: A guide for men"
+excerpt: "Sermon outline"
+---
+
+# Dating
 
 **Target Audience:** Christian Males
 

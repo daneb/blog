@@ -143,6 +143,12 @@ var store = [{
         "url": "/sermons/commandments/",
         "teaser": null
       },{
+        "title": "Dating: A guide for men",
+        "excerpt":"Dating Target Audience: Christian Males In a world rooted in Christian values, the modern concept of dating holds no place. Today’s dating, a process where individuals meet to assess mutual compatibility as life partners, often involves ambiguity, lack of commitment, and physical intimacy, with marriage as a mere possibility. Such...","categories": [],
+        "tags": [],
+        "url": "/sermons/dating/",
+        "teaser": null
+      },{
         "title": "God is in charge",
         "excerpt":"Theme God is still in control, take heart Stop slumbering, time is now - the governments should move us to act Main This morning I am going to do a magic trick. Yip, let’s call it the charismatic in me. With two word’s I will likely cause a stir of...","categories": [],
         "tags": [],
