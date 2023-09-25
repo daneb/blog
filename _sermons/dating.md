@@ -16,7 +16,7 @@ In a world rooted in Christian values, the modern concept of dating holds no pla
 - **Violation of Universal Law:** True reward comes after due diligence and effort. Taking the reward beforehand parallels tasting the forbidden fruit and inverting God’s order.
 - **Risk of Being Unequally Yoked:** If both individuals are not rooted in faith, the relationship is unequally yoked.
 - **It Does Not Honor Parents:** The modern dating practice does not demonstrate respect to either set of parents. Parents’ blessings and insights are invaluable, cultivating trust and upholding the value of the individuals involved.
-- **No Requirement for Pre-marital Physical Intimacy:** A healthy sexual marriage does not necessitate prior sexual experience with multiple partners. God, the creator of sex, deems it holy within the boundaries of marriage.
+- **No Requirement for Pre-marital Physical Intimacy:** A healthy sexual marriage does not necessitate prior sexual experience or with multiple partners to be experienced enough for marriage. God, the creator of sex, deems it holy within the boundaries of marriage.
 
 ## The Phases
 
