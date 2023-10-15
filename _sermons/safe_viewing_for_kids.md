@@ -1,3 +1,7 @@
+---
+title: "Character building Cartoons for kids"
+---
+
 # Safe character building series
 
 ## 5-10 years old
@@ -18,5 +22,11 @@
 14. Young Jedi (Season 1)
 15. Guess how much I love you
 16. Lenu Petuna
-17. Bo on the Go 
+17. Bo on the Go
 18. Kungfu Panda Movie
+19. Richard Scary's Huckle
+20. Messi goes to Okido
+21. Leo the Wildlife Ranger
+22. Swashbuckles
+23. Grace's Amazing Machines
+24. Andy's Safari Adventures

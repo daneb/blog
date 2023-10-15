@@ -209,6 +209,12 @@ var store = [{
         "url": "/sermons/romans-one/",
         "teaser": null
       },{
+        "title": "Character building Cartoons for kids",
+        "excerpt":"Safe character building series 5-10 years old Bible Man 321 Penguins Paddington Bear (older version) Peg plus Cat (old) Zorro The Chronicles Postman Pat Superbook Wild Kratts Go Wild Youtube docuseries Octonauts Justin’s Time Where’s Wally Go Jetters Young Jedi (Season 1) Guess how much I love you Lenu Petuna...","categories": [],
+        "tags": [],
+        "url": "/sermons/safe_viewing_for_kids/",
+        "teaser": null
+      },{
         "title": "2nd Peter Outline",
         "excerpt":"3 Chapters 3 Words - Glory, Knowledge of God, Remembrance Bible - called Key of Knowledge (Luke 11:52).They exalt the book, but not the Saviour behind the book. Or they exalt the Saviour and no the Book. This is our manual for life, an owners manual. 66 AD * 6...","categories": [],
         "tags": [],
