@@ -131,6 +131,12 @@ var store = [{
         "url": "/lifeskills/2023/05/08/the-mechanics-of-a-joyful-marriage.html",
         "teaser": null
       },{
+        "title": "Behold the Lamb of God",
+        "excerpt":"Introduction Good morning brothers and sisters. If we reflect on the period or time of Covid, we consider it was a scary and dark time for us all. A time when people where in search of answers. For some this was science, but sadly science became the control of governments...","categories": [],
+        "tags": [],
+        "url": "/sermons/behold-the-lamb/",
+        "teaser": null
+      },{
         "title": "Is Christianity Real?",
         "excerpt":"Getting Revived – Dead Works to Fruit PROBLEM: I’m cold, how do I ignite the coals? Christ is not real. Introduction: This is the last day friend’s - all around us are Christians who are self-deceived or being deceived because the reality of Christ is missing. Yes we live in...","categories": [],
         "tags": [],
