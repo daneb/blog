@@ -14,7 +14,7 @@ During Covid we also saw a divisions in society, as there were those against vac
 
 Not only where we fighting a diseases, government intervention, but there was a mindset being proliferated and that of gender-politics (still making it's rounds today). Men could call themselves women, trans individuals wanted to be called by specific pronouns, people could be whoever they wanted to be. A women could label themselves man, and a man label themselves a woman despite their clear physical design. This thinking continues today in America and now in Europe. Again, truth is not based on reality but is not defined from the figments of peoples imaginations.
 
-But amidst these dark times, where truth is relative, there are some truths no man can alter.
+But amidst these dark times, where truth is relative and controlled, there are some truths no man can alter.
 
 1. Our God is true. Basic human reasoning could tell you that.
 2. And the second, the focus for the message today, The Gospel is true and is the worlds only hope.
