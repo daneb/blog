@@ -19,9 +19,11 @@ But amidst these dark times, where truth is relative and controlled, there are s
 1. Our God is true. Basic human reasoning could tell you that.
 2. And the second, the focus for the message today, The Gospel is true and is the worlds only hope.
 
-### READ 2 Corinthians 4:1-6
+> READ 2 Corinthians 4:1-6
 
-This morning, that light has shone out of darkness, for today there be some seated here whose blindness has been removed. But there are also others who remind blind. Darkness is upon you, but you believe you are in the light. Darkness can be the light, when darkness is all you know. May the Lord awaken you this morning, may your eyes open, may the glorious light of the gospel shine and may it give you the light of the knowledge of the glory of God.
+## May blindness be removed
+
+This morning, that light has shone out of darkness, for today there be some seated here whose blindness has been removed. But there are also others who remind blind. Darkness is upon you, but you believe you are in the light. Be warned friend, it is easy for darkness to appear as light, when darkness is all you know. May the Lord awaken you this morning, may your eyes open, may the glorious light of the gospel shine and may it give you the light of the knowledge of the glory of God.
 
 Let's turn to the Lord in prayer.
 
@@ -29,37 +31,52 @@ Let's turn to the Lord in prayer.
 
 ## Body
 
-This morning, I've got 4 questions for you,
-
 ### 1. Hell matters, are you going there?
 
 #### 1.1 Hell is real
 
-##### i. Make it clear
+##### i. The logical argument
 
 * I just want to say this morning, if it's not immediately clear, hell is real.
 * Look out at the very basics mechanics and patterns of the our world.
 * There is a very definitive law embedded in all things. You reap what you sow. You sit around and do nothing and well you will be without a job. You don't study for exams and you will fail. You break the law, you are punished. Why should the fundamental mechanic be any different when it comes to eternity when this is our reality?
   
-##### ii. Verses on hell
+##### ii. The biblical evidence
 
-* But perhaps if the logical argument doesn't suffice how about the truth, accuracy and reliability of scripture. There are 54 verses in scripture that tell us of hell (Deut 32:22, Psa 86:13, Prov 7:27, Luke 12:5, 2 Peter 2:4, Rev 20:14).
-* Hell is a place of eternal torment. A place of darkness. A place suitable enough for the bounds of evil. A place filled with those who have murdered, killed, raped, stolen, cheated and lied. Yes that's right lied. Have you ever told a lie? 
+* But perhaps if the logical argument doesn't suffice how about the truth, accuracy and reliability of scripture. There are 54 verses in scripture that tell us of hell (Deut 32:22, Isa 5:14, Luke 12:5, 2 Peter 2:4).
+
+> Deu 32:22  For a fire is kindled in mine anger, and shall burn unto the lowest hell, and shall consume the earth with her increase, and set on fire the foundations of the mountains.
+
+> Isa 5:14  Therefore hell hath enlarged herself, and opened her mouth without measure: and their glory, and their multitude, and their pomp, and he that rejoiceth, shall descend into it.
+
+> Luk 12:5  But I will forewarn you whom ye shall fear: Fear him, which after he hath killed hath power to cast into hell; yea, I say unto you, Fear him.
+
+> 2Pe 2:4  For if God spared not the angels that sinned, but cast them down to hell, and delivered them into chains of darkness, to be reserved unto judgment;
+
+##### iii. Call out the guilty
+
+* Hell is a place of eternal torment. A place of darkness. A place suitable enough for the bounds of evil. A place filled with those who have murdered, killed, raped, stolen, cheated, lied and had evil thoughts. Jesus says in the book of Mark,
+
+> And he said, That which cometh out of the man, that defileth the man. For from within, out of the heart of men, proceed evil thoughts, adulteries, fornications, murders, Thefts, covetousness, wickedness, deceit, lasciviousness, an evil eye, blasphemy, pride, foolishness: All these evil things come from within, and defile the man.
 
 > Rev 21:8  But the fearful, and unbelieving, and the abominable, and murderers, and whoremongers, and sorcerers, and idolaters, and all liars, shall have their part in the lake which burneth with fire and brimstone: which is the second death.
 
-* Note scripture says, "all liars", not some. All liars shall have their part in the lake of fire.
+* Note scripture says, "all liars", not some. All liars shall have their part in the lake of fire. If you have lied before, you stand condemned before a Holy God!
+* How clean are your thoughts? 
+* As sure as the Sun will rise tomorrow, we have all fallen short of God's glory. Do you see it brother, do you see it sister?
 
-> Rev 21:8  But the fearful, and unbelieving, and the abominable, and murderers, and whoremongers, and sorcerers, and idolaters, and all liars, shall have their part in the lake which burneth with fire and brimstone: which is the second death.
+##### iv. Hell is scary
 
-* You think the challenges in this life are hard, there are nothing in comparison to come for the torment, pain, affliction and burning that awaits you in hell. In fact, hell will be cast into the lake of fire. There will be no respite. There will be no momentary relief. There will be no joy, there will be no laughter, only pain, only death, only destruction and continual evil. Not for one lifetime, not for two, but for all eternity. All you will know is PAIN. All you will know is suffering. You have broken God's law and He has defined the judgement. If God was so creative to create a world as beautiful as this earth, imagine when He applies His mind to creating an eternal prison for those who have murdered, raped, blasphemed, lied and rejected Him.
+* You think the challenges in this life are hard, there are nothing in comparison to come for the torment, pain, affliction and burning that awaits you in hell. In fact, hell will be cast into the lake of fire. There will be no respite. There will be no momentary relief. There will be no joy, there will be no laughter, only pain, only death, only destruction and continual evil. 
+* Not for one lifetime, not for two, but for all eternity. All you will know is PAIN. All you will know is suffering. You have broken God's law and God in His Holiness has defined the judgement. If God was so creative to create a world as beautiful as this earth, imagine when He applies His mind to creating an eternal prison for those who have murdered, raped, blasphemed, lied and rejected Him.
 
 #### 1.2 Death and Hell ride together
 
 ##### i. What hell is?
 
-* Read Rev 6:8.
-* Death and hell ride together.
+> Rev 6:8  And I looked, and behold a pale horse: and his name that sat on him was Death, and Hell followed with him.
+
+* Hell accompanies Death. They ride together.
 * If you have to die today, if you had to step out of this church and meet you death, where would you go?
 
 ##### ii. Have you broken the law?
@@ -68,8 +85,8 @@ This morning, I've got 4 questions for you,
 * Being in church, attending church does not redeem a sin committed.
 * Popes, men, money, good deeds cannot undo breaking God's law.
 * Your father, your mother, your family cannot redeem you from the judgement to come.
-* No man, no woman can stand as substitute.
-* Where are you going? Have you met God's standard?
+* No ordinary man, no woman can stand as substitute.
+* Where are you going when you die? Have you met God's standard?
 
 ### 2. Jesus matters, do you believe in the right Jesus?
 
@@ -78,7 +95,8 @@ This morning, I've got 4 questions for you,
 ##### i. The many Jesus
 
 * Turn your Bibles to John, and read verse 29.
-         
+* We see John gaze out and say a most prophetic thing.
+
 ##### ii. Exposit verse
 
   1. Behold, gaze with intent, pay attention
@@ -103,14 +121,27 @@ This morning, I've got 4 questions for you,
 
 ##### ii. Not the same Jesus
 
-* Their Jesus is not our Jesus. Their Christ is not our Christ of the Bible. Their Jesus is a prophet, our's is God.
-* Why does this matter? How can sins of the world be atoned for by the death of a man, even if he were perfect. Perhaps he would pay for 1 or 2. But to be the atonement for all sin, for all men and women since the dawn of time. This is significant. The payment has to be great, and the only thing that makes sense is that Christ himself, God himself becomes that payment, that atonement.
-* The verses that break the camel's back again and again or at least has been invaluable for me is John 1:1-3, 14
+* Their Jesus is not our Jesus. Their Christ is not our Christ of the Bible. Their Jesus is a prophet, our's is God
+
+##### iii. Why does this matter?
+
+* How can sins of the world be atoned for by the death of a man, even if he were perfect. Perhaps he would pay for 1 or 2. But to be the atonement for all sin, for all men and women since the dawn of time. This is significant. The payment has to be great, and the only thing that makes sense is that Christ himself, God himself becomes that payment, that atonement. Jesus MUST BE GOD FOR THE PAYMENT TO BE SUFFICIENT. 
+* Only an ETERNAL PAYMENT, can stand for an ETERNAL JUDGEMENT.
+* Only an ETERNAL PAYMENT, can stand for ETERNAL SECURITY.
+* Only an ETERNAL PAYMENT, can redeem you from HELL.
+* That PAYMENT has to be Jesus Christ as GOD.
+  
+##### iv. The supporting verses
+
+* The verses that are irrefutable to the fact that Jesus is God is in John 1:1-3, 14-15, 1 John 5:7.
+* Please turn to John 1:1
   1. So we see there is the Word. This word was in the beginning with God (the Word is eternal)
   2. The Word was also creator.
-  3. In v14 we learn His identity.
-  4. Another crucial verse which John uses to bring this point through is 1 John 5:6-7. This is irrefutable as it not only defines Jesus as God, but also states clearly that Jesus is part of the Holy Trinity. 
-* Jesus part of the Trinity, and He is God, and He is your Savior, and atonement for sin.
+  3. In v14, 15 we learn His identity.
+  4. Another irrefutable verse is 1 John 5:6-7 as it affirms Jesus is a part of the Trinity.
+
+* Jesus part of the Trinity, and He is God, and He is your Savior, and He is the ONLY atonement for sin.
+* This is the TRUE JESUS. There is NONE OTHER.
 
 ### 3. The Romans Road
 
