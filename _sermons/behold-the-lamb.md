@@ -165,12 +165,15 @@ Let's turn to the Lord in prayer.
       1. it destroys your life. Sin separates from you God, but it also pushes you further into darkness. But it can also accelerate God's judgement. If you reject His word, the Gospel and continue to pursue your own, the Lord may choose to end it. 
       2. secondly, sin brings the second death. 
 
-      > Rev 20:14  And death and hell were cast into the lake of fire. This is the second death.
-      > Rev 20:15  And whosoever was not found written in the book of life was cast into the lake of fire.
+> Rev 20:14  And death and hell were cast into the lake of fire. This is the second death.
+> And whosoever was not found written in the book of life was cast into the lake of fire.
+
+This morning, do you see your destination? 
+
 
 #### 3.3 Romans 5:8
 
-##### i God made a way
+##### i. God made a way
 
 * Death hangs of you sinner, death hangs over you. Eternal torment and condemnation.
 * But friend, but for Jesus.
@@ -181,7 +184,7 @@ Let's turn to the Lord in prayer.
 
 #### 3.4 Romans 10:9
 
-##### i You can be saved
+##### i. You can be saved
 
 * But how can I be saved you ask? How can I be rescued from the fire?
 * Read Romans 10:9.
@@ -200,3 +203,7 @@ Let's turn to the Lord in prayer.
 
 ## Conclusion
 
+READ Spurgeons PLEA
+
+Take a moment now, and you speak to the Lord. If your heart has been convicted by the light of the gospel, call upon the Lord. 
+After a short moment, I will pray.
