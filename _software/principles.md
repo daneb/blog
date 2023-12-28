@@ -203,6 +203,10 @@ Domain-driven design
 
 ## Tools
 
+## OS Configurations
+
+1. [Zsh Plugins](https://safjan.com/top-popular-zsh-plugins-on-github-2023/)
+
 ### Validating Handovers
 
 1. Produce a documentation repository
@@ -213,10 +217,10 @@ Domain-driven design
 6. Periodic Progress Reports
 7. A visual map post-handover to effectively communicate to business the process
 
-## Thinking Skills
+Sometimes, just sometimes, a diligent person can map their own path without a supporting system.
+Their drive enables them to achieve the right outcomes. They know when they have the information they need. 
+They are closest to the problem. 
 
-### Tools for Thinking
+## Best Practices
 
-If you ever feel overwhelmed by a situation or problem, and want to generate more insight into the problem or even visualize it, I recommend - <https://untools.co/>.
-
-Types of problems or situations are categorized so you can find the right mental model to edge you forward. Give it a shot and if you've got alternatives or resources that have worked for you, please share
+1. [API Design](https://github.com/stickfigure/blog/wiki/How-to-%28and-how-not-to%29-design-REST-APIs)

@@ -108,7 +108,7 @@ var store = [{
         "teaser": null
       },{
         "title": "2023 Reading List",
-        "excerpt":"Planned: Robert Nystrom - Crafting Intepreters Tom Stuart - Understanding Computation Gerald Weinberg - Quality Software Management, Vol 1: Systems Thinking Donella Meadows - Thinking in Systems Brendan Burns - Designing Distributed Systems Clarence Larking - Dispensational Truth Betsy Beyer - Site Reliability Engineering Adam Grant - Think Again Steven...","categories": ["hobbies"],
+        "excerpt":"Read: Relentless - Tim Grover Thinking Fast and Slow - Daniel Kahneman Blink - Malcolm Gladwell Peace Child - Don Richardson The Magician’s Nephew - C.S.Lewis Mobile Solar Power Made Easy - William Prowse Elon Musk - Ashlee Vance Calling Bullshit Surrounded by Idiots: The Four Types of Human Behaviour...","categories": ["hobbies"],
         "tags": [],
         "url": "/hobbies/2023/01/08/2023-reading-list.html",
         "teaser": null
@@ -240,9 +240,15 @@ var store = [{
         "teaser": null
       },{
         "title": "Skills Improvement",
-        "excerpt":"First Impressions      Stanford First Impressions   Networking      Small Group   ","categories": [],
+        "excerpt":"First Impressions Stanford First Impressions Networking Small Group Thinking Skills Productivity Sam Altman’s Productivity Tips Organizing your week How To do Great Work Tools for Thinking If you ever feel overwhelmed by a situation or problem, and want to generate more insight into the problem or even visualize it, I...","categories": [],
         "tags": [],
         "url": "/software/skills/",
+        "teaser": null
+      },{
+        "title": "Tools",
+        "excerpt":"Shell      Zsh Best Plugins   Productivity  ","categories": [],
+        "tags": [],
+        "url": "/software/tools/",
         "teaser": null
       },{
         "title": "Values that underpin",
