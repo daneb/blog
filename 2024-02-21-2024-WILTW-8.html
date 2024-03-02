@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Github Dependabot API &amp; Dumpify</title>
+    <title>C4 Level Diagrams &amp; Git</title>
     <link rel="stylesheet" href="output.css">
     <style>
         /* You can add custom styles here if needed */
@@ -18,76 +18,51 @@
             <a href="index.html">
               <img src="images/me.png" alt="Profile Picture" class="w-12 h-12 rounded-full mr-4"/>
             </a>
-            <h1 class="text-3xl font-bold">Github Dependabot API &amp; Dumpify</h1>
+            <h1 class="text-3xl font-bold">C4 Level Diagrams &amp; Git</h1>
         </div>
     </header>
     <main class="max-w-4xl mx-auto px-4 py-8">
         <article>
             <div class="prose prose-blue max-w-none">
-                <h2>Using Dumpify for Neovim debugging in C#</h2>
-<p>This is a great aid if you looking to get insight into debug information via console, while not using a debugger. DAP sucks.</p>
-<p><a href="https://github.com/MoaidHathot/Dumpify">Dumpify</a></p>
-<h2>Retrieving dependadot alerts from Github API</h2>
-<pre><code class="language-python">import csv
-import requests
-<h1 id="configuration">Configuration</h1>
-<p>OWNER = 'your_owner_name'  # GitHub Owner name
-REPOSITORIES = ['repo1', 'repo2']  # List of repositories
-PAT = 'your_personal_access_token'  # GitHub Personal Access Token
-CSV_FILE = 'dependabot_alerts.csv'  # Output CSV file name</p>
-<h1 id="initialize-a-session">Initialize a session</h1>
-<p PAT="">session = requests.Session()
-session.headers.update({
-&quot;Accept&quot;: &quot;application/vnd.github+json&quot;,
-&quot;Authorization&quot;: f&quot;Bearer &quot;,
-&quot;X-GitHub-Api-Version&quot;: &quot;2022-11-28&quot;
-})</p>
-<p owner="" repo="" response.status_code="">def fetch_dependabot_alerts(owner, repo):
-&quot;&quot;&quot;Fetch Dependabot alerts for a specific repository using the session.&quot;&quot;&quot;
-url = f&quot;https://api.github.com/repos///dependabot/alerts?state=open&amp;severity=critical&amp;per_page=100&quot;
-response = session.get(url)
-if response.status_code == 200:
-return response.json()
-else:
-print(f&quot;Failed to fetch alerts for : &quot;)
-return []</p>
-<p>def process_alerts(alerts, repo):
-&quot;&quot;&quot;Process each alert to extract relevant fields, including the repository name.&quot;&quot;&quot;
-processed_alerts = []
-for alert in alerts:
-processed_alert = {
-&quot;repository&quot;: repo,
-&quot;number&quot;: alert.get(&quot;number&quot;),
-&quot;state&quot;: alert.get(&quot;state&quot;),
-&quot;dependency_ecosystem&quot;: alert.get(&quot;dependency&quot;, ).get(&quot;package&quot;, ).get(&quot;ecosystem&quot;, &quot;&quot;),
-&quot;dependency_name&quot;: alert.get(&quot;dependency&quot;, ).get(&quot;package&quot;, ).get(&quot;name&quot;, &quot;&quot;),
-&quot;security_advisory_description&quot;: alert.get(&quot;security_advisory&quot;, ).get(&quot;description&quot;, &quot;&quot;)
-}
-processed_alerts.append(processed_alert)
-return processed_alerts</p>
-<p>def write_to_csv(data):
-&quot;&quot;&quot;Write the processed alert data to a CSV file.&quot;&quot;&quot;
-with open(CSV_FILE, mode='w', newline='') as file:
-writer = csv.DictWriter(file, fieldnames=data[0].keys())
-writer.writeheader()
-for row in data:
-writer.writerow(row)</p>
-<p CSV_FILE="">def main():
-&quot;&quot;&quot;Main function to orchestrate the fetching, processing, and writing of Dependabot alert data.&quot;&quot;&quot;
-all_alerts = []
-for repo in REPOSITORIES:
-alerts = fetch_dependabot_alerts(OWNER, repo)
-if alerts:
-processed_alerts = process_alerts(alerts, repo)
-all_alerts.extend(processed_alerts)
-if all_alerts:
-write_to_csv(all_alerts)
-print(f&quot;Data written to &quot;)
-else:
-print(&quot;No data to write.&quot;)</p>
-<p>if <strong>name</strong> == &quot;<strong>main</strong>&quot;:
-main()
+                <h1>UML Diagrams from Typescript</h1>
+<p>I was recently putting together <a href="https://c4model.com/">C4 Model diagrams</a> and when I got to the last-level, I needed code level-views.
+This is where I stumbled onto the following automation to assist with TypeScript to UML.
+Automatic generation of UML from typrscript.</p>
+<p><a href="https://github.com/demike/TsUML2">TsUML2</a></p>
+<p>There is also a good option for C# users:</p>
+<p><a href="https://github.com/dotMorten/DotNetOMDGenerator">Generate OMD</a></p>
+<h1>Git, EditorConfig and Darn Windows Users</h1>
+<p>If you in a team and the only Linux/Mac user and using Git. This is the setting you need for you git config.</p>
+<pre><code>core.autocrlf=false
+</code></pre>
+<h1>Git access multiple accounts</h1>
+<p>Adapt this and add to your ~/.ssh/config</p>
+<pre><code class="language-yaml"># Enterprise account
+Host github.com-enterprise
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_rsa_github_enterprise
+  IdentitiesOnly yes
+<h1 id="personal-account">Personal account</h1>
+<p>Host github.com-personal
+HostName github.com
+User git
+IdentityFile ~/.ssh/id_rsa_github_personal
+IdentitiesOnly yes
 </code></pre></p>
+<p>Make sure for each repo you set the following to match:</p>
+<pre><code class="language-sh">git config user.name &quot;Your Enterprise Username&quot;
+git config user.email &quot;your_enterprise_email@example.com&quot;
+</code></pre>
+<p>Then define your remote origin:</p>
+<pre><code>git remote set-url origin git@github.com-enterprise:Organization/repo.git
+</code></pre>
+<h1>High Fidelity Tests</h1>
+<p>This is an absolutely well articulated blog post on Testing.
+It emphasizes to pursue high fidelity tests. That is tests, that are closest to reality.
+It suggested a three-fold approach, of starting with (1) use the real thing (2) use a fake, and worst-case (3) use a mock.</p>
+<p>I find this salient advice, tying directly to my experience.</p>
+<p><a href="https://testing.googleblog.com/2024/02/increase-test-fidelity-by-avoiding-mocks.html">Read it here</a></p>
 
             </div>
         </article>
