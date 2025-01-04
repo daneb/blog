@@ -31,38 +31,76 @@
 
     <!-- Main Content -->
     <main class="max-w-content mx-auto px-4 py-8">
-            <div class="mb-8">
-                <div class="flex space-x-2">
-                    <a href="#" class="px-4 py-2 rounded-full bg-primary-blue text-white">All</a>
-                        <a href="#devotion" class="px-4 py-2 rounded-full bg-gray-100 hover:bg-gray-200">devotion</a>
-                        <a href="#sermon" class="px-4 py-2 rounded-full bg-gray-100 hover:bg-gray-200">sermon</a>
+        <div class="mb-12 bg-white rounded-lg shadow-lg overflow-hidden">
+            <div class="p-6 bg-blue-50">
+                <div class="flex items-center mb-4">
+                    <svg class="w-8 h-8 text-primary-blue mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                    </svg>
+                    <div>
+                        <h2 class="text-2xl font-bold">The Bible Unveiled</h2>
+                        <p class="text-gray-600">A journey through Scripture, unfolding chapter by chapter</p>
+                    </div>
+                </div>
+
+                <div class="mt-4">
+                    <div class="h-2 bg-gray-200 rounded-full">
+                        <div class="h-2 bg-primary-blue rounded-full transition-all duration-300" style="width: 5%"></div>
+                    </div>
+                    <p class="text-sm text-gray-500 mt-1">5% Complete</p>
                 </div>
             </div>
 
-        <div class="space-y-12">
-                    <div>
-                        <h2 class="text-2xl font-bold mb-6">2023</h2>
-                        <div class="space-y-6">
-                                <article class="group">
-                                    <a href="behold-the-lamb.html" class="block">
-                                        <time class="text-gray-500">December 28, 2023</time>
-                                        <h3 class="text-xl font-semibold group-hover:text-primary-blue mt-1">Behold the Lamb of God</h3>
-                                    </a>
-                                </article>
-                        </div>
+            <div class="p-6">
+                <div class="flex items-center justify-between mb-6">
+                    <h3 class="font-semibold text-lg">Available Chapters</h3>
+                    <div class="flex space-x-2">
+                        <button class="px-3 py-1 rounded-full bg-primary-blue text-white text-sm">All</button>
+                        <button class="px-3 py-1 rounded-full bg-gray-100 hover:bg-gray-200 text-sm">book</button>
+                        <button class="px-3 py-1 rounded-full bg-gray-100 hover:bg-gray-200 text-sm">devotion</button>
+                        <button class="px-3 py-1 rounded-full bg-gray-100 hover:bg-gray-200 text-sm">sermon</button>
                     </div>
-                    <div>
-                        <h2 class="text-2xl font-bold mb-6">2021</h2>
-                        <div class="space-y-6">
-                                <article class="group">
-                                    <a href="god-of-your-head.html" class="block">
-                                        <time class="text-gray-500">July 20, 2021</time>
-                                        <h3 class="text-xl font-semibold group-hover:text-primary-blue mt-1">God Of Your Head</h3>
-                                            <p class="text-gray-600 mt-2">The indirect creation of your own god</p>
-                                    </a>
-                                </article>
+                </div>
+                <div class="space-y-4">
+                    <a href="genesis-chapter-1.html" class="block group">
+                        <div class="flex justify-between items-start p-4 hover:bg-gray-50 rounded-lg">
+                            <div>
+                                <h4 class="font-medium group-hover:text-primary-blue">Genesis 1: Creation&#x27;s First Light</h4>
+                                <p class="text-sm text-gray-500 mt-1">An in-depth exploration of God&#x27;s creative power and the significance of light in Genesis 1:1-5</p>
+                            </div>
+                            <svg class="w-5 h-5 text-gray-400 group-hover:text-primary-blue mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                            </svg>
                         </div>
-                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Rest of your categories section -->
+        <div class="space-y-12 top-10">
+            <div>
+                <h2 class="text-2xl font-bold mb-6 text-crimson">2023</h2>
+                <div class="space-y-6">
+                    <article class="group">
+                        <a href="behold-the-lamb.html" class="block">
+                            <time class="text-gray-500">December 28, 2023</time>
+                            <h3 class="text-xl font-semibold group-hover:text-primary-blue mt-1">Behold the Lamb of God</h3>
+                        </a>
+                    </article>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-2xl font-bold mb-6 text-crimson">2021</h2>
+                <div class="space-y-6">
+                    <article class="group">
+                        <a href="god-of-your-head.html" class="block">
+                            <time class="text-gray-500">July 20, 2021</time>
+                            <h3 class="text-xl font-semibold group-hover:text-primary-blue mt-1">God Of Your Head</h3>
+                            <p class="text-gray-600 mt-2">The indirect creation of your own god</p>
+                        </a>
+                    </article>
+                </div>
+            </div>
         </div>
     </main>
 
