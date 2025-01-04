@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLMS, LazyNvim</title>
+    <link rel="stylesheet" href="output.css">
+    <style>
+        /* You can add custom styles here if needed */
+        .prose p {
+            margin-bottom: 1em; /* Adjust the value as needed */
+        }
+
+        /* Gist styling */
+        .gist-container {
+            margin: 1.5rem 0;
+        }
+
+        .gist .blob-wrapper {
+            border-radius: 0.5rem;
+        }
+
+        .gist .highlight {
+            background: #f8f9fa;
+        }
+
+        /* Ensure gists are responsive */
+        .gist .gist-file {
+            max-width: 100%;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+<header class="text-center py-6 bg-white shadow">
+    <div class="max-w-4xl mx-auto px-4">
+        <div class="flex items-center justify-between mb-4">
+            <a href="creative.html" class="inline-flex items-center text-gray-600 hover:text-primary-blue">
+                <svg class="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+                </svg>
+                Back to Creative
+            </a>
+            <a href="index.html" class="text-gray-600 hover:text-primary-blue">
+                Home
+            </a>
+        </div>
+        <div class="flex justify-center items-center">
+            <h1 class="text-3xl font-bold">LLMS, LazyNvim</h1>
+        </div>
+        <div class="mt-2 text-gray-600">
+            Category: wiltw
+        </div>
+    </div>
+</header>
+<main class="max-w-4xl mx-auto px-4 py-8">
+    <article>
+        <div class="prose prose-blue max-w-none">
+            <h2>LLMs</h2>
+<p>If you want to get started with an LLM locally, for privacy concerns or exploration
+give <a href="http://lmstudio.ai">LM Studio</a> a shot.
+In selecting the right LLM for you requirements check out <a href="https://huggingface.co/models?pipeline_tag=text-generation">this list of LLMs</a>
+or <a href="https://github.com/continuedev/what-llm-to-use">What LLM to use</a>.
+The beauty of LM Studio is that you can easily maintain your LLMs,
+but also interact with them via the common OpenAI API protocol.</p>
+<h2>How to setup your own LazyNvim Plugin</h2>
+<p>I wrote a blog post on my building of a LazyVim plugin
+that integrated with LM Studio.</p>
+<p><a href="https://m4xshen.dev/posts/develop-a-neovim-plugin-in-lua/">Helpful reference</a></p>
+
+        </div>
+    </article>
+</main>
+
+<footer class="text-center py-4 bg-white shadow mt-10">
+    <p>&copy; 2025 Dane Balia. All rights reserved.</p>
+</footer>
+</body>
+</html>
