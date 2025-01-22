@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&#x1F916; Supercharge Your Dev with MCP &amp; GPT4all</title>
+    <link rel="stylesheet" href="output.css">
+    <style>
+        /* You can add custom styles here if needed */
+        .prose p {
+            margin-bottom: 1em; /* Adjust the value as needed */
+        }
+
+        /* Gist styling */
+        .gist-container {
+            margin: 1.5rem 0;
+        }
+
+        .gist .blob-wrapper {
+            border-radius: 0.5rem;
+        }
+
+        .gist .highlight {
+            background: #f8f9fa;
+        }
+
+        /* Ensure gists are responsive */
+        .gist .gist-file {
+            max-width: 100%;
+            overflow: auto;
+        }
+    </style>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TT319LL0P6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-TT319LL0P6');
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+<header class="text-center py-6 bg-white shadow">
+    <div class="max-w-4xl mx-auto px-4">
+        <div class="flex items-center justify-between mb-4">
+            <a href="tech.html" class="inline-flex items-center text-gray-600 hover:text-primary-blue">
+                <svg class="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+                </svg>
+                Back to Tech
+            </a>
+            <a href="index.html" class="text-gray-600 hover:text-primary-blue">
+                Home
+            </a>
+        </div>
+        <div class="flex justify-center items-center">
+            <h1 class="text-3xl font-bold">&#x1F916; Supercharge Your Dev with MCP &amp; GPT4all</h1>
+        </div>
+        <div class="mt-2 text-gray-600">
+            Category: ai
+        </div>
+    </div>
+</header>
+<main class="max-w-4xl mx-auto px-4 py-8">
+    <article>
+        <div class="prose prose-blue max-w-none">
+            <p>Two things that I have been using a lot lately are <a href="https://claude.ai">Claude AI</a> and <a href="https://gpt4all.com">GPT4all</a>. They are both great tools for developers and I highly recommend them.
+I want to highlight two sets of features that I have found particularly useful. Claude AI has recently released MCP which allows Claude to interact with external systems like a Google Drive or your local file system.
+The intention is to walk you through how to set that up easily and it's value, as it's not as simple as the tutorial dictates.</p>
+<p>Secondly, we will take a look at GPT4all and how it can be used as a localized LLM, using the Reason Model for effectively interacting with your Second Brain method. In this situation
+we will be using Obsidian as the Second Brain and the Reason Model.</p>
+<h2>Claude MCP: File System Integration</h2>
+<p>Model Context Protocol (MCP) is a new feature in Claude AI that enables integration with external systems like Google Drive or your local file system. This integration streamlines code reviews, enables project-wide analysis, and automates repetitive development tasks.
+The list of supported <a href="https://github.com/punkpeye/awesome-mcp-servers">external systems is growing</a>, but for all intents and purposes we will focus on the File System integration.
+This will allow us to read a local code repository, do code reviews, get project level awareness around code changes and refactors.</p>
+<p>Base requirement: <a href="https://claude.ai/download">Claude Desktop</a> installed.</p>
+<h3>Installing the Server File System</h3>
+<pre><code>npm install @modelcontextprotocol/server-filesystem
+</code></pre>
+<h3>Configure the Server File System</h3>
+<p>From within Claude Desktop, navigate to the Settings and add the following under the Developer configuration:</p>
+<pre><code class="language-json">{
+  &quot;mcpServers&quot;: {
+    &quot;filesystem&quot;: {
+      &quot;command&quot;: &quot;/Users/&lt;username&gt;/.nvm/versions/node/v20.14.0/bin/node&quot;,
+      &quot;args&quot;: [
+        &quot;/Users/&lt;username&gt;/.nvm/versions/node/v20.14.0/lib/node_modules/@modelcontextprotocol/server-filesystem/dist/index.js&quot;,
+        &quot;/Users/&lt;username&gt;/Sources/my-source-repo&quot;
+      ]
+    }
+  }
+}
+</code></pre>
+<p>Unlike the official tutorial and documentation, the above configuration was sufficient to get the file system server running. In following the full tutorial, I found that the server would not start and the logs were not helpful.
+I spent a significant time fighting the configuration, and here were the errors I had following the official documentation. The resolution was to not depend on npx and to use the full path to the node binary.</p>
+<p><img src="images/mcplog.png" alt="Errors" /></p>
+<h3>Confirmation of Running MCP Server</h3>
+<p>Once your configuration has been applied, you can confirm that the server is running by checking the logs in the Claude Desktop or check the Settings-&gt;Developer.</p>
+<p><img src="images/mcprunning.png" alt="Running" /></p>
+<h3>Using the MCP Server</h3>
+<p>Upon restarting Claude Desktop, you should be able to start querying your local file system.
+Just a note, for every interaction or question, you will be prompted for access. This is a security feature to ensure that Claude is not accessing files without your permission.</p>
+<p>Here is an example:
+<img src="images/mcpresponse.png" alt="Example" /></p>
+<h3>Troubleshooting</h3>
+<p>For debugging and troubleshooting, you can use the following command:</p>
+<pre><code class="language-sh"> tail -n 20 -F ~/Library/Logs/Claude/mcp*.log
+</code></pre>
+<h2>GPT4all: Second Brain Interaction</h2>
+<p>GPT4all is a great tool for developers. It can be used as a localized LLM, using the Reason Model for effectively interacting with your Second Brain method.
+If you new to the concept of a second brain you can read more about it <a href="https://www.buildingasecondbrain.com/">here</a>.
+A second brain is a system that helps you capture, organize, and share your ideas and knowledge. It's a way to store and retrieve information that you can use to make better decisions and solve problems.
+Adding an AI layer to this system can help you generate new ideas, find connections between different pieces of information, and even write code.
+It adds more value to your second brain by making it more interactive and dynamic.</p>
+<h3>Setting up GPT4all</h3>
+<p>You should be able to just follow the documentation on the <a href="https://gpt4all.com">GPT4all website</a> to get started. The setup is pretty straightforward and you should be up and running in no time.
+I used the new Reasoner Model for interacting with my Second Brain. The Reasoner v1 model is a modified version of Qwen Coder 7B that works with the GPT4All Reasoning System.
+I found it to be very effective in generating ideas and helping me make connections between different pieces of information on the Macbook Pro M2 16GB, to the degree of not impacting my current workflow.</p>
+<h4>Adding your Obsidian Vault</h4>
+<p>You can add your vault using the LocalDocs functionality, which is as simple as a description and local directory path.
+The next step is just adding the Reasoner Model and you are good to go.
+Pending the size, there will be some load time for indexing, but it's insignificant.</p>
+<p><img src="images/gpt4all.png" alt="Vault" /></p>
+<p>By integrating AI through GPT4all, you can:</p>
+<ul>
+<li>Generate new insights from your existing notes</li>
+<li>Discover connections across your knowledge base</li>
+<li>Enhance your creative problem-solving process</li>
+<li>Access your knowledge base offline and securely</li>
+</ul>
+<p>The following guide focuses on using GPT4all with Obsidian as your Second Brain platform, leveraging the Reason Model for optimal results.</p>
+
+        </div>
+    </article>
+</main>
+
+<footer class="text-center py-4 bg-white shadow mt-10">
+    <p>&copy; 2025 Dane Balia. All rights reserved.</p>
+</footer>
+</body>
+</html>
