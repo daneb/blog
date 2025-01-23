@@ -68,8 +68,8 @@
             <p>Two things that I have been using a lot lately are <a href="https://claude.ai">Claude AI</a> and <a href="https://gpt4all.com">GPT4all</a>. They are both great tools for developers and I highly recommend them.
 I want to highlight two sets of features that I have found particularly useful. Claude AI has recently released MCP which allows Claude to interact with external systems like a Google Drive or your local file system.
 The intention is to walk you through how to set that up easily and it's value, as it's not as simple as the tutorial dictates.</p>
-<p>Secondly, we will take a look at GPT4all and how it can be used as a localized LLM, using the Reason Model for effectively interacting with your Second Brain method. In this situation
-we will be using Obsidian as the Second Brain and the Reason Model.</p>
+<p>Secondly, we will take a look at GPT4all and how it can be used as a localized LLM, using the Reason Model for effectively interacting with your Second Brain method. This was particularly useful for me,
+as I've been hunting for an efficient LLM that doesn't impact my day to day activies, but is also fast enough to provide a smooth interaction. So let's get started.</p>
 <h2>Claude MCP: File System Integration</h2>
 <p>Model Context Protocol (MCP) is a new feature in Claude AI that enables integration with external systems like Google Drive or your local file system. This integration streamlines code reviews, enables project-wide analysis, and automates repetitive development tasks.
 The list of supported <a href="https://github.com/punkpeye/awesome-mcp-servers">external systems is growing</a>, but for all intents and purposes we will focus on the File System integration.
@@ -101,7 +101,7 @@ I spent a significant time fighting the configuration, and here were the errors 
 <h3>Using the MCP Server</h3>
 <p>Upon restarting Claude Desktop, you should be able to start querying your local file system.
 Just a note, for every interaction or question, you will be prompted for access. This is a security feature to ensure that Claude is not accessing files without your permission.</p>
-<p>Here is an example:
+<p>Here is an example of a query and response from the MCP Server:
 <img src="images/mcpresponse.png" alt="Example" /></p>
 <h3>Troubleshooting</h3>
 <p>For debugging and troubleshooting, you can use the following command:</p>
@@ -110,13 +110,11 @@ Just a note, for every interaction or question, you will be prompted for access.
 <h2>GPT4all: Second Brain Interaction</h2>
 <p>GPT4all is a great tool for developers. It can be used as a localized LLM, using the Reason Model for effectively interacting with your Second Brain method.
 If you new to the concept of a second brain you can read more about it <a href="https://www.buildingasecondbrain.com/">here</a>.
-A second brain is a system that helps you capture, organize, and share your ideas and knowledge. It's a way to store and retrieve information that you can use to make better decisions and solve problems.
-Adding an AI layer to this system can help you generate new ideas, find connections between different pieces of information, and even write code.
-It adds more value to your second brain by making it more interactive and dynamic.</p>
+A second brain is a system that helps you capture, organize, and share your ideas and knowledge. I use it record problems solved, domain knowledge, common fixes and blog posts.
+Adding an AI layer to this system can help you generate new ideas, find connections between different pieces of information, and even write code.</p>
 <h3>Setting up GPT4all</h3>
 <p>You should be able to just follow the documentation on the <a href="https://gpt4all.com">GPT4all website</a> to get started. The setup is pretty straightforward and you should be up and running in no time.
-I used the new Reasoner Model for interacting with my Second Brain. The Reasoner v1 model is a modified version of Qwen Coder 7B that works with the GPT4All Reasoning System.
-I found it to be very effective in generating ideas and helping me make connections between different pieces of information on the Macbook Pro M2 16GB, to the degree of not impacting my current workflow.</p>
+The Reasoner v1 model is a modified version of Qwen Coder 7B that works with the GPT4All Reasoning System and as I mentioned, runs very smoothly on my MacBook Pro M2.</p>
 <h4>Adding your Obsidian Vault</h4>
 <p>You can add your vault using the LocalDocs functionality, which is as simple as a description and local directory path.
 The next step is just adding the Reasoner Model and you are good to go.
@@ -129,7 +127,7 @@ Pending the size, there will be some load time for indexing, but it's insignific
 <li>Enhance your creative problem-solving process</li>
 <li>Access your knowledge base offline and securely</li>
 </ul>
-<p>The following guide focuses on using GPT4all with Obsidian as your Second Brain platform, leveraging the Reason Model for optimal results.</p>
+<p>Hope this helps!</p>
 
         </div>
     </article>
