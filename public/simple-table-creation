@@ -1,0 +1,5 @@
+CREATE TABLE simple_table (
+  `key` STRING,
+  `value` STRING
+);-- Add your Flink SQL below
+-- (see https://docs.confluent.io/cloud/current/flink/reference/sql-syntax.html#flink-sql-syntax)
