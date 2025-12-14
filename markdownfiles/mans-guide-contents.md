@@ -5,7 +5,7 @@ category: faith
 subcategory: book
 chapter_number: 0
 progress: 1
-status: draft  # or "published"
+status: published  # or "published"
 description: "Key topics to be covered"
 slug: mans-guide-chapter-0
 previous_chapter: introduction

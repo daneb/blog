@@ -5,7 +5,7 @@ category: faith
 subcategory: book
 chapter_number: 3
 progress: 1
-status: draft  # or "published"
+status: published # or "published"
 description: "The purpose, plan and timeline of God"
 slug: gods-programme
 previous_chapter: mans-guide-contents

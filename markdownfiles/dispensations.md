@@ -5,7 +5,7 @@ category: faith
 subcategory: book
 chapter_number: 2
 progress: 1
-status: draft  # or "published"
+status: published  # or "published"
 description: "The right tools deliver the right results."
 slug: dispensations
 previous_chapter: the-absent-man

@@ -5,7 +5,7 @@ category: faith
 subcategory: book
 chapter_number: 1
 progress: 1
-status: draft  # or "published"
+status: published  # or "published"
 description: "Why good men matter"
 slug: the-absent-man
 previous_chapter: mans-guide-contents

@@ -2,31 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://danebalia.com/</loc>
-    <lastmod>2025-12-14T05:41:06Z</lastmod>
+    <lastmod>2025-12-14T05:58:15Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://danebalia.com/tech.html</loc>
-    <lastmod>2025-12-14T05:41:06Z</lastmod>
+    <lastmod>2025-12-14T05:58:15Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://danebalia.com/faith.html</loc>
-    <lastmod>2025-12-14T05:41:06Z</lastmod>
+    <lastmod>2025-12-14T05:58:15Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://danebalia.com/creative.html</loc>
-    <lastmod>2025-12-14T05:41:06Z</lastmod>
+    <lastmod>2025-12-14T05:58:15Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://danebalia.com/gods-programme.html</loc>
+    <lastmod>2025-03-06T22:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://danebalia.com/dispensations.html</loc>
+    <lastmod>2025-01-31T22:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://danebalia.com/the-absent-man.html</loc>
+    <lastmod>2025-01-08T22:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://danebalia.com/four-pitfalls-ai.html</loc>
     <lastmod>2025-01-08T04:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://danebalia.com/bible.html</loc>
+    <lastmod>2025-01-03T22:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://danebalia.com/mans-guide-chapter-0.html</loc>
+    <lastmod>2025-01-03T22:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
