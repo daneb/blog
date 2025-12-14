@@ -21,9 +21,9 @@ study_resources:
 ## 📚 Section I: Understanding the Foundation
 > Getting oriented with God's Word
 
-1. [The Absent man](./the-absent-man.html)
-2. [Unlocking your Bible Understanding](./dispensations.html)
-3. [God's Programme](./gods-programme.html)
+1. [Chapter 1: The Absent man](./the-absent-man.html)
+2. [Chapter 2: Unlocking your Bible Understanding](./dispensations.html)
+3. [Chapter 3:God's Programme](./gods-programme.html)
 
 ## ⚡ Section II: The Journey of Salvation
 > The core of Christian faith and life
