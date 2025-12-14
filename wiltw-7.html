@@ -47,6 +47,49 @@
             max-width: 100%;
             overflow: auto;
         }
+
+        /* Table of Contents styling */
+        .toc {
+            background: #f8f9fa;
+            border-left: 4px solid #3b82f6;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 0.5rem;
+        }
+
+        .toc-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin: 0 0 1rem 0;
+            color: #1f2937;
+        }
+
+        .toc-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .toc-list li {
+            margin: 0.5rem 0;
+        }
+
+        .toc-list ul {
+            list-style: none;
+            padding-left: 1.5rem;
+            margin-top: 0.25rem;
+        }
+
+        .toc-list a {
+            color: #3b82f6;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .toc-list a:hover {
+            color: #2563eb;
+            text-decoration: underline;
+        }
     </style>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-TT319LL0P6"></script>
@@ -88,12 +131,12 @@
 <main class="max-w-4xl mx-auto px-4 py-8">
     <article>
         <div class="prose prose-blue max-w-none">
-            <h2>The Power of Story Telling</h2>
+            <h2 id="the-power-of-story-telling">The Power of Story Telling</h2>
 <p>It allows an organization to remember.
 It is easier to remember that which is tied to emotion then that which is pure fact.
 Speak in stories.</p>
 <p><a href="https://boz.com/articles/speak-in-stories">Speak In Stories</a></p>
-<h2>The Power of Behaviour Driven Development</h2>
+<h2 id="the-power-of-behaviour-driven-development">The Power of Behaviour Driven Development</h2>
 <p>Testing meets story-telling in BDD.</p>
 <ol>
 <li>TDD vs BDD</li>

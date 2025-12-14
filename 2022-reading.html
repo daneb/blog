@@ -47,6 +47,49 @@
             max-width: 100%;
             overflow: auto;
         }
+
+        /* Table of Contents styling */
+        .toc {
+            background: #f8f9fa;
+            border-left: 4px solid #3b82f6;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 0.5rem;
+        }
+
+        .toc-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin: 0 0 1rem 0;
+            color: #1f2937;
+        }
+
+        .toc-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .toc-list li {
+            margin: 0.5rem 0;
+        }
+
+        .toc-list ul {
+            list-style: none;
+            padding-left: 1.5rem;
+            margin-top: 0.25rem;
+        }
+
+        .toc-list a {
+            color: #3b82f6;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .toc-list a:hover {
+            color: #2563eb;
+            text-decoration: underline;
+        }
     </style>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-TT319LL0P6"></script>
@@ -89,7 +132,7 @@
     <article>
         <div class="prose prose-blue max-w-none">
             <p><img src="/images/books.png" alt="2022 Reading List" /></p>
-<h3>Completed:</h3>
+<h3 id="completed">Completed:</h3>
 <ol>
 <li><a href="https://www.paultripp.com/redeeming-money">Redeeming Money</a></li>
 <li><a href="https://www.goodreads.com/book/show/162823.The_Case_Book_of_Sherlock_Holmes">A Study in Scalett</a></li>

@@ -47,6 +47,49 @@
             max-width: 100%;
             overflow: auto;
         }
+
+        /* Table of Contents styling */
+        .toc {
+            background: #f8f9fa;
+            border-left: 4px solid #3b82f6;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 0.5rem;
+        }
+
+        .toc-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin: 0 0 1rem 0;
+            color: #1f2937;
+        }
+
+        .toc-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .toc-list li {
+            margin: 0.5rem 0;
+        }
+
+        .toc-list ul {
+            list-style: none;
+            padding-left: 1.5rem;
+            margin-top: 0.25rem;
+        }
+
+        .toc-list a {
+            color: #3b82f6;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .toc-list a:hover {
+            color: #2563eb;
+            text-decoration: underline;
+        }
     </style>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-TT319LL0P6"></script>
@@ -87,6 +130,41 @@
 </header>
 <main class="max-w-4xl mx-auto px-4 py-8">
     <article>
+<nav class="toc" role="navigation">
+  <h2 class="toc-title">Table of Contents</h2>
+  <ul class="toc-list">
+    <li><a href="#the-driving-forces">The Driving Forces</a>
+    <ul>
+      <li><a href="#guidepost-1-why">Guidepost 1: Why?</a>
+    </ul>
+    </li>
+    <li><a href="#compliance">Compliance:</a>
+    <ul>
+      <li><a href="#guidepost-2-behavioral-change">Guidepost 2: Behavioral Change</a>
+      </li>
+      <li><a href="#guidepost-3-define">Guidepost 3: Define</a>
+      </li>
+      <li><a href="#guidepost-4-devise">Guidepost 4: Devise</a>
+      </li>
+      <li><a href="#guidepost-5-derive">Guidepost 5: Derive</a>
+      </li>
+      <li><a href="#guidepost-6-partnership">Guidepost 6: Partnership</a>
+    </ul>
+    </li>
+    <li><a href="#autonomy">Autonomy</a>
+    <ul>
+      <li><a href="#guidepost-7-mental-frameworks">Guidepost 7: Mental Frameworks</a>
+      </li>
+      <li><a href="#d.o.r.a">D.O.R.A</a>
+      </li>
+      <li><a href="#s.p.a.c.e">S.P.A.C.E</a>
+      </li>
+      <li><a href="#devex">DEVEX</a>
+  </ul>
+  </li>
+    </li>
+  </ul>
+</nav>
         <div class="prose prose-blue max-w-none">
             <p><img src="images/MeasuringDevelopers.png" alt="MeasuringDevs" /></p>
 <p>Measuring developer productivity is a hot and controversial topic, and there have been many contributions from the likes
@@ -94,13 +172,13 @@ of McKinsey, Kent Beck, Dan North, Gergely Orosz that deal with the subject matt
 accurately vs. measuring is hard). My intent is to rather provide guideposts to the leader placed in a position to
 measure developer productivity. What should he or she do if the request is part of compliance with business executives?
 Or how can they get comfortable with the idea, and how can they take the next steps?</p>
-<h2>The Driving Forces</h2>
+<h2 id="the-driving-forces">The Driving Forces</h2>
 <p>Now the need to measure can come from two forces: an external request from business or an internal demand to improve. In
 the former case, where an executive team or manager is requesting metrics, we will call this compliance. In the second
 case, where a leader and member of the delivery team want to improve, we will call this autonomy. Autonomy because there
 are fewer constraints and a greater ability to succeed in measuring relative to the context of the team and its
 practices.</p>
-<h3>Guidepost 1: Why?</h3>
+<h3 id="guidepost-1-why">Guidepost 1: Why?</h3>
 <p>But before we begin any journey, we must ask: Why? This seems like an obvious question, but in some organizations, it is
 a very difficult question to get the answer to. Some organizations may require it with the solid intent of improving
 continuous delivery. Or executives might pursue it to create some sense of tangible measure of performance (like that
@@ -112,17 +190,17 @@ understand why they're being done.</p>
 <li>Why is this outcome necessary?</li>
 <li>Could the outcome be a side-effect or is it a root-cause?</li>
 </ol>
-<h2>Compliance:</h2>
-<h3>Guidepost 2: Behavioral Change</h3>
+<h2 id="compliance">Compliance:</h2>
+<h3 id="guidepost-2-behavioral-change">Guidepost 2: Behavioral Change</h3>
 <p>In terms of compliance, acceptance initially is key to granting you the room and space to be effective in communicating,
 inquiring, and sharing potential concerns. A fundamental question to ask is: if we did measure or leverage a set of
 measures and their results were negative; would they result in a change of behavior? More specifically, would business,
 management, or leadership invest to create the change they want. Is the lemon worth the squeeze?</p>
-<h3>Guidepost 3: Define</h3>
+<h3 id="guidepost-3-define">Guidepost 3: Define</h3>
 <p>In compliance, it's very important to clarify terminology. One such word is <strong>productivity</strong>. We want more productive
 developers, sure, but what does that mean? Stable systems less features; unstable systems, rapid features. Iron out the
 terminology and be sure both parties are talking about the same thing.</p>
-<h3>Guidepost 4: Devise</h3>
+<h3 id="guidepost-4-devise">Guidepost 4: Devise</h3>
 <p>In compliance, and if available, distill your concerns into well-articulated thoughts. When I was presented with the
 requirement to measure my teams, my first thought was DON'T. Inherently, all my years of experience as a developer and
 in leading teams had created a mental and abstract gate on my pre-frontal cortex that raised a red flag, but I was
@@ -140,7 +218,7 @@ it has little to no effect on that outcome.</li>
 <li><strong>Misdirection</strong>: The metrics give the business a false sense that all teams are delivering well and equally because
 of their numeric compliance (Goodhart's Law).</li>
 </ol>
-<h3>Guidepost 5: Derive</h3>
+<h3 id="guidepost-5-derive">Guidepost 5: Derive</h3>
 <p>If you do have the ability to aid in the metrics that can be leveraged to measure developers' performance, don't depend
 on any single metric. There are no silver bullets. Secondly, try making it a three-tier set of measures.</p>
 <ol>
@@ -148,29 +226,29 @@ on any single metric. There are no silver bullets. Secondly, try making it a thr
 <li>With a system-based focus, this is about attaining more factual or hard truths about the performance of systems.3.
 With a user-centric focus, this is about deciphering and honing in on the right outcomes of the consumed output.</li>
 </ol>
-<h3>Guidepost 6: Partnership</h3>
+<h3 id="guidepost-6-partnership">Guidepost 6: Partnership</h3>
 <p>This is a crucial part, don't become the enemy of business or management. Rather, partner and see the journey as an
 experiment. Partnerships are a great mechanism for achieving the right outcomes, as they enable you to communicate
 concerns with a-lot more ease.</p>
-<h2>Autonomy</h2>
+<h2 id="autonomy">Autonomy</h2>
 <p>With autonomy, the journey should be the same: why and to what outcome, and how will measuring productivity attain it.
 It could often be an experiment to understand different measures and assess their worth and impact. But the worst thing
 you could do is to have metrics or measures for the sake of having them.</p>
-<h3>Guidepost 7: Mental Frameworks</h3>
+<h3 id="guidepost-7-mental-frameworks">Guidepost 7: Mental Frameworks</h3>
 <p>If you are clear on your outcome, there are three strongly supported mental frameworks for measuring developer
 productivity. I won't go into the details of each here, but they are worth reading up on. That is the problem each is
 trying to address and the value you could derive from leaning on them.</p>
-<h3>D.O.R.A</h3>
-<h4>Use case</h4>
+<h3 id="d.o.r.a">D.O.R.A</h3>
+<h4 id="use-case">Use case</h4>
 <p>If you are interested in migrating teams towards small changes, frequently deployed. This is great for teams that are
 still largely waterfall. DORA is meant to track delivery practices and measure them, not the productivity of people.</p>
-<h3>S.P.A.C.E</h3>
-<h4>Use case</h4>
+<h3 id="s.p.a.c.e">S.P.A.C.E</h3>
+<h4 id="use-case-1">Use case</h4>
 <p>The focus of SPACE is to clarify developer productivity, but to also focus on more than just systems, but how people
 consume those systems. It's more of a holistic view of the software development lifecycle by not only improving how
 software is produced, but also optimizing how it is consumed within the organization.</p>
-<h3>DEVEX</h3>
-<h4>Use case</h4>
+<h3 id="devex">DEVEX</h3>
+<h4 id="use-case-2">Use case</h4>
 <p>DevEx is concerned with the overall experience of developers. The problems it addresses are:</p>
 <ol>
 <li>Tooling and infrastructure</li>

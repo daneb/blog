@@ -47,6 +47,49 @@
             max-width: 100%;
             overflow: auto;
         }
+
+        /* Table of Contents styling */
+        .toc {
+            background: #f8f9fa;
+            border-left: 4px solid #3b82f6;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 0.5rem;
+        }
+
+        .toc-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin: 0 0 1rem 0;
+            color: #1f2937;
+        }
+
+        .toc-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .toc-list li {
+            margin: 0.5rem 0;
+        }
+
+        .toc-list ul {
+            list-style: none;
+            padding-left: 1.5rem;
+            margin-top: 0.25rem;
+        }
+
+        .toc-list a {
+            color: #3b82f6;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .toc-list a:hover {
+            color: #2563eb;
+            text-decoration: underline;
+        }
     </style>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-TT319LL0P6"></script>
@@ -87,30 +130,69 @@
 </header>
 <main class="max-w-4xl mx-auto px-4 py-8">
     <article>
+<nav class="toc" role="navigation">
+  <h2 class="toc-title">Table of Contents</h2>
+  <ul class="toc-list">
+    <li><a href="#pitfall-1-poor-problem-framing">🎯 Pitfall #1: Poor problem framing.</a>
+    <ul>
+      <li><a href="#how-to-identify">How to identify:</a>
+    </ul>
+    </li>
+    <li><a href="#pitfall-2-over-reliance-on-ai">🏗️ Pitfall #2: Over-reliance on AI</a>
+    <ul>
+      <li><a href="#how-to-identify-1">How to identify:</a>
+    </ul>
+    </li>
+    <li><a href="#pitfall-3-providing-insufficient-context">🤖 Pitfall #3: Providing insufficient context</a>
+    <ul>
+      <li><a href="#how-to-identify-2">How to identify:</a>
+    </ul>
+    </li>
+    <li><a href="#pitfall-4-ineffective-iteration">🔄 Pitfall #4: Ineffective iteration</a>
+    <ul>
+      <li><a href="#how-to-identify-3">How to identify:</a>
+    </ul>
+    </li>
+    <li><a href="#suggestions">Suggestions:</a>
+    <ul>
+      <li><a href="#improve-your-prompt-engineering">Improve your prompt engineering</a>
+      </li>
+      <li><a href="#see-ai-as-a-collaborative-junior-developer">See AI as a collaborative junior developer</a>
+      </li>
+      <li><a href="#improve-problem-definition">Improve Problem Definition</a>
+      </li>
+      <li><a href="#improving-iterative-development">Improving Iterative Development</a>
+      </li>
+      <li><a href="#improving-development-experience">Improving development experience</a>
+  </ul>
+  </li>
+    </li>
+  </ul>
+</nav>
         <div class="prose prose-blue max-w-none">
             <p>AI has evolved into a clear productivity multiplier for developers. Yet some remain skeptical, frustrated by its limitations. The issue often isn't the tool - it's misaligned expectations. Like any powerful technology, success comes from leveraging its strengths rather than fixating on what it can't do.</p>
 <p>Through working extensively with AI, I've observed common patterns that hold developers back from realizing its full potential. By understanding these traps, we can better align our expectations and achieve more meaningful outcomes.</p>
-<h2>🎯 Pitfall #1: Poor problem framing.</h2>
+<h2 id="pitfall-1-poor-problem-framing">🎯 Pitfall #1: Poor problem framing.</h2>
 <p>Problem definition matters. Keywords play such a huge impact it can change the nature of the implementation with or without AI. For example, if I drew a circle, and I stated, <strong>what is this familiar object?</strong> You would immediately state it's a circle. But if I had instead asked, <strong>what is this object?</strong> Perhaps you would find it odd why I would be asking some a basic question, one I already know the answer to. Doubt would creep, perhaps some red flags, resulting in you perhaps asking more questions. Consider a third approach, what if I asked you instead, <strong>what is this unfamiliar object?</strong> This would certainly make you step back and think. How I framed the problem, impacted how you derived your outcome.</p>
-<h3>How to identify:</h3>
+<h3 id="how-to-identify">How to identify:</h3>
 <ul>
 <li>Not thinking through what you are asking, but just asking</li>
 <li>Asking for complete solutions without breaking down complex problems</li>
 <li>Jumping straight to implementation without discussing architecture</li>
 <li>Being vague about edge cases</li>
 </ul>
-<h2>🏗️ Pitfall #2: Over-reliance on AI</h2>
+<h2 id="pitfall-2-over-reliance-on-ai">🏗️ Pitfall #2: Over-reliance on AI</h2>
 <p>Picture a chef asking a kitchen assistant to &quot;just fix dinner service.&quot; Even with access to every ingredient and recipe, the assistant can't replace the chef's experience, judgment, and understanding of their kitchen's unique challenges. Similarly, feeding an AI your entire codebase won't magically solve architectural problems or replace developer intuition.</p>
-<h3>How to identify:</h3>
+<h3 id="how-to-identify-1">How to identify:</h3>
 <ul>
 <li>Expecting AI to understand under-stated requirements</li>
 <li>Not reviewing generated code for best practices or logic flaws*</li>
 <li>Blindly implementing without understanding</li>
 <li>Using AI for critical security or data handling without review</li>
 </ul>
-<h2>🤖 Pitfall #3: Providing insufficient context</h2>
+<h2 id="pitfall-3-providing-insufficient-context">🤖 Pitfall #3: Providing insufficient context</h2>
 <p>This is the equivalent of asking a construction company to quote you on building a 3 bedroom house, but forgetting to highlight that the location is on a hill, in a remote location with poor to little infrastructure. You just not going to get the right result.</p>
-<h3>How to identify:</h3>
+<h3 id="how-to-identify-2">How to identify:</h3>
 <ul>
 <li>Not sharing relevant dependencies or environment details</li>
 </ul>
@@ -119,21 +201,21 @@
 <li>Not explaining how the code fits into the larger system</li>
 <li>Failing to specify performance requirements or scale</li>
 </ul>
-<h2>🔄 Pitfall #4: Ineffective iteration</h2>
+<h2 id="pitfall-4-ineffective-iteration">🔄 Pitfall #4: Ineffective iteration</h2>
 <p>Fred is building his dream bathroom with a view of the mountains. Initially, he tells the builder &quot;Move the toilet to the left and bath to the right&quot; to capture that perfect vista. The builder does exactly that, rearranging the plumbing at considerable effort. The next day, Fred has another thought: &quot;Actually, what if we just kept everything where it was and moved the window instead?&quot; The builder, trying to accommodate, moves the window. But Fred had forgotten a crucial detail from his first design - the original window position had needed special tinted glass to manage the intense morning sun. When Fred visits the site, he finds a beautiful mountain view...and a bathroom that turns into a greenhouse every sunrise.</p>
-<h3>How to identify:</h3>
+<h3 id="how-to-identify-3">How to identify:</h3>
 <ul>
 <li>Not providing feedback on what worked/didn't work</li>
 <li>Starting over instead of building on previous responses</li>
 <li>Not clarifying misunderstandings in the AI's assumptions</li>
 <li>Failing to narrow down issues when debugging</li>
 </ul>
-<h2>Suggestions:</h2>
-<h3>Improve your prompt engineering</h3>
+<h2 id="suggestions">Suggestions:</h2>
+<h3 id="improve-your-prompt-engineering">Improve your prompt engineering</h3>
 <p>One aspect of this is prompt engineering, and the second around structured communication. There is a plenitude of improvement and thinking around this on the internet, and a great resource in the <a href="https://www.promptingguide.ai/">Prompt Engineering Guide</a>.</p>
-<h3>See AI as a collaborative junior developer</h3>
+<h3 id="see-ai-as-a-collaborative-junior-developer">See AI as a collaborative junior developer</h3>
 <p>The real power comes from treating AI as a collaborative junior developer - one who can suggest approaches, spot patterns, and help with implementation details, but needs your guidance and domain expertise to create truly effective solutions. Like any good mentoring relationship, success comes from clear communication, thoughtful questions, and combining both parties' strengths.</p>
-<h3>Improve Problem Definition</h3>
+<h3 id="improve-problem-definition">Improve Problem Definition</h3>
 <p>Here's a simple template for an improved problem definition:</p>
 <pre><code>Here's what I'm trying to achieve: [clear goal]
 Current environment: [versions, dependencies]
@@ -146,31 +228,35 @@ Specific questions: [what you need help with]
 System: [architecture, tech stack, scale]
 Dependencies: [versions, integrations]
 Constraints: [performance, security, compliance]
-<p>// Current State
+
+// Current State
 Existing code: [relevant snippets]
 Current behavior: [what's happening]
-Error messages: [if applicable]</p>
-<p>// Desired Outcome
+Error messages: [if applicable]
+
+// Desired Outcome
 Expected behavior
 Success criteria
-Non-functional requirements</p>
-<p>// Attempted Solutions
+Non-functional requirements
+
+// Attempted Solutions
 Approaches tried
 Results observed
-Specific blockers</p>
-<p>// Specific Questions
+Specific blockers
+
+// Specific Questions
 Targeted questions about implementation
 Areas needing clarification
 Potential concerns
-</code></pre></p>
+</code></pre>
 <p>Include diagrams or flow-charts as well.</p>
-<h3>Improving Iterative Development</h3>
+<h3 id="improving-iterative-development">Improving Iterative Development</h3>
 <pre><code>Initial code: [code snippet]
 Issues found: [specific problems]
 Required changes: [clear modifications needed]
 New requirements: [additional features]
 </code></pre>
-<h3>Improving development experience</h3>
+<h3 id="improving-development-experience">Improving development experience</h3>
 <p>Keep AI and context awareness separate from your IDE. While mastering these fundamentals, limit in-IDE AI to Copilot for routine code completion. Use standalone AI tools like Claude (Project Mode) or ChatGPT externally. This separation offers three key advantages:</p>
 <ol>
 <li>Control over AI model quality</li>

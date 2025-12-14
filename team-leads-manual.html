@@ -47,6 +47,49 @@
             max-width: 100%;
             overflow: auto;
         }
+
+        /* Table of Contents styling */
+        .toc {
+            background: #f8f9fa;
+            border-left: 4px solid #3b82f6;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 0.5rem;
+        }
+
+        .toc-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin: 0 0 1rem 0;
+            color: #1f2937;
+        }
+
+        .toc-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .toc-list li {
+            margin: 0.5rem 0;
+        }
+
+        .toc-list ul {
+            list-style: none;
+            padding-left: 1.5rem;
+            margin-top: 0.25rem;
+        }
+
+        .toc-list a {
+            color: #3b82f6;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .toc-list a:hover {
+            color: #2563eb;
+            text-decoration: underline;
+        }
     </style>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-TT319LL0P6"></script>
@@ -87,12 +130,37 @@
 </header>
 <main class="max-w-4xl mx-auto px-4 py-8">
     <article>
+<nav class="toc" role="navigation">
+  <h2 class="toc-title">Table of Contents</h2>
+  <ul class="toc-list">
+    <li><a href="#what-is-this">What is this</a>
+    </li>
+    <li><a href="#i-am-human">I am human</a>
+    </li>
+    <li><a href="#three-core-values">Three core values</a>
+    </li>
+    <li><a href="#how-i-manage">How I manage</a>
+    </li>
+    <li><a href="#areas-im-working-to-improve">Areas I'm working to improve...</a>
+    </li>
+    <li><a href="#lessons-learned">Lessons Learned</a>
+    <ul>
+      <li><a href="#people">People</a>
+      </li>
+      <li><a href="#person">Person</a>
+      </li>
+      <li><a href="#process">Process</a>
+  </ul>
+  </li>
+    </li>
+  </ul>
+</nav>
         <div class="prose prose-blue max-w-none">
             <p><img src="/images/serve.jpg" alt="Leadership" /></p>
-<h2>What is this</h2>
+<h2 id="what-is-this">What is this</h2>
 <p>It's the <em>essence</em> of how I operate as a TL.<br />
 This is not a list of rules of how I operate, but the under-current of values and thinking that guides those operations.</p>
-<h2>I am human</h2>
+<h2 id="i-am-human">I am human</h2>
 <p>I am a passionate husband and father. My family is a strong focus and my inspiration.
 I am an introvert, a creative, a change agent, potential seeker and a servant-leader.
 An avid reader and struggling gamer, yeah 3 kids ;)
@@ -105,13 +173,13 @@ Truly enjoy <a href="https://www.youtube.com/BeachYoga">yoga!</a></p>
 <li>Be True - True To Self. True To Others. Seek truth in every situation as it's the only effective way to diagnose reality (character)</li>
 <li>Be Consistent - Habits done consistently produce effectivity (actions)</li>
 </ol>
-<h2>Three core values</h2>
+<h2 id="three-core-values">Three core values</h2>
 <ol>
 <li><a href="https://www.radicalcandor.com/">Radical Candour</a> - caring for others requires candid communication.</li>
 <li><a href="https://www.amazon.com/Crucial-Conversations-Talking-Stakes-Second/dp/1469266822">Mutual Purpose</a> - manage the stories we tell ourselves about others. In conflict seek to understand your purpose and that of the other person.</li>
 <li><a href="https://www.timetothink.com/book/time-to-think/">Psychological Safety</a> - the effectiveness of our thinking relates to how we treat one another</li>
 </ol>
-<h2>How I manage</h2>
+<h2 id="how-i-manage">How I manage</h2>
 <ol>
 <li>I aim to set clear expectations and be direct about it's accountability. When I fail to do so adequately, please feedback.</li>
 <li>I have a natural and genuine care for those who I am responsible for.</li>
@@ -124,13 +192,13 @@ Truly enjoy <a href="https://www.youtube.com/BeachYoga">yoga!</a></p>
 <li>If you not getting to deep work, reach out, I will do my utmost to figure out how to unblock you.</li>
 <li>I am work in progress.</li>
 </ol>
-<h2>Areas I'm working to improve...</h2>
+<h2 id="areas-im-working-to-improve">Areas I'm working to improve...</h2>
 <ol>
 <li>Switching too quickly from problem definition to problem resolution.</li>
 <li>Effecting change at a less rapid rate (at times).</li>
 </ol>
-<h2>Lessons Learned</h2>
-<h3>People</h3>
+<h2 id="lessons-learned">Lessons Learned</h2>
+<h3 id="people">People</h3>
 <ul>
 <li>Trying to fit in results in insecurity</li>
 <li>Your relationship you have with your team mates should be without condition.</li>
@@ -142,7 +210,7 @@ Truly enjoy <a href="https://www.youtube.com/BeachYoga">yoga!</a></p>
 <li>Don't create a dependence on yourself to get things DONE. Hold people accountable. Treat them like adults.</li>
 <li>Easy to care about top performers and give them special preference. But that sets a precedent.</li>
 </ul>
-<h3>Person</h3>
+<h3 id="person">Person</h3>
 <ul>
 <li>For people to be willing - you have to GIVE. Don't be a TAKER.</li>
 <li>Surplus in an organization results from having more GIVE than TAKE.</li>
@@ -156,7 +224,7 @@ Truly enjoy <a href="https://www.youtube.com/BeachYoga">yoga!</a></p>
 <li>CARE  cannot exist without accountability</li>
 <li>HOLY THREE (twine): Accountability &amp; Trust &amp; Courage</li>
 </ul>
-<h3>Process</h3>
+<h3 id="process">Process</h3>
 <ul>
 <li>Don't use PIP to get rid of employee's. They are there to empower people.</li>
 <li>PIPs need better marketing - they are a way to improve individuals, the relationship with their lead</li>

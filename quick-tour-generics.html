@@ -47,6 +47,49 @@
             max-width: 100%;
             overflow: auto;
         }
+
+        /* Table of Contents styling */
+        .toc {
+            background: #f8f9fa;
+            border-left: 4px solid #3b82f6;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 0.5rem;
+        }
+
+        .toc-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin: 0 0 1rem 0;
+            color: #1f2937;
+        }
+
+        .toc-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .toc-list li {
+            margin: 0.5rem 0;
+        }
+
+        .toc-list ul {
+            list-style: none;
+            padding-left: 1.5rem;
+            margin-top: 0.25rem;
+        }
+
+        .toc-list a {
+            color: #3b82f6;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .toc-list a:hover {
+            color: #2563eb;
+            text-decoration: underline;
+        }
     </style>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-TT319LL0P6"></script>
@@ -90,10 +133,10 @@
         <div class="prose prose-blue max-w-none">
             <p><img src="/images/csharp.jpg" alt="Generics" /></p>
 <p>Generics have been around since C# 2.0 and has become a tool we leverage so naturally now in C# we almost don't even think about it. So let's change that...</p>
-<h3>Definitions</h3>
+<h3 id="definitions">Definitions</h3>
 <p><em>Generics introduce to the .NET Framework the concept of type parameters, which make it possible to design classes and methods that defer the specification of one or more types until the class or method is declared and instantiated by client code</em>.</p>
 <p>Essentially generics allow you parameterize types and methods. Just as normal methods have <em>parameters</em> to tell them what <em>values</em> to use, generic types and methods have <em>type parameters</em> to tell them what <em>types</em> to use.</p>
-<h3>Clarification</h3>
+<h3 id="clarification">Clarification</h3>
 <p>Type parameters are placeholders for a type.</p>
 <p>There are <em>constructed types</em> and <em>generic types</em>.
 A constructed type is when the type arguments are specified. For example,</p>

@@ -47,6 +47,49 @@
             max-width: 100%;
             overflow: auto;
         }
+
+        /* Table of Contents styling */
+        .toc {
+            background: #f8f9fa;
+            border-left: 4px solid #3b82f6;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 0.5rem;
+        }
+
+        .toc-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin: 0 0 1rem 0;
+            color: #1f2937;
+        }
+
+        .toc-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .toc-list li {
+            margin: 0.5rem 0;
+        }
+
+        .toc-list ul {
+            list-style: none;
+            padding-left: 1.5rem;
+            margin-top: 0.25rem;
+        }
+
+        .toc-list a {
+            color: #3b82f6;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .toc-list a:hover {
+            color: #2563eb;
+            text-decoration: underline;
+        }
     </style>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-TT319LL0P6"></script>
@@ -89,7 +132,7 @@
     <article>
         <div class="prose prose-blue max-w-none">
             <p><img src="/images/library.jpg" alt="2023 Reading List" /></p>
-<h2>Read:</h2>
+<h2 id="read">Read:</h2>
 <ol>
 <li><a href="https://www.amazon.co.uk/Relentless-Unstoppable-Tim-S-Grover/dp/1476714207">Relentless - Tim Grover</a></li>
 <li><a href="https://www.amazon.co.uk/Thinking-Fast-Slow-Daniel-Kahneman/dp/0141033576/ref=sr_1_1?keywords=thinking+fast+and+slow+by+daniel+kahneman&amp;qid=1679229120&amp;s=books&amp;sprefix=thinking+f%2Cstripbooks%2C255&amp;sr=1-1">Thinking Fast and Slow - Daniel Kahneman</a></li>
@@ -110,7 +153,7 @@
 <li><a href="https://livebook.manning.com/book/think-like-a-software-engineering-manager">Thinking like an Engineering Manager</a></li>
 <li><a href="https://www.amazon.com/How-Make-Best-Coffee-Home/dp/1784727245">How to make the best coffee at home - James Hoffman</a></li>
 </ol>
-<h2>Planned:</h2>
+<h2 id="planned">Planned:</h2>
 <ol>
 <li><a href="http://craftinginterpreters.com/">Robert Nystrom - Crafting Intepreters</a></li>
 <li><a href="https://www.goodreads.com/book/show/15842786-understanding-computation">Tom Stuart - Understanding Computation</a></li>

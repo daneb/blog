@@ -47,6 +47,49 @@
             max-width: 100%;
             overflow: auto;
         }
+
+        /* Table of Contents styling */
+        .toc {
+            background: #f8f9fa;
+            border-left: 4px solid #3b82f6;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 0.5rem;
+        }
+
+        .toc-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin: 0 0 1rem 0;
+            color: #1f2937;
+        }
+
+        .toc-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .toc-list li {
+            margin: 0.5rem 0;
+        }
+
+        .toc-list ul {
+            list-style: none;
+            padding-left: 1.5rem;
+            margin-top: 0.25rem;
+        }
+
+        .toc-list a {
+            color: #3b82f6;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .toc-list a:hover {
+            color: #2563eb;
+            text-decoration: underline;
+        }
     </style>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-TT319LL0P6"></script>
@@ -87,12 +130,34 @@
 </header>
 <main class="max-w-4xl mx-auto px-4 py-8">
     <article>
+<nav class="toc" role="navigation">
+  <h2 class="toc-title">Table of Contents</h2>
+  <ul class="toc-list">
+    <li><a href="#query-agic-rules-service-endpoints">Query AGIC rules (service endpoints)</a>
+    <ul>
+      <li><a href="#query-the-data">Query the data</a>
+      </li>
+      <li><a href="#pretty-print">Pretty Print</a>
+    </ul>
+    </li>
+    <li><a href="#innersource">InnerSource</a>
+    </li>
+    <li><a href="#dora-vs-space-vs-devex">DORA vs SPACE vs DEVEX</a>
+    </li>
+    <li><a href="#raci-matrix">RACI Matrix</a>
+    </li>
+    <li><a href="#team-topologies">Team Topologies</a>
+    </li>
+    <li><a href="#what-to-do-if-you-blank-in-an-interview">What to do if you blank in an interview?</a>
+    </li>
+  </ul>
+</nav>
         <div class="prose prose-blue max-w-none">
-            <h2>Query AGIC rules (service endpoints)</h2>
-<h3>Query the data</h3>
+            <h2 id="query-agic-rules-service-endpoints">Query AGIC rules (service endpoints)</h2>
+<h3 id="query-the-data">Query the data</h3>
 <pre><code class="language-sh"> kubectl --kubeconfig ~/.kube/my-config get ingress --all-namespaces -o json &gt; ingresses.json
 </code></pre>
-<h3>Pretty Print</h3>
+<h3 id="pretty-print">Pretty Print</h3>
 <pre><code class="language-sh">cat ingresses.json | jq -r '
 .items[] |
 {
@@ -102,7 +167,7 @@
 } |
 &quot;Ingress Name: \(.name),Host: \(.rules.host),Paths: \(.rules.http.paths[] | &quot;Path: \(.path), Service Name: \(.backend.service.name), Service Port: \(.backend.service.port.number)&quot;)&quot;'
 </code></pre>
-<h2>InnerSource</h2>
+<h2 id="innersource">InnerSource</h2>
 <blockquote>
 <p>What is InnerSource?
 Simplistically it's nothing more then when a company tries to do open-source but in a closed space.</p>
@@ -114,10 +179,10 @@ to the culture. The biggest change is allowing mistakes, talking
 about them, and learning from them.</p>
 </blockquote>
 <p><img src="innersource.png" alt="alt text" /></p>
-<h2>DORA vs SPACE vs DEVEX</h2>
+<h2 id="dora-vs-space-vs-devex">DORA vs SPACE vs DEVEX</h2>
 <p>I found this really great analogy:</p>
 <p><img src="Compare.jpg" alt="Linked" /></p>
-<h2>RACI Matrix</h2>
+<h2 id="raci-matrix">RACI Matrix</h2>
 <p>A RACI chart, also called a RACI matrix, is a type of responsibility assignment matrix (RAM) in project management. In
 practice, it’s a simple spreadsheet or table that lists all stakeholders on a project and their level involvement in
 each task, denoted with the letters R, A, C or I. Once these roles are defined, assignments can be attributed to the
@@ -128,12 +193,12 @@ Accountable
 Consulted
 Informed</p>
 <p><a href="https://www.forbes.com/advisor/business/raci-chart/#What_Is_A_Raci_Chart?">Forbes Link</a></p>
-<h2>Team Topologies</h2>
-<h4>1. Team Topologies Overview</h4>
+<h2 id="team-topologies">Team Topologies</h2>
+<h4 id="team-topologies-overview">1. Team Topologies Overview</h4>
 <p>Team Topologies, as described by Matthew Skelton and Manuel Pais in their book “Team Topologies,” focuses on optimizing
 team interactions and alignments with business goals. The core team types and interaction modes are key concepts in this
 framework.</p>
-<h4>2. Core Team Types</h4>
+<h4 id="core-team-types">2. Core Team Types</h4>
 <p><strong>a. Stream-Aligned Teams</strong></p>
 <p>• <strong>Definition</strong>: Teams aligned to a flow of work from a segment of the business domain.
 • <strong>Purpose</strong>: Delivering valuable increments of work to end-users continuously.
@@ -152,7 +217,7 @@ model.</p>
 <p>• <strong>Definition</strong>: Teams that build and maintain platforms used by other teams to deliver work.
 • <strong>Purpose</strong>: Providing self-service APIs, tools, and services to enable other teams to deliver software efficiently.
 • <strong>Example</strong>: A team managing the internal cloud infrastructure, CI/CD tools, or authentication services.</p>
-<h4>3. Interaction Modes</h4>
+<h4 id="interaction-modes">3. Interaction Modes</h4>
 <p><strong>a. Collaboration</strong></p>
 <p>• <strong>Description</strong>: Teams work together for a defined period to achieve a specific outcome.
 • <strong>Use Case</strong>: When multiple teams need to work together to deliver a complex feature that spans different domains.</p>
@@ -162,7 +227,7 @@ model.</p>
 <p><strong>c. Facilitating</strong></p>
 <p>• <strong>Description</strong>: Enabling teams facilitate and assist other teams to overcome specific challenges.
 • <strong>Use Case</strong>: An enabling team helping a stream-aligned team adopt a new testing framework.</p>
-<h4>4. Common Practices for Organizing Delivery Teams</h4>
+<h4 id="common-practices-for-organizing-delivery-teams">4. Common Practices for Organizing Delivery Teams</h4>
 <p><strong>a. Define Clear Team Boundaries and Responsibilities</strong></p>
 <p>• <strong>Clarity</strong>: Ensure each team has a clear mission and well-defined responsibilities to avoid overlaps and confusion.
 • <strong>Autonomy</strong>: Empower teams to make decisions within their domain to increase accountability and efficiency.</p>
@@ -184,7 +249,7 @@ knowledge-sharing sessions.</p>
 <p>• <strong>Stable Base</strong>: Maintain a stable platform and set of practices for the majority of the work while allowing for
 innovation and experimentation in a controlled manner.
 • <strong>Innovation Time</strong>: Allocate time for teams to explore new ideas and technologies that can drive future improvements.</p>
-<h4>5. Practical Implementation Tips</h4>
+<h4 id="practical-implementation-tips">5. Practical Implementation Tips</h4>
 <p><strong>a. Start Small and Scale Gradually</strong></p>
 <p>• Pilot new team structures with a small group before scaling across the organization.
 • Gather feedback and adjust based on what works and what doesn’t.</p>
@@ -199,7 +264,7 @@ Organizing delivery teams effectively requires a thoughtful approach that aligns
 collaboration, autonomy, and continuous improvement. By leveraging the principles of Team Topologies, organizations can
 create an environment where teams are empowered to deliver high-quality software efficiently and adapt to changing
 needs.</p>
-<h2>What to do if you blank in an interview?</h2>
+<h2 id="what-to-do-if-you-blank-in-an-interview">What to do if you blank in an interview?</h2>
 <p>It’s natural to occasionally lose your train of thought or feel flustered during an interview. Here’s a structured
 approach to handle such situations gracefully:</p>
 <p><strong>1. Pause and Take a Breath</strong></p>

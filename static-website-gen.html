@@ -47,6 +47,49 @@
             max-width: 100%;
             overflow: auto;
         }
+
+        /* Table of Contents styling */
+        .toc {
+            background: #f8f9fa;
+            border-left: 4px solid #3b82f6;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 0.5rem;
+        }
+
+        .toc-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin: 0 0 1rem 0;
+            color: #1f2937;
+        }
+
+        .toc-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .toc-list li {
+            margin: 0.5rem 0;
+        }
+
+        .toc-list ul {
+            list-style: none;
+            padding-left: 1.5rem;
+            margin-top: 0.25rem;
+        }
+
+        .toc-list a {
+            color: #3b82f6;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .toc-list a:hover {
+            color: #2563eb;
+            text-decoration: underline;
+        }
     </style>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-TT319LL0P6"></script>
@@ -87,44 +130,65 @@
 </header>
 <main class="max-w-4xl mx-auto px-4 py-8">
     <article>
+<nav class="toc" role="navigation">
+  <h2 class="toc-title">Table of Contents</h2>
+  <ul class="toc-list">
+    <li><a href="#step-1-embracing-markdown-and-c-for-content-and-processing">Step 1: Embracing Markdown and C# for Content and Processing</a>
+    </li>
+    <li><a href="#step-2-implementing-templating-with-razor">Step 2: Implementing Templating with Razor</a>
+    </li>
+    <li><a href="#step-3-styling-with-tailwind-css">Step 3: Styling with Tailwind CSS</a>
+    </li>
+    <li><a href="#step-4-front-matter-parsing-with-yamldotnet">Step 4: Front Matter Parsing with YamlDotNet</a>
+    </li>
+    <li><a href="#step-5-embedding-github-gists">Step 5: Embedding GitHub Gists</a>
+    </li>
+    <li><a href="#step-6-deployment-on-github-pages">Step 6: Deployment on GitHub Pages</a>
+    </li>
+    <li><a href="#overcoming-challenges">Overcoming Challenges</a>
+    </li>
+    <li><a href="#conclusion">Conclusion</a>
+    </li>
+  </ul>
+</nav>
         <div class="prose prose-blue max-w-none">
             <p><img src="images/happyfrogger.jpg" alt="HappyFrogger" /></p>
-<h1>How I Built My Own Static Site Generator for a Personal Blog</h1>
+<h1 id="how-i-built-my-own-static-site-generator-for-a-personal-blog">How I Built My Own Static Site Generator for a Personal Blog</h1>
 <p>In the ever-evolving landscape of web development, the allure of simplicity often leads to innovative solutions. This
 was precisely my experience as I ventured into creating my own static site generator for my personal blog. It definitely
 doesn't have everything, but it's enough, done across 2 days and is only 132 lines of C#. Here’s
 a <a href="https://github.com/daneb/happyfrogger">glimpse into my journey</a>, offering insights and practical steps that might
 inspire your own custom project.</p>
-<h2>Step 1: Embracing Markdown and C# for Content and Processing</h2>
+<h2 id="step-1-embracing-markdown-and-c-for-content-and-processing">Step 1: Embracing Markdown and C# for Content and Processing</h2>
 <p>The cornerstone of my project was the utilization of Markdown for content creation, chosen for its simplicity and
 flexibility. Coupled with C#, a language I was already comfortable with, I used the <code>Markdig</code> library to process
 Markdown files into HTML. This setup provided a straightforward way to write and transform blog content.</p>
-<h2>Step 2: Implementing Templating with Razor</h2>
+<h2 id="step-2-implementing-templating-with-razor">Step 2: Implementing Templating with Razor</h2>
 <p>Consistency in appearance is key to any blog's identity. Leveraging the power of the Razor templating engine, commonly
 used in ASP.NET, I could craft dynamic templates. These templates ensured a uniform layout and style across various blog
 posts, embedding the essence of the blog’s personality into every page.</p>
-<h2>Step 3: Styling with Tailwind CSS</h2>
+<h2 id="step-3-styling-with-tailwind-css">Step 3: Styling with Tailwind CSS</h2>
 <p>Aesthetic appeal and responsive design are non-negotiable in today’s web. Tailwind CSS was my choice for its
 utility-first approach, enabling me to elegantly style the blog. The integration of Tailwind CSS guaranteed not only
 functionality but also visual appeal, ensuring the blog's seamless presentation on diverse devices.</p>
-<h2>Step 4: Front Matter Parsing with YamlDotNet</h2>
+<h2 id="step-4-front-matter-parsing-with-yamldotnet">Step 4: Front Matter Parsing with YamlDotNet</h2>
 <p>A crucial feature for any blog is the ability to categorize and manage metadata for each post. YamlDotNet came to the
 rescue, allowing me to parse Front Matter in Markdown files. This addition enabled me to define properties like title,
 date, and categories directly within the Markdown, greatly enhancing content manageability and organization.</p>
-<h2>Step 5: Embedding GitHub Gists</h2>
+<h2 id="step-5-embedding-github-gists">Step 5: Embedding GitHub Gists</h2>
 <p>To enrich the technical aspect of the blog, embedding code snippets was essential. GitHub Gists provided a simple yet
 effective way to incorporate these snippets. By placing placeholders in the Markdown content, which were later replaced
 with Gist embed codes during HTML generation, I could seamlessly integrate dynamic code examples into the posts.</p>
-<h2>Step 6: Deployment on GitHub Pages</h2>
+<h2 id="step-6-deployment-on-github-pages">Step 6: Deployment on GitHub Pages</h2>
 <p>The final piece of the puzzle was deploying the blog. GitHub Pages offered an efficient and straightforward hosting
 solution. After setting up a repository and configuring the GitHub Pages settings, I pushed the static HTML files,
 bringing the blog to life on the web.</p>
-<h2>Overcoming Challenges</h2>
+<h2 id="overcoming-challenges">Overcoming Challenges</h2>
 <p>The journey wasn’t without its challenges. Ensuring that Tailwind CSS properly styled the dynamically generated HTML
 content required some tweaking, solved by configuring the JIT Compiler and the correct loading sequence. Deploying the
 site with a custom domain on GitHub Pages needed careful DNS configuration and repository setup, including a <code>.nojekyll</code>
 file to bypass Jekyll processing.</p>
-<h2>Conclusion</h2>
+<h2 id="conclusion">Conclusion</h2>
 <p>Crafting a static site generator from scratch was not only immensely satisfying but also provided a tailor-made solution
 for my blogging needs. It allowed complete control over the design, functionality, and content, resulting in a unique
 and personal blogging platform. For those inspired to embark on a similar endeavor, remember to keep things simple,

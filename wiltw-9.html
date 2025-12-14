@@ -47,6 +47,49 @@
             max-width: 100%;
             overflow: auto;
         }
+
+        /* Table of Contents styling */
+        .toc {
+            background: #f8f9fa;
+            border-left: 4px solid #3b82f6;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 0.5rem;
+        }
+
+        .toc-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin: 0 0 1rem 0;
+            color: #1f2937;
+        }
+
+        .toc-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .toc-list li {
+            margin: 0.5rem 0;
+        }
+
+        .toc-list ul {
+            list-style: none;
+            padding-left: 1.5rem;
+            margin-top: 0.25rem;
+        }
+
+        .toc-list a {
+            color: #3b82f6;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .toc-list a:hover {
+            color: #2563eb;
+            text-decoration: underline;
+        }
     </style>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-TT319LL0P6"></script>
@@ -88,68 +131,77 @@
 <main class="max-w-4xl mx-auto px-4 py-8">
     <article>
         <div class="prose prose-blue max-w-none">
-            <h2>Using Dumpify for Neovim debugging in C#</h2>
+            <h2 id="using-dumpify-for-neovim-debugging-in-c">Using Dumpify for Neovim debugging in C#</h2>
 <p>This is a great aid if you looking to get insight into debug information via console, while not using a debugger. DAP sucks.</p>
 <p><a href="https://github.com/MoaidHathot/Dumpify">Dumpify</a></p>
-<h2>Retrieving dependadot alerts from Github API</h2>
+<h2 id="retrieving-dependadot-alerts-from-github-api">Retrieving dependadot alerts from Github API</h2>
 <pre><code class="language-python">import csv
 import requests
-<p>OWNER = 'your_owner_name'  # GitHub Owner name
+
+OWNER = 'your_owner_name'  # GitHub Owner name
 REPOSITORIES = ['repo1', 'repo2']  # List of repositories
 PAT = 'your_personal_access_token'  # GitHub Personal Access Token
-CSV_FILE = 'dependabot_alerts.csv'  # Output CSV file name</p>
-<p PAT="">session = requests.Session()
+CSV_FILE = 'dependabot_alerts.csv'  # Output CSV file name
+
+session = requests.Session()
 session.headers.update({
-&quot;Accept&quot;: &quot;application/vnd.github+json&quot;,
-&quot;Authorization&quot;: f&quot;Bearer &quot;,
-&quot;X-GitHub-Api-Version&quot;: &quot;2022-11-28&quot;
-})</p>
-<p owner="" repo="" response.status_code="">def fetch_dependabot_alerts(owner, repo):
-&quot;&quot;&quot;Fetch Dependabot alerts for a specific repository using the session.&quot;&quot;&quot;
-url = f&quot;https://api.github.com/repos///dependabot/alerts?state=open&amp;severity=critical&amp;per_page=100&quot;
-response = session.get(url)
-if response.status_code == 200:
-return response.json()
-else:
-print(f&quot;Failed to fetch alerts for : &quot;)
-return []</p>
-<p>def process_alerts(alerts, repo):
-&quot;&quot;&quot;Process each alert to extract relevant fields, including the repository name.&quot;&quot;&quot;
-processed_alerts = []
-for alert in alerts:
-processed_alert = {
-&quot;repository&quot;: repo,
-&quot;number&quot;: alert.get(&quot;number&quot;),
-&quot;state&quot;: alert.get(&quot;state&quot;),
-&quot;dependency_ecosystem&quot;: alert.get(&quot;dependency&quot;, ).get(&quot;package&quot;, ).get(&quot;ecosystem&quot;, &quot;&quot;),
-&quot;dependency_name&quot;: alert.get(&quot;dependency&quot;, ).get(&quot;package&quot;, ).get(&quot;name&quot;, &quot;&quot;),
-&quot;security_advisory_description&quot;: alert.get(&quot;security_advisory&quot;, ).get(&quot;description&quot;, &quot;&quot;)
-}
-processed_alerts.append(processed_alert)
-return processed_alerts</p>
-<p>def write_to_csv(data):
-&quot;&quot;&quot;Write the processed alert data to a CSV file.&quot;&quot;&quot;
-with open(CSV_FILE, mode='w', newline='') as file:
-writer = csv.DictWriter(file, fieldnames=data[0].keys())
-writer.writeheader()
-for row in data:
-writer.writerow(row)</p>
-<p CSV_FILE="">def main():
-&quot;&quot;&quot;Main function to orchestrate the fetching, processing, and writing of Dependabot alert data.&quot;&quot;&quot;
-all_alerts = []
-for repo in REPOSITORIES:
-alerts = fetch_dependabot_alerts(OWNER, repo)
-if alerts:
-processed_alerts = process_alerts(alerts, repo)
-all_alerts.extend(processed_alerts)
-if all_alerts:
-write_to_csv(all_alerts)
-print(f&quot;Data written to &quot;)
-else:
-print(&quot;No data to write.&quot;)</p>
-<p>if <strong>name</strong> == &quot;<strong>main</strong>&quot;:
-main()</p>
-<p></code></pre></p>
+    &quot;Accept&quot;: &quot;application/vnd.github+json&quot;,
+    &quot;Authorization&quot;: f&quot;Bearer {PAT}&quot;,
+    &quot;X-GitHub-Api-Version&quot;: &quot;2022-11-28&quot;
+})
+
+def fetch_dependabot_alerts(owner, repo):
+    &quot;&quot;&quot;Fetch Dependabot alerts for a specific repository using the session.&quot;&quot;&quot;
+    url = f&quot;https://api.github.com/repos/{owner}/{repo}/dependabot/alerts?state=open&amp;severity=critical&amp;per_page=100&quot;
+    response = session.get(url)
+    if response.status_code == 200:
+        return response.json()
+    else:
+        print(f&quot;Failed to fetch alerts for {repo}: {response.status_code}&quot;)
+        return []
+
+def process_alerts(alerts, repo):
+    &quot;&quot;&quot;Process each alert to extract relevant fields, including the repository name.&quot;&quot;&quot;
+    processed_alerts = []
+    for alert in alerts:
+        processed_alert = {
+            &quot;repository&quot;: repo,
+            &quot;number&quot;: alert.get(&quot;number&quot;),
+            &quot;state&quot;: alert.get(&quot;state&quot;),
+            &quot;dependency_ecosystem&quot;: alert.get(&quot;dependency&quot;, {}).get(&quot;package&quot;, {}).get(&quot;ecosystem&quot;, &quot;&quot;),
+            &quot;dependency_name&quot;: alert.get(&quot;dependency&quot;, {}).get(&quot;package&quot;, {}).get(&quot;name&quot;, &quot;&quot;),
+            &quot;security_advisory_description&quot;: alert.get(&quot;security_advisory&quot;, {}).get(&quot;description&quot;, &quot;&quot;)
+        }
+        processed_alerts.append(processed_alert)
+    return processed_alerts
+
+def write_to_csv(data):
+    &quot;&quot;&quot;Write the processed alert data to a CSV file.&quot;&quot;&quot;
+    with open(CSV_FILE, mode='w', newline='') as file:
+        writer = csv.DictWriter(file, fieldnames=data[0].keys())
+        writer.writeheader()
+        for row in data:
+            writer.writerow(row)
+
+def main():
+    &quot;&quot;&quot;Main function to orchestrate the fetching, processing, and writing of Dependabot alert data.&quot;&quot;&quot;
+    all_alerts = []
+    for repo in REPOSITORIES:
+        alerts = fetch_dependabot_alerts(OWNER, repo)
+        if alerts:
+            processed_alerts = process_alerts(alerts, repo)
+            all_alerts.extend(processed_alerts)
+    if all_alerts:
+        write_to_csv(all_alerts)
+        print(f&quot;Data written to {CSV_FILE}&quot;)
+    else:
+        print(&quot;No data to write.&quot;)
+
+if __name__ == &quot;__main__&quot;:
+    main()
+
+
+</code></pre>
 
         </div>
     </article>

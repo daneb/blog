@@ -47,6 +47,49 @@
             max-width: 100%;
             overflow: auto;
         }
+
+        /* Table of Contents styling */
+        .toc {
+            background: #f8f9fa;
+            border-left: 4px solid #3b82f6;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 0.5rem;
+        }
+
+        .toc-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin: 0 0 1rem 0;
+            color: #1f2937;
+        }
+
+        .toc-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .toc-list li {
+            margin: 0.5rem 0;
+        }
+
+        .toc-list ul {
+            list-style: none;
+            padding-left: 1.5rem;
+            margin-top: 0.25rem;
+        }
+
+        .toc-list a {
+            color: #3b82f6;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .toc-list a:hover {
+            color: #2563eb;
+            text-decoration: underline;
+        }
     </style>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-TT319LL0P6"></script>
@@ -87,13 +130,24 @@
 </header>
 <main class="max-w-4xl mx-auto px-4 py-8">
     <article>
+<nav class="toc" role="navigation">
+  <h2 class="toc-title">Table of Contents</h2>
+  <ul class="toc-list">
+    <li><a href="#currently-reading">Currently Reading</a>
+    </li>
+    <li><a href="#read">Read</a>
+    </li>
+    <li><a href="#planned">Planned</a>
+    </li>
+  </ul>
+</nav>
         <div class="prose prose-blue max-w-none">
             <p><img src="/images/library.jpg" alt="2024 Reading List" /></p>
-<h2>Currently Reading</h2>
+<h2 id="currently-reading">Currently Reading</h2>
 <ol start="2">
 <li><a href="https://martinfowler.com/boilerplate/Refactoring.html">Refactoring - Martin Fowler</a></li>
 </ol>
-<h2>Read</h2>
+<h2 id="read">Read</h2>
 <ol>
 <li><a href="https://www.amazon.com/Atlas-Management-Thinking-Edward-Bono-ebook/dp/B01MF6ANHI/ref=sr_1_1?crid=1K9QDZ8HPD6HU&amp;keywords=atlas+of+management+thinking&amp;qid=1705258470&amp;s=books&amp;sprefix=atlas+of+management%2Cstripbooks-intl-ship%2C300&amp;sr=1-1">Atlas of Management Thinking - Edward De Bono</a></li>
 <li><a href="https://www.amazon.com/Radical-Candor-KIM-SCOTT/dp/1509845380/ref=sr_1_2?crid=12ZKWI70B0RL5&amp;keywords=radical+candor&amp;qid=1705258557&amp;s=books&amp;sprefix=radical+cando%2Cstripbooks-intl-ship%2C287&amp;sr=1-2">Radical Candour - Kim Scott</a></li>
@@ -112,7 +166,7 @@
 <li><a href="https://www.amazon.com/Things-Architect-Knows-Transformation-Pragmatic/dp/1680502887">37 Things one architect knows about IT Transformation - Gregor Hohpe</a></li>
 <li><a href="https://www.amazon.com/Worst-Class-Trip-Ever/dp/1484708497">The Worst Class Trip ever - Dave Barry</a></li>
 </ol>
-<h2>Planned</h2>
+<h2 id="planned">Planned</h2>
 <ol>
 <li><a href="http://craftinginterpreters.com/">Robert Nystrom - Crafting Intepreters</a></li>
 <li><a href="https://www.goodreads.com/book/show/15842786-understanding-computation">Tom Stuart - Understanding Computation</a></li>

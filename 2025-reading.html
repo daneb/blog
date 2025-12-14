@@ -47,6 +47,49 @@
             max-width: 100%;
             overflow: auto;
         }
+
+        /* Table of Contents styling */
+        .toc {
+            background: #f8f9fa;
+            border-left: 4px solid #3b82f6;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 0.5rem;
+        }
+
+        .toc-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin: 0 0 1rem 0;
+            color: #1f2937;
+        }
+
+        .toc-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .toc-list li {
+            margin: 0.5rem 0;
+        }
+
+        .toc-list ul {
+            list-style: none;
+            padding-left: 1.5rem;
+            margin-top: 0.25rem;
+        }
+
+        .toc-list a {
+            color: #3b82f6;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .toc-list a:hover {
+            color: #2563eb;
+            text-decoration: underline;
+        }
     </style>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-TT319LL0P6"></script>
@@ -87,9 +130,20 @@
 </header>
 <main class="max-w-4xl mx-auto px-4 py-8">
     <article>
+<nav class="toc" role="navigation">
+  <h2 class="toc-title">Table of Contents</h2>
+  <ul class="toc-list">
+    <li><a href="#currently-reading">Currently Reading</a>
+    </li>
+    <li><a href="#read">Read</a>
+    </li>
+    <li><a href="#planned">Planned</a>
+    </li>
+  </ul>
+</nav>
         <div class="prose prose-blue max-w-none">
             <p><img src="/images/classic_library.png" alt="2025 Reading List" /></p>
-<h2>Currently Reading</h2>
+<h2 id="currently-reading">Currently Reading</h2>
 <ol>
 <li><a href="https://www.amazon.com/Never-Split-Difference-Negotiating-Depended-ebook/dp/B014DUR7L2">Never Split the Difference - Chris Voss</a></li>
 <li><a href="https://martinfowler.com/boilerplate/Refactoring.html">Refactoring - Martin Fowler</a></li>
@@ -97,7 +151,7 @@
 <li><a href="https://leanpub.com/cloudstrategy">Cloud Strategy - Gregor Hohpe</a></li>
 <li><a href="https://www.amazon.com/AI-Engineering-Chip-Huyen/dp/1098103243">AI Engineering - Chip Huyen</a></li>
 </ol>
-<h2>Read</h2>
+<h2 id="read">Read</h2>
 <ol>
 <li><a href="https://www.goodreads.com/book/show/3.Harry_Potter_and_the_Sorcerer_s_Stone">The Philosopher's Stone - JK Rowling</a></li>
 <li><a href="https://www.goodreads.com/book/show/106692.The_Sword_in_the_Stone">The Sword in the Stone - T.H. White</a></li>
@@ -109,7 +163,7 @@
 <li><a href="https://www.amazon.com/Exploring-Minor-Prophets-John-Phillips/dp/0802412015">Exploring the Minor Prophets - John Phillips</a></li>
 <li><a href="https://www.amazon.com/AI-Driven-Leader-Harnessing-Smarter-Decisions/dp/B0DB8QL3ZK">The AI-Driven Leader - Geoff Wood</a></li>
 </ol>
-<h2>Planned</h2>
+<h2 id="planned">Planned</h2>
 <ol>
 <li><a href="http://craftinginterpreters.com/">Robert Nystrom - Crafting Intepreters</a></li>
 <li><a href="https://www.goodreads.com/book/show/15842786-understanding-computation">Tom Stuart - Understanding Computation</a></li>
