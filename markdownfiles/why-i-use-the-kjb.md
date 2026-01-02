@@ -5,11 +5,11 @@ category: faith
 subcategory: book
 chapter_number: 4
 progress: 1
-status: published  # or "published"
+status: published
 description: "Why I use the KJB"
-slug: why-i-use-the-kjb
-previous_chapter: gods-programme
-next_chapter: gospel-message
+slug: why-i-use-the-kjb.html
+previous_chapter: gods-programme.html
+next_chapter: gospel-message.html
 ---
 ### Why Bible Versions Matter
 

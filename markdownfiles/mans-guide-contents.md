@@ -5,11 +5,11 @@ category: faith
 subcategory: book
 chapter_number: 0
 progress: 1
-status: published  # or "published"
+status: published
 description: "Key topics to be covered"
-slug: mans-guide-chapter-0
+slug: mans-guide-chapter-0.html
 previous_chapter: introduction
-next_chapter: the-absent-man
+next_chapter: the-absent-man.html
 study_resources:
   - title: "Hebrew Word Study: אוֹר (Light)"
     description: "Understanding the deep meaning of 'light' in biblical Hebrew"

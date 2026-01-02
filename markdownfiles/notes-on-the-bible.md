@@ -5,11 +5,11 @@ category: faith
 subcategory: book
 chapter_number: 15
 progress: 1
-status: published  # or "published"
+status: published
 description: "Overview of each book of the Bible"
-slug: bible
-previous_chapter: jesus-in-the-bible
-next_chapter: why-i-use-the-kjb
+slug: bible.html
+previous_chapter: jesus-in-the-bible.html
+next_chapter: why-i-use-the-kjb.html
 study_resources:
 - title: "The Wiersbe Bible Commentary"
   author: "Warren Wiersbe"

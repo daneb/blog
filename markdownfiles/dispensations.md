@@ -5,11 +5,11 @@ category: faith
 subcategory: book
 chapter_number: 2
 progress: 1
-status: published  # or "published"
+status: published
 description: "The right tools deliver the right results."
-slug: dispensations
-previous_chapter: the-absent-man
-next_chapter: gods-plan-through-the-bible
+slug: dispensations.html
+previous_chapter: the-absent-man.html
+next_chapter: gods-plan-through-the-bible.html
 study_resources:
 ---
 

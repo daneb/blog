@@ -5,11 +5,11 @@ category: faith
 subcategory: book
 chapter_number: 3
 progress: 1
-status: published # or "published"
+status: published
 description: "The purpose, plan and timeline of God"
-slug: gods-programme
-previous_chapter: mans-guide-contents
-next_chapter: the-gospel-message
+slug: gods-programme.html
+previous_chapter: mans-guide-contents.html
+next_chapter: the-gospel-message.html
 study_resources:
 - title: "The Wiersbe Bible Commentary"
   author: "Warren Wiersbe"

@@ -5,11 +5,11 @@ category: faith
 subcategory: book
 chapter_number: 1
 progress: 1
-status: published  # or "published"
+status: published
 description: "Why good men matter"
-slug: the-absent-man
-previous_chapter: mans-guide-contents
-next_chapter: overview-of-the-bible
+slug: the-absent-man.html
+previous_chapter: mans-guide-contents.html
+next_chapter: overview-of-the-bible.html
 study_resources:
 - title: "The Wiersbe Bible Commentary"
   author: "Warren Wiersbe"
