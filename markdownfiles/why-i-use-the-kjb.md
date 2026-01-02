@@ -1,6 +1,6 @@
 ---
 title: Why Bible versions Matter
-date: 2025-12-14
+date: 2026-01-02 10:16:00 +0200
 category: faith
 subcategory: book
 chapter_number: 4
@@ -21,11 +21,11 @@ I hope one day in the future, when you read this, you will understand why I chos
 The Bible version argument matters, because words are powerful and carry meaning. When you alter the words, you alter the meaning. When you alter the meaning you alter the intent. When you alter the intent, you lose the message of God. So are all Bible versions created equal? No. The King James Bible is the preserved Word of God in the English language and it is inerrant and infallible. Other versions are not.
 Other versions take the approach of choosing to either focus on the "meaning" of the text (dynamic equivalence) or a mix of meaning and word-for-word (optimal equivalence). This opens the door to human interpretation and error. The KJB takes a word-for-word approach (formal equivalence) which preserves the original text as closely as possible. This is important because God’s Word is perfect and any deviation from it can lead to misunderstanding and misapplication. 
 
-Now are other Bibles heretical? Yes some are clearly flawed and devisive. Other modern versions largely do contain significant sound doctrine and the gospel. If you recall, I was saved and led to the Lord from an NIV. Would I recommend that Bible to you, no, I'll explain shortly. Within these modern translations are subtle changes that can lead to doctrinal errors over time. For example, some versions have altered verses that speak about the deity of Christ, salvation by grace through faith, and the nature of God. These changes can lead to confusion and misinterpretation of essential Christian doctrines. There is much to be said about the men who translated them, but that is for another time. My bigger concern is the base manuscripts they used. The problem is not the back to a single set of manuscripts, but a clear division between two families of manuscripts: the Textus Receptus (TR) and the Alexandrian texts. The KJB is based on the Textus Receptus, which has been preserved through the ages and is considered by many scholars to be the most reliable text. Modern versions often rely on the Alexandrian texts, which are older but have been subject to more corruption and alteration over time. This leads to significant differences in key verses that affect doctrine and practice.
+Now are other Bibles heretical? Yes some are clearly flawed and devisive. Other modern versions largely do contain significant sound doctrine and the gospel. If you recall, I was saved and led to the Lord from an NIV. Would I recommend that Bible to you, no, I'll explain shortly. Within these modern translations are subtle changes that can lead to doctrinal errors over time. For example, some versions have altered verses that speak about the deity of Christ, salvation by grace through faith, and the nature of God. These changes can lead to confusion and misinterpretation of essential Christian doctrines. There is much to be said about the men who translated them, but that is for another time. My bigger concern is the base manuscripts they used. The problem is not down to a single set of manuscripts, but a clear division between two families of manuscripts: the Textus Receptus (TR) and the Alexandrian texts. The KJB is based on the Textus Receptus, which has been preserved through the ages and is considered by many scholars to be the most reliable text. Modern versions often rely on the Alexandrian texts, which are older but have been subject to more corruption and alteration over time. This leads to significant differences in key verses that affect doctrine and practice. Not to mention the Alexandrian texts are linked to the Egypt, but also in an area where philosophical and religious ideas contrary to Christianity were born (Gnosticism).
 
 I say all this to say, if we don't have the correct word of God, then we don't have the correct view of God. This is why Bible versions matter. 
 
-> Disclaimer: For anyone reading this who would like to label me a KJB onlyist, I am not. I believe that God can and does use other versions to reach people. I also believe that God can and does use other versions to teach and edify believers. However, I believe that the KJB is the best version available in the English language and it is the one I choose to use and recommend. 
+> Disclaimer: For anyone reading this who would like to label me a KJB onlyist or Ruckmanite, I am not. I believe that God can and does use other versions to reach people. I also believe that God can and does use other versions to teach and edify believers. However, I believe that the KJB is the best version available in the English language and it is the one I choose to use and recommend. 
 
 #### Why I believe the KJB is the preserved Word of God
 1. **Divine Preservation**: I believe that God has promised to preserve His Word throughout history (Psalm 12:6-7, Matthew 5:18). The KJB is the culmination of this divine preservation in the English language.
@@ -53,25 +53,25 @@ I say all this to say, if we don't have the correct word of God, then we don't h
 
 #### 17 completely omitted verses including:
 
-Acts 8:37 - "I believe that Jesus Christ is the Son of God" (entire confession removed)
-Matthew 18:11 - "For the Son of man is come to save that which was lost" (mission statement removed)
-1 John 5:7 - "the Father, the Word, and the Holy Ghost: and these three are one" (Trinity statement removed)
-Romans 16:24 - "The grace of our Lord Jesus Christ be with you all" (benediction removed)
+- Acts 8:37 - "I believe that Jesus Christ is the Son of God" (entire confession removed)
+- Matthew 18:11 - "For the Son of man is come to save that which was lost" (mission statement removed)
+- 1 John 5:7 - "the Father, the Word, and the Holy Ghost: and these three are one" (Trinity statement removed)
+- Romans 16:24 - "The grace of our Lord Jesus Christ be with you all" (benediction removed)
 
 ##### 29-50 additional verses with partial changes affecting Christ:
 
-1 Timothy 3:16 - "God was manifest" → "He was manifested" (deity statement weakened)
-Colossians 1:14 - "through his blood" removed (atonement reference deleted)
-John 9:35 - "Son of God" → "Son of Man" (divine title changed to human)
-Ephesians 3:9 - "created all things by Jesus Christ" removed
+- 1 Timothy 3:16 - "God was manifest" → "He was manifested" (deity statement weakened)
+- Colossians 1:14 - "through his blood" removed (atonement reference deleted)
+- John 9:35 - "Son of God" → "Son of Man" (divine title changed to human)
+- Ephesians 3:9 - "created all things by Jesus Christ" removed
 Multiple verses where "Lord Jesus Christ" shortened to just "Christ" or "Jesus"
 
 ##### The Most Critical Changes:
 
-1 Timothy 3:16 - Changes "God was manifest in the flesh" to "He was manifested" - removes explicit statement of God becoming man
-1 John 5:7 - Removes "the Father, the Word, and the Holy Ghost: and these three are one" - explicit Trinity
-John 1:18 - Changes "only begotten Son" to "only God" - affects eternal sonship doctrine
-Acts 8:37 - Removes "I believe that Jesus Christ is the Son of God" - confession formula
+- 1 Timothy 3:16 - Changes "God was manifest in the flesh" to "He was manifested" - removes explicit statement of God becoming man
+- 1 John 5:7 - Removes "the Father, the Word, and the Holy Ghost: and these three are one" - explicit Trinity
+- John 1:18 - Changes "only begotten Son" to "only God" - affects eternal sonship doctrine
+- Acts 8:37 - Removes "I believe that Jesus Christ is the Son of God" - impacts salvation confession
 
 
 #### Modern Versions are harder to read
