@@ -5,7 +5,7 @@ category: faith
 subcategory: book
 chapter_number: 4
 progress: 1
-status: draft  # or "published"
+status: published  # or "published"
 description: "Why I use the KJB"
 slug: why-i-use-the-kjb
 previous_chapter: gods-programme

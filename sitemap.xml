@@ -2,27 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://danebalia.com/</loc>
-    <lastmod>2025-12-14T09:52:44Z</lastmod>
+    <lastmod>2026-01-02T15:09:46Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://danebalia.com/tech.html</loc>
-    <lastmod>2025-12-14T09:52:44Z</lastmod>
+    <lastmod>2026-01-02T15:09:46Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://danebalia.com/faith.html</loc>
-    <lastmod>2025-12-14T09:52:44Z</lastmod>
+    <lastmod>2026-01-02T15:09:46Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://danebalia.com/creative.html</loc>
-    <lastmod>2025-12-14T09:52:44Z</lastmod>
+    <lastmod>2026-01-02T15:09:46Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://danebalia.com/why-i-use-the-kjb.html</loc>
+    <lastmod>2025-12-13T22:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://danebalia.com/gods-programme.html</loc>
@@ -69,6 +75,12 @@
   <url>
     <loc>https://danebalia.com/2025-reading.html</loc>
     <lastmod>2025-01-03T08:16:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://danebalia.com/2026-reading.html</loc>
+    <lastmod>2025-01-01T08:16:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
