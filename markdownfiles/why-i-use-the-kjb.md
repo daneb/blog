@@ -1,5 +1,5 @@
 ---
-title: Why Bible versions Matter
+title: Why Bible Versions Matter
 date: 2026-01-02 10:16:00 +0200
 category: faith
 subcategory: book
