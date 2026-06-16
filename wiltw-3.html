@@ -4,213 +4,152 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Docker, LazyNvim</title>
-    <meta name="description">
+    <meta name="description" content="">
 
-    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
     <meta property="og:title" content="Docker, LazyNvim">
-    <meta property="og:description">
-    <meta property="og:url" content="https://danebalia.com/wiltw-3">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="https://danebalia.com/wiltw-3.html">
+    
     <meta property="og:site_name" content="Dane Balia">
     <meta property="article:published_time" content="2022-04-10T06:00:00Z">
-    <meta property="article:author" content="Dane Balia">
     <meta property="article:section" content="creative">
-
-    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Docker, LazyNvim">
-    <meta name="twitter:description">
+    <meta name="twitter:description" content="">
 
-    <link rel="stylesheet" href="output.css">
+    <script>(function(){try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/theme.css">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="feed.xml">
-    <style>
-        /* You can add custom styles here if needed */
-        .prose p {
-            margin-bottom: 1em; /* Adjust the value as needed */
-        }
-
-        /* Gist styling */
-        .gist-container {
-            margin: 1.5rem 0;
-        }
-
-        .gist .blob-wrapper {
-            border-radius: 0.5rem;
-        }
-
-        .gist .highlight {
-            background: #f8f9fa;
-        }
-
-        /* Ensure gists are responsive */
-        .gist .gist-file {
-            max-width: 100%;
-            overflow: auto;
-        }
-
-        /* Table of Contents styling */
-        .toc {
-            background: #f8f9fa;
-            border-left: 4px solid #3b82f6;
-            padding: 1.5rem;
-            margin: 2rem 0;
-            border-radius: 0.5rem;
-        }
-
-        .toc-title {
-            font-size: 1.25rem;
-            font-weight: bold;
-            margin: 0 0 1rem 0;
-            color: #1f2937;
-        }
-
-        .toc-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .toc-list li {
-            margin: 0.5rem 0;
-        }
-
-        .toc-list ul {
-            list-style: none;
-            padding-left: 1.5rem;
-            margin-top: 0.25rem;
-        }
-
-        .toc-list a {
-            color: #3b82f6;
-            text-decoration: none;
-            transition: color 0.2s;
-        }
-
-        .toc-list a:hover {
-            color: #2563eb;
-            text-decoration: underline;
-        }
-    </style>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TT319LL0P6"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-TT319LL0P6');
-    </script>
 </head>
-<body class="bg-gray-50 text-gray-800">
-<header class="text-center py-6 bg-white shadow">
-    <div class="max-w-4xl mx-auto px-4">
-        <div class="flex items-center justify-between mb-4">
-            <a href="creative.html" class="inline-flex items-center text-gray-600 hover:text-primary-blue">
-                <svg class="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
-                </svg>
-                Back to Creative
-            </a>
-            <a href="index.html" class="text-gray-600 hover:text-primary-blue">
-                Home
-            </a>
-        </div>
-        <div class="flex justify-center items-center">
-            <h1 class="text-3xl font-bold">Docker, LazyNvim</h1>
-        </div>
-        <div class="mt-2 text-gray-600">
-            Category: wiltw
-        </div>
-        <div class="mt-4 text-gray-500 text-sm flex items-center justify-center gap-4">
-            <span>April 10, 2022</span>
-            <span>•</span>
-            <span>2 min read</span>
-        </div>
-    </div>
-</header>
-<main class="max-w-4xl mx-auto px-4 py-8">
-    <article>
-<nav class="toc" role="navigation">
-  <h2 class="toc-title">Table of Contents</h2>
-  <ul class="toc-list">
-    <li><a href="#docker-how-to-setup-mssql">Docker: How to Setup MSSQL</a>
-    <ul>
-      <li><a href="#jump-into-your-mssql-container">Jump into your MSSQL container</a>
-      </li>
-      <li><a href="#get-the-datafile-and-logfile-name">Get the DataFile and LogFile name</a>
-    </ul>
-    </li>
-    <li><a href="#lazynvim">LazyNvim</a>
-    <ul>
-      <li><a href="#find-words-or-strings-quickly">Find words or strings quickly</a>
-      </li>
-      <li><a href="#go-back-or-forward-on-buffer-history">Go back or forward on buffer history</a>
-      </li>
-      <li><a href="#find-your-keymaps">Find your Keymaps</a>
-      </li>
-      <li><a href="#pull-up-warnings">Pull up Warnings</a>
-  </ul>
-  </li>
-    </li>
-  </ul>
-</nav>
-        <div class="prose prose-blue max-w-none">
-            <h2 id="docker-how-to-setup-mssql">Docker: How to Setup MSSQL</h2>
-<ol>
-<li>Mac OS has emulation for non-ARM docker images with <a href="https://developer.apple.com/documentation/apple-silicon/about-rosetta-2">Rosetta 2</a></li>
-<li>This is particularly useful for MSSQL on MacOS,
-as I had initially reverted to using  Azure SQL Edge (arm supported).</li>
-<li>There is a performance hit with Rosetta 2 on Mac, but I think it's not too much.</li>
-<li>Top tip, for seeding the DB with actual test data,
-add the copy within the Dockerfile allowing the user
-to specify file location manually so the backup or restore file not stored in git.</li>
-<li>The easiest restore process is fire up the container, and run a restore from
-Azure Data Studio or SQL Server Management Studio.</li>
-</ol>
-<pre><code class="language-sql">RESTORE DATABASE [YourDatabaseName] FROM DISK = '/var/opt/mssql/backup/file.bak' 
-WITH MOVE 'YourDataFile' TO '/var/opt/mssql/data/YourDataFile.mdf', 
-     MOVE 'YourLogFile' TO '/var/opt/mssql/data/YourLogFile.ldf';
-</code></pre>
-<ol start="6">
-<li>If you need to determine the name of DataFile and LogFile, use the following:</li>
-</ol>
-<h3 id="jump-into-your-mssql-container">Jump into your MSSQL container</h3>
-<pre><code class="language-sql">docker exec -it temp-sql /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P &quot;yourStrong(!)Password&quot;
-</code></pre>
-<h3 id="get-the-datafile-and-logfile-name">Get the DataFile and LogFile name</h3>
-<pre><code class="language-sql">RESTORE FILELISTONLY FROM DISK = '/var/opt/mssql/backup/file.bak';
-GO
-</code></pre>
-<h2 id="lazynvim">LazyNvim</h2>
-<h3 id="find-words-or-strings-quickly">Find words or strings quickly</h3>
-<ul>
-<li>Find words quickly in a file: s + <string> + &lt;autogenerated_letter&gt;
-Eg. s Get j</li>
-<li>This will search for letters &quot;Get&quot; in the file, and go to the location &quot;j&quot; as generated by LazyNvim (or Leap plugin).</li>
-</ul>
-<h3 id="go-back-or-forward-on-buffer-history">Go back or forward on buffer history</h3>
-<ul>
-<li>[ b : to go back</li>
-<li>] f : to go forward</li>
-</ul>
-<h3 id="find-your-keymaps">Find your Keymaps</h3>
-<ul>
-<li><space> sk : shows all keymaps</li>
-</ul>
-<h3 id="pull-up-warnings">Pull up Warnings</h3>
-<ul>
-<li><space> xx: Show warings and errors</li>
-</ul>
-<p><a href="https://github.com/LazyVim/LazyVim">LazyNvim</a>
-<a href="https://www.youtube.com/watch?v=N93cTbtLCIM">LazyNvim Intro Tutorial</a></p>
+<body class="is-creative">
+    <div class="read-progress"></div>
+    <div class="topbar"><div class="topbar__inner">
+        <a class="wordmark" href="index.html">Dane Balia</a>
+        <button class="theme-toggle" data-theme-toggle aria-label="Toggle theme">☾  Dark</button>
+    </div></div>
 
+    <main class="wrap-wide">
+        <header class="article-head">
+            <div class="crumbs">
+                <a href="creative.html">← Creative</a>
+                <a href="index.html">Home</a>
+            </div>
+            <span class="kicker center">creative · wiltw</span>
+            <h1>Docker, LazyNvim</h1>
+            <div class="byline meta">
+                <span>Dane Balia</span><span>·</span>
+                <span>Apr 10, 2022</span><span>·</span>
+                <span>2 min read</span>
+            </div>
+        </header>
+
+        <div class="reading">
+            <article class="prose">
+                <h2 id="docker-how-to-setup-mssql">Docker: How to Setup MSSQL</h2>
+                <ol>
+                <li>Mac OS has emulation for non-ARM docker images with <a href="https://developer.apple.com/documentation/apple-silicon/about-rosetta-2">Rosetta 2</a></li>
+                <li>This is particularly useful for MSSQL on MacOS,
+                as I had initially reverted to using  Azure SQL Edge (arm supported).</li>
+                <li>There is a performance hit with Rosetta 2 on Mac, but I think it's not too much.</li>
+                <li>Top tip, for seeding the DB with actual test data,
+                add the copy within the Dockerfile allowing the user
+                to specify file location manually so the backup or restore file not stored in git.</li>
+                <li>The easiest restore process is fire up the container, and run a restore from
+                Azure Data Studio or SQL Server Management Studio.</li>
+                </ol>
+                <pre><code class="language-sql">RESTORE DATABASE [YourDatabaseName] FROM DISK = '/var/opt/mssql/backup/file.bak' 
+                WITH MOVE 'YourDataFile' TO '/var/opt/mssql/data/YourDataFile.mdf', 
+                     MOVE 'YourLogFile' TO '/var/opt/mssql/data/YourLogFile.ldf';
+                </code></pre>
+                <ol start="6">
+                <li>If you need to determine the name of DataFile and LogFile, use the following:</li>
+                </ol>
+                <h3 id="jump-into-your-mssql-container">Jump into your MSSQL container</h3>
+                <pre><code class="language-sql">docker exec -it temp-sql /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P &quot;yourStrong(!)Password&quot;
+                </code></pre>
+                <h3 id="get-the-datafile-and-logfile-name">Get the DataFile and LogFile name</h3>
+                <pre><code class="language-sql">RESTORE FILELISTONLY FROM DISK = '/var/opt/mssql/backup/file.bak';
+                GO
+                </code></pre>
+                <h2 id="lazynvim">LazyNvim</h2>
+                <h3 id="find-words-or-strings-quickly">Find words or strings quickly</h3>
+                <ul>
+                <li>Find words quickly in a file: s + <string> + &lt;autogenerated_letter&gt;
+                Eg. s Get j</li>
+                <li>This will search for letters &quot;Get&quot; in the file, and go to the location &quot;j&quot; as generated by LazyNvim (or Leap plugin).</li>
+                </ul>
+                <h3 id="go-back-or-forward-on-buffer-history">Go back or forward on buffer history</h3>
+                <ul>
+                <li>[ b : to go back</li>
+                <li>] f : to go forward</li>
+                </ul>
+                <h3 id="find-your-keymaps">Find your Keymaps</h3>
+                <ul>
+                <li><space> sk : shows all keymaps</li>
+                </ul>
+                <h3 id="pull-up-warnings">Pull up Warnings</h3>
+                <ul>
+                <li><space> xx: Show warings and errors</li>
+                </ul>
+                <p><a href="https://github.com/LazyVim/LazyVim">LazyNvim</a>
+                <a href="https://www.youtube.com/watch?v=N93cTbtLCIM">LazyNvim Intro Tutorial</a></p>
+
+            </article>
+            
+                        <aside class="rail">
+                            <nav class="toc" role="navigation">
+                  <h2 class="toc-title">Table of Contents</h2>
+                  <ul class="toc-list">
+                    <li><a href="#docker-how-to-setup-mssql">Docker: How to Setup MSSQL</a>
+                    <ul>
+                      <li><a href="#jump-into-your-mssql-container">Jump into your MSSQL container</a>
+                      </li>
+                      <li><a href="#get-the-datafile-and-logfile-name">Get the DataFile and LogFile name</a>
+                    </ul>
+                    </li>
+                    <li><a href="#lazynvim">LazyNvim</a>
+                    <ul>
+                      <li><a href="#find-words-or-strings-quickly">Find words or strings quickly</a>
+                      </li>
+                      <li><a href="#go-back-or-forward-on-buffer-history">Go back or forward on buffer history</a>
+                      </li>
+                      <li><a href="#find-your-keymaps">Find your Keymaps</a>
+                      </li>
+                      <li><a href="#pull-up-warnings">Pull up Warnings</a>
+                  </ul>
+                  </li>
+                    </li>
+                  </ul>
+                </nav>
+            
+                            <div class="rail__share">
+                                <a href="https://twitter.com/intent/tweet?url=https://danebalia.com/wiltw-3.html&text=Docker, LazyNvim">SHARE</a>
+                                <span style="color:var(--rule)">/</span>
+                                <a href="https://danebalia.com/wiltw-3.html">COPY LINK</a>
+                            </div>
+                        </aside>
+                        
         </div>
-    </article>
 
-</main>
+        
 
-<footer class="text-center py-4 bg-white shadow mt-10">
-    <p>&copy; 2026 Dane Balia. All rights reserved.</p>
-</footer>
+        
+                <div class="author-card">
+                    <img src="images/me.png" alt="Dane Balia" class="avatar-stub" style="width:56px;height:56px;" onerror="this.style.background='repeating-linear-gradient(45deg,var(--paper),var(--paper) 4px,var(--rule) 4px,var(--rule) 8px)';this.removeAttribute('src')"/>
+                    <div><div class="nm">Dane Balia</div><p>Engineer and writer. Notes on software, faith, and the craft of building.</p></div>
+                </div>
+                
+    </main>
+
+    <footer class="site-footer"><div class="wrap site-footer__inner">
+        <span>© 2026 Dane Balia</span>
+        <span>Built with HappyFrog 🐸</span>
+    </div></footer>
+
+    <script src="assets/theme.js"></script>
 </body>
 </html>

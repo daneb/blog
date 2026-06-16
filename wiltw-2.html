@@ -4,233 +4,172 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Docker SSL Certificates</title>
-    <meta name="description">
+    <meta name="description" content="">
 
-    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
     <meta property="og:title" content="Docker SSL Certificates">
-    <meta property="og:description">
-    <meta property="og:url" content="https://danebalia.com/wiltw-2">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="https://danebalia.com/wiltw-2.html">
+    
     <meta property="og:site_name" content="Dane Balia">
     <meta property="article:published_time" content="2022-04-10T06:00:00Z">
-    <meta property="article:author" content="Dane Balia">
     <meta property="article:section" content="creative">
-
-    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Docker SSL Certificates">
-    <meta name="twitter:description">
+    <meta name="twitter:description" content="">
 
-    <link rel="stylesheet" href="output.css">
+    <script>(function(){try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/theme.css">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="feed.xml">
-    <style>
-        /* You can add custom styles here if needed */
-        .prose p {
-            margin-bottom: 1em; /* Adjust the value as needed */
-        }
-
-        /* Gist styling */
-        .gist-container {
-            margin: 1.5rem 0;
-        }
-
-        .gist .blob-wrapper {
-            border-radius: 0.5rem;
-        }
-
-        .gist .highlight {
-            background: #f8f9fa;
-        }
-
-        /* Ensure gists are responsive */
-        .gist .gist-file {
-            max-width: 100%;
-            overflow: auto;
-        }
-
-        /* Table of Contents styling */
-        .toc {
-            background: #f8f9fa;
-            border-left: 4px solid #3b82f6;
-            padding: 1.5rem;
-            margin: 2rem 0;
-            border-radius: 0.5rem;
-        }
-
-        .toc-title {
-            font-size: 1.25rem;
-            font-weight: bold;
-            margin: 0 0 1rem 0;
-            color: #1f2937;
-        }
-
-        .toc-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .toc-list li {
-            margin: 0.5rem 0;
-        }
-
-        .toc-list ul {
-            list-style: none;
-            padding-left: 1.5rem;
-            margin-top: 0.25rem;
-        }
-
-        .toc-list a {
-            color: #3b82f6;
-            text-decoration: none;
-            transition: color 0.2s;
-        }
-
-        .toc-list a:hover {
-            color: #2563eb;
-            text-decoration: underline;
-        }
-    </style>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TT319LL0P6"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-TT319LL0P6');
-    </script>
 </head>
-<body class="bg-gray-50 text-gray-800">
-<header class="text-center py-6 bg-white shadow">
-    <div class="max-w-4xl mx-auto px-4">
-        <div class="flex items-center justify-between mb-4">
-            <a href="creative.html" class="inline-flex items-center text-gray-600 hover:text-primary-blue">
-                <svg class="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
-                </svg>
-                Back to Creative
-            </a>
-            <a href="index.html" class="text-gray-600 hover:text-primary-blue">
-                Home
-            </a>
-        </div>
-        <div class="flex justify-center items-center">
-            <h1 class="text-3xl font-bold">Docker SSL Certificates</h1>
-        </div>
-        <div class="mt-2 text-gray-600">
-            Category: wiltw
-        </div>
-        <div class="mt-4 text-gray-500 text-sm flex items-center justify-center gap-4">
-            <span>April 10, 2022</span>
-            <span>•</span>
-            <span>3 min read</span>
-        </div>
-    </div>
-</header>
-<main class="max-w-4xl mx-auto px-4 py-8">
-    <article>
-<nav class="toc" role="navigation">
-  <h2 class="toc-title">Table of Contents</h2>
-  <ul class="toc-list">
-    <li><a href="#quotes">Quotes</a>
-    </li>
-    <li><a href="#docker-tips-adding-certificates">Docker Tips: Adding Certificates</a>
-    <ul>
-      <li><a href="#copying-certificates">Copying Certificates</a>
-      </li>
-      <li><a href="#verifying-certificates">Verifying Certificates</a>
-    </ul>
-    </li>
-    <li><a href="#automated-testing-tips-integration">Automated Testing Tips: Integration</a>
-    </li>
-    <li><a href="#listen-to-your-customer">Listen to your customer</a>
-    </li>
-    <li><a href="#refactoring-legacy">Refactoring Legacy</a>
-    </li>
-    <li><a href="#sober-git-defaults">Sober Git Defaults</a>
-    </li>
-  </ul>
-</nav>
-        <div class="prose prose-blue max-w-none">
-            <h2 id="quotes">Quotes</h2>
-<blockquote>
-<p>Gray skies are nothing more than clouds passing over. Duke Ellington</p>
-</blockquote>
-<h2 id="docker-tips-adding-certificates">Docker Tips: Adding Certificates</h2>
-<h3 id="copying-certificates">Copying Certificates</h3>
-<p>If you are manually adding SSL certificates/chains/roots to your container,
-you can usually follow these steps:</p>
-<pre><code class="language-dockerfile">FROM nginx:alpine
-...
-......
+<body class="is-creative">
+    <div class="read-progress"></div>
+    <div class="topbar"><div class="topbar__inner">
+        <a class="wordmark" href="index.html">Dane Balia</a>
+        <button class="theme-toggle" data-theme-toggle aria-label="Toggle theme">☾  Dark</button>
+    </div></div>
 
-COPY rootCA.pem /usr/local/share/ca-certificates/
-RUN update-ca-certificates
+    <main class="wrap-wide">
+        <header class="article-head">
+            <div class="crumbs">
+                <a href="creative.html">← Creative</a>
+                <a href="index.html">Home</a>
+            </div>
+            <span class="kicker center">creative · wiltw</span>
+            <h1>Docker SSL Certificates</h1>
+            <div class="byline meta">
+                <span>Dane Balia</span><span>·</span>
+                <span>Apr 10, 2022</span><span>·</span>
+                <span>3 min read</span>
+            </div>
+        </header>
 
-</code></pre>
-<p>The first part of this is the copy,
-and the second is to add the certificate to the containers store.</p>
-<p>You can then run your container again and confirm if your SSL handshake is working.</p>
-<h3 id="verifying-certificates">Verifying Certificates</h3>
-<p>If your SSL handshake fails, it might be a broken / missing chain.</p>
-<blockquote>
-<p>System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
----&gt; System.Security.Authentication.AuthenticationException: The remote certificate is invalid because of errors in the certificate chain: UntrustedRoot</p>
-</blockquote>
-<h4 id="step-1-confirm-the-certificates-have-applied">Step 1: Confirm the certificates have applied</h4>
-<pre><code class="language-sh">&gt; ls /etc/ssl/certs/ | grep 'Your-certs-file-name'
-</code></pre>
-<p>This will confirm if the certificate has been applied to your system.</p>
-<h4 id="step-2-confirm-the-chain">Step 2: Confirm the chain</h4>
-<pre><code class="language-sh">&gt; openssl s_chanel -showcerts -connect &lt;your-host&gt;:&lt;your-port&gt;
-</code></pre>
-<p>Either of these 2 steps should lead you to your problem. If the problem is Step 1, it is likely the certs are in the wrong format or worst case missing.
-In my situation, I copied .pems directly from our SSL provider store and tried to use that but I found <em>update-ca-certificates</em> was not applying them.
-All I had to do here was rename the .pem to .crt.</p>
-<h2 id="automated-testing-tips-integration">Automated Testing Tips: Integration</h2>
-<p>If you experiencing any of the following,</p>
-<ol>
-<li>frustrated by mocking</li>
-<li>struggling to make progress on an automated test to confirm some behaviour or functionality</li>
-<li>frustrated by struggling to read and make sense of complex test setup and tear-downs</li>
-</ol>
-<p>Then it's time to consider Integration tests.</p>
-<p>Docker is definitely a mechanism to accelerate integration testing, but in some instances Mockoon will get you there much quicker.
-<a href="https://mockoon.com/">Mockoon</a> is a free and open source mock server that you can use to test your APIs. The best part is that you can generate endpoints with data quickly, and store the configuration alongside your code to enable others. Another value add, is that it enables improved debugging (where there's less magic and more oppurtunity to peer underneath the hood).</p>
-<h2 id="listen-to-your-customer">Listen to your customer</h2>
-<p><a href="https://www.youtube.com/watch?v=K0FFoAgjjY0">Daniel Terhorst-North - How to Bake a Change</a></p>
-<p>This is another excellent talk from Daniel, on how to move software forward.
-It all really starts with stepping away from your own pre-suppositions, your need to speak and be the expert, to just listening.
-The other important piece of advice is to actually not speak down, nor speak up, but speak to your customers. Speak their language. Use their words.
-Think about the things they care about.</p>
-<h2 id="refactoring-legacy">Refactoring Legacy</h2>
-<p><a href="https://martinfowler.com/bliki/LegacySeam.html">Martin Fowler - Seams</a></p>
-<p>Michael Feathers coined the term 'seams' in his book, Working Effectively with Legacy Code. It's an important word in the arsenal of words of the Technical lead or Developer.
-A seam is a place we can alter the behavior of the system without editing source code. Once we find a seam or create one, we can use it to:</p>
-<ol>
-<li>Break up dependencies</li>
-<li>Add new features</li>
-<li>Simplify testing</li>
-<li>Insert probes to gain observability</li>
-<li>Redirect program follow</li>
-<li>Perhaps most importantly, we can migrate behaviour away from legacy</li>
-</ol>
-<h2 id="sober-git-defaults">Sober Git Defaults</h2>
-<p>Three Git Configurations that I use in my daily life:</p>
-<pre><code class="language-sh">git config --global pull.rebase true
-git config --global fetch.prune true
-git config --global diff.colorMoved zebra
-</code></pre>
-<p><a href="https://spin.atomicobject.com/git-configurations-default/">Git Configurations</a></p>
+        <div class="reading">
+            <article class="prose">
+                <h2 id="quotes">Quotes</h2>
+                <blockquote>
+                <p>Gray skies are nothing more than clouds passing over. Duke Ellington</p>
+                </blockquote>
+                <h2 id="docker-tips-adding-certificates">Docker Tips: Adding Certificates</h2>
+                <h3 id="copying-certificates">Copying Certificates</h3>
+                <p>If you are manually adding SSL certificates/chains/roots to your container,
+                you can usually follow these steps:</p>
+                <pre><code class="language-dockerfile">FROM nginx:alpine
+                ...
+                ......
+                
+                COPY rootCA.pem /usr/local/share/ca-certificates/
+                RUN update-ca-certificates
+                
+                </code></pre>
+                <p>The first part of this is the copy,
+                and the second is to add the certificate to the containers store.</p>
+                <p>You can then run your container again and confirm if your SSL handshake is working.</p>
+                <h3 id="verifying-certificates">Verifying Certificates</h3>
+                <p>If your SSL handshake fails, it might be a broken / missing chain.</p>
+                <blockquote>
+                <p>System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+                ---&gt; System.Security.Authentication.AuthenticationException: The remote certificate is invalid because of errors in the certificate chain: UntrustedRoot</p>
+                </blockquote>
+                <h4 id="step-1-confirm-the-certificates-have-applied">Step 1: Confirm the certificates have applied</h4>
+                <pre><code class="language-sh">&gt; ls /etc/ssl/certs/ | grep 'Your-certs-file-name'
+                </code></pre>
+                <p>This will confirm if the certificate has been applied to your system.</p>
+                <h4 id="step-2-confirm-the-chain">Step 2: Confirm the chain</h4>
+                <pre><code class="language-sh">&gt; openssl s_chanel -showcerts -connect &lt;your-host&gt;:&lt;your-port&gt;
+                </code></pre>
+                <p>Either of these 2 steps should lead you to your problem. If the problem is Step 1, it is likely the certs are in the wrong format or worst case missing.
+                In my situation, I copied .pems directly from our SSL provider store and tried to use that but I found <em>update-ca-certificates</em> was not applying them.
+                All I had to do here was rename the .pem to .crt.</p>
+                <h2 id="automated-testing-tips-integration">Automated Testing Tips: Integration</h2>
+                <p>If you experiencing any of the following,</p>
+                <ol>
+                <li>frustrated by mocking</li>
+                <li>struggling to make progress on an automated test to confirm some behaviour or functionality</li>
+                <li>frustrated by struggling to read and make sense of complex test setup and tear-downs</li>
+                </ol>
+                <p>Then it's time to consider Integration tests.</p>
+                <p>Docker is definitely a mechanism to accelerate integration testing, but in some instances Mockoon will get you there much quicker.
+                <a href="https://mockoon.com/">Mockoon</a> is a free and open source mock server that you can use to test your APIs. The best part is that you can generate endpoints with data quickly, and store the configuration alongside your code to enable others. Another value add, is that it enables improved debugging (where there's less magic and more oppurtunity to peer underneath the hood).</p>
+                <h2 id="listen-to-your-customer">Listen to your customer</h2>
+                <p><a href="https://www.youtube.com/watch?v=K0FFoAgjjY0">Daniel Terhorst-North - How to Bake a Change</a></p>
+                <p>This is another excellent talk from Daniel, on how to move software forward.
+                It all really starts with stepping away from your own pre-suppositions, your need to speak and be the expert, to just listening.
+                The other important piece of advice is to actually not speak down, nor speak up, but speak to your customers. Speak their language. Use their words.
+                Think about the things they care about.</p>
+                <h2 id="refactoring-legacy">Refactoring Legacy</h2>
+                <p><a href="https://martinfowler.com/bliki/LegacySeam.html">Martin Fowler - Seams</a></p>
+                <p>Michael Feathers coined the term 'seams' in his book, Working Effectively with Legacy Code. It's an important word in the arsenal of words of the Technical lead or Developer.
+                A seam is a place we can alter the behavior of the system without editing source code. Once we find a seam or create one, we can use it to:</p>
+                <ol>
+                <li>Break up dependencies</li>
+                <li>Add new features</li>
+                <li>Simplify testing</li>
+                <li>Insert probes to gain observability</li>
+                <li>Redirect program follow</li>
+                <li>Perhaps most importantly, we can migrate behaviour away from legacy</li>
+                </ol>
+                <h2 id="sober-git-defaults">Sober Git Defaults</h2>
+                <p>Three Git Configurations that I use in my daily life:</p>
+                <pre><code class="language-sh">git config --global pull.rebase true
+                git config --global fetch.prune true
+                git config --global diff.colorMoved zebra
+                </code></pre>
+                <p><a href="https://spin.atomicobject.com/git-configurations-default/">Git Configurations</a></p>
 
+            </article>
+            
+                        <aside class="rail">
+                            <nav class="toc" role="navigation">
+                  <h2 class="toc-title">Table of Contents</h2>
+                  <ul class="toc-list">
+                    <li><a href="#quotes">Quotes</a>
+                    </li>
+                    <li><a href="#docker-tips-adding-certificates">Docker Tips: Adding Certificates</a>
+                    <ul>
+                      <li><a href="#copying-certificates">Copying Certificates</a>
+                      </li>
+                      <li><a href="#verifying-certificates">Verifying Certificates</a>
+                    </ul>
+                    </li>
+                    <li><a href="#automated-testing-tips-integration">Automated Testing Tips: Integration</a>
+                    </li>
+                    <li><a href="#listen-to-your-customer">Listen to your customer</a>
+                    </li>
+                    <li><a href="#refactoring-legacy">Refactoring Legacy</a>
+                    </li>
+                    <li><a href="#sober-git-defaults">Sober Git Defaults</a>
+                    </li>
+                  </ul>
+                </nav>
+            
+                            <div class="rail__share">
+                                <a href="https://twitter.com/intent/tweet?url=https://danebalia.com/wiltw-2.html&text=Docker SSL Certificates">SHARE</a>
+                                <span style="color:var(--rule)">/</span>
+                                <a href="https://danebalia.com/wiltw-2.html">COPY LINK</a>
+                            </div>
+                        </aside>
+                        
         </div>
-    </article>
 
-</main>
+        
 
-<footer class="text-center py-4 bg-white shadow mt-10">
-    <p>&copy; 2026 Dane Balia. All rights reserved.</p>
-</footer>
+        
+                <div class="author-card">
+                    <img src="images/me.png" alt="Dane Balia" class="avatar-stub" style="width:56px;height:56px;" onerror="this.style.background='repeating-linear-gradient(45deg,var(--paper),var(--paper) 4px,var(--rule) 4px,var(--rule) 8px)';this.removeAttribute('src')"/>
+                    <div><div class="nm">Dane Balia</div><p>Engineer and writer. Notes on software, faith, and the craft of building.</p></div>
+                </div>
+                
+    </main>
+
+    <footer class="site-footer"><div class="wrap site-footer__inner">
+        <span>© 2026 Dane Balia</span>
+        <span>Built with HappyFrog 🐸</span>
+    </div></footer>
+
+    <script src="assets/theme.js"></script>
 </body>
 </html>

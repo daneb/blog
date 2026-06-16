@@ -6,203 +6,142 @@
     <title>Build your own static web site generator</title>
     <meta name="description" content="Its quick and easy to build a blog engine">
 
-    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
     <meta property="og:title" content="Build your own static web site generator">
     <meta property="og:description" content="Its quick and easy to build a blog engine">
-    <meta property="og:url" content="https://danebalia.com/static-website-gen">
+    <meta property="og:url" content="https://danebalia.com/static-website-gen.html">
+    
     <meta property="og:site_name" content="Dane Balia">
     <meta property="article:published_time" content="2024-01-14T06:00:00Z">
-    <meta property="article:author" content="Dane Balia">
     <meta property="article:section" content="tech">
-
-    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Build your own static web site generator">
     <meta name="twitter:description" content="Its quick and easy to build a blog engine">
 
-    <link rel="stylesheet" href="output.css">
+    <script>(function(){try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/theme.css">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="feed.xml">
-    <style>
-        /* You can add custom styles here if needed */
-        .prose p {
-            margin-bottom: 1em; /* Adjust the value as needed */
-        }
-
-        /* Gist styling */
-        .gist-container {
-            margin: 1.5rem 0;
-        }
-
-        .gist .blob-wrapper {
-            border-radius: 0.5rem;
-        }
-
-        .gist .highlight {
-            background: #f8f9fa;
-        }
-
-        /* Ensure gists are responsive */
-        .gist .gist-file {
-            max-width: 100%;
-            overflow: auto;
-        }
-
-        /* Table of Contents styling */
-        .toc {
-            background: #f8f9fa;
-            border-left: 4px solid #3b82f6;
-            padding: 1.5rem;
-            margin: 2rem 0;
-            border-radius: 0.5rem;
-        }
-
-        .toc-title {
-            font-size: 1.25rem;
-            font-weight: bold;
-            margin: 0 0 1rem 0;
-            color: #1f2937;
-        }
-
-        .toc-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .toc-list li {
-            margin: 0.5rem 0;
-        }
-
-        .toc-list ul {
-            list-style: none;
-            padding-left: 1.5rem;
-            margin-top: 0.25rem;
-        }
-
-        .toc-list a {
-            color: #3b82f6;
-            text-decoration: none;
-            transition: color 0.2s;
-        }
-
-        .toc-list a:hover {
-            color: #2563eb;
-            text-decoration: underline;
-        }
-    </style>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TT319LL0P6"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-TT319LL0P6');
-    </script>
 </head>
-<body class="bg-gray-50 text-gray-800">
-<header class="text-center py-6 bg-white shadow">
-    <div class="max-w-4xl mx-auto px-4">
-        <div class="flex items-center justify-between mb-4">
-            <a href="tech.html" class="inline-flex items-center text-gray-600 hover:text-primary-blue">
-                <svg class="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
-                </svg>
-                Back to Tech
-            </a>
-            <a href="index.html" class="text-gray-600 hover:text-primary-blue">
-                Home
-            </a>
-        </div>
-        <div class="flex justify-center items-center">
-            <h1 class="text-3xl font-bold">Build your own static web site generator</h1>
-        </div>
-        <div class="mt-2 text-gray-600">
-            Category: diy
-        </div>
-        <div class="mt-4 text-gray-500 text-sm flex items-center justify-center gap-4">
-            <span>January 14, 2024</span>
-            <span>•</span>
-            <span>3 min read</span>
-        </div>
-    </div>
-</header>
-<main class="max-w-4xl mx-auto px-4 py-8">
-    <article>
-<nav class="toc" role="navigation">
-  <h2 class="toc-title">Table of Contents</h2>
-  <ul class="toc-list">
-    <li><a href="#step-1-embracing-markdown-and-c-for-content-and-processing">Step 1: Embracing Markdown and C# for Content and Processing</a>
-    </li>
-    <li><a href="#step-2-implementing-templating-with-razor">Step 2: Implementing Templating with Razor</a>
-    </li>
-    <li><a href="#step-3-styling-with-tailwind-css">Step 3: Styling with Tailwind CSS</a>
-    </li>
-    <li><a href="#step-4-front-matter-parsing-with-yamldotnet">Step 4: Front Matter Parsing with YamlDotNet</a>
-    </li>
-    <li><a href="#step-5-embedding-github-gists">Step 5: Embedding GitHub Gists</a>
-    </li>
-    <li><a href="#step-6-deployment-on-github-pages">Step 6: Deployment on GitHub Pages</a>
-    </li>
-    <li><a href="#overcoming-challenges">Overcoming Challenges</a>
-    </li>
-    <li><a href="#conclusion">Conclusion</a>
-    </li>
-  </ul>
-</nav>
-        <div class="prose prose-blue max-w-none">
-            <p><img src="images/happyfrogger.jpg" alt="HappyFrogger" /></p>
-<h1 id="how-i-built-my-own-static-site-generator-for-a-personal-blog">How I Built My Own Static Site Generator for a Personal Blog</h1>
-<p>In the ever-evolving landscape of web development, the allure of simplicity often leads to innovative solutions. This
-was precisely my experience as I ventured into creating my own static site generator for my personal blog. It definitely
-doesn't have everything, but it's enough, done across 2 days and is only 132 lines of C#. Here’s
-a <a href="https://github.com/daneb/happyfrogger">glimpse into my journey</a>, offering insights and practical steps that might
-inspire your own custom project.</p>
-<h2 id="step-1-embracing-markdown-and-c-for-content-and-processing">Step 1: Embracing Markdown and C# for Content and Processing</h2>
-<p>The cornerstone of my project was the utilization of Markdown for content creation, chosen for its simplicity and
-flexibility. Coupled with C#, a language I was already comfortable with, I used the <code>Markdig</code> library to process
-Markdown files into HTML. This setup provided a straightforward way to write and transform blog content.</p>
-<h2 id="step-2-implementing-templating-with-razor">Step 2: Implementing Templating with Razor</h2>
-<p>Consistency in appearance is key to any blog's identity. Leveraging the power of the Razor templating engine, commonly
-used in ASP.NET, I could craft dynamic templates. These templates ensured a uniform layout and style across various blog
-posts, embedding the essence of the blog’s personality into every page.</p>
-<h2 id="step-3-styling-with-tailwind-css">Step 3: Styling with Tailwind CSS</h2>
-<p>Aesthetic appeal and responsive design are non-negotiable in today’s web. Tailwind CSS was my choice for its
-utility-first approach, enabling me to elegantly style the blog. The integration of Tailwind CSS guaranteed not only
-functionality but also visual appeal, ensuring the blog's seamless presentation on diverse devices.</p>
-<h2 id="step-4-front-matter-parsing-with-yamldotnet">Step 4: Front Matter Parsing with YamlDotNet</h2>
-<p>A crucial feature for any blog is the ability to categorize and manage metadata for each post. YamlDotNet came to the
-rescue, allowing me to parse Front Matter in Markdown files. This addition enabled me to define properties like title,
-date, and categories directly within the Markdown, greatly enhancing content manageability and organization.</p>
-<h2 id="step-5-embedding-github-gists">Step 5: Embedding GitHub Gists</h2>
-<p>To enrich the technical aspect of the blog, embedding code snippets was essential. GitHub Gists provided a simple yet
-effective way to incorporate these snippets. By placing placeholders in the Markdown content, which were later replaced
-with Gist embed codes during HTML generation, I could seamlessly integrate dynamic code examples into the posts.</p>
-<h2 id="step-6-deployment-on-github-pages">Step 6: Deployment on GitHub Pages</h2>
-<p>The final piece of the puzzle was deploying the blog. GitHub Pages offered an efficient and straightforward hosting
-solution. After setting up a repository and configuring the GitHub Pages settings, I pushed the static HTML files,
-bringing the blog to life on the web.</p>
-<h2 id="overcoming-challenges">Overcoming Challenges</h2>
-<p>The journey wasn’t without its challenges. Ensuring that Tailwind CSS properly styled the dynamically generated HTML
-content required some tweaking, solved by configuring the JIT Compiler and the correct loading sequence. Deploying the
-site with a custom domain on GitHub Pages needed careful DNS configuration and repository setup, including a <code>.nojekyll</code>
-file to bypass Jekyll processing.</p>
-<h2 id="conclusion">Conclusion</h2>
-<p>Crafting a static site generator from scratch was not only immensely satisfying but also provided a tailor-made solution
-for my blogging needs. It allowed complete control over the design, functionality, and content, resulting in a unique
-and personal blogging platform. For those inspired to embark on a similar endeavor, remember to keep things simple,
-leverage familiar tools, and enjoy the creative process. Your perfect blogging platform might just be a few code lines
-away.</p>
-<p>Happy coding and blogging!</p>
+<body class="is-tech">
+    <div class="read-progress"></div>
+    <div class="topbar"><div class="topbar__inner">
+        <a class="wordmark" href="index.html">Dane Balia</a>
+        <button class="theme-toggle" data-theme-toggle aria-label="Toggle theme">☾  Dark</button>
+    </div></div>
 
+    <main class="wrap-wide">
+        <header class="article-head">
+            <div class="crumbs">
+                <a href="tech.html">← Tech</a>
+                <a href="index.html">Home</a>
+            </div>
+            <span class="kicker center">tech · diy</span>
+            <h1>Build your own static web site generator</h1>
+            <div class="byline meta">
+                <span>Dane Balia</span><span>·</span>
+                <span>Jan 14, 2024</span><span>·</span>
+                <span>3 min read</span>
+            </div>
+        </header>
+
+        <div class="reading">
+            <article class="prose">
+                <p><img src="images/happyfrogger.jpg" alt="HappyFrogger" /></p>
+                <h1 id="how-i-built-my-own-static-site-generator-for-a-personal-blog">How I Built My Own Static Site Generator for a Personal Blog</h1>
+                <p>In the ever-evolving landscape of web development, the allure of simplicity often leads to innovative solutions. This
+                was precisely my experience as I ventured into creating my own static site generator for my personal blog. It definitely
+                doesn't have everything, but it's enough, done across 2 days and is only 132 lines of C#. Here’s
+                a <a href="https://github.com/daneb/happyfrogger">glimpse into my journey</a>, offering insights and practical steps that might
+                inspire your own custom project.</p>
+                <h2 id="step-1-embracing-markdown-and-c-for-content-and-processing">Step 1: Embracing Markdown and C# for Content and Processing</h2>
+                <p>The cornerstone of my project was the utilization of Markdown for content creation, chosen for its simplicity and
+                flexibility. Coupled with C#, a language I was already comfortable with, I used the <code>Markdig</code> library to process
+                Markdown files into HTML. This setup provided a straightforward way to write and transform blog content.</p>
+                <h2 id="step-2-implementing-templating-with-razor">Step 2: Implementing Templating with Razor</h2>
+                <p>Consistency in appearance is key to any blog's identity. Leveraging the power of the Razor templating engine, commonly
+                used in ASP.NET, I could craft dynamic templates. These templates ensured a uniform layout and style across various blog
+                posts, embedding the essence of the blog’s personality into every page.</p>
+                <h2 id="step-3-styling-with-tailwind-css">Step 3: Styling with Tailwind CSS</h2>
+                <p>Aesthetic appeal and responsive design are non-negotiable in today’s web. Tailwind CSS was my choice for its
+                utility-first approach, enabling me to elegantly style the blog. The integration of Tailwind CSS guaranteed not only
+                functionality but also visual appeal, ensuring the blog's seamless presentation on diverse devices.</p>
+                <h2 id="step-4-front-matter-parsing-with-yamldotnet">Step 4: Front Matter Parsing with YamlDotNet</h2>
+                <p>A crucial feature for any blog is the ability to categorize and manage metadata for each post. YamlDotNet came to the
+                rescue, allowing me to parse Front Matter in Markdown files. This addition enabled me to define properties like title,
+                date, and categories directly within the Markdown, greatly enhancing content manageability and organization.</p>
+                <h2 id="step-5-embedding-github-gists">Step 5: Embedding GitHub Gists</h2>
+                <p>To enrich the technical aspect of the blog, embedding code snippets was essential. GitHub Gists provided a simple yet
+                effective way to incorporate these snippets. By placing placeholders in the Markdown content, which were later replaced
+                with Gist embed codes during HTML generation, I could seamlessly integrate dynamic code examples into the posts.</p>
+                <h2 id="step-6-deployment-on-github-pages">Step 6: Deployment on GitHub Pages</h2>
+                <p>The final piece of the puzzle was deploying the blog. GitHub Pages offered an efficient and straightforward hosting
+                solution. After setting up a repository and configuring the GitHub Pages settings, I pushed the static HTML files,
+                bringing the blog to life on the web.</p>
+                <h2 id="overcoming-challenges">Overcoming Challenges</h2>
+                <p>The journey wasn’t without its challenges. Ensuring that Tailwind CSS properly styled the dynamically generated HTML
+                content required some tweaking, solved by configuring the JIT Compiler and the correct loading sequence. Deploying the
+                site with a custom domain on GitHub Pages needed careful DNS configuration and repository setup, including a <code>.nojekyll</code>
+                file to bypass Jekyll processing.</p>
+                <h2 id="conclusion">Conclusion</h2>
+                <p>Crafting a static site generator from scratch was not only immensely satisfying but also provided a tailor-made solution
+                for my blogging needs. It allowed complete control over the design, functionality, and content, resulting in a unique
+                and personal blogging platform. For those inspired to embark on a similar endeavor, remember to keep things simple,
+                leverage familiar tools, and enjoy the creative process. Your perfect blogging platform might just be a few code lines
+                away.</p>
+                <p>Happy coding and blogging!</p>
+
+            </article>
+            
+                        <aside class="rail">
+                            <nav class="toc" role="navigation">
+                  <h2 class="toc-title">Table of Contents</h2>
+                  <ul class="toc-list">
+                    <li><a href="#step-1-embracing-markdown-and-c-for-content-and-processing">Step 1: Embracing Markdown and C# for Content and Processing</a>
+                    </li>
+                    <li><a href="#step-2-implementing-templating-with-razor">Step 2: Implementing Templating with Razor</a>
+                    </li>
+                    <li><a href="#step-3-styling-with-tailwind-css">Step 3: Styling with Tailwind CSS</a>
+                    </li>
+                    <li><a href="#step-4-front-matter-parsing-with-yamldotnet">Step 4: Front Matter Parsing with YamlDotNet</a>
+                    </li>
+                    <li><a href="#step-5-embedding-github-gists">Step 5: Embedding GitHub Gists</a>
+                    </li>
+                    <li><a href="#step-6-deployment-on-github-pages">Step 6: Deployment on GitHub Pages</a>
+                    </li>
+                    <li><a href="#overcoming-challenges">Overcoming Challenges</a>
+                    </li>
+                    <li><a href="#conclusion">Conclusion</a>
+                    </li>
+                  </ul>
+                </nav>
+            
+                            <div class="rail__share">
+                                <a href="https://twitter.com/intent/tweet?url=https://danebalia.com/static-website-gen.html&text=Build your own static web site generator">SHARE</a>
+                                <span style="color:var(--rule)">/</span>
+                                <a href="https://danebalia.com/static-website-gen.html">COPY LINK</a>
+                            </div>
+                        </aside>
+                        
         </div>
-    </article>
 
-</main>
+        
 
-<footer class="text-center py-4 bg-white shadow mt-10">
-    <p>&copy; 2026 Dane Balia. All rights reserved.</p>
-</footer>
+        
+                <div class="author-card">
+                    <img src="images/me.png" alt="Dane Balia" class="avatar-stub" style="width:56px;height:56px;" onerror="this.style.background='repeating-linear-gradient(45deg,var(--paper),var(--paper) 4px,var(--rule) 4px,var(--rule) 8px)';this.removeAttribute('src')"/>
+                    <div><div class="nm">Dane Balia</div><p>Engineer and writer. Notes on software, faith, and the craft of building.</p></div>
+                </div>
+                
+    </main>
+
+    <footer class="site-footer"><div class="wrap site-footer__inner">
+        <span>© 2026 Dane Balia</span>
+        <span>Built with HappyFrog 🐸</span>
+    </div></footer>
+
+    <script src="assets/theme.js"></script>
 </body>
 </html>

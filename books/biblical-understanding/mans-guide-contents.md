@@ -61,4 +61,4 @@ study_resources:
 > Additional tools for life
 
 15. [Notes on each Book of the Bible](./bible.html)
-16. Why I use the King James Bible 
+16. The Seven Resurrections
