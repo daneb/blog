@@ -1,0 +1,57 @@
+{
+  "markdownFilesPath": "markdownfiles",
+  "outputPath": ".",
+  "templatesPath": "Templates",
+  "books": [
+    {
+      "id": "biblical-understanding",
+      "title": "A Dad's Memoir of Biblical Truth",
+      "description": "A journey through Scripture to equip the everyday man.",
+      "path": "books/biblical-understanding",
+      "outputPath": "books/biblical-understanding",
+      "coverImage": "books/biblical-understanding/cover.jpg",
+      "category": "faith"
+    }
+  ],
+  "site": {
+    "title": "Dane Balia",
+    "description": "Software developer sharing insights on tech, faith, and creativity",
+    "author": "Dane Balia",
+    "baseUrl": "https://danebalia.com"
+  },
+  "build": {
+    "generateCategoryPages": true,
+    "generateLandingPage": true,
+    "htmlExtension": ".html",
+    "includeDrafts": false,
+    "categories": [
+      "tech",
+      "faith",
+      "creative"
+    ],
+    "wordsPerMinute": 200,
+    "rss": {
+      "enabled": true,
+      "path": "feed.xml",
+      "itemCount": 20,
+      "fullContent": true
+    },
+    "sitemap": {
+      "enabled": true,
+      "path": "sitemap.xml"
+    },
+    "toc": {
+      "enabledByDefault": true,
+      "minHeadings": 3,
+      "maxLevel": 3,
+      "title": "Table of Contents"
+    },
+    "images": {
+      "enabled": true,
+      "sourcePath": "images",
+      "outputSubPath": "images",
+      "maxWidth": 1200,
+      "quality": 85
+    }
+  }
+}
