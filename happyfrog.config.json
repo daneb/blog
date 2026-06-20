@@ -1,5 +1,5 @@
 {
-  "markdownFilesPath": "markdownfiles",
+  "markdownFilesPath": "src/posts",
   "outputPath": ".",
   "templatesPath": "Templates",
   "books": [
@@ -7,7 +7,7 @@
       "id": "biblical-understanding",
       "title": "A Dad's Memoir of Biblical Truth",
       "description": "A journey through Scripture to equip the everyday man.",
-      "path": "books/biblical-understanding",
+      "path": "src/books/biblical-understanding",
       "outputPath": "books/biblical-understanding",
       "coverImage": "books/biblical-understanding/cover.png",
       "category": "faith"
