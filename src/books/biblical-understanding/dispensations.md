@@ -13,7 +13,7 @@ next_chapter: gods-plan-through-the-bible.html
 study_resources:
 ---
 
-# [Unlocking your biblical understanding]
+# Unlocking your biblical understanding
 
 Once I had moved out of my guardians home in KwaZulu Natal, I made my journey into tertiary education or university. I really didn't know what I wanted to do, the life skills I needed to make decisions, wisdom and street smarts were lacking.  My guardians, for the wonderful people that there were in taking me in to stay with, didn't take the time or opportunity to build me up, to encourage, to give me the tools to navigate life. Honestly it was enough that being an orphan, they were willing to feed me, clothe me, share their home with and their kids. And for that I am most thankful.
 
