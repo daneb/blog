@@ -10,6 +10,19 @@ description: "Why I use the KJB"
 slug: why-i-use-the-kjb.html
 previous_chapter: gods-programme.html
 next_chapter: gospel-message.html
+study_resources:
+- title: "New Age Bible Versions"
+  author: "Gail Riplinger"
+  description: "This book provides a detailed critique of modern Bible translations, highlighting the changes made to key verses and their theological implications. It serves as a resource for understanding the differences between the King James Bible and modern versions."
+- title: "Why I Believe the King James Bible is the Word of Gody"
+  author: "Dr. Peter Ruckman"
+  description: "This book presents a comprehensive defense of the King James Bible as the preserved Word of God. Dr. Ruckman addresses common criticisms of the KJB and provides evidence for its accuracy, reliability, and doctrinal soundness."
+- title:  "Greek and Hebrew Study Dangers"
+  author: "Gail Riplinger"
+  description: "This book explores the potential pitfalls and dangers of relying on Greek and Hebrew study tools for Bible interpretation. It emphasizes the importance of using a reliable English translation, such as the King James Bible, as the primary source for understanding Scripture."
+- title: "Which version is the Bible?"
+  author: "Floyd Nolen Jones"
+  description: "This book investigates the various Bible versions available and provides an analysis of their differences, origins, and theological implications. It aims to help readers make an informed decision about which Bible version to use for study and devotion."
 ---
 ### Why Bible Versions Matter
 
@@ -89,9 +102,3 @@ ESV/NASB translators are seminary professors and PhDs. They naturally gravitate 
 3. **"All versions are equally valid."** While it is true that all versions of the Bible contain elements of truth, not all versions are created equal. The KJB is based on the majority text and all the others are based on the minority text (found in Alexandria, Egypt geographically). This is a big deal biblically and theologically. The symbolism of Egypt in the Bible is one of falsehood and rebellion against God. Why would we want to base our Bible on manuscripts from such a source?
 4. **"Alexandrian manuscripts are older and therefore better."** While the Alexandrian PAPYRI are genuinely older (P46, P66, P75 from 100-250 AD), the Alexandrian CODICES (Sinaiticus, Vaticanus) CLAIM to be 4th century but have never been scientifically tested. BUT, older does not automatically mean "more original" or "more accurate".
 
-#### Crucial books on this topic
-1. "New Age Bible Versions" by Gail Riplinger
-2. "Why I Believe the King James Bible is the Word of God" by Dr. Peter S. Ruckman
-3. "Greek and Hebrew Study Dangers" by Gail Riplinger
-4. "The King James Bible Defended" by D. A. Waite
-5. "Which version is the Bible?" by Floyd Nolen Jones
