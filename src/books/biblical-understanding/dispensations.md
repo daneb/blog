@@ -8,8 +8,8 @@ progress: 1
 status: published
 description: "The right tools deliver the right results."
 slug: dispensations.html
-previous_chapter: the-absent-man.html
-next_chapter: gods-plan-through-the-bible.html
+previous_chapter: the-absent-man
+next_chapter: gods-programme
 study_resources:
 ---
 

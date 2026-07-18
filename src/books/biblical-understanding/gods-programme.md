@@ -8,8 +8,8 @@ progress: 1
 status: published
 description: "The purpose, plan and timeline of God"
 slug: gods-programme.html
-previous_chapter: mans-guide-contents.html
-next_chapter: the-gospel-message.html
+previous_chapter: dispensations
+next_chapter: why-i-use-the-kjb
 study_resources:
 - title: "The Wiersbe Bible Commentary"
   author: "Warren Wiersbe"

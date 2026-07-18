@@ -8,8 +8,8 @@ progress: 1
 status: published
 description: "Why I use the KJB"
 slug: why-i-use-the-kjb.html
-previous_chapter: gods-programme.html
-next_chapter: gospel-message.html
+previous_chapter: gods-programme
+next_chapter: the-gospel-message
 study_resources:
 - title: "New Age Bible Versions"
   author: "Gail Riplinger"

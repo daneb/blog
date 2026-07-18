@@ -8,8 +8,7 @@ progress: 1
 status: published
 description: "The Gospel"
 slug: the-gospel-message.html
-previous_chapter: mans-guide-contents.html
-next_chapter: the-gospel-message.html
+previous_chapter: why-i-use-the-kjb
 ---
 ## The Gospel Message
 

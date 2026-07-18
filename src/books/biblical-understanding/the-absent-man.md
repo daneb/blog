@@ -8,8 +8,8 @@ progress: 1
 status: published
 description: "Why good men matter"
 slug: the-absent-man.html
-previous_chapter: mans-guide-contents.html
-next_chapter: overview-of-the-bible.html
+previous_chapter: mans-guide-chapter-0
+next_chapter: dispensations
 study_resources:
 - title: "The Wiersbe Bible Commentary"
   author: "Warren Wiersbe"

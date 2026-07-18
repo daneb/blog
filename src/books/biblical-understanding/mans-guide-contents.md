@@ -8,8 +8,7 @@ progress: 1
 status: published
 description: "Key topics to be covered"
 slug: mans-guide-chapter-0.html
-previous_chapter: introduction
-next_chapter: the-absent-man.html
+next_chapter: the-absent-man
 study_resources:
   - title: "Hebrew Word Study: אוֹר (Light)"
     description: "Understanding the deep meaning of 'light' in biblical Hebrew"
@@ -19,6 +18,7 @@ study_resources:
 # Contents
 
 ## 📚 Section I: Understanding the Foundation
+>
 > Getting oriented with God's Word
 
 1. [Chapter 1: The Absent man](./the-absent-man.html)
@@ -27,38 +27,43 @@ study_resources:
 4. [Chapter 4: Why Bible versions Matter](./why-i-use-the-kjb.html)
 
 ## ⚡ Section II: The Journey of Salvation
+>
 > The core of Christian faith and life
 
-4. The Gospel Message
-5. The Blessings in Salvation
-6. The Cross of Salvation
+1. [The Gospel Message](./the-gospel-message.md)
+2. The Blessings in Salvation
+3. The Cross of Salvation
 
 ## 🛡️ Section III: The Challenges after Salvation
-> The struggles of this life 
+>
+> The struggles of this life
 
-7. Overcoming Sin
-8. Losing Salvation
-9. Rejecting Calvinism
+1. Overcoming Sin
+2. Losing Salvation
+3. Rejecting Calvinism
 
 ## 🤺 Section IV: The Courage of Sanctification
+>
 > The opportunities within this life
 
-10. Preparing to Evangelize
-11. Preparing to Preach
-12. Preparing to Teach
-13. Preparing for Marriage
+1. Preparing to Evangelize
+2. Preparing to Preach
+3. Preparing to Teach
+4. Preparing for Marriage
 
 ## 👥 Section V: Biblical Manhood through Examples
+>
 > Lessons from the lives of others
 
-10. Satan in the Bible
-11. Joshua in the Bible
-12. Jonah in the Bible
-13. Joseph in the Bible
-14. Jesus in the Bible
+1. Satan in the Bible
+2. Joshua in the Bible
+3. Jonah in the Bible
+4. Joseph in the Bible
+5. Jesus in the Bible
 
 ## 🔍 Section V: Deeper study resources
+>
 > Additional tools for life
 
-15. [Notes on each Book of the Bible](./bible.html)
-16. The Seven Resurrections
+1. [Notes on each Book of the Bible](./bible.html)
+2. The Seven Resurrections
