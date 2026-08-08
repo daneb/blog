@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <meta name="description" content="The Human Is Not the Bottleneck. The Human Is the Missing Oracle">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="The Human Is Not the Bottleneck. The Human Is the Missing Oracle">
+    <meta property="og:url" content="https://danebalia.com/humman-bottleneck.html">
+    
+    <meta property="og:site_name" content="Dane Balia">
+    <meta property="article:published_time" content="2026-09-02T06:00:00Z">
+    <meta property="article:section" content="tech">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="The Human Is Not the Bottleneck. The Human Is the Missing Oracle">
+
+    <script>(function(){try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/theme.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="feed.xml">
+</head>
+<body class="is-tech">
+    <div class="read-progress"></div>
+    <div class="topbar"><div class="topbar__inner">
+        <a class="wordmark" href="index.html">Dane Balia</a>
+        <button class="theme-toggle" data-theme-toggle aria-label="Toggle theme">☾  Dark</button>
+    </div></div>
+
+    <main class="wrap-wide">
+        <header class="article-head">
+            <div class="crumbs">
+                <a href="tech.html">← Tech</a>
+                <a href="index.html">Home</a>
+            </div>
+            <span class="kicker center">tech · artificial-intelligence</span>
+            <h1></h1>
+            <div class="byline meta">
+                <span>Dane Balia</span><span>·</span>
+                <span>Sep 02, 2026</span><span>·</span>
+                <span>4 min read</span>
+            </div>
+        </header>
+
+        <div class="reading">
+            <article class="prose">
+                <p><img src="images/bottleneck.png" alt="Bottleneck" /></p>
+                <p>We spent a year optimising the wrong bottleneck.</p>
+                <p>The <strong>harness discourse</strong> has been relentless - blueprints, schematics, thought leadership. Impressive engineering, most of it. But read the designs closely and you notice what they're all quietly aiming at: getting the developer out of the pipeline.</p>
+                <p>The logic seemed sound. Building dropped from days to minutes, and the human became the slow part. The bottleneck. So we designed the human out.</p>
+                <p>Then the <em>telemetry arrived</em>.</p>
+                <p>Faros AI instrumented 22,000 developers across 4,000+ teams. Moving from low to high AI adoption: task completion per developer up 34%, epics up 66%. Real gains. Also: bugs per developer up 54%, incidents per pull request up 243%, median review time up 5x, and 31% more PRs merging with no review at all.</p>
+                <p>Nobody decided to stop reviewing. Reviewers simply couldn't keep pace, and unread merges became normal. We knew this failure before AI. The 2,000-line PR lands in your inbox, and what follows is frustration, cognitive overload, and a silent rubber stamp. The difference is that it used to be the exception. Now it's the throughput model.</p>
+                <p>The bottleneck didn't disappear. It moved to review and integration - and we'd already removed the person who was supposed to be standing there when it arrived.</p>
+                <p>Two things worth saying plainly.</p>
+                <p><strong>First:</strong> the human was never the bottleneck. The human is the missing oracle.</p>
+                <p>We have fast, cheap oracles for correctness. Do the tests pass? Does it lint? Machine-verifiable in seconds. We have no oracle at all for maintainability, intent, or design - and no benchmark I'm aware of currently measures them. GitClear's analysis of 623 million code changes shows what fills that gap: duplication up 81%, refactoring down 70%, error-masking constructs up 47%. Code that looks right and is structurally wrong.</p>
+                <p>Designing the human out doesn't remove a cost. It removes the only sensor we have for the slowest and most expensive failure mode. &quot;Humans first&quot; isn't sentiment or ethics-washing. It's a claim about where verification capability actually resides right now.</p>
+                <p><strong>Second:</strong> we're borrowing against comprehension and calling it velocity.</p>
+                <p>Anthropic ran a controlled trial in January. Two groups, same unfamiliar library. The AI-assisted group finished marginally faster and scored 50% on comprehension. The manual group scored 67%. Seventeen points, on code they had written minutes earlier (this is a vendor publishing a result against it's own commercial interest).</p>
+                <p>That debt doesn't show up in your DORA metrics. It shows up at 2am when nobody on the call can reason about the system they shipped.</p>
+                <p>The industry response is to build faster agents. So I built the opposite experiment. A harness that puts the human at the centre - not to slow things down, but to make judgment cheap, timely and measurable rather than optional. You can check out the harness <a href="https://github.com/daneb/harness">here</a>.</p>
+                <p>Plain bash. Deliberately crude. Built to learn, not to scale.</p>
+                <p><strong>The rules:</strong></p>
+                <ol>
+                <li>Agents don't move artefacts through the SDLC. They hit mechanical gates.</li>
+                <li>Humans state intent, write the spec, define acceptance criteria, and read the diff.</li>
+                <li>Route every check to the cheapest reliable verifier - mechanical gates for what's machine-checkable, calibrated LLM judges only after validation against human labels with explicit thresholds, humans for intent and design.</li>
+                <li>Diff budget: 200 lines. (Which became 400, excluding tests). If it's more than 400 lines, the feature was scoped wrong. The gate fails and the work gets split.</li>
+                <li>Only iterate on the harness with confirmed evidence and root cause.</li>
+                </ol>
+                <p>Thirty minutes on an approved spec and a design sketch turns a six-hour adversarial review into a twenty-minute confirmation. The human isn't reviewing more. They're reviewing earlier, where a one-line correction prevents two thousand lines of rework.</p>
+                <p>237 minutes. 12 features. One engineer, no control group - an experiment, not evidence. I'm publishing the method so it can be argued with.</p>
+                <p>DORA's finding is that AI is an amplifier: it magnifies whatever your organisation already is. If your answer to a 243% rise in incidents per PR is to remove the last human who might have caught them, the amplifier is working exactly as designed.</p>
+                <p><strong>What are you actually measuring?</strong></p>
+
+            </article>
+            
+                        <aside class="rail">
+                            
+                            <div class="rail__share">
+                                <a href="https://twitter.com/intent/tweet?url=https://danebalia.com/humman-bottleneck.html&text=">SHARE</a>
+                                <span style="color:var(--rule)">/</span>
+                                <a href="https://danebalia.com/humman-bottleneck.html">COPY LINK</a>
+                            </div>
+                        </aside>
+                        
+        </div>
+
+        
+
+        
+                <div class="author-card">
+                    <img src="images/me.png" alt="Dane Balia" class="avatar-stub" style="width:56px;height:56px;" onerror="this.style.background='repeating-linear-gradient(45deg,var(--paper),var(--paper) 4px,var(--rule) 4px,var(--rule) 8px)';this.removeAttribute('src')"/>
+                    <div><div class="nm">Dane Balia</div><p>Engineer and writer. Notes on software, faith, and the craft of building.</p></div>
+                </div>
+                
+    </main>
+
+    <footer class="site-footer"><div class="wrap site-footer__inner">
+        <span>© 2026 Dane Balia</span>
+        <a href="https://github.com/daneb/happyfrogger" style="color:inherit;text-decoration:none;">Built with HappyFrog 🐸</a>
+    </div></footer>
+
+    <script src="assets/theme.js"></script>
+</body>
+</html>

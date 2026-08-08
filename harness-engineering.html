@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harness Engineering Simplified</title>
+    <meta name="description" content="Harness Engineering and Software Factories">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Harness Engineering Simplified">
+    <meta property="og:description" content="Harness Engineering and Software Factories">
+    <meta property="og:url" content="https://danebalia.com/harness-engineering.html">
+    
+    <meta property="og:site_name" content="Dane Balia">
+    <meta property="article:published_time" content="2026-09-01T06:00:00Z">
+    <meta property="article:section" content="tech">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Harness Engineering Simplified">
+    <meta name="twitter:description" content="Harness Engineering and Software Factories">
+
+    <script>(function(){try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/theme.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="feed.xml">
+</head>
+<body class="is-tech">
+    <div class="read-progress"></div>
+    <div class="topbar"><div class="topbar__inner">
+        <a class="wordmark" href="index.html">Dane Balia</a>
+        <button class="theme-toggle" data-theme-toggle aria-label="Toggle theme">☾  Dark</button>
+    </div></div>
+
+    <main class="wrap-wide">
+        <header class="article-head">
+            <div class="crumbs">
+                <a href="tech.html">← Tech</a>
+                <a href="index.html">Home</a>
+            </div>
+            <span class="kicker center">tech · artificial-intelligence</span>
+            <h1>Harness Engineering Simplified</h1>
+            <div class="byline meta">
+                <span>Dane Balia</span><span>·</span>
+                <span>Sep 01, 2026</span><span>·</span>
+                <span>4 min read</span>
+            </div>
+        </header>
+
+        <div class="reading">
+            <article class="prose">
+                <p><strong>Two terms</strong> are rapidly entering the software vocabulary and they describe two very different answers to the same question: if AI agents write our code, what do we build around them to ensure quality, consistency and reliability?</p>
+                <h2 id="harness-engineering">Harness Engineering</h2>
+                <p><img src="images/harness.png" alt="Harness Engineering" /></p>
+                <p>A harness is defined as a piece of equipment with straps and belts, used to control or hold in place a person, animal or object. Some examples are a safety harness if you are doing bungee. Or a baby's harness. Historically, a harness was very much associated with draft animals such as horses, oxen, mules and cattle. An ox pulling a plow is typically yoked with a harness. The intent was to harness something effectively. That is: to direct, control, and use its power effectively for a purpose.</p>
+                <p>A harness in AI, is everything you put around an AI agent to shape how it works and to check what it produces. The discipline is broken into 3 parts. Guides steer the work forward. These are (a) rules and context files, (b) specs and prompts (c) skills and examples and (d) tools the agent may leverage. The second part is Boundaries - constraints for effective execution. These include sandboxes for isolation, permissions and token budgets. This ensures that the agent is constrained to run safely, but also run in a loop within some predefined resource limitations. The
+                final part is Sensors. These verify the result. This is done with compilers, linters, tests, security scans and increasingly AI reviewers.</p>
+                <p>Harness engineering is the craft of combining these deliberately. Early evidence suggests it reduces token consumption, makes output markedly more consistent, and that specific named instructions dramatically outperform general guidance. But there's a catch: the most effective harnesses appear to be those co-developed with their backing models. Harness and model trained and tested together. That's part of why Claude Code punches above its weight, and it raises an uncomfortable question for us around our own.</p>
+                <h2 id="software-factory">Software Factory</h2>
+                <p><img src="images/factory.png" alt="Software Factory" /></p>
+                <p>A factory is a set of buildings where large amounts of goods are made using machines. A software factory is the same idea, where a set of systems are integrated to build, verify and release software repeatedly and at scale, with AI agents as machinery.</p>
+                <p>The <strong>software factory</strong> is the harness taken to its logical extreme: remove the humans. A backlog of work items feeds an orchestrator. An orchestrator dispatches an agent swarm to do the various parts of the work. Automated checks gate the output - AI reviews the AI's work and merges it. Deployment is continuous. And telemetry or feedback generates the next tickets. The loop runs and closes without a person standing anywhere on the line of production. Its promise is throughput. Code generation around the clock at near-zero marginal human cost.</p>
+                <p><strong>Harness engineering</strong> will mature into a discipline - from individual craft to team practice and then platform capability, with shared harness components governed centrally and judgement federated back to the teams on the ground. Two problems will define these steps forward, sensor integrity. That is, how accurate, useful and reliable are the sensors we build. The second is, calibration - AI judges are proliferating faster than anyone is measuring them, and the harnesses that endure will be the ones that score their automated reviewers (AI) against human decisions over time and improve through it.</p>
+                <p>Software factories will find their niche and their ceiling. Factories are genuinely viable when correctness is cheap to verify, and errors are cheap to reverse - transactional back-ends, legacy rewrites governed by strong conformance test suites and internal tooling. The ceiling is structural. Today's models are trained against fast signals - does it compile, do tests pass, and are lint checks clean. However, what they do not cater for is design, maintainability, fidelity to intent and these things will surface over the months for which no automation checks. A factory has no station for slow signals, so it doesn't fail loudly. It instead accrues debt silently behind green checkmarks.</p>
+                <p><strong>Conclusion</strong>
+                The two concepts are not rivals so much as two settings of one dial: how much do we let an agent decide, and how we stay confident in what it does? The answer depends on the situation. If you can check the result cheaply and trust the check, the agent can be given more freedom. If checking is hard or mistakes are expensive, keep the leash short. We need to place human judgement where it matters most - saying what correct means at the start, and making the final call at the end. But we must also regularly test whether the automated judges in between can still be trusted.</p>
+
+            </article>
+            
+                        <aside class="rail">
+                            
+                            <div class="rail__share">
+                                <a href="https://twitter.com/intent/tweet?url=https://danebalia.com/harness-engineering.html&text=Harness Engineering Simplified">SHARE</a>
+                                <span style="color:var(--rule)">/</span>
+                                <a href="https://danebalia.com/harness-engineering.html">COPY LINK</a>
+                            </div>
+                        </aside>
+                        
+        </div>
+
+        
+
+        
+                <div class="author-card">
+                    <img src="images/me.png" alt="Dane Balia" class="avatar-stub" style="width:56px;height:56px;" onerror="this.style.background='repeating-linear-gradient(45deg,var(--paper),var(--paper) 4px,var(--rule) 4px,var(--rule) 8px)';this.removeAttribute('src')"/>
+                    <div><div class="nm">Dane Balia</div><p>Engineer and writer. Notes on software, faith, and the craft of building.</p></div>
+                </div>
+                
+    </main>
+
+    <footer class="site-footer"><div class="wrap site-footer__inner">
+        <span>© 2026 Dane Balia</span>
+        <a href="https://github.com/daneb/happyfrogger" style="color:inherit;text-decoration:none;">Built with HappyFrog 🐸</a>
+    </div></footer>
+
+    <script src="assets/theme.js"></script>
+</body>
+</html>
