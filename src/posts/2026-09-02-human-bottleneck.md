@@ -1,9 +1,9 @@
 ---
-title: 
+title: The Human Is Not the Bottleneck. The Human Is the Missing Oracle 
 date: 2026-09-02 T00:00:00-04:00
 category: tech
 subcategory: artificial-intelligence
-description: The Human Is Not the Bottleneck. The Human Is the Missing Oracle 
+description: A harness discourse 
 slug: humman-bottleneck
 ---
 
