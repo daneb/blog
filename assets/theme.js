@@ -5,25 +5,18 @@
 
   // ---- theme toggle ----
   function currentTheme() {
-    return root.getAttribute('data-theme') ||
-      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    return root.getAttribute('data-theme') || 'dark';
   }
   function setTheme(t) {
     root.setAttribute('data-theme', t);
     try { localStorage.setItem('theme', t); } catch (e) {}
-    document.querySelectorAll('[data-theme-toggle]').forEach(function (b) {
-      b.textContent = t === 'dark' ? '\u2600  Light' : '\u263E  Dark';
-    });
   }
   document.addEventListener('click', function (e) {
     var btn = e.target.closest('[data-theme-toggle]');
     if (!btn) return;
     setTheme(currentTheme() === 'dark' ? 'light' : 'dark');
   });
-  // sync initial label
-  document.querySelectorAll('[data-theme-toggle]').forEach(function (b) {
-    b.textContent = currentTheme() === 'dark' ? '\u2600  Light' : '\u263E  Dark';
-  });
+  // label is CSS-driven \u2014 no JS textContent assignment needed
 
   // ---- reading progress bar (articles only) ----
   var bar = document.querySelector('.read-progress');
