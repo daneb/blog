@@ -23,6 +23,7 @@
       "epigraph": "The core of Christian faith and life",
       "chapters": [
         { "slug": "the-gospel-message", "title": "The Gospel Message", "description": "What the good news actually is." },
+        { "slug": "the-blessings", "title": "The Blessings of Salvation", "description": "One of the greatest spiritual blessings." },
         { "slug": "the-cross-of-salvation", "title": "The Cross of Salvation", "description": "The centre of everything." }
       ]
     }

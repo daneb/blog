@@ -9,7 +9,6 @@ status: published
 description: "One of the greatest spiritual blessings"
 slug: the-blessings.html
 previous_chapter: the-gospel-message
-next_chapter: the-cross-of-salvation
 ---
 ### The Blessings of Salvation
 

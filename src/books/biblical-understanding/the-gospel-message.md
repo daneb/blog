@@ -9,6 +9,7 @@ status: published
 description: "The Gospel"
 slug: the-gospel-message.html
 previous_chapter: why-i-use-the-kjb
+next_chapter: the-blessings
 ---
 ## The Gospel Message
 
