@@ -30,8 +30,8 @@ study_resources:
 >
 > The core of Christian faith and life
 
-1. [Chapter 5: The Gospel Message](./the-gospel-message.md)
-2. [Chapter 6: The Blessings in Salvation](./the-blessing.md)
+1. [Chapter 5: The Gospel Message](./the-gospel-message.html)
+2. [Chapter 6: The Blessings in Salvation](./the-blessing.html)
 3. The Cross of Salvation
 
 ## 🛡️ Section III: The Challenges after Salvation
